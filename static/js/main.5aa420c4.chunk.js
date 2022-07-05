@@ -8702,8 +8702,8 @@
           }, {
             label: "Liquidity",
             href: "/pool"
-          }] ,
-       /* }, {
+          }]],/*
+        }, {
           label: "Farms",
           icon: "FarmIcon",
           href: "https://hopswap.fi/farms"
