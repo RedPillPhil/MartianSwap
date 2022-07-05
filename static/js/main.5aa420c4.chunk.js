@@ -2176,7 +2176,7 @@
           return e.theme.colors.invertedContrast
         }), (function(e) {
           return e.theme.colors.tertiary
-        }), Object(ht.b)(.9, "#2F80ED"), (function(e) {
+        }), Object(ht.b)(.9, "#ffffff"), (function(e) {
           return e.theme.colors.textSubtle
         })),
         $a = l.default.div(Xa()),
