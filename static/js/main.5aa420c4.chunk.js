@@ -294,15 +294,15 @@
           }]), t
         }(D.AbstractConnector),
         Y = "https://bsc-dataseed1.defibit.io",
-        z = parseInt(("97", "97"));
+        z = parseInt(("56", "56"));
       var q, V = new F({
         urls: Object(w.a)({}, z, Y)
       });
       var W, H = new k.a({
-          supportedChainIds: [97]
+          supportedChainIds: [56]
         }),
         G = new N.BscConnector({
-          supportedChainIds: [97]
+          supportedChainIds: [56]
         }),
         K = new I.a({
           rpc: Object(w.a)({}, z, Y),
@@ -318,7 +318,7 @@
         X = t(27),
         J = t(13),
         Z = t(5),
-        $ = "0xFA99E0728Eaf78840A18833B8a664c4E640ddDC0",
+        $ = "0x10ED43C718714eb63d5aA57B78B54704E256024E",
         ee = new Z.j(Z.a.MAINNET, "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3", 18, "DAI", "Dai Stablecoin"),
         ne = new Z.j(Z.a.MAINNET, "0xe9e7cea3dedca5984780bafc599bd69add087d56", 18, "BUSD", "Binance USD"),
         te = new Z.j(Z.a.MAINNET, "0x55d398326f99059ff775485246999027b3197955", 18, "USDT", "Tether USD"),
@@ -8792,7 +8792,7 @@
             WDS_SOCKET_PORT: void 0,
             FAST_REFRESH: !0,
             REACT_APP_NETWORK_URL: "https://bsc-dataseed1.defibit.io",
-            REACT_APP_CHAIN_ID: "97",
+            REACT_APP_CHAIN_ID: "56",
             REACT_APP_GTAG: "GTM-TLF66T4"
           }).REACT_APP_CROWDIN_APIKEY),
           x = parseInt("".concat(Object({
@@ -8803,7 +8803,7 @@
             WDS_SOCKET_PORT: void 0,
             FAST_REFRESH: !0,
             REACT_APP_NETWORK_URL: "https://bsc-dataseed1.defibit.io",
-            REACT_APP_CHAIN_ID: "97",
+            REACT_APP_CHAIN_ID: "56",
             REACT_APP_GTAG: "GTM-TLF66T4"
           }).REACT_APP_CROWDIN_PROJECTID)),
           g = {
