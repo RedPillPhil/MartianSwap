@@ -1460,14 +1460,14 @@
                 to: "/pool",
                 as: y.b,
                 children: a(262, "Liquidity")
-              }), Object(r.jsx)(s.e, {
+              })/*, Object(r.jsx)(s.e, {
                 id: "pool-nav-link",
                 as: "a",
                 href: "https://www.binance.org/en/bridge?utm_source=PancakeSwap",
                 target: "_blank",
                 rel: "noreferrer noopener",
                 children: "Bridge"
-              })]
+              })*/]
             })
           })
         },
@@ -8702,16 +8702,16 @@
           }, {
             label: "Liquidity",
             href: "/pool"
-          }] /*
-        }, {
+          }] 
+        }, /*{
           label: "Farms",
           icon: "FarmIcon",
           href: "https://hopswap.fi/farms"
-        }, {
+        },*/ {
           label: "Pools",
           icon: "PoolIcon",
           href: "https://hopswap.fi/syrup"
-        }], */
+        }],
         dd = function(e) {
           var n = Object(g.c)(),
             t = n.account,
