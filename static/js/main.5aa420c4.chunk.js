@@ -35,7 +35,7 @@
         l = t(4);
 
       function d() {
-        var e = Object(u.a)(["\n  body {\n    background-image: "https://sherpuppy.dog/puppyswap/seamless-pattern-with-ufo-aliens-green-background_106024-512.png ";\n\n    img {\n      height: auto;\n      max-width: 100%;\n    }\n  }\n"]);
+        var e = Object(u.a)(["\n  body {\n    background-image: "url("https://sherpuppy.dog/puppyswap/seamless-pattern-with-ufo-aliens-green-background_106024-512.png ")";\n\n    img {\n      height: auto;\n      max-width: 100%;\n    }\n  }\n"]);
         return d = function() {
           return e
         }, e
