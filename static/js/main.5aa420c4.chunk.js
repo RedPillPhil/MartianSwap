@@ -294,15 +294,15 @@
           }]), t
         }(D.AbstractConnector),
         Y = "https://bsc-dataseed1.defibit.io",
-        z = parseInt(("56", "56"));
+        z = parseInt(("97", "97"));
       var q, V = new F({
         urls: Object(w.a)({}, z, Y)
       });
       var W, H = new k.a({
-          supportedChainIds: [56]
+          supportedChainIds: [97]
         }),
         G = new N.BscConnector({
-          supportedChainIds: [56]
+          supportedChainIds: [97]
         }),
         K = new I.a({
           rpc: Object(w.a)({}, z, Y),
@@ -8792,7 +8792,7 @@
             WDS_SOCKET_PORT: void 0,
             FAST_REFRESH: !0,
             REACT_APP_NETWORK_URL: "https://bsc-dataseed1.defibit.io",
-            REACT_APP_CHAIN_ID: "56",
+            REACT_APP_CHAIN_ID: "97",
             REACT_APP_GTAG: "GTM-TLF66T4"
           }).REACT_APP_CROWDIN_APIKEY),
           x = parseInt("".concat(Object({
@@ -8803,7 +8803,7 @@
             WDS_SOCKET_PORT: void 0,
             FAST_REFRESH: !0,
             REACT_APP_NETWORK_URL: "https://bsc-dataseed1.defibit.io",
-            REACT_APP_CHAIN_ID: "56",
+            REACT_APP_CHAIN_ID: "97",
             REACT_APP_GTAG: "GTM-TLF66T4"
           }).REACT_APP_CROWDIN_PROJECTID)),
           g = {
