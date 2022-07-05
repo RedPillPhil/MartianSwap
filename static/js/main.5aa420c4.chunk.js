@@ -8702,7 +8702,7 @@
           }, {
             label: "Liquidity",
             href: "/pool"
-          }]
+          }],
         /* }, {
           label: "Farms",
           icon: "FarmIcon",
@@ -8711,7 +8711,7 @@
           label: "Pools",
           icon: "PoolIcon",
           href: "https://hopswap.fi/syrup"
-        }] */,
+        }] */
         dd = function(e) {
           var n = Object(g.c)(),
             t = n.account,
