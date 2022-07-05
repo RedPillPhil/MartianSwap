@@ -8702,16 +8702,16 @@
           }, {
             label: "Liquidity",
             href: "/pool"
-          }],
-        /* }, {
+          }]
+        }, /*{
           label: "Farms",
           icon: "FarmIcon",
           href: "https://hopswap.fi/farms"
-        }, {
+        },*/ {
           label: "Pools",
           icon: "PoolIcon",
           href: "https://hopswap.fi/syrup"
-        }] */
+        }],
         dd = function(e) {
           var n = Object(g.c)(),
             t = n.account,
