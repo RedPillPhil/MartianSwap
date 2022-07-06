@@ -107,7 +107,7 @@
       alert("The current mood is: " + Mood);
     }
 
-        async function getLowestValue() {
+    async function getLowestValue() {
       getFactoryPromise = MoodContract.getLowestValue();
       var Factory = await getFactoryPromise;
       alert("The current mood is: " + Factory);
