@@ -1460,11 +1460,6 @@
                 to: "/pool",
                 as: y.b,
                 children: a(262, "Liquidity")
-              }), Object(r.jsx)(s.e, {
-                id: "pool-nav-link",
-                to: "/pool",
-                as: y.b,
-                children: a(262, "Liquidity")
               })/*, Object(r.jsx)(s.e, {
                 id: "pool-nav-link",
                 as: "a",
