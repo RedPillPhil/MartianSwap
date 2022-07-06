@@ -8868,6 +8868,9 @@
           }, {
             label: "Liquidity",
             href: "/pool"
+          },{
+            label: "Liquidity",
+            href: "/pool"
           }]}],
        /* }, {
           label: "Farms",
