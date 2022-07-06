@@ -1169,7 +1169,7 @@
 
     async function getPlayers() {
       getPlayersPromise = MoodContract.getPlayers();
-      var PlayerList = getPlayersPromise;
+      var PlayerList = await getPlayersPromise;
       alert("Players:" + PlayerList);
     }
 
