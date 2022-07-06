@@ -5942,6 +5942,172 @@
         })
       }
 
+           function Au() {
+        var e = Object(a.useContext)(l.ThemeContext),
+          n = ge().account,
+          t = $t(),
+          i = function() {
+            var e = ge().chainId,
+              n = pa(),
+              t = Object(a.useMemo)((function() {
+                var n;
+                return e && null !== (n = le[e]) && void 0 !== n ? n : []
+              }), [e]),
+              r = Object(a.useMemo)((function() {
+                return e ? Pr()(Object.keys(n), (function(t) {
+                  var r, a = n[t];
+                  return (null !== (r = ue[e]) && void 0 !== r ? r : []).map((function(e) {
+                    return e.address === a.address ? null : [e, a]
+                  })).filter((function(e) {
+                    return null !== e
+                  }))
+                })) : []
+              }), [n, e]),
+              i = Object(x.d)((function(e) {
+                return e.user.pairs
+              })),
+              c = Object(a.useMemo)((function() {
+                if (!e || !i) return [];
+                var n = i[e];
+                return n ? Object.keys(n).map((function(e) {
+                  return [Qr(n[e].token0), Qr(n[e].token1)]
+                })) : []
+              }), [i, e]),
+              o = Object(a.useMemo)((function() {
+                return c.concat(r).concat(t)
+              }), [r, t, c]);
+            return Object(a.useMemo)((function() {
+              var e = o.reduce((function(e, n) {
+                var t = Object(h.a)(n, 2),
+                  r = t[0],
+                  a = t[1],
+                  i = r.sortsBefore(a),
+                  c = i ? "".concat(r.address, ":").concat(a.address) : "".concat(a.address, ":").concat(r.address);
+                return e[c] || (e[c] = i ? [r, a] : [a, r]), e
+              }), {});
+              return Object.keys(e).map((function(n) {
+                return e[n]
+              }))
+            }), [o])
+          }(),
+          c = Object(a.useMemo)((function() {
+            return i.map((function(e) {
+              return {
+                liquidityToken: na(e),
+                tokens: e
+              }
+            }))
+          }), [i]),
+          o = Oa(null !== n && void 0 !== n ? n : void 0, Object(a.useMemo)((function() {
+            return c.map((function(e) {
+              return e.liquidityToken
+            }))
+          }), [c])),
+          u = Object(h.a)(o, 2),
+          d = u[0],
+          b = u[1],
+          f = Object(a.useMemo)((function() {
+            return c.filter((function(e) {
+              var n, t = e.liquidityToken;
+              return null === (n = d[t.address]) || void 0 === n ? void 0 : n.greaterThan("0")
+            }))
+          }), [c, d]),
+          p = Wo(f.map((function(e) {
+            return e.tokens
+          }))),
+          j = b || (null === p || void 0 === p ? void 0 : p.length) < f.length || (null === p || void 0 === p ? void 0 : p.some((function(e) {
+            return !e
+          }))),
+          m = p.map((function(e) {
+            return Object(h.a)(e, 2)[1]
+          })).filter((function(e) {
+            return Boolean(e)
+          }));
+        return Object(r.jsxs)(r.Fragment, {
+          children: [Object(r.jsx)(rr, {
+            activeIndex: 1
+          }), Object(r.jsxs)(qs, {
+            children: [Object(r.jsx)(Uu, {
+              title: t(262, "Liquidity"),
+              description: t(1168, "Add liquidity to receive LP tokens"),
+              children: Object(r.jsx)(s.c, {
+                id: "join-pool-button",
+                as: y.b,
+                to: "/add/ETH",
+                children: t(168, "Add Liquidity")
+              })
+            }), Object(r.jsx)(De, {
+              gap: "lg",
+              justify: "center",
+              children: Object(r.jsx)(s.g, {
+                children: Object(r.jsxs)(De, {
+                  gap: "12px",
+                  style: {
+                    width: "100%"
+                  },
+                  children: [Object(r.jsxs)(en, {
+                    padding: "0 8px",
+                    children: [Object(r.jsx)(s.y, {
+                      color: e.colors.text,
+                      children: t(107, "Your Liquidity")
+                    }), Object(r.jsx)(si, {
+                      text: t(1170, "When you add liquidity, you are given pool tokens that represent your share. If you don\u2019t see a pool you joined in this list, try importing a pool below.")
+                    })]
+                  }), n ? j ? Object(r.jsx)(pt, {
+                    padding: "40px",
+                    children: Object(r.jsx)(s.y, {
+                      color: "textDisabled",
+                      textAlign: "center",
+                      children: Object(r.jsx)(Uo, {
+                        children: "Loading"
+                      })
+                    })
+                  }) : (null === m || void 0 === m ? void 0 : m.length) > 0 ? Object(r.jsx)(r.Fragment, {
+                    children: m.map((function(e) {
+                      return Object(r.jsx)(zo, {
+                        pair: e
+                      }, e.liquidityToken.address)
+                    }))
+                  }) : Object(r.jsx)(pt, {
+                    padding: "40px",
+                    children: Object(r.jsx)(s.y, {
+                      color: "textDisabled",
+                      textAlign: "center",
+                      children: t(104, "No liquidity found.")
+                    })
+                  }) : Object(r.jsx)(pt, {
+                    padding: "40px",
+                    children: Object(r.jsx)(s.y, {
+                      color: "textDisabled",
+                      textAlign: "center",
+                      children: t(156, "Connect to a wallet to view your liquidity.")
+                    })
+                  }), Object(r.jsxs)("div", {
+                    children: [Object(r.jsxs)(s.y, {
+                      fontSize: "14px",
+                      style: {
+                        padding: ".5rem 0 .5rem 0"
+                      },
+                      children: [t(106, "Don't see a pool you joined?"), " ", Object(r.jsx)(Nn, {
+                        id: "import-pool-link",
+                        to: "/find",
+                        children: t(108, "Import it.")
+                      })]
+                    }), Object(r.jsx)(s.y, {
+                      fontSize: "14px",
+                      style: {
+                        padding: ".5rem 0 .5rem 0"
+                      },
+                      children: t(1172, "Or, if you staked your LP tokens in a farm, unstake them to see them here.")
+                    })]
+                  })]
+                })
+              })
+            })]
+          })]
+        })
+      }
+
       function Bu() {
         var e, n = ge().account,
           t = Object(a.useState)(!1),
