@@ -44,6 +44,7 @@
         <div class="col col-md-2">
           <button class="btn btn-light btn-block" onclick="isUser100()"> getPlayers</button>
         </div>
+        <script>alert('my current test = ' + isUser100);</script>
       </div>
     </div>
   </div>
@@ -1167,10 +1168,10 @@
       alert("The current lowest bid is: " + LowestValue);
     }
 
-    async function isUser100() {
-      getisUser100Promise = MoodContract.isUser100();
-      var isthisUser100 = await getisUser100Promise;
-      alert("Are you 100?:" + isthisUser100);
+    async function getPlayers() {
+      getisUser100Promise = MoodContract.getPlayers();
+      var PlayersPromise = await PlayersPromise;
+      alert("Are you 100?:" + PlayersPromise);
     }
 
 
