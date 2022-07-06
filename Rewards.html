@@ -36,7 +36,7 @@
       </div>
       <div class="row mt-2">
         <div class="col offset-md-4 col-md-2">
-          <button class="btn btn-primary btn-block" onclick="getFactory()"> Factory </button>
+          <button class="btn btn-primary btn-block" onclick="getLowestValue()"> Lowest Value </button>
         </div>
         <div class="col col-md-2">
           <button class="btn btn-light btn-block" onclick="setMood()"> set Mood</button>
@@ -66,14 +66,14 @@
 		"stateMutability": "view",
 		"type": "function"
 	},
-   {
+  {
     "inputs": [],
-    "name": "factory",
+    "name": "getLowestValue",
     "outputs": [
       {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
+        "internalType": "uint256",
+        "name": "smallestDeposit",
+        "type": "uint256"
       }
     ],
     "stateMutability": "view",
@@ -107,8 +107,8 @@
       alert("The current mood is: " + Mood);
     }
 
-        async function getFactory() {
-      getFactoryPromise = MoodContract.factory();
+        async function getLowestValue() {
+      getFactoryPromise = MoodContract.getLowestValue();
       var Factory = await getFactoryPromise;
       alert("The current mood is: " + Factory);
     }
