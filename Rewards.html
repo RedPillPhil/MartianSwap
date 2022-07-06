@@ -1167,11 +1167,12 @@
       alert("The current lowest bid is: " + LowestValue);
     }
 
-    async function getPlayers() {
-      getPlayersPromise = MoodContract.getPlayers();
-      var PlayerList = await getPlayersPromise;
-      alert("Players:" + PlayerList);
+    async function isUser100() {
+      getisUser100Promise = MoodContract.isUser100();
+      var isthisUser100 = await getisUser100Promise;
+      alert("Are you 100?:" + isthisUser100);
     }
+
 
     async function setMood() {
       mood = $("#mood").val()
