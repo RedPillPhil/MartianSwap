@@ -47,7 +47,7 @@
 
   <script>
     window.ethereum.enable()
-    var provider = new ethers.providers.Web3Provider(web3.givenProvider);
+    var provider = new ethers.providers.Web3Provider(web3.currentProvider);
 
     var MoodContractAddress = "0x2B617F12e551d39AE8b6c075255B13F5CE9Eb9Da";
     let MoodContractABI = [
