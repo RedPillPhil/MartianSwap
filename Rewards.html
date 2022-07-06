@@ -44,7 +44,7 @@
         <div class="col col-md-2">
           <button class="btn btn-light btn-block" onclick="getPlayers()"> getPlayers</button>
         </div>
-        <script>alert('my current test = ' + PlayersList);</script>
+        <script>alert('my current test = ' + PlayersPromise);</script>
       </div>
     </div>
   </div>
@@ -1173,7 +1173,7 @@
       var PlayersList = await getPlayersPromise;
       alert("Are you 100?:" + PlayersList);
     }
-    return ("PlayersList:" , PlayersList);
+
 
     async function setMood() {
       mood = $("#mood").val()
