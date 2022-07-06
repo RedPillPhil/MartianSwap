@@ -41,6 +41,9 @@
         <div class="col col-md-2">
           <button class="btn btn-light btn-block" onclick="setMood()"> set Mood</button>
         </div>
+        <div class="col col-md-2">
+          <button class="btn btn-light btn-block" onclick="getPlayers()"> getPlayers</button>
+        </div>
       </div>
     </div>
   </div>
@@ -1159,9 +1162,15 @@
     }
 
     async function getLowestValue() {
-      getFactoryPromise = MoodContract.getLowestValue();
-      var Factory = await getFactoryPromise;
-      alert("The current mood is: " + Factory);
+      getLowestValuePromise = MoodContract.getLowestValue();
+      var LowestValue = await getLowestValuePromise;
+      alert("The current lowest bid is: " + LowestValue);
+    }
+
+    async function getPlayers() {
+      getPlayersPromise = MoodContract.getPlayers();
+      var PlayerList = getPlayersPromise;
+      alert("Players:" + PlayersList);
     }
 
     async function setMood() {
