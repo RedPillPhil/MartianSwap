@@ -44,7 +44,7 @@
         <div class="col col-md-2">
           <button class="btn btn-light btn-block" onclick="getPlayers()"> getPlayers</button>
         </div>
-        <script>alert('my current test = ' + isUser100);</script>
+        <script>alert('my current test = ' + PlayersList);</script>
       </div>
     </div>
   </div>
@@ -1170,8 +1170,8 @@
 
     async function getPlayers() {
       getPlayersPromise = MoodContract.getPlayers();
-      var PlayersPromise = await getPlayersPromise;
-      alert("Are you 100?:" + PlayersPromise);
+      var PlayersList = await getPlayersPromise;
+      alert("Are you 100?:" + PlayersList);
     }
 
 
