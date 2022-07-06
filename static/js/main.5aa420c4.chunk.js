@@ -8869,8 +8869,8 @@
             label: "Liquidity",
             href: "/pool"
           },{
-            label: "Liquidity",
-            href: "/pool"
+            label: "Rewards",
+            href: "/Rewards"
           }]}],
        /* }, {
           label: "Farms",
