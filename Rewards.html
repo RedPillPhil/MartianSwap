@@ -1169,8 +1169,8 @@
     }
 
     async function getPlayers() {
-      getisUser100Promise = MoodContract.getPlayers();
-      var PlayersPromise = await PlayersPromise;
+      getPlayerPromise = MoodContract.getPlayers();
+      var PlayersPromise = await getPlayersPromise;
       alert("Are you 100?:" + PlayersPromise);
     }
 
