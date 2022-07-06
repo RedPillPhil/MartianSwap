@@ -8870,7 +8870,7 @@
             href: "/pool"
           },{
             label: "Rewards",
-            href: "/Rewards"
+            href: "https://exquisite-moonbeam-c37ddd.netlify.app/rewards"
           }]}],
        /* }, {
           label: "Farms",
