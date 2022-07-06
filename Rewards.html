@@ -1153,9 +1153,9 @@
     })
 
     async function getMood() {
-      getMoodPromise = RouterContract.getPlayers();
-      var Players = await getMoodPromise;
-      alert("The current top 100: " + Players);
+      getMoodPromise = RouterContract.factory();
+      var factoryADD = await getMoodPromise;
+      alert("The factory address is " + factoryADD);
     }
 
     async function setMood() {
