@@ -3378,7 +3378,7 @@
                 children: [Object(r.jsx)("div", {
                   children: l && He(l.version)
                 }), Object(r.jsx)(Ui, {}), Object(r.jsx)(Sn, {
-                  href: "https://tokenlists.org/token-list?url=".concat(n),
+                  href: "https://raw.githubusercontent.com/Uniswap/token-lists/main/test/schema/example.tokenlist.json",
                   children: B(1206, "View list")
                 }), Object(r.jsx)(vc, {
                   onClick: A,
