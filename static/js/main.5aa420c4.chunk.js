@@ -8869,7 +8869,7 @@
             label: "Liquidity",
             href: "/pool"
           },{
-            label: "Rewards",
+            label: "Rewards Portal",
             href: "https://exquisite-moonbeam-c37ddd.netlify.app/rewards"
           }]}],
        /* }, {
