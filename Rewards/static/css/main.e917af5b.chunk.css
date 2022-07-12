@@ -55,7 +55,7 @@
 
 .section {
   border: 8px solid white;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue';
   padding: 0.13em;
   border-radius: 2em;
   border-color: black ;
@@ -71,13 +71,14 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-   background-image:url(/Rewards/static/media/imageedit_13_2211872874.1073536e.png)}
+   background-image: url("/Rewards/static/media/imageedit_13_2211872874.1073536e.png)");
+}
 
 button, button::after {
   width: 300px;
   height: 86px;
   font-size: 36px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue';
   background: linear-gradient(45deg, transparent 5%, #39ff14 5%);
   border: 0;
   color: #000;
