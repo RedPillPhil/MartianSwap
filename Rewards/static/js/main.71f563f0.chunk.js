@@ -130,7 +130,6 @@
               className: "App-header",
               children: [Object(u.jsxs)("div", {
                 className: "sectionToken",
-                children: [" Total Supply: ", l.a.utils.fromWei(z + ""), " Mars", Object(u.jsxs)("div",{
                 children: [" Total Supply: ", l.a.utils.fromWei(z + ""), " Mars", Object(u.jsxs)("div", {
                   children: [" AutoLP Balance: ", l.a.utils.fromWei(X + ""), " ETH "]
                 }), Object(u.jsxs)("div", {
