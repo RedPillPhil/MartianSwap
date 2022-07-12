@@ -140,14 +140,6 @@
                       })
                     },
                     children: "SwapNBurn"
-                  })," ", Object(u.jsxs)("div", {
-                  children: [Object(u.jsx)("button", {
-                    onClick: function(e) {
-                      e.preventDefault(), new(new l.a(l.a.givenProvider).eth.Contract)(c.abi, T).methods.swapAndBurn().send({
-                        from: Q[0]
-                      })
-                    },
-                    children: "SwapNBurn"
                   }), " ", Object(u.jsx)("button", {
                     onClick: function(e) {
                       e.preventDefault(), new(new l.a(l.a.givenProvider).eth.Contract)(c.abi, T).methods.swapandLiquify().send({
