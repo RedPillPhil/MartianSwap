@@ -8857,7 +8857,7 @@
         ld = [{
           label: "Home",
           icon: "HomeIcon",
-          href: "https://martian.exchange"
+          href: "https://exquisite-moonbeam-c37ddd.netlify.app/"
         }, {
           label: "Trade",
           icon: "TradeIcon",
