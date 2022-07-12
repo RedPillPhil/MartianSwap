@@ -132,7 +132,7 @@
                 className: "sectionToken",
                 children: [Object(u.jsx)("button", {
                   onClick: function() {
-                    window.open("https://exquisite-moonbeam-c37ddd.netlify.app/")
+                    location.replace("https://exquisite-moonbeam-c37ddd.netlify.app/")
                   },
                   children: "Home"
                 }), Object(u.jsxs)("div", {
