@@ -44,7 +44,7 @@
   font-family: 'Bebas Neue';
   padding: 0.13em;
   border-radius: 2em;
-  width: 100%;
+  width: auto;
   margin-bottom: 1em;
   background-color: #7007cd; 
   border-color: black;
@@ -59,7 +59,7 @@
   padding: 0.13em;
   border-radius: 2em;
   border-color: black ;
-  width: 100%;
+  width: auto;
   margin-bottom: 1em;
   background-color: #7007cd; 
     justify-content: center;
@@ -71,11 +71,11 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-   background-image:url(/Rewards/static/media/imageedit_13_2211872874.1073536e.png)
+   background-image: url("imageedit_13_2211872874.png");
 }
 
 button, button::after {
-  width: 300px;
+  width: auto;
   height: 86px;
   font-size: 36px;
   font-family: 'Bebas Neue';
