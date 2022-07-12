@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/BeaverWhisperer-main/static/css/main.e917af5b.chunk.css",
+    "main.js": "/BeaverWhisperer-main/static/js/main.71f563f0.chunk.js",
+    "main.js.map": "/BeaverWhisperer-main/static/js/main.71f563f0.chunk.js.map",
+    "runtime-main.js": "/BeaverWhisperer-main/static/js/runtime-main.83b489ce.js",
+    "runtime-main.js.map": "/BeaverWhisperer-main/static/js/runtime-main.83b489ce.js.map",
+    "static/js/2.80c38c7a.chunk.js": "/BeaverWhisperer-main/static/js/2.80c38c7a.chunk.js",
+    "static/js/2.80c38c7a.chunk.js.map": "/BeaverWhisperer-main/static/js/2.80c38c7a.chunk.js.map",
+    "static/js/3.702128de.chunk.js": "/BeaverWhisperer-main/static/js/3.702128de.chunk.js",
+    "static/js/3.702128de.chunk.js.map": "/BeaverWhisperer-main/static/js/3.702128de.chunk.js.map",
+    "index.html": "/BeaverWhisperer-main/index.html",
+    "static/css/main.e917af5b.chunk.css.map": "/BeaverWhisperer-main/static/css/main.e917af5b.chunk.css.map",
+    "static/js/2.80c38c7a.chunk.js.LICENSE.txt": "/BeaverWhisperer-main/static/js/2.80c38c7a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/BeaverWhisperer-main/static/media/imageedit_13_2211872874.1073536e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83b489ce.js",
+    "static/js/2.80c38c7a.chunk.js",
+    "static/css/main.e917af5b.chunk.css",
+    "static/js/main.71f563f0.chunk.js"
+  ]
+}
