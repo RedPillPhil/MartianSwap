@@ -136,7 +136,7 @@
                         from: Q[0]
                       })
                     },
-                    children: "SwapNBurn"
+                    children: "Home"
                   }),
                 children: [" Total Supply: ", l.a.utils.fromWei(z + ""), " Mars", Object(u.jsxs)("div", {
                   children: [" AutoLP Balance: ", l.a.utils.fromWei(X + ""), " ETH "]
