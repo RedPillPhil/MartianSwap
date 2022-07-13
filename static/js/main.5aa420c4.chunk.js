@@ -8857,7 +8857,7 @@
         ld = [{
           label: "Home",
           icon: "HomeIcon",
-          href: "https://exquisite-moonbeam-c37ddd.netlify.app/"
+          href: "https://martianswap.io"
         }, {
           label: "Trade",
           icon: "TradeIcon",
@@ -8870,7 +8870,7 @@
             href: "/pool"
           },{
             label: "Rewards Portal",
-            href: "https://exquisite-moonbeam-c37ddd.netlify.app/rewards"
+            href: "https://martianswap.io/rewards"
           }]}],
        /* }, {
           label: "Farms",
