@@ -1,129 +1,122 @@
 (this["webpackJsonp@pancakeswap/interface"] = this["webpackJsonp@pancakeswap/interface"] || []).push([
   [1], {
-    120: function(e) {
+    121: function(e) {
       e.exports = JSON.parse('[{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_value","type":"uint256"}],"name":"approve","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint8"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"balanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"name":"transfer","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"},{"name":"_spender","type":"address"}],"name":"allowance","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"owner","type":"address"},{"indexed":true,"name":"spender","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Transfer","type":"event"}]')
     },
-    149: function(e) {
-      e.exports = JSON.parse('{"name":"pancakeswap","timestamp":"2020-08-25T15:41:29.665Z","version":{"major":1,"minor":3,"patch":1},"tags":{},"logoURI":"/images/coins/wbnb.png","keywords":["pancake","default"],"tokens":[{"name":"WBNB Token","symbol":"WBNB","address":"0xae13d989dac2f0debff460ac112a837c89baa7cd","chainId":97,"decimals":18,"logoURI":"/images/coins/BUSD.png"},{"name":"WBNB Token","symbol":"WBNB","address":"0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c","chainId":56,"decimals":18},{"name":"LP3 Token","symbol":"LP3","address":"0xe70b7523f4bffa1f2e88d2ba709afd026030f412","chainId":97,"decimals":18,"logoURI":"/images/coins/ETH.png"},{"name":"BUSD Token","symbol":"BUSD","address":"0x615446C0Fd5eA8A5FD7fb763f3FC2C58774474F3","chainId":97,"decimals":18,"logoURI":"/images/coins/BTC.png"},{"name":"Bakery Token","symbol":"BAKE","address":"0xe02df9e3e622debdd69fb838bb799e3f168902c5","chainId":56,"decimals":18,"logoURI":"/images/coins/bake.png"},{"name":"BUSD Token","symbol":"BUSD","address":"0xe9e7cea3dedca5984780bafc599bd69add087d56","chainId":56,"decimals":18,"logoURI":"/images/coins/BUSD.png"},{"name":"MartianSwap","symbol":"Mars","address":"0x05B33d91993c981DCc72e2B7fcd879d8906eE2dA","chainId":56,"decimals":18,"logoURI":"/images/coins/Mars.png"},{"name":"Ethereum Token","symbol":"ETH","address":"0x2170ed0880ac9a755fd29b2688956bd959f933f8","chainId":56,"decimals":18,"logoURI":"/images/coins/ETH.png"},{"name":"BTCB Token","symbol":"BTCB","address":"0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c","chainId":56,"decimals":18,"logoURI":"/images/coins/BTC-icon.png"},{"name":"BAND Protocol Token","symbol":"BAND","address":"0xad6caeb32cd2c308980a548bd0bc5aa4306c6c18","chainId":56,"decimals":18,"logoURI":"/images/coins/band.png"},{"name":"EOS Token","symbol":"EOS","address":"0x56b6fb708fc5732dec1afc8d8556423a2edccbd6","chainId":56,"decimals":18,"logoURI":"/images/coins/eos.png"},{"name":"Tether USD","symbol":"USDT","address":"0x55d398326f99059ff775485246999027b3197955","chainId":56,"decimals":18,"logoURI":"/images/coins/USDT-icon.png"},{"name":"XRP Token","symbol":"XRP","address":"0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe","chainId":56,"decimals":18,"logoURI":"/images/coins/XRP-icon.png"},{"name":"Bitcoin Cash Token","symbol":"BCH","address":"0x8ff795a6f4d97e7887c79bea79aba5cc76444adf","chainId":56,"decimals":18,"logoURI":"/images/coins/BCH-icon.png"},{"name":"Litecoin Token","symbol":"LTC","address":"0x4338665cbb7b2485a8855a139b75d5e34ab0db94","chainId":56,"decimals":18,"logoURI":"/images/coins/LTC-icon.png"},{"name":"Cardano Token","symbol":"ADA","address":"0x3ee2200efb3400fabb9aacf31297cbdd1d435d47","chainId":56,"decimals":18},{"name":"Cosmos Token","symbol":"ATOM","address":"0x0eb3a705fc54725037cc9e008bdede697f62f335","chainId":56,"decimals":18},{"name":"Tezos Token","symbol":"XTZ","address":"0x16939ef78684453bfdfb47825f8a5f714f12623a","chainId":56,"decimals":18},{"name":"Ontology Token","symbol":"ONT","address":"0xfd7b3a77848f1c2d67e05e54d78d174a0c850335","chainId":56,"decimals":18},{"name":"Zcash Token","symbol":"ZEC","address":"0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb","chainId":56,"decimals":18},{"name":"Dai Token","symbol":"DAI","address":"0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3","chainId":56,"decimals":18,"logoURI":"/images/coins/DAI-icon.png"},{"name":"YFII.finance Token","symbol":"YFII","address":"0x7f70642d88cf1c4a3a7abb072b53b929b653eda5","chainId":56,"decimals":18},{"name":"Cream","symbol":"CREAM","address":"0xd4cb328a82bdf5f03eb737f37fa6b370aef3e888","chainId":56,"decimals":18},{"name":"Prometeus","symbol":"PROM","address":"0xaf53d56ff99f1322515e54fdde93ff8b3b7dafd5","chainId":56,"decimals":18},{"name":"CanYaCoin","symbol":"CAN","address":"0x007ea5c0ea75a8df45d288a4debdd5bb633f9e56","chainId":56,"decimals":18},{"name":"Polkadot Token","symbol":"DOT","address":"0x7083609fce4d1d8dc0c979aab8c869ea2c873402","chainId":56,"decimals":18},{"name":"PancakeSwap Token","symbol":"CAKE","address":"0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82","chainId":56,"decimals":18},{"name":"Streamity","symbol":"STM","address":"0x90df11a8cce420675e73922419e3f4f3fe13cccb","chainId":56,"decimals":18},{"name":"Ankr","symbol":"ANKR","address":"0xf307910a4c7bbc79691fd374889b36d8531b08e3","chainId":56,"decimals":18},{"name":"ChainLink Token","symbol":"LINK","address":"0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd","chainId":56,"decimals":18},{"name":"Burger Swap","symbol":"BURGER","address":"0xae9269f27437f0fcbc232d39ec814844a51d6b8f","chainId":56,"decimals":18},{"name":"Dice.finance Token","symbol":"DICE","address":"0x748ad98b14c814b28812eb42ad219c8672909879","chainId":56,"decimals":18},{"name":"JNTR/b","symbol":"JNTR/b","address":"0x3c037c4c2296f280bb318d725d0b454b76c199b9","chainId":56,"decimals":18},{"name":"SPARTAN PROTOCOL TOKEN","symbol":"SPART","address":"0xe4ae305ebe1abe663f261bc00534067c80ad677c","chainId":56,"decimals":18},{"name":"Trust Wallet","symbol":"TWT","address":"0x4b0f1812e5df2a09796481ff14017e6005508003","chainId":56,"decimals":18},{"name":"Venus","symbol":"XVS","address":"0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63","chainId":56,"decimals":18},{"name":"Beer Garden","symbol":"Beer","address":"0xbb8db5e17bbe9c90da8e3445e335b82d7cc53575","chainId":56,"decimals":18},{"name":"AlphaToken","symbol":"ALPHA","address":"0xa1faa113cbe53436df28ff0aee54275c13b40975","chainId":56,"decimals":18},{"name":"Beefy.finance","symbol":"BIFI","address":"0xCa3F508B8e4Dd382eE878A314789373D80A5190A","chainId":56,"decimals":18},{"name":"yearn.finance","symbol":"YFI","address":"0x88f1a5ae2a3bf98aeaf342d26b30a79438c9142e","chainId":56,"decimals":18},{"name":"Uniswap","symbol":"UNI","address":"0xbf5140a22578168fd562dccf235e5d43a02ce9b1","chainId":56,"decimals":18},{"name":"fry.world","symbol":"FRIES","address":"0x393B312C01048b3ed2720bF1B090084C09e408A1","chainId":56,"decimals":18},{"name":"StableXSwap","symbol":"STAX","address":"0x0da6ed8b13214ff28e9ca979dd37439e8a88f6c4","chainId":56,"decimals":18,"logoURI":"/images/coins/STAX.png"},{"name":"Filecoin","symbol":"FIL","address":"0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153","chainId":56,"decimals":18},{"name":"KAVA","symbol":"KAVA","address":"0x5F88AB06e8dfe89DF127B2430Bba4Af600866035","chainId":56,"decimals":6},{"name":"USDX","symbol":"USDX","address":"0x1203355742e76875154c0d13eb81dcd7711dc7d9","chainId":56,"decimals":6},{"name":"Injective Protocol","symbol":"INJ","address":"0xa2B726B1145A4773F68593CF171187d8EBe4d495","chainId":56,"decimals":18},{"name":"Swipe","symbol":"SXP","address":"0x47bead2563dcbf3bf2c9407fea4dc236faba485a","chainId":56,"decimals":18},{"name":"Binance-Peg USD Coin","symbol":"USDC","address":"0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d","chainId":56,"decimals":18},{"name":"CertiK Token","symbol":"CTK","address":"0xa8c2b8eec3d368c0253ad3dae65a5f2bbb89c929","chainId":56,"decimals":6},{"name":"NAR Token","symbol":"NAR","address":"0xa1303e6199b319a891b79685f0537d289af1fc83","chainId":56,"decimals":18},{"name":"Nyanswop Token","symbol":"NYA","address":"0xbfa0841f7a90c4ce6643f651756ee340991f99d5","chainId":56,"decimals":18},{"name":"DANGO","symbol":"DANGO","address":"0x0957c57c9eb7744850dcc95db5a06ed4a246236e","chainId":56,"decimals":6},{"name":"HARD","symbol":"HARD","address":"0xf79037f6f6be66832de4e7516be52826bc3cbcc4","chainId":56,"decimals":6},{"name":"ROOBEE","symbol":"bROOBEE","address":"0xe64f5cb844946c1f102bd25bbd87a5ab4ae89fbe","chainId":56,"decimals":18},{"name":"Unifi Token","symbol":"UNFI","address":"0x728C5baC3C3e370E372Fc4671f9ef6916b814d8B","chainId":56,"decimals":18},{"name":"BLINk","symbol":"BLK","address":"0x63870A18B6e42b01Ef1Ad8A2302ef50B7132054F","chainId":56,"decimals":6},{"name":"QUSD Stablecoin","symbol":"QUSD","address":"0xb8C540d00dd0Bf76ea12E4B4B95eFC90804f924E","chainId":56,"decimals":18},{"name":"Qian Governance Token","symbol":"KUN","address":"0x1A2fb0Af670D0234c2857FaD35b789F8Cb725584","chainId":56,"decimals":18},{"name":"VAI Stablecoin","symbol":"VAI","address":"0x4bd17003473389a42daf6a0a729f6fdb328bbbd7","chainId":56,"decimals":18},{"name":"Juventus","symbol":"JUV","address":"0xc40c9a843e1c6d01b7578284a9028854f6683b1b","chainId":56,"decimals":2},{"name":"Paris Saint-Germain","symbol":"PSG","address":"0xbc5609612b7c44bef426de600b5fd1379db2ecf1","chainId":56,"decimals":2},{"name":"Ditto","symbol":"DITTO","address":"0x233d91A0713155003fc4DcE0AFa871b508B3B715","chainId":56,"decimals":9},{"name":"Math","symbol":"MATH","address":"0xf218184af829cf2b0019f8e6f0b2423498a36983","chainId":56,"decimals":18},{"name":"Fuel","symbol":"FUEL","address":"0x2090c8295769791ab7A3CF1CC6e0AA19F35e441A","chainId":56,"decimals":18},{"name":"Nuls","symbol":"NULS","address":"0x8cd6e29d3686d24d3c2018cee54621ea0f89313b","chainId":56,"decimals":8},{"name":"NerveNetwork","symbol":"NVT","address":"0xf0e406c49c63abf358030a299c0e00118c4c6ba5","chainId":56,"decimals":8},{"name":"Reef","symbol":"REEF","address":"0xf21768ccbc73ea5b6fd3c687208a7c2def2d966e","chainId":56,"decimals":18},{"name":"OG","symbol":"OG","address":"0xf05e45ad22150677a017fbd94b84fbb63dc9b44c","chainId":56,"decimals":2},{"name":"Atletico de Madrid","symbol":"ATM","address":"0x25e9d05365c867e59c1904e7463af9f312296f9e","chainId":56,"decimals":2},{"name":"AS Roma","symbol":"ASR","address":"0x80d5f92c2c8c682070c95495313ddb680b267320","chainId":56,"decimals":2},{"name":"AllianceBlock","symbol":"bALBT","address":"0x72faa679e1008ad8382959ff48e392042a8b06f7","chainId":56,"decimals":18},{"name":"Tenet","symbol":"TEN","address":"0xdff8cb622790b7f92686c722b02cab55592f152c","chainId":56,"decimals":18},{"name":"Helmet.insure","symbol":"Helmet","address":"0x948d2a81086a075b3130bac19e4c6dee1d2e3fe8","chainId":56,"decimals":18},{"name":"BSCEX","symbol":"BSCX","address":"0x5ac52ee5b2a633895292ff6d8a89bb9190451587","chainId":56,"decimals":18},{"name":"Standard BTC Hashrate Token","symbol":"BTCST","address":"0x78650b139471520656b9e7aa7a5e9276814a38e9","chainId":56,"decimals":18},{"name":"Frontier Token","symbol":"FRONT","address":"0x928e55daB735aa8260AF3cEDadA18B5f70C72f1b","chainId":56,"decimals":18},{"name":"Soteria","symbol":"wSOTE","address":"0x541e619858737031a1244a5d0cd47e5ef480342c","chainId":56,"decimals":18},{"name":"Mirror TSLA Token","symbol":"mTSLA","address":"0xF215A127A196e3988C09d052e16BcFD365Cd7AA3","chainId":56,"decimals":18},{"name":"Mirror AMZN Token","symbol":"mAMZN","address":"0x3947B992DC0147D2D89dF0392213781b04B25075","chainId":56,"decimals":18},{"name":"Mirror NFLX Token","symbol":"mNFLX","address":"0xa04F060077D90Fe2647B61e4dA4aD1F97d6649dc","chainId":56,"decimals":18},{"name":"Mirror GOOGL Token","symbol":"mGOOGL","address":"0x62D71B23bF15218C7d2D7E48DBbD9e9c650B173f","chainId":56,"decimals":18},{"name":"UST Token","symbol":"UST","address":"0x23396cF899Ca06c4472205fC903bDB4de249D6fC","chainId":56,"decimals":18},{"name":"b.earnfi","symbol":"BFI","address":"0x81859801b01764D4f0Fa5E64729f5a6C3b91435b","chainId":56,"decimals":18,"logoURI":"/images/coins/bearn.png"},{"name":"bDollar","symbol":"BDO","address":"0x190b589cf9Fb8DDEabBFeae36a813FFb2A702454","chainId":56,"decimals":18},{"name":"bDollar Share","symbol":"sBDO","address":"0x0d9319565be7f53CeFE84Ad201Be3f40feAE2740","chainId":56,"decimals":18},{"name":"Elrond","symbol":"EGLD","address":"0xbf7c81fff98bbe61b40ed186e4afd6ddd01337fe","chainId":56,"decimals":18},{"name":"AUTOv2","symbol":"AUTO","address":"0xa184088a740c695e156f91f5cc086a06bb78b827","chainId":56,"decimals":18},{"name":"Hedget","symbol":"HGET","address":"0xC7d8D35EBA58a0935ff2D5a33Df105DD9f071731","chainId":56,"decimals":6},{"name":"Litentry","symbol":"LIT","address":"0xb59490ab09a0f526cc7305822ac65f2ab12f9723","chainId":56,"decimals":18},{"name":"Linear Finance","symbol":"LINA","address":"0x762539b45a1dcce3d36d080f74d1aed37844b878","chainId":56,"decimals":18},{"name":"Beacon ETH","symbol":"BETH","address":"0x250632378e573c6be1ac2f97fcdf00515d0aa91b","chainId":56,"decimals":18},{"name":"lUSD","symbol":"lUSD","address":"0x23e8a70534308a4AAF76fb8C32ec13d17a3BD89e","chainId":56,"decimals":18},{"name":"SafePal Token","symbol":"SFP","address":"0xd41fdb03ba84762dd66a0af1a6c8540ff1ba5dfb","chainId":56,"decimals":18},{"name":"Compound Finance","symbol":"COMP","address":"0x52ce071bd9b1c4b00a0b92d298c512478cad67e8","chainId":56,"decimals":18},{"name":"Swirge Pay","symbol":"SWGb","address":"0xe40255c5d7fa7ceec5120408c78c787cecb4cfdb","chainId":56,"decimals":18},{"name":"renBTC","symbol":"renBTC","address":"0xfCe146bF3146100cfe5dB4129cf6C82b0eF4Ad8c","chainId":56,"decimals":8},{"name":"renDOGE","symbol":"renDOGE","address":"0xc3fed6eb39178a541d274e6fc748d48f0ca01cc3","chainId":56,"decimals":8},{"name":"anyMTLX","symbol":"anyMTLX","address":"0x5921dee8556c4593eefcfad3ca5e2f618606483b","chainId":56,"decimals":18},{"name":"ZeroSwapToken","symbol":"ZEE","address":"0x44754455564474a89358b2c2265883df993b12f0","chainId":56,"decimals":18},{"name":"Berry","symbol":"BRY","address":"0xf859Bf77cBe8699013d6Dbc7C2b926Aaf307F830","chainId":56,"decimals":18},{"name":"Swingby","symbol":"SWINGBY","address":"0x71DE20e0C4616E7fcBfDD3f875d568492cBE4739","chainId":56,"decimals":18},{"name":"Dodo","symbol":"DODO","address":"0x67ee3cb086f8a16f34bee3ca72fad36f7db929e2","chainId":56,"decimals":18},{"name":"Sushi","symbol":"SUSHI","address":"0x947950bcc74888a40ffa2593c5798f11fc9124c4","chainId":56,"decimals":18},{"name":"OPEN Governance Token","symbol":"bOPEN","address":"0xF35262a9d427F96d2437379eF090db986eaE5d42","chainId":56,"decimals":18},{"name":"BoringDAO","symbol":"BOR","address":"0x92d7756c60dcfd4c689290e8a9f4d263b3b32241","chainId":56,"decimals":18},{"name":"renZEC","symbol":"renZEC","address":"0x695FD30aF473F2960e81Dc9bA7cB67679d35EDb7","chainId":56,"decimals":8},{"name":"Multiplier","symbol":"bMXX","address":"0x4131b87f74415190425ccd873048c708f8005823","chainId":56,"decimals":18},{"name":"IoTeX","symbol":"IOTX","address":"0x9678e42cebeb63f23197d726b29b1cb20d0064e5","chainId":56,"decimals":18},{"name":"xMARK","symbol":"xMARK","address":"0x26a5dfab467d4f58fb266648cae769503cec9580","chainId":56,"decimals":9},{"name":"TokenPocket","symbol":"TPT","address":"0xeca41281c24451168a37211f0bc2b8645af45092","chainId":56,"decimals":4},{"name":"Yieldwatch","symbol":"WATCH","address":"0x7a9f28eb62c791422aa23ceae1da9c847cbec9b0","chainId":56,"decimals":18},{"name":"Bella Protocol","symbol":"BEL","address":"0x8443f091997f06a61670b735ed92734f5628692f","chainId":56,"decimals":18},{"name":"DeXe","symbol":"DEXE","address":"0x039cb485212f996a9dbb85a9a75d898f94d38da6","chainId":56,"decimals":18},{"name":"Ramp DEFI","symbol":"RAMP","address":"0x8519ea49c997f50ceffa444d240fb655e89248aa","chainId":56,"decimals":18},{"name":"Belt","symbol":"BELT","address":"0xE0e514c71282b6f4e823703a39374Cf58dc3eA4f","chainId":56,"decimals":18},{"name":"Basic Attention Token","symbol":"BAT","address":"0x101d82428437127bf1608f699cd651e6abf9766e","chainId":56,"decimals":18},{"name":"BUX","symbol":"BUX","address":"0x211ffbe424b90e25a15531ca322adf1559779e45","chainId":56,"decimals":18},{"name":"ForTube","symbol":"FOR","address":"0x658A109C5900BC6d2357c87549B651670E5b0539","chainId":56,"decimals":18}]}')
+    154: function(e) {
+      e.exports = JSON.parse('{"name":"PancakeSwap Default List","timestamp":"2021-03-17T09:56:23Z","version":{"major":2,"minor":1,"patch":0},"tags":{},"logoURI":"https://exchange.pancakeswap.finance/images/nono.png","keywords":["pancake","default"],"tokens":[{"name":"WBNB Token","symbol":"WBNB","address":"0xae13d989dac2f0debff460ac112a837c89baa7cd","chainId":97,"decimals":18,"logoURI":"https://pancake.kiemtienonline360.com/images/coins/0xae13d989dac2f0debff460ac112a837c89baa7cd.png"},{"name":"BUSD Token","symbol":"BUSD","address":"0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7","chainId":97,"decimals":18,"logoURI":"https://pancake.kiemtienonline360.com/images/coins/0x78867bbeef44f2326bf8ddd1941a4439382ef2a7.png"},{"name":"USDT Token","symbol":"USDT","address":"0x7ef95a0fee0dd31b22626fa2e10ee6a223f8a684","chainId":97,"decimals":18,"logoURI":"https://pancake.kiemtienonline360.com/images/coins/0x7ef95a0fee0dd31b22626fa2e10ee6a223f8a684.png"},{"name":"ETH Token","symbol":"ETH","address":"0x8babbb98678facc7342735486c851abd7a0d17ca","chainId":97,"decimals":18,"logoURI":"https://pancake.kiemtienonline360.com/images/coins/0x8babbb98678facc7342735486c851abd7a0d17ca.png"},{"name":"DAI Token","symbol":"DAI","address":"0x8a9424745056Eb399FD19a0EC26A14316684e274","chainId":97,"decimals":18,"logoURI":"https://pancake.kiemtienonline360.com/images//coins/0x8a9424745056eb399fd19a0ec26a14316684e274.png"},{"name":"CAKE Token","symbol":"CAKE","address":"0xF9f93cF501BFaDB6494589Cb4b4C15dE49E85D0e","chainId":97,"decimals":9,"logoURI":"https://pancake.kiemtienonline360.com/images/coins/0xf9f93cf501bfadb6494589cb4b4c15de49e85d0e.png"},{"name":"Safemoon Token","symbol":"SAFEMOON","address":"0xDAcbdeCc2992a63390d108e8507B98c7E2B5584a","chainId":97,"decimals":18,"logoURI":"https://pancake.kiemtienonline360.com/images/coins/0xdacbdecc2992a63390d108e8507b98c7e2b5584a.png"}]}')
     },
-    231: function(e) {
+    248: function(e) {
       e.exports = JSON.parse('[{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"bytes32"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"bytes32"}],"payable":false,"stateMutability":"view","type":"function"}]')
     },
-    232: function(e) {
+    249: function(e) {
       e.exports = JSON.parse('[{"constant":true,"inputs":[],"name":"getCurrentBlockTimestamp","outputs":[{"name":"timestamp","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"components":[{"name":"target","type":"address"},{"name":"callData","type":"bytes"}],"name":"calls","type":"tuple[]"}],"name":"aggregate","outputs":[{"name":"blockNumber","type":"uint256"},{"name":"returnData","type":"bytes[]"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getLastBlockHash","outputs":[{"name":"blockHash","type":"bytes32"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"addr","type":"address"}],"name":"getEthBalance","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getCurrentBlockDifficulty","outputs":[{"name":"difficulty","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getCurrentBlockGasLimit","outputs":[{"name":"gaslimit","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getCurrentBlockCoinbase","outputs":[{"name":"coinbase","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"blockNumber","type":"uint256"}],"name":"getBlockHash","outputs":[{"name":"blockHash","type":"bytes32"}],"payable":false,"stateMutability":"view","type":"function"}]')
     },
-    265: function(e) {
+    279: function(e) {
       e.exports = JSON.parse('[{"inputs":[{"internalType":"contract ENS","name":"_old","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"operator","type":"address"},{"indexed":false,"internalType":"bool","name":"approved","type":"bool"}],"name":"ApprovalForAll","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"node","type":"bytes32"},{"indexed":true,"internalType":"bytes32","name":"label","type":"bytes32"},{"indexed":false,"internalType":"address","name":"owner","type":"address"}],"name":"NewOwner","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"node","type":"bytes32"},{"indexed":false,"internalType":"address","name":"resolver","type":"address"}],"name":"NewResolver","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"node","type":"bytes32"},{"indexed":false,"internalType":"uint64","name":"ttl","type":"uint64"}],"name":"NewTTL","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"node","type":"bytes32"},{"indexed":false,"internalType":"address","name":"owner","type":"address"}],"name":"Transfer","type":"event"},{"constant":true,"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"operator","type":"address"}],"name":"isApprovedForAll","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"old","outputs":[{"internalType":"contract ENS","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"}],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"}],"name":"recordExists","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"}],"name":"resolver","outputs":[{"internalType":"address","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"operator","type":"address"},{"internalType":"bool","name":"approved","type":"bool"}],"name":"setApprovalForAll","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"address","name":"owner","type":"address"}],"name":"setOwner","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"resolver","type":"address"},{"internalType":"uint64","name":"ttl","type":"uint64"}],"name":"setRecord","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"address","name":"resolver","type":"address"}],"name":"setResolver","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"bytes32","name":"label","type":"bytes32"},{"internalType":"address","name":"owner","type":"address"}],"name":"setSubnodeOwner","outputs":[{"internalType":"bytes32","name":"","type":"bytes32"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"bytes32","name":"label","type":"bytes32"},{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"resolver","type":"address"},{"internalType":"uint64","name":"ttl","type":"uint64"}],"name":"setSubnodeRecord","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"uint64","name":"ttl","type":"uint64"}],"name":"setTTL","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"}],"name":"ttl","outputs":[{"internalType":"uint64","name":"","type":"uint64"}],"payable":false,"stateMutability":"view","type":"function"}]')
     },
-    266: function(e) {
+    280: function(e) {
       e.exports = JSON.parse('[{"inputs":[{"internalType":"contract ENS","name":"_ens","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"node","type":"bytes32"},{"indexed":true,"internalType":"uint256","name":"contentType","type":"uint256"}],"name":"ABIChanged","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"node","type":"bytes32"},{"indexed":false,"internalType":"address","name":"a","type":"address"}],"name":"AddrChanged","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"node","type":"bytes32"},{"indexed":false,"internalType":"uint256","name":"coinType","type":"uint256"},{"indexed":false,"internalType":"bytes","name":"newAddress","type":"bytes"}],"name":"AddressChanged","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"node","type":"bytes32"},{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"target","type":"address"},{"indexed":false,"internalType":"bool","name":"isAuthorised","type":"bool"}],"name":"AuthorisationChanged","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"node","type":"bytes32"},{"indexed":false,"internalType":"bytes","name":"hash","type":"bytes"}],"name":"ContenthashChanged","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"node","type":"bytes32"},{"indexed":false,"internalType":"bytes","name":"name","type":"bytes"},{"indexed":false,"internalType":"uint16","name":"resource","type":"uint16"},{"indexed":false,"internalType":"bytes","name":"record","type":"bytes"}],"name":"DNSRecordChanged","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"node","type":"bytes32"},{"indexed":false,"internalType":"bytes","name":"name","type":"bytes"},{"indexed":false,"internalType":"uint16","name":"resource","type":"uint16"}],"name":"DNSRecordDeleted","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"node","type":"bytes32"}],"name":"DNSZoneCleared","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"node","type":"bytes32"},{"indexed":true,"internalType":"bytes4","name":"interfaceID","type":"bytes4"},{"indexed":false,"internalType":"address","name":"implementer","type":"address"}],"name":"InterfaceChanged","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"node","type":"bytes32"},{"indexed":false,"internalType":"string","name":"name","type":"string"}],"name":"NameChanged","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"node","type":"bytes32"},{"indexed":false,"internalType":"bytes32","name":"x","type":"bytes32"},{"indexed":false,"internalType":"bytes32","name":"y","type":"bytes32"}],"name":"PubkeyChanged","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"node","type":"bytes32"},{"indexed":true,"internalType":"string","name":"indexedKey","type":"string"},{"indexed":false,"internalType":"string","name":"key","type":"string"}],"name":"TextChanged","type":"event"},{"constant":true,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"uint256","name":"contentTypes","type":"uint256"}],"name":"ABI","outputs":[{"internalType":"uint256","name":"","type":"uint256"},{"internalType":"bytes","name":"","type":"bytes"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"}],"name":"addr","outputs":[{"internalType":"address payable","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"internalType":"bytes32","name":"","type":"bytes32"},{"internalType":"address","name":"","type":"address"},{"internalType":"address","name":"","type":"address"}],"name":"authorisations","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"}],"name":"clearDNSZone","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"}],"name":"contenthash","outputs":[{"internalType":"bytes","name":"","type":"bytes"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"bytes32","name":"name","type":"bytes32"},{"internalType":"uint16","name":"resource","type":"uint16"}],"name":"dnsRecord","outputs":[{"internalType":"bytes","name":"","type":"bytes"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"bytes32","name":"name","type":"bytes32"}],"name":"hasDNSRecords","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"bytes4","name":"interfaceID","type":"bytes4"}],"name":"interfaceImplementer","outputs":[{"internalType":"address","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"}],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"}],"name":"pubkey","outputs":[{"internalType":"bytes32","name":"x","type":"bytes32"},{"internalType":"bytes32","name":"y","type":"bytes32"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"uint256","name":"contentType","type":"uint256"},{"internalType":"bytes","name":"data","type":"bytes"}],"name":"setABI","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"uint256","name":"coinType","type":"uint256"},{"internalType":"bytes","name":"a","type":"bytes"}],"name":"setAddr","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"address","name":"a","type":"address"}],"name":"setAddr","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"address","name":"target","type":"address"},{"internalType":"bool","name":"isAuthorised","type":"bool"}],"name":"setAuthorisation","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"bytes","name":"hash","type":"bytes"}],"name":"setContenthash","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"bytes","name":"data","type":"bytes"}],"name":"setDNSRecords","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"bytes4","name":"interfaceID","type":"bytes4"},{"internalType":"address","name":"implementer","type":"address"}],"name":"setInterface","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"string","name":"name","type":"string"}],"name":"setName","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"bytes32","name":"x","type":"bytes32"},{"internalType":"bytes32","name":"y","type":"bytes32"}],"name":"setPubkey","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"string","name":"key","type":"string"},{"internalType":"string","name":"value","type":"string"}],"name":"setText","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"internalType":"bytes4","name":"interfaceID","type":"bytes4"}],"name":"supportsInterface","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"pure","type":"function"},{"constant":true,"inputs":[{"internalType":"bytes32","name":"node","type":"bytes32"},{"internalType":"string","name":"key","type":"string"}],"name":"text","outputs":[{"internalType":"string","name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"}]')
     },
-    267: function(e) {
+    281: function(e) {
       e.exports = JSON.parse('[{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"guy","type":"address"},{"name":"wad","type":"uint256"}],"name":"approve","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"src","type":"address"},{"name":"dst","type":"address"},{"name":"wad","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"wad","type":"uint256"}],"name":"withdraw","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint8"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"balanceOf","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"dst","type":"address"},{"name":"wad","type":"uint256"}],"name":"transfer","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"deposit","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"},{"name":"","type":"address"}],"name":"allowance","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"src","type":"address"},{"indexed":true,"name":"guy","type":"address"},{"indexed":false,"name":"wad","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"src","type":"address"},{"indexed":true,"name":"dst","type":"address"},{"indexed":false,"name":"wad","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"dst","type":"address"},{"indexed":false,"name":"wad","type":"uint256"}],"name":"Deposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"src","type":"address"},{"indexed":false,"name":"wad","type":"uint256"}],"name":"Withdrawal","type":"event"}]')
     },
-    377: function(e, n) {},
-    477: function(e, n, t) {
+    392: function(e, t) {},
+    492: function(e, t) {},
+    512: function(e, t, n) {
       "use strict";
-      t.r(n);
-      var r = t(1),
-        a = t(0),
-        i = t.n(a),
-        c = t(79),
-        o = t.n(c),
-        s = t(3),
-        u = t(9),
-        l = t(4);
-
-      function d() {
-        var e = Object(u.a)(["\n  body {\n    background-color: ", ";\n\n    img {\n      height: auto;\n      max-width: 100%;\n    }\n  }\n"]);
-        return d = function() {
-          return e
-        }, e
-      }
-      var b, f = Object(l.createGlobalStyle)(d(), (function(e) {
+      n.r(t);
+      var r, a, i = n(0),
+        c = n.n(i),
+        o = n(79),
+        s = n.n(o),
+        l = n(3),
+        u = n(9),
+        d = n(4),
+        b = Object(d.createGlobalStyle)(r || (r = Object(u.a)(["\n  body {\n    background-color: ", ";\n\n    img {\n      height: auto;\n      max-width: 100%;\n    }\n  }\n"])), (function(e) {
           return e.theme.colors.background
         })),
-        p = t(7),
-        j = t.n(p),
-        m = t(32),
-        h = t(11),
-        y = t(43),
-        v = t(44),
-        O = t(251),
-        x = t(22),
-        g = t(59),
-        C = t(123),
-        w = t(17),
-        T = t(168),
-        k = t(254),
-        I = t(255),
-        E = t(256),
-        N = t(257),
-        R = t(12),
-        S = t(124),
-        U = t(10),
-        A = t(14),
-        B = t(15),
-        P = t(126),
-        D = t(84),
-        M = t(20),
+        p = n(7),
+        j = n.n(p),
+        f = n(31),
+        h = n(11),
+        m = n(43),
+        y = n(44),
+        O = n(270),
+        v = n(21),
+        x = n(56),
+        g = n(125),
+        C = n(17),
+        w = n(183),
+        k = n(126),
+        T = n(127),
+        I = n(272),
+        E = n(144),
+        N = n(12),
+        R = n(128),
+        S = n(10),
+        U = n(14),
+        A = n(15),
+        P = n(129),
+        B = n(84),
+        M = n(20),
         L = function(e) {
-          Object(A.a)(t, e);
-          var n = Object(B.a)(t);
+          Object(U.a)(n, e);
+          var t = Object(A.a)(n);
 
-          function t(e, r, a) {
+          function n(e, r, a) {
             var i;
-            return Object(U.a)(this, t), (i = n.call(this, e)).code = r, i.data = a, i
+            return Object(S.a)(this, n), (i = t.call(this, e)).code = r, i.data = a, i
           }
-          return t
+          return n
         }(Object(P.a)(Error)),
-        _ = function e(n, t, r) {
+        D = function e(t, n, r) {
           var a = this;
-          Object(U.a)(this, e), this.isMetaMask = !1, this.chainId = void 0, this.url = void 0, this.host = void 0, this.path = void 0, this.batchWaitTimeMs = void 0, this.nextId = 1, this.batchTimeoutId = null, this.batch = [], this.clearBatch = Object(m.a)(j.a.mark((function e() {
-            var n, t, r, i, c, o, s, u, l, d, b, f, p, m;
+          Object(S.a)(this, e), this.isMetaMask = !1, this.chainId = void 0, this.url = void 0, this.host = void 0, this.path = void 0, this.batchWaitTimeMs = void 0, this.nextId = 1, this.batchTimeoutId = null, this.batch = [], this.clearBatch = Object(f.a)(j.a.mark((function e() {
+            var t, n, r, i, c, o, s, l, u, d, b, p, f, h;
             return j.a.wrap((function(e) {
               for (;;) switch (e.prev = e.next) {
                 case 0:
-                  return console.info("Clearing batch", a.batch), n = a.batch, a.batch = [], a.batchTimeoutId = null, e.prev = 4, e.next = 7, fetch(a.url, {
+                  return console.info("Clearing batch", a.batch), t = a.batch, a.batch = [], a.batchTimeoutId = null, e.prev = 4, e.next = 7, fetch(a.url, {
                     method: "POST",
                     headers: {
                       "content-type": "application/json",
                       accept: "application/json"
                     },
-                    body: JSON.stringify(n.map((function(e) {
+                    body: JSON.stringify(t.map((function(e) {
                       return e.request
                     })))
                   });
                 case 7:
-                  t = e.sent, e.next = 14;
+                  n = e.sent, e.next = 14;
                   break;
                 case 10:
-                  return e.prev = 10, e.t0 = e.catch(4), n.forEach((function(e) {
+                  return e.prev = 10, e.t0 = e.catch(4), t.forEach((function(e) {
                     return (0, e.reject)(new Error("Failed to send batch call"))
                   })), e.abrupt("return");
                 case 14:
-                  if (t.ok) {
+                  if (n.ok) {
                     e.next = 17;
                     break
                   }
-                  return n.forEach((function(e) {
-                    return (0, e.reject)(new L("".concat(t.status, ": ").concat(t.statusText), -32e3))
+                  return t.forEach((function(e) {
+                    return (0, e.reject)(new L("".concat(n.status, ": ").concat(n.statusText), -32e3))
                   })), e.abrupt("return");
                 case 17:
-                  return e.prev = 17, e.next = 20, t.json();
+                  return e.prev = 17, e.next = 20, n.json();
                 case 20:
                   r = e.sent, e.next = 27;
                   break;
                 case 23:
-                  return e.prev = 23, e.t1 = e.catch(17), n.forEach((function(e) {
+                  return e.prev = 23, e.t1 = e.catch(17), t.forEach((function(e) {
                     return (0, e.reject)(new Error("Failed to parse JSON response"))
                   })), e.abrupt("return");
                 case 27:
-                  i = n.reduce((function(e, n) {
-                    return e[n.request.id] = n, e
-                  }), {}), c = Object(S.a)(r);
+                  i = t.reduce((function(e, t) {
+                    return e[t.request.id] = t, e
+                  }), {}), c = Object(R.a)(r);
                   try {
-                    for (c.s(); !(o = c.n()).done;) s = o.value, u = i[s.id], l = u.resolve, d = u.reject, b = u.request.method, l && d && ("error" in s ? d(new L(null === s || void 0 === s || null === (f = s.error) || void 0 === f ? void 0 : f.message, null === s || void 0 === s || null === (p = s.error) || void 0 === p ? void 0 : p.code, null === s || void 0 === s || null === (m = s.error) || void 0 === m ? void 0 : m.data)) : "result" in s ? l(s.result) : d(new L("Received unexpected JSON-RPC response to ".concat(b, " request."), -32e3, s)))
+                    for (c.s(); !(o = c.n()).done;) s = o.value, l = i[s.id], u = l.resolve, d = l.reject, b = l.request.method, u && ("error" in s ? d(new L(null === s || void 0 === s || null === (p = s.error) || void 0 === p ? void 0 : p.message, null === s || void 0 === s || null === (f = s.error) || void 0 === f ? void 0 : f.code, null === s || void 0 === s || null === (h = s.error) || void 0 === h ? void 0 : h.data)) : "result" in s ? u(s.result) : d(new L("Received unexpected JSON-RPC response to ".concat(b, " request."), -32e3, s)))
                   } catch (j) {
                     c.e(j)
                   } finally {
@@ -137,29 +130,29 @@
               [4, 10],
               [17, 23]
             ])
-          }))), this.sendAsync = function(e, n) {
-            a.request(e.method, e.params).then((function(t) {
-              return n(null, {
+          }))), this.sendAsync = function(e, t) {
+            a.request(e.method, e.params).then((function(n) {
+              return t(null, {
                 jsonrpc: "2.0",
                 id: e.id,
-                result: t
+                result: n
               })
             })).catch((function(e) {
-              return n(e, null)
+              return t(e, null)
             }))
           }, this.request = function() {
-            var e = Object(m.a)(j.a.mark((function e(n, t) {
+            var e = Object(f.a)(j.a.mark((function e(t, n) {
               var r, i;
               return j.a.wrap((function(e) {
                 for (;;) switch (e.prev = e.next) {
                   case 0:
-                    if ("string" === typeof n) {
+                    if ("string" === typeof t) {
                       e.next = 2;
                       break
                     }
-                    return e.abrupt("return", a.request(n.method, n.params));
+                    return e.abrupt("return", a.request(t.method, t.params));
                   case 2:
-                    if ("eth_chainId" !== n) {
+                    if ("eth_chainId" !== t) {
                       e.next = 4;
                       break
                     }
@@ -170,8 +163,8 @@
                         request: {
                           jsonrpc: "2.0",
                           id: a.nextId++,
-                          method: n,
-                          params: t
+                          method: t,
+                          params: n
                         },
                         resolve: e,
                         reject: r
@@ -183,32 +176,37 @@
                 }
               }), e)
             })));
-            return function(n, t) {
+            return function(t, n) {
               return e.apply(this, arguments)
             }
-          }(), this.chainId = n, this.url = t;
-          var i = new URL(t);
+          }(), this.chainId = t, this.url = n;
+          var i = new URL(n);
           this.host = i.host, this.path = i.pathname, this.batchWaitTimeMs = null !== r && void 0 !== r ? r : 50
         },
-        F = function(e) {
-          Object(A.a)(t, e);
-          var n = Object(B.a)(t);
+        _ = function(e) {
+          Object(U.a)(n, e);
+          var t = Object(A.a)(n);
 
-          function t(e) {
+          function n(e) {
             var r, a = e.urls,
               i = e.defaultChainId;
-            return Object(U.a)(this, t), Object(M.a)(i || 1 === Object.keys(a).length, "defaultChainId is a required argument with >1 url"), (r = n.call(this, {
+            return Object(S.a)(this, n), Object(M.a)(i || 1 === Object.keys(a).length, "defaultChainId is a required argument with >1 url"), (r = t.call(this, {
               supportedChainIds: Object.keys(a).map((function(e) {
                 return Number(e)
               }))
-            })).providers = void 0, r.currentChainId = void 0, r.currentChainId = i || Number(Object.keys(a)[0]), r.providers = Object.keys(a).reduce((function(e, n) {
-              return e[Number(n)] = new _(Number(n), a[Number(n)]), e
+            })).providers = void 0, r.currentChainId = void 0, r.currentChainId = i || Number(Object.keys(a)[0]), r.providers = Object.keys(a).reduce((function(e, t) {
+              return e[Number(t)] = new D(Number(t), a[Number(t)]), e
             }), {}), r
           }
-          return Object(R.a)(t, [{
+          return Object(N.a)(n, [{
+            key: "provider",
+            get: function() {
+              return this.providers[this.currentChainId]
+            }
+          }, {
             key: "activate",
             value: function() {
-              var e = Object(m.a)(j.a.mark((function e() {
+              var e = Object(f.a)(j.a.mark((function e() {
                 return j.a.wrap((function(e) {
                   for (;;) switch (e.prev = e.next) {
                     case 0:
@@ -230,7 +228,7 @@
           }, {
             key: "getProvider",
             value: function() {
-              var e = Object(m.a)(j.a.mark((function e() {
+              var e = Object(f.a)(j.a.mark((function e() {
                 return j.a.wrap((function(e) {
                   for (;;) switch (e.prev = e.next) {
                     case 0:
@@ -248,7 +246,7 @@
           }, {
             key: "getChainId",
             value: function() {
-              var e = Object(m.a)(j.a.mark((function e() {
+              var e = Object(f.a)(j.a.mark((function e() {
                 return j.a.wrap((function(e) {
                   for (;;) switch (e.prev = e.next) {
                     case 0:
@@ -266,7 +264,7 @@
           }, {
             key: "getAccount",
             value: function() {
-              var e = Object(m.a)(j.a.mark((function e() {
+              var e = Object(f.a)(j.a.mark((function e() {
                 return j.a.wrap((function(e) {
                   for (;;) switch (e.prev = e.next) {
                     case 0:
@@ -286,178 +284,120 @@
             value: function() {
               return null
             }
-          }, {
-            key: "provider",
-            get: function() {
-              return this.providers[this.currentChainId]
-            }
-          }]), t
-        }(D.AbstractConnector),
-        Y = "https://bsc-dataseed1.defibit.io",
-        z = parseInt(("56", "56"));
-      var q, V = new F({
-        urls: Object(w.a)({}, z, Y)
+          }]), n
+        }(B.AbstractConnector),
+        Y = "https://data-seed-prebsc-1-s1.binance.org:8545",
+        z = parseInt(null !== "97" ? "97" : "56");
+      var F, q = new _({
+        urls: Object(C.a)({}, z, Y)
       });
-      var W, H = new k.a({
-          supportedChainIds: [56]
+      var V, W = new k.a({
+          supportedChainIds: [97]
         }),
-        G = new N.BscConnector({
-          supportedChainIds: [56]
+        H = new E.BscConnector({
+          supportedChainIds: [97]
         }),
-        K = new I.a({
-          rpc: Object(w.a)({}, z, Y),
+        Q = new T.b({
+          rpc: Object(C.a)({}, z, Y),
           bridge: "https://bridge.walletconnect.org",
           qrcode: !0,
           pollingInterval: 15e3
         }),
-        Q = (new E.a({
+        K = (new I.a({
           url: Y,
           appName: "Uniswap",
           appLogoUrl: "https://mpng.pngfly.com/20181202/bex/kisspng-emoji-domain-unicorn-pin-badges-sticker-unicorn-tumblr-emoji-unicorn-iphoneemoji-5c046729264a77.5671679315437924251569.jpg"
-        }), b = {}, Object(w.a)(b, s.l.Injected, H), Object(w.a)(b, s.l.WalletConnect, K), Object(w.a)(b, s.l.BSC, G), b),
-        X = t(27),
-        J = t(13),
-        Z = t(5),
-        $ = "0x86ad49A1d665087C6Cce9D5874b8Bc2a23e0F8A0",
-        ee = new Z.j(Z.a.MAINNET, "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3", 18, "DAI", "Dai Stablecoin"),
-        ne = new Z.j(Z.a.MAINNET, "0xe9e7cea3dedca5984780bafc599bd69add087d56", 18, "BUSD", "Binance USD"),
-        te = new Z.j(Z.a.MAINNET, "0x55d398326f99059ff775485246999027b3197955", 18, "USDT", "Tether USD"),
-        re = new Z.j(Z.a.MAINNET, "0x23396cf899ca06c4472205fc903bdb4de249d6fc", 18, "UST", "Wrapped UST Token"),
-        ae = new Z.j(Z.a.MAINNET, "0x2170ed0880ac9a755fd29b2688956bd959f933f8", 18, "ETH", "Binance-Peg Ethereum Token"),
-        ie = (W = {}, Object(w.a)(W, Z.a.MAINNET, [Z.n[Z.a.MAINNET]]), Object(w.a)(W, Z.a.BSCTESTNET, [Z.n[Z.a.BSCTESTNET]]), W),
-        ce = Object(J.a)(Object(J.a)({}, ie), {}, Object(w.a)({}, Z.a.MAINNET, [].concat(Object(X.a)(ie[Z.a.MAINNET]), [ee, ne, te, re, ae]))),
-        oe = Object(w.a)({}, Z.a.MAINNET, {}),
-        se = Object(J.a)(Object(J.a)({}, ie), {}, Object(w.a)({}, Z.a.MAINNET, [].concat(Object(X.a)(ie[Z.a.MAINNET]), [ee, ne, te]))),
-        ue = Object(J.a)(Object(J.a)({}, ie), {}, Object(w.a)({}, Z.a.MAINNET, [].concat(Object(X.a)(ie[Z.a.MAINNET]), [ee, ne, te]))),
-        le = Object(w.a)({}, Z.a.MAINNET, [
-          [new Z.j(Z.a.MAINNET, "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", 18, "CAKE", "PancakeSwap Token"), new Z.j(Z.a.MAINNET, "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c", 18, "WBNB", "Wrapped BNB")],
+        }), a = {}, Object(C.a)(a, l.l.Injected, W), Object(C.a)(a, l.l.WalletConnect, Q), Object(C.a)(a, l.l.BSC, H), a),
+        G = n(27),
+        X = n(13),
+        J = n(6),
+        $ = "0xa4208bBe230c99685ba3985203061B73F049637A",
+        Z = J.a.BSCTESTNET,
+        ee = new J.j(Z, "0x8a9424745056Eb399FD19a0EC26A14316684e274", 18, "DAI", "Dai Stablecoin"),
+        te = new J.j(Z, "0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7", 18, "BUSD", "Binance USD"),
+        ne = new J.j(Z, "0x7ef95a0fee0dd31b22626fa2e10ee6a223f8a684", 18, "USDT", "Tether USD"),
+        re = new J.j(Z, "0x8babbb98678facc7342735486c851abd7a0d17ca", 18, "ETH", "Ethereum"),
+        ae = new J.j(Z, "0xae13d989dac2f0debff460ac112a837c89baa7cd", 18, "WBNB", "Wrapped BNB"),
+        ie = (V = {}, Object(C.a)(V, J.a.MAINNET, [J.n[J.a.MAINNET]]), Object(C.a)(V, J.a.BSCTESTNET, [J.n[J.a.BSCTESTNET]]), V),
+        ce = Object(X.a)(Object(X.a)({}, ie), {}, Object(C.a)({}, Z, [].concat(Object(G.a)(ie[Z]), [ee, te, ne, re]))),
+        oe = Object(C.a)({}, Z, {}),
+        se = Object(X.a)(Object(X.a)({}, ie), {}, Object(C.a)({}, Z, [].concat(Object(G.a)(ie[Z]), [ee, te, ne]))),
+        le = Object(X.a)(Object(X.a)({}, ie), {}, Object(C.a)({}, Z, [].concat(Object(G.a)(ie[Z]), [ee, te, ne]))),
+        ue = Object(C.a)({}, Z, [
+          [te, ae],
           [ne, te],
-          [ee, te]
+          [ne, ae],
+          [ee, ne],
+          [ee, ae]
         ]),
         de = "NETWORK",
         be = 80,
-        fe = 1200,
-        pe = new Z.g(Z.e.BigInt(1), Z.e.BigInt(1e4)),
-        je = Z.e.BigInt(1e4),
-        me = new Z.g(Z.e.BigInt(100), je),
-        he = new Z.g(Z.e.BigInt(300), je),
-        ye = new Z.g(Z.e.BigInt(500), je),
-        ve = new Z.g(Z.e.BigInt(1e3), je),
-        Oe = new Z.g(Z.e.BigInt(1500), je),
-        xe = Z.e.exponentiate(Z.e.BigInt(10), Z.e.BigInt(16));
+        pe = 1200,
+        je = new J.g(J.e.BigInt(1), J.e.BigInt(1e4)),
+        fe = J.e.BigInt(1e4),
+        he = new J.g(J.e.BigInt(100), fe),
+        me = new J.g(J.e.BigInt(300), fe),
+        ye = new J.g(J.e.BigInt(500), fe),
+        Oe = new J.g(J.e.BigInt(1e3), fe),
+        ve = new J.g(J.e.BigInt(1500), fe),
+        xe = J.e.exponentiate(J.e.BigInt(10), J.e.BigInt(16));
 
       function ge() {
-        var e = Object(g.c)(),
-          n = Object(g.c)(de);
-        return e.active ? e : n
+        var e = Object(x.d)(),
+          t = Object(x.d)(de);
+        return e.active ? e : t
       }
-      var Ce = t(21),
-        we = Object(Ce.b)("app/updateBlockNumber"),
-        Te = Object(Ce.b)("app/toggleWalletModal"),
-        ke = Object(Ce.b)("app/toggleSettingsMenu"),
-        Ie = Object(Ce.b)("app/addPopup"),
-        Ee = Object(Ce.b)("app/removePopup");
+      var Ce, we, ke, Te = n(22),
+        Ie = Object(Te.b)("app/updateBlockNumber"),
+        Ee = Object(Te.b)("app/toggleWalletModal"),
+        Ne = Object(Te.b)("app/toggleSettingsMenu"),
+        Re = Object(Te.b)("app/addPopup"),
+        Se = Object(Te.b)("app/removePopup");
 
-      function Ne() {
+      function Ue() {
         var e = ge().chainId;
-        return Object(x.d)((function(n) {
-          return n.application.blockNumber[null !== e && void 0 !== e ? e : -1]
+        return Object(v.d)((function(t) {
+          return t.application.blockNumber[null !== e && void 0 !== e ? e : -1]
         }))
       }
 
-      function Re() {
-        var e = Object(x.c)();
-        return Object(a.useCallback)((function(n) {
-          e(Ee({
-            key: n
+      function Ae() {
+        var e = Object(v.c)();
+        return Object(i.useCallback)((function(t) {
+          e(Se({
+            key: t
           }))
         }), [e])
       }
-
-      function Se() {
-        var e = Object(u.a)(["\n  display: grid;\n  grid-auto-rows: auto;\n  grid-row-gap: ", ";\n  justify-items: ", ";\n"]);
-        return Se = function() {
-          return e
-        }, e
-      }
-
-      function Ue() {
-        var e = Object(u.a)(["\n  width: 100%;\n  align-items: center;\n"]);
-        return Ue = function() {
-          return e
-        }, e
-      }
-
-      function Ae() {
-        var e = Object(u.a)(["\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n"]);
-        return Ae = function() {
-          return e
-        }, e
-      }
-      var Be = l.default.div(Ae()),
-        Pe = Object(l.default)(Be)(Ue()),
-        De = l.default.div(Se(), (function(e) {
-          var n = e.gap;
-          return ("sm" === n ? "8px" : "md" === n && "12px") || "lg" === n && "24px" || n
+      var Pe = d.default.div(Ce || (Ce = Object(u.a)(["\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n"]))),
+        Be = Object(d.default)(Pe)(we || (we = Object(u.a)(["\n  width: 100%;\n  align-items: center;\n"]))),
+        Me = d.default.div(ke || (ke = Object(u.a)(["\n  display: grid;\n  grid-auto-rows: auto;\n  grid-row-gap: ", ";\n  justify-items: ", ";\n"])), (function(e) {
+          var t = e.gap;
+          return ("sm" === t ? "8px" : "md" === t && "12px") || "lg" === t && "24px" || t
         }), (function(e) {
-          var n = e.justify;
-          return n && n
+          var t = e.justify;
+          return t && t
         })),
-        Me = Be,
-        Le = t(493),
-        _e = t(95),
-        Fe = t(67),
-        Ye = {
-          pending: Object(Ce.b)("lists/fetchTokenList/pending"),
-          fulfilled: Object(Ce.b)("lists/fetchTokenList/fulfilled"),
-          rejected: Object(Ce.b)("lists/fetchTokenList/rejected")
+        Le = Pe,
+        De = n(527),
+        _e = n(96),
+        Ye = n(68),
+        ze = {
+          pending: Object(Te.b)("lists/fetchTokenList/pending"),
+          fulfilled: Object(Te.b)("lists/fetchTokenList/fulfilled"),
+          rejected: Object(Te.b)("lists/fetchTokenList/rejected")
         },
-        ze = Object(Ce.b)("lists/acceptListUpdate"),
-        qe = Object(Ce.b)("lists/addList"),
-        Ve = Object(Ce.b)("lists/removeList"),
-        We = Object(Ce.b)("lists/selectList");
-      Object(Ce.b)("lists/rejectVersionUpdate");
+        Fe = Object(Te.b)("lists/acceptListUpdate"),
+        qe = Object(Te.b)("lists/addList"),
+        Ve = Object(Te.b)("lists/removeList"),
+        We = Object(Te.b)("lists/selectList");
+      Object(Te.b)("lists/rejectVersionUpdate");
 
       function He(e) {
         return "v".concat(e.major, ".").concat(e.minor, ".").concat(e.patch)
       }
-      var Ge = t(261);
-
-      function Ke() {
-        var e = Object(u.a)(["\n  width: fit-content;\n  margin: ", ";\n"]);
-        return Ke = function() {
-          return e
-        }, e
-      }
-
-      function Qe() {
-        var e = Object(u.a)(["\n  flex-wrap: wrap;\n  margin: ", ";\n  justify-content: ", ";\n\n  & > * {\n    margin: ", " !important;\n  }\n"]);
-        return Qe = function() {
-          return e
-        }, e
-      }
-
-      function Xe() {
-        var e = Object(u.a)(["\n  display: flex;\n  align-items: flex-end;\n"]);
-        return Xe = function() {
-          return e
-        }, e
-      }
-
-      function Je() {
-        var e = Object(u.a)(["\n  justify-content: space-between;\n"]);
-        return Je = function() {
-          return e
-        }, e
-      }
-
-      function Ze() {
-        var e = Object(u.a)(["\n  width: 100%;\n  display: flex;\n  padding: 0;\n  align-items: ", ";\n  padding: ", ";\n  border: ", ";\n  border-radius: ", ";\n"]);
-        return Ze = function() {
-          return e
-        }, e
-      }
-      var $e = Object(l.default)(Ge.Box)(Ze(), (function(e) {
+      var Qe, Ke, Ge, Xe, Je, $e = n(275),
+        Ze = Object(d.default)($e.Box)(Qe || (Qe = Object(u.a)(["\n  width: 100%;\n  display: flex;\n  padding: 0;\n  align-items: ", ";\n  padding: ", ";\n  border: ", ";\n  border-radius: ", ";\n"])), (function(e) {
           return e.align || "center"
         }), (function(e) {
           return e.padding
@@ -466,102 +406,103 @@
         }), (function(e) {
           return e.borderRadius
         })),
-        en = Object(l.default)($e)(Je()),
-        nn = l.default.div(Xe()),
-        tn = Object(l.default)($e)(Qe(), (function(e) {
-          var n = e.gap;
-          return n && "-".concat(n)
+        et = Object(d.default)(Ze)(Ke || (Ke = Object(u.a)(["\n  justify-content: space-between;\n"]))),
+        tt = d.default.div(Ge || (Ge = Object(u.a)(["\n  display: flex;\n  align-items: flex-end;\n"]))),
+        nt = Object(d.default)(Ze)(Xe || (Xe = Object(u.a)(["\n  flex-wrap: wrap;\n  margin: ", ";\n  justify-content: ", ";\n\n  & > * {\n    margin: ", " !important;\n  }\n"])), (function(e) {
+          var t = e.gap;
+          return t && "-".concat(t)
         }), (function(e) {
-          var n = e.justify;
-          return n && n
+          var t = e.justify;
+          return t && t
         }), (function(e) {
           return e.gap
         })),
-        rn = Object(l.default)($e)(Ke(), (function(e) {
-          var n = e.gap;
-          return n && "-".concat(n)
+        rt = Object(d.default)(Ze)(Je || (Je = Object(u.a)(["\n  width: fit-content;\n  margin: ", ";\n"])), (function(e) {
+          var t = e.gap;
+          return t && "-".concat(t)
         })),
-        an = $e;
+        at = Ze,
+        it = n(1);
 
-      function cn(e) {
-        var n = e.popKey,
-          t = e.listUrl,
-          c = e.oldList,
-          o = e.newList,
-          u = e.auto,
-          l = Re(),
-          d = Object(a.useCallback)((function() {
-            return l(n)
-          }), [n, l]),
-          b = Object(x.c)(),
-          f = Object(a.useCallback)((function() {
-            u || (b(ze(t)), d())
-          }), [u, b, t, d]),
-          p = Object(a.useMemo)((function() {
-            return Object(Fe.b)(c.tokens, o.tokens)
-          }), [o.tokens, c.tokens]),
+      function ct(e) {
+        var t = e.popKey,
+          n = e.listUrl,
+          r = e.oldList,
+          a = e.newList,
+          o = e.auto,
+          s = Ae(),
+          u = Object(i.useCallback)((function() {
+            return s(t)
+          }), [t, s]),
+          d = Object(v.c)(),
+          b = Object(i.useCallback)((function() {
+            o || (d(Fe(n)), u())
+          }), [o, d, n, u]),
+          p = Object(i.useMemo)((function() {
+            return Object(Ye.b)(r.tokens, a.tokens)
+          }), [a.tokens, r.tokens]),
           j = p.added,
-          m = p.changed,
+          f = p.changed,
           h = p.removed,
-          y = Object(a.useMemo)((function() {
-            return Object.keys(m).reduce((function(e, n) {
-              return e + Object.keys(m[n]).length
+          m = Object(i.useMemo)((function() {
+            return Object.keys(f).reduce((function(e, t) {
+              return e + Object.keys(f[t]).length
             }), 0)
-          }), [m]);
-        return Object(r.jsx)(tn, {
-          children: Object(r.jsx)(De, {
+          }), [f]);
+        return Object(it.jsx)(nt, {
+          children: Object(it.jsx)(Me, {
             style: {
               flex: "1"
             },
             gap: "8px",
-            children: u ? Object(r.jsxs)(s.y, {
-              children: ['The token list "', c.name, '" has been updated to', " ", Object(r.jsx)("strong", {
-                children: He(o.version)
+            children: o ? Object(it.jsxs)(l.y, {
+              children: ['The token list "', r.name, '" has been updated to', " ", Object(it.jsx)("strong", {
+                children: He(a.version)
               }), "."]
-            }) : Object(r.jsxs)(r.Fragment, {
-              children: [Object(r.jsxs)("div", {
-                children: [Object(r.jsxs)(s.y, {
+            }) : Object(it.jsxs)(it.Fragment, {
+              children: [Object(it.jsxs)("div", {
+                children: [Object(it.jsxs)(l.y, {
                   fontSize: "14px",
-                  children: ['An update is available for the token list "', c.name, '" (', He(c.version), " to ", He(o.version), ")."]
-                }), Object(r.jsxs)("ul", {
-                  children: [j.length > 0 ? Object(r.jsxs)("li", {
-                    children: [j.map((function(e, n) {
-                      return Object(r.jsxs)(i.a.Fragment, {
-                        children: [Object(r.jsx)("strong", {
+                  children: ['An update is available for the token list "', r.name, '" (', He(r.version), " to ", He(a.version), ")."]
+                }), Object(it.jsxs)("ul", {
+                  children: [j.length > 0 ? Object(it.jsxs)("li", {
+                    children: [j.map((function(e, t) {
+                      return Object(it.jsxs)(c.a.Fragment, {
+                        children: [Object(it.jsx)("strong", {
                           title: e.address,
                           children: e.symbol
-                        }), n === j.length - 1 ? null : ", "]
+                        }), t === j.length - 1 ? null : ", "]
                       }, "".concat(e.chainId, "-").concat(e.address))
                     })), " ", "added"]
-                  }) : null, h.length > 0 ? Object(r.jsxs)("li", {
-                    children: [h.map((function(e, n) {
-                      return Object(r.jsxs)(i.a.Fragment, {
-                        children: [Object(r.jsx)("strong", {
+                  }) : null, h.length > 0 ? Object(it.jsxs)("li", {
+                    children: [h.map((function(e, t) {
+                      return Object(it.jsxs)(c.a.Fragment, {
+                        children: [Object(it.jsx)("strong", {
                           title: e.address,
                           children: e.symbol
-                        }), n === h.length - 1 ? null : ", "]
+                        }), t === h.length - 1 ? null : ", "]
                       }, "".concat(e.chainId, "-").concat(e.address))
                     })), " ", "removed"]
-                  }) : null, y > 0 ? Object(r.jsxs)("li", {
-                    children: [y, " tokens updated"]
+                  }) : null, m > 0 ? Object(it.jsxs)("li", {
+                    children: [m, " tokens updated"]
                   }) : null]
                 })]
-              }), Object(r.jsxs)(tn, {
-                children: [Object(r.jsx)("div", {
+              }), Object(it.jsxs)(nt, {
+                children: [Object(it.jsx)("div", {
                   style: {
                     flexGrow: 1,
                     marginRight: 12
                   },
-                  children: Object(r.jsx)(s.c, {
-                    onClick: f,
+                  children: Object(it.jsx)(l.c, {
+                    onClick: b,
                     children: "Accept update"
                   })
-                }), Object(r.jsx)("div", {
+                }), Object(it.jsx)("div", {
                   style: {
                     flexGrow: 1
                   },
-                  children: Object(r.jsx)(s.c, {
-                    onClick: d,
+                  children: Object(it.jsx)(l.c, {
+                    onClick: u,
                     children: "Dismiss"
                   })
                 })]
@@ -570,250 +511,187 @@
           })
         })
       }
-      var on = t(491),
-        sn = t(492),
-        un = t(96),
-        ln = t(30),
-        dn = t(480),
-        bn = t(24),
-        fn = t(262);
+      var ot = n(525),
+        st = n(526),
+        lt = n(99),
+        ut = n(29),
+        dt = n(514),
+        bt = n(24),
+        pt = n(276);
 
-      function pn(e) {
+      function jt(e) {
         try {
-          return Object(ln.getAddress)(e)
-        } catch (n) {
+          return Object(ut.getAddress)(e)
+        } catch (t) {
           return !1
         }
       }
-      var jn = {
+      var ft = {
         56: "",
         97: "testnet."
       };
 
-      function mn(e, n, t) {
-        var r = "https://".concat(jn[e] || jn[Z.a.MAINNET], "bscscan.com");
-        switch (t) {
+      function ht(e, t, n) {
+        var r = "https://".concat(ft[e] || ft[J.a.MAINNET], "bscscan.com");
+        switch (n) {
           case "transaction":
-            return "".concat(r, "/tx/").concat(n);
+            return "".concat(r, "/tx/").concat(t);
           case "token":
-            return "".concat(r, "/token/").concat(n);
+            return "".concat(r, "/token/").concat(t);
           case "address":
           default:
-            return "".concat(r, "/address/").concat(n)
+            return "".concat(r, "/address/").concat(t)
         }
       }
 
-      function hn(e) {
-        var n = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : 4,
-          t = pn(e);
-        if (!t) throw Error("Invalid 'address' parameter '".concat(e, "'."));
-        return "".concat(t.substring(0, n + 2), "...").concat(t.substring(42 - n))
+      function mt(e) {
+        var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : 4,
+          n = jt(e);
+        if (!n) throw Error("Invalid 'address' parameter '".concat(e, "'."));
+        return "".concat(n.substring(0, t + 2), "...").concat(n.substring(42 - t))
       }
 
-      function yn(e) {
-        return e.mul(bn.a.from(1e4).add(bn.a.from(1e3))).div(bn.a.from(1e4))
+      function yt(e) {
+        return e.mul(bt.a.from(1e4).add(bt.a.from(1e3))).div(bt.a.from(1e4))
       }
 
-      function vn(e, n) {
-        if (n < 0 || n > 1e4) throw Error("Unexpected slippage value: ".concat(n));
-        return [Z.e.divide(Z.e.multiply(e.raw, Z.e.BigInt(1e4 - n)), Z.e.BigInt(1e4)), Z.e.divide(Z.e.multiply(e.raw, Z.e.BigInt(1e4 + n)), Z.e.BigInt(1e4))]
+      function Ot(e, t) {
+        if (t < 0 || t > 1e4) throw Error("Unexpected slippage value: ".concat(t));
+        return [J.e.divide(J.e.multiply(e.raw, J.e.BigInt(1e4 - t)), J.e.BigInt(1e4)), J.e.divide(J.e.multiply(e.raw, J.e.BigInt(1e4 + t)), J.e.BigInt(1e4))]
       }
 
-      function On(e, n, t, r) {
-        if (!pn(e) || e === dn.a) throw Error("Invalid 'address' parameter '".concat(e, "'."));
-        return new un.a(e, n, function(e, n) {
-          return n ? function(e, n) {
-            return e.getSigner(n).connectUnchecked()
-          }(e, n) : e
-        }(t, r))
+      function vt(e, t, n, r) {
+        if (!jt(e) || e === dt.a) throw Error("Invalid 'address' parameter '".concat(e, "'."));
+        return new lt.a(e, t, function(e, t) {
+          return t ? function(e, t) {
+            return e.getSigner(t).connectUnchecked()
+          }(e, t) : e
+        }(n, r))
       }
 
-      function xn(e, n, t) {
-        return On($, fn.a, n, t)
+      function xt(e, t, n) {
+        return vt($, pt.a, t, n)
       }
-      var gn = t(57);
-
-      function Cn() {
-        var e = Object(u.a)(["\n  animation: 2s ", " linear infinite;\n  width: 16px;\n  height: 16px;\n"]);
-        return Cn = function() {
-          return e
-        }, e
-      }
-
-      function wn() {
-        var e = Object(u.a)(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"]);
-        return wn = function() {
-          return e
-        }, e
-      }
-
-      function Tn() {
-        var e = Object(u.a)(["\n  text-decoration: none;\n  cursor: pointer;\n  color: ", ";\n  font-weight: 500;\n\n  :hover {\n    text-decoration: underline;\n  }\n\n  :focus {\n    outline: none;\n    text-decoration: underline;\n  }\n\n  :active {\n    text-decoration: none;\n  }\n"]);
-        return Tn = function() {
-          return e
-        }, e
-      }
-
-      function kn() {
-        var e = Object(u.a)(["\n  text-decoration: none;\n  cursor: pointer;\n  color: ", ";\n  font-weight: 500;\n\n  :hover {\n    text-decoration: underline;\n  }\n\n  :focus {\n    outline: none;\n    text-decoration: underline;\n  }\n\n  :active {\n    text-decoration: none;\n  }\n"]);
-        return kn = function() {
-          return e
-        }, e
-      }
-
-      function In() {
-        var e = Object(u.a)(["\n  border: none;\n  text-decoration: none;\n  background: none;\n\n  cursor: ", ";\n  color: ", ";\n  font-weight: 500;\n\n  :hover {\n    text-decoration: ", ";\n  }\n\n  :focus {\n    outline: none;\n    text-decoration: ", ";\n  }\n\n  :active {\n    text-decoration: none;\n  }\n"]);
-        return In = function() {
-          return e
-        }, e
-      }
-      var En = l.default.button(In(), (function(e) {
+      var gt, Ct, wt, kt, Tt, It = n(58),
+        Et = d.default.button(gt || (gt = Object(u.a)(["\n  border: none;\n  text-decoration: none;\n  background: none;\n\n  cursor: ", ";\n  color: ", ";\n  font-weight: 500;\n\n  :hover {\n    text-decoration: ", ";\n  }\n\n  :focus {\n    outline: none;\n    text-decoration: ", ";\n  }\n\n  :active {\n    text-decoration: none;\n  }\n"])), (function(e) {
           return e.disabled ? "default" : "pointer"
         }), (function(e) {
-          var n = e.theme;
-          return e.disabled ? n.colors.textSubtle : n.colors.primary
+          var t = e.theme;
+          return e.disabled ? t.colors.textSubtle : t.colors.primary
         }), (function(e) {
           return e.disabled ? null : "underline"
         }), (function(e) {
           return e.disabled ? null : "underline"
         })),
-        Nn = Object(l.default)(y.b)(kn(), (function(e) {
+        Nt = Object(d.default)(m.b)(Ct || (Ct = Object(u.a)(["\n  text-decoration: none;\n  cursor: pointer;\n  color: ", ";\n  font-weight: 500;\n\n  :hover {\n    text-decoration: underline;\n  }\n\n  :focus {\n    outline: none;\n    text-decoration: underline;\n  }\n\n  :active {\n    text-decoration: none;\n  }\n"])), (function(e) {
           return e.theme.colors.primary
         })),
-        Rn = l.default.a(Tn(), (function(e) {
+        Rt = d.default.a(wt || (wt = Object(u.a)(["\n  text-decoration: none;\n  cursor: pointer;\n  color: ", ";\n  font-weight: 500;\n\n  :hover {\n    text-decoration: underline;\n  }\n\n  :focus {\n    outline: none;\n    text-decoration: underline;\n  }\n\n  :active {\n    text-decoration: none;\n  }\n"])), (function(e) {
           return e.theme.colors.primary
         }));
 
-      function Sn(e) {
-        var n = e.target,
-          t = void 0 === n ? "_blank" : n,
-          i = e.href,
-          c = e.rel,
-          o = void 0 === c ? "noopener noreferrer" : c,
-          s = Object(gn.a)(e, ["target", "href", "rel"]),
-          u = Object(a.useCallback)((function(e) {
-            "_blank" === t || e.ctrlKey || e.metaKey || e.preventDefault()
-          }), [t]);
-        return Object(r.jsx)(Rn, Object(J.a)({
-          target: t,
-          rel: o,
-          href: i,
-          onClick: u
-        }, s))
+      function St(e) {
+        var t = e.target,
+          n = void 0 === t ? "_blank" : t,
+          r = e.href,
+          a = e.rel,
+          c = void 0 === a ? "noopener noreferrer" : a,
+          o = Object(It.a)(e, ["target", "href", "rel"]),
+          s = Object(i.useCallback)((function(e) {
+            "_blank" === n || e.ctrlKey || e.metaKey || e.preventDefault()
+          }), [n]);
+        return Object(it.jsx)(Rt, Object(X.a)({
+          target: n,
+          rel: c,
+          href: r,
+          onClick: s
+        }, o))
       }
-      var Un = Object(l.keyframes)(wn()),
-        An = l.default.img(Cn(), Un);
+      var Ut, At, Pt, Bt, Mt = Object(d.keyframes)(kt || (kt = Object(u.a)(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"]))),
+        Lt = d.default.img(Tt || (Tt = Object(u.a)(["\n  animation: 2s ", " linear infinite;\n  width: 16px;\n  height: 16px;\n"])), Mt),
+        Dt = Object(d.default)(nt)(Ut || (Ut = Object(u.a)(["\n  flex-wrap: nowrap;\n"])));
 
-      function Bn() {
-        var e = Object(u.a)(["\n  flex-wrap: nowrap;\n"]);
-        return Bn = function() {
-          return e
-        }, e
-      }
-      var Pn = Object(l.default)(tn)(Bn());
-
-      function Dn(e) {
-        var n = e.hash,
-          t = e.success,
-          i = e.summary,
-          c = ge().chainId,
-          o = Object(a.useContext)(l.ThemeContext);
-        return Object(r.jsxs)(Pn, {
-          children: [Object(r.jsx)("div", {
+      function _t(e) {
+        var t = e.hash,
+          n = e.success,
+          r = e.summary,
+          a = ge().chainId,
+          c = Object(i.useContext)(d.ThemeContext);
+        return Object(it.jsxs)(Dt, {
+          children: [Object(it.jsx)("div", {
             style: {
               paddingRight: 16
             },
-            children: t ? Object(r.jsx)(on.a, {
-              color: o.colors.success,
+            children: n ? Object(it.jsx)(ot.a, {
+              color: c.colors.success,
               size: 24
-            }) : Object(r.jsx)(sn.a, {
-              color: o.colors.failure,
+            }) : Object(it.jsx)(st.a, {
+              color: c.colors.failure,
               size: 24
             })
-          }), Object(r.jsxs)(De, {
+          }), Object(it.jsxs)(Me, {
             gap: "8px",
-            children: [Object(r.jsx)(s.y, {
-              children: null !== i && void 0 !== i ? i : "Hash: ".concat(n.slice(0, 8), "...").concat(n.slice(58, 65))
-            }), c && Object(r.jsx)(Sn, {
-              href: mn(c, n, "transaction"),
+            children: [Object(it.jsx)(l.y, {
+              children: null !== r && void 0 !== r ? r : "Hash: ".concat(t.slice(0, 8), "...").concat(t.slice(58, 65))
+            }), a && Object(it.jsx)(St, {
+              href: ht(a, t, "transaction"),
               children: "View on bscscan"
             })]
           })]
         })
       }
-
-      function Mn() {
-        var e = Object(u.a)(["\n  position: absolute;\n  bottom: 0px;\n  left: 0px;\n  width: 100%;\n  height: 2px;\n  background-color: ", ";\n"]);
-        return Mn = function() {
-          return e
-        }, e
-      }
-
-      function Ln() {
-        var e = Object(u.a)(["\n  display: inline-block;\n  width: 100%;\n  padding: 1em;\n  background-color: ", ";\n  position: relative;\n  border-radius: 10px;\n  padding: 20px;\n  padding-right: 35px;\n  overflow: hidden;\n\n  ", " {\n    min-width: 290px;\n  }\n"]);
-        return Ln = function() {
-          return e
-        }, e
-      }
-
-      function _n() {
-        var e = Object(u.a)(["\n  position: absolute;\n  right: 10px;\n  top: 10px;\n\n  :hover {\n    cursor: pointer;\n  }\n"]);
-        return _n = function() {
-          return e
-        }, e
-      }
-      var Fn = Object(l.default)(Le.a)(_n()),
-        Yn = l.default.div(Ln(), (function(e) {
+      var Yt, zt, Ft, qt = Object(d.default)(De.a)(At || (At = Object(u.a)(["\n  position: absolute;\n  right: 10px;\n  top: 10px;\n\n  :hover {\n    cursor: pointer;\n  }\n"]))),
+        Vt = d.default.div(Pt || (Pt = Object(u.a)(["\n  display: inline-block;\n  width: 100%;\n  padding: 1em;\n  background-color: ", ";\n  position: relative;\n  border-radius: 10px;\n  padding: 20px;\n  padding-right: 35px;\n  overflow: hidden;\n\n  ", " {\n    min-width: 290px;\n  }\n"])), (function(e) {
           return e.theme.colors.invertedContrast
         }), (function(e) {
           return e.theme.mediaQueries.sm
         })),
-        zn = l.default.div(Mn(), (function(e) {
+        Wt = d.default.div(Bt || (Bt = Object(u.a)(["\n  position: absolute;\n  bottom: 0px;\n  left: 0px;\n  width: 100%;\n  height: 2px;\n  background-color: ", ";\n"])), (function(e) {
           return e.theme.colors.tertiary
         })),
-        qn = Object(_e.a)(zn);
+        Ht = Object(_e.a)(Wt);
 
-      function Vn(e) {
-        var n = e.removeAfterMs,
-          t = e.content,
-          i = e.popKey,
-          c = Re(),
-          o = Object(a.useCallback)((function() {
-            return c(i)
-          }), [i, c]);
-        Object(a.useEffect)((function() {
-          if (null !== n) {
+      function Qt(e) {
+        var t = e.removeAfterMs,
+          n = e.content,
+          r = e.popKey,
+          a = Ae(),
+          c = Object(i.useCallback)((function() {
+            return a(r)
+          }), [r, a]);
+        Object(i.useEffect)((function() {
+          if (null !== t) {
             var e = setTimeout((function() {
-              o()
-            }), n);
+              c()
+            }), t);
             return function() {
               clearTimeout(e)
             }
           }
-        }), [n, o]);
-        var s, u = Object(a.useContext)(l.ThemeContext);
-        if ("txn" in t) {
-          var d = t.txn,
-            b = d.hash,
-            f = d.success,
-            p = d.summary;
-          s = Object(r.jsx)(Dn, {
-            hash: b,
-            success: f,
+        }), [t, c]);
+        var o, s = Object(i.useContext)(d.ThemeContext);
+        if ("txn" in n) {
+          var l = n.txn,
+            u = l.hash,
+            b = l.success,
+            p = l.summary;
+          o = Object(it.jsx)(_t, {
+            hash: u,
+            success: b,
             summary: p
           })
-        } else if ("listUpdate" in t) {
-          var j = t.listUpdate,
-            m = j.listUrl,
+        } else if ("listUpdate" in n) {
+          var j = n.listUpdate,
+            f = j.listUrl,
             h = j.oldList,
-            y = j.newList,
-            v = j.auto;
-          s = Object(r.jsx)(cn, {
-            popKey: i,
-            listUrl: m,
+            m = j.newList,
+            y = j.auto;
+          o = Object(it.jsx)(ct, {
+            popKey: r,
+            listUrl: f,
             oldList: h,
-            newList: y,
-            auto: v
+            newList: m,
+            auto: y
           })
         }
         var O = Object(_e.b)({
@@ -824,40 +702,19 @@
             width: "0%"
           },
           config: {
-            duration: null !== n && void 0 !== n ? n : void 0
+            duration: null !== t && void 0 !== t ? t : void 0
           }
         });
-        return Object(r.jsxs)(Yn, {
-          children: [Object(r.jsx)(Fn, {
-            color: u.colors.textSubtle,
-            onClick: o
-          }), s, null !== n ? Object(r.jsx)(qn, {
+        return Object(it.jsxs)(Vt, {
+          children: [Object(it.jsx)(qt, {
+            color: s.colors.textSubtle,
+            onClick: c
+          }), o, null !== t ? Object(it.jsx)(Ht, {
             style: O
           }) : null]
         })
       }
-
-      function Wn() {
-        var e = Object(u.a)(["\n  position: fixed;\n  top: 64px;\n  right: 1rem;\n  max-width: 355px !important;\n  width: 100%;\n  z-index: 2;\n\n  ", " {\n    display: none;\n  }\n"]);
-        return Wn = function() {
-          return e
-        }, e
-      }
-
-      function Hn() {
-        var e = Object(u.a)(["\n  height: 99%;\n  overflow-x: auto;\n  overflow-y: hidden;\n  display: flex;\n  flex-direction: row;\n  -webkit-overflow-scrolling: touch;\n  ::-webkit-scrollbar {\n    display: none;\n  }\n"]);
-        return Hn = function() {
-          return e
-        }, e
-      }
-
-      function Gn() {
-        var e = Object(u.a)(["\n  position: relative;\n  max-width: 100%;\n  height: ", ";\n  margin: ", ";\n  margin-bottom: ", "};\n  display: none;\n\n  ", " {\n    display: block;\n  }\n"]);
-        return Gn = function() {
-          return e
-        }, e
-      }
-      var Kn = l.default.div(Gn(), (function(e) {
+      var Kt = d.default.div(Yt || (Yt = Object(u.a)(["\n  position: relative;\n  max-width: 100%;\n  height: ", ";\n  margin: ", ";\n  margin-bottom: ", "};\n  display: none;\n\n  ", " {\n    display: block;\n  }\n"])), (function(e) {
           return e.height
         }), (function(e) {
           return e.height ? "0 auto;" : 0
@@ -866,37 +723,37 @@
         }), (function(e) {
           return e.theme.mediaQueries.sm
         })),
-        Qn = l.default.div(Hn()),
-        Xn = Object(l.default)(De)(Wn(), (function(e) {
+        Gt = d.default.div(zt || (zt = Object(u.a)(["\n  height: 99%;\n  overflow-x: auto;\n  overflow-y: hidden;\n  display: flex;\n  flex-direction: row;\n  -webkit-overflow-scrolling: touch;\n  ::-webkit-scrollbar {\n    display: none;\n  }\n"]))),
+        Xt = Object(d.default)(Me)(Ft || (Ft = Object(u.a)(["\n  position: fixed;\n  top: 64px;\n  right: 1rem;\n  max-width: 355px !important;\n  width: 100%;\n  z-index: 2;\n\n  ", " {\n    display: none;\n  }\n"])), (function(e) {
           return e.theme.mediaQueries.sm
         }));
 
-      function Jn() {
+      function Jt() {
         var e = function() {
-          var e = Object(x.d)((function(e) {
+          var e = Object(v.d)((function(e) {
             return e.application.popupList
           }));
-          return Object(a.useMemo)((function() {
+          return Object(i.useMemo)((function() {
             return e.filter((function(e) {
               return e.show
             }))
           }), [e])
         }();
-        return Object(r.jsxs)(r.Fragment, {
-          children: [Object(r.jsx)(Xn, {
+        return Object(it.jsxs)(it.Fragment, {
+          children: [Object(it.jsx)(Xt, {
             gap: "20px",
             children: e.map((function(e) {
-              return Object(r.jsx)(Vn, {
+              return Object(it.jsx)(Qt, {
                 content: e.content,
                 popKey: e.key,
                 removeAfterMs: e.removeAfterMs
               }, e.key)
             }))
-          }), Object(r.jsx)(Kn, {
+          }), Object(it.jsx)(Kt, {
             height: (null === e || void 0 === e ? void 0 : e.length) > 0 ? "fit-content" : 0,
-            children: Object(r.jsx)(Qn, {
+            children: Object(it.jsx)(Gt, {
               children: e.slice(0).reverse().map((function(e) {
-                return Object(r.jsx)(Vn, {
+                return Object(it.jsx)(Qt, {
                   content: e.content,
                   popKey: e.key,
                   removeAfterMs: e.removeAfterMs
@@ -906,250 +763,173 @@
           })]
         })
       }
-      var Zn = t(110);
-
-      function $n() {
-        var e = Object(u.a)(["\n  animation: 2s ", " linear infinite;\n  height: ", ";\n  width: ", ";\n  path {\n    stroke: ", ";\n  }\n"]);
-        return $n = function() {
-          return e
-        }, e
-      }
-
-      function et() {
-        var e = Object(u.a)(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"]);
-        return et = function() {
-          return e
-        }, e
-      }
-      var nt = Object(l.keyframes)(et()),
-        tt = l.default.svg($n(), nt, (function(e) {
+      var $t, Zt, en, tn, nn = n(113),
+        rn = Object(d.keyframes)($t || ($t = Object(u.a)(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"]))),
+        an = d.default.svg(Zt || (Zt = Object(u.a)(["\n  animation: 12s ", " linear infinite;\n  height: ", ";\n  width: ", ";\n  path {\n    stroke: ", ";\n  }\n"])), rn, (function(e) {
           return e.size
         }), (function(e) {
           return e.size
         }), (function(e) {
-          var n = e.stroke,
-            t = e.theme;
-          return null !== n && void 0 !== n ? n : t.colors.primary
+          var t = e.stroke,
+            n = e.theme;
+          return null !== t && void 0 !== t ? t : n.colors.primary
         }));
 
-      function rt(e) {
-        var n = e.size,
-          t = void 0 === n ? "16px" : n,
-          a = e.stroke,
-          i = Object(gn.a)(e, ["size", "stroke"]);
-        return Object(r.jsx)(tt, Object(J.a)(Object(J.a)({
+      function cn(e) {
+        var t = e.size,
+          n = void 0 === t ? "16px" : t,
+          r = e.stroke,
+          a = Object(It.a)(e, ["size", "stroke"]);
+        return Object(it.jsx)(an, Object(X.a)(Object(X.a)({
           viewBox: "0 0 24 24",
           fill: "none",
           xmlns: "http://www.w3.org/2000/svg",
-          size: t,
-          stroke: a
-        }, i), {}, {
-          children: Object(r.jsx)("path", {
-            d: "M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 9.27455 20.9097 6.80375 19.1414 5",
+          size: n,
+          stroke: r
+        }, a), {}, {
+          children: Object(it.jsx)("path", {
+            d: "M12 2C6.",
             strokeWidth: "2.5",
-            strokeLinecap: "round",
-            strokeLinejoin: "round"
+            strokeLinecap: "square",
+            strokeLinejoin: "square"
           })
         }))
       }
-
-      function at() {
-        var e = Object(u.a)(["\n  color: ", ";\n"]);
-        return at = function() {
-          return e
-        }, e
-      }
-
-      function it() {
-        var e = Object(u.a)(["\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 20rem;\n"]);
-        return it = function() {
-          return e
-        }, e
-      }
-      var ct = l.default.div(it()),
-        ot = l.default.h2(at(), (function(e) {
+      var on, sn, ln, un = d.default.div(en || (en = Object(u.a)(["\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 20rem;\n"]))),
+        dn = d.default.h2(tn || (tn = Object(u.a)(["\n  color: ", ";\n"])), (function(e) {
           return e.theme.colors.primaryDark
         }));
 
-      function st(e) {
-        var n = e.children,
-          t = Object(Zn.b)().t,
-          i = Object(g.c)().active,
-          c = Object(g.c)(de),
-          o = c.active,
-          u = c.error,
-          l = c.activate,
-          d = function() {
-            var e = Object(g.c)(),
-              n = e.activate,
-              t = e.active,
-              r = Object(a.useState)(!1),
-              i = Object(h.a)(r, 2),
-              c = i[0],
-              o = i[1];
-            return Object(a.useEffect)((function() {
-              H.isAuthorized().then((function(e) {
-                var t = window.localStorage.getItem(s.z);
-                e && t || C.isMobile && window.ethereum && t ? n(H, void 0, !0).catch((function() {
+      function bn(e) {
+        var t = e.children,
+          n = Object(nn.b)().t,
+          r = Object(x.d)().active,
+          a = Object(x.d)(de),
+          c = a.active,
+          o = a.error,
+          s = a.activate,
+          u = function() {
+            var e = Object(x.d)(),
+              t = e.activate,
+              n = e.active,
+              r = Object(i.useState)(!1),
+              a = Object(h.a)(r, 2),
+              c = a[0],
+              o = a[1];
+            return Object(i.useEffect)((function() {
+              W.isAuthorized().then((function(e) {
+                var n = window.localStorage.getItem(l.A);
+                e && n || g.isMobile && window.ethereum && n ? t(W, void 0, !0).catch((function() {
                   o(!0)
                 })) : o(!0)
               }))
-            }), [n]), Object(a.useEffect)((function() {
-              t && o(!0)
-            }), [t]), c
+            }), [t]), Object(i.useEffect)((function() {
+              n && o(!0)
+            }), [n]), c
           }();
-        Object(a.useEffect)((function() {
-            !d || o || u || i || l(V)
-          }), [d, o, u, l, i]),
+        Object(i.useEffect)((function() {
+            !u || c || o || r || s(q)
+          }), [u, c, o, s, r]),
           function() {
             var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0],
-              n = Object(g.c)(),
-              t = n.active,
-              r = n.error,
-              i = n.activate;
-            Object(a.useEffect)((function() {
-              var n = window.ethereum;
-              if (n && n.on && !t && !r && !e) {
-                var a = function() {
-                    i(H, void 0, !0).catch((function(e) {
+              t = Object(x.d)(),
+              n = t.active,
+              r = t.error,
+              a = t.activate;
+            Object(i.useEffect)((function() {
+              var t = window.ethereum;
+              if (t && t.on && !n && !r && !e) {
+                var i = function() {
+                    a(W, void 0, !0).catch((function(e) {
                       console.error("Failed to activate after chain changed", e)
                     }))
                   },
                   c = function(e) {
-                    e.length > 0 && i(H, void 0, !0).catch((function(e) {
+                    e.length > 0 && a(W, void 0, !0).catch((function(e) {
                       console.error("Failed to activate after accounts changed", e)
                     }))
                   };
-                return n.on("chainChanged", a), n.on("accountsChanged", c),
+                return t.on("chainChanged", i), t.on("accountsChanged", c),
                   function() {
-                    n.removeListener && (n.removeListener("chainChanged", a), n.removeListener("accountsChanged", c))
+                    t.removeListener && (t.removeListener("chainChanged", i), t.removeListener("accountsChanged", c))
                   }
               }
-            }), [t, r, e, i])
-          }(!d);
-        var b = Object(a.useState)(!1),
-          f = Object(h.a)(b, 2),
-          p = f[0],
-          j = f[1];
-        return Object(a.useEffect)((function() {
+            }), [n, r, e, a])
+          }(!u);
+        var d = Object(i.useState)(!1),
+          b = Object(h.a)(d, 2),
+          p = b[0],
+          j = b[1];
+        return Object(i.useEffect)((function() {
           var e = setTimeout((function() {
             j(!0)
           }), 600);
           return function() {
             clearTimeout(e)
           }
-        }), []), d ? !i && u ? Object(r.jsx)(ct, {
-          children: Object(r.jsx)(ot, {
-            children: t("unknownError")
+        }), []), u ? !r && o ? Object(it.jsx)(un, {
+          children: Object(it.jsx)(dn, {
+            children: n("unknownError")
           })
-        }) : i || o ? n : p ? Object(r.jsx)(ct, {
-          children: Object(r.jsx)(rt, {})
+        }) : r || c ? t : p ? Object(it.jsx)(un, {
+          children: Object(it.jsx)(cn, {})
         }) : null : null
       }
-
-      function ut() {
-        var e = Object(u.a)(["\n  background-color: ", ";\n"]);
-        return ut = function() {
-          return e
-        }, e
-      }
-
-      function lt() {
-        var e = Object(u.a)(["\n  border: 1px solid ", ";\n  background-color: ", ";\n"]);
-        return lt = function() {
-          return e
-        }, e
-      }
-
-      function dt() {
-        var e = Object(u.a)(["\n  width: 100%;\n  border-radius: 16px;\n  padding: 1.25rem;\n  padding: ", ";\n  border: ", ";\n  border-radius: ", ";\n"]);
-        return dt = function() {
-          return e
-        }, e
-      }
-      var bt = l.default.div(dt(), (function(e) {
+      var pn, jn, fn, hn, mn, yn, On, vn, xn, gn = d.default.div(on || (on = Object(u.a)(["\n  width: 100%;\n  border-radius: 16px;\n  padding: 1.25rem;\n  padding: ", ";\n  border: ", ";\n  border-radius: ", ";\n"])), (function(e) {
           return e.padding
         }), (function(e) {
           return e.border
         }), (function(e) {
           return e.borderRadius
         })),
-        ft = bt,
-        pt = Object(l.default)(bt)(lt(), (function(e) {
+        Cn = gn,
+        wn = Object(d.default)(gn)(sn || (sn = Object(u.a)(["\n  border: 1px solid ", ";\n  background-color: ", ";\n"])), (function(e) {
           return e.theme.colors.invertedContrast
         }), (function(e) {
           return e.theme.colors.invertedContrast
         })),
-        jt = Object(l.default)(bt)(ut(), (function(e) {
+        kn = Object(d.default)(gn)(ln || (ln = Object(u.a)(["\n  background-color: ", ";\n"])), (function(e) {
           return e.theme.colors.tertiary
         })),
-        mt = t(177),
-        ht = (t(399), t(53));
-
-      function yt() {
-        var e = Object(u.a)(["\n        min-height: ", "vh;\n      "]);
-        return yt = function() {
-          return e
-        }, e
-      }
-
-      function vt() {
-        var e = Object(u.a)(["\n        max-height: ", "vh;\n      "]);
-        return vt = function() {
-          return e
-        }, e
-      }
-
-      function Ot() {
-        var e = Object(u.a)(["\n  &[data-reach-dialog-content] {\n    margin: 0 0 2rem 0;\n    border: 1px solid ", ";\n    background-color: ", ";\n    box-shadow: 0 4px 8px 0 ", ";\n    padding: 0px;\n    width: 80%;\n    overflow: hidden;\n\n    align-self: ", ";\n\n    max-width: 420px;\n    ", "\n    ", "\n    display: flex;\n    border-radius: 20px;\n\n    ", " {\n      width: 65vw;\n    }\n    ", " {\n      width: 85vw;\n    }\n  }\n"]);
-        return Ot = function() {
-          return e
-        }, e
-      }
-
-      function xt() {
-        var e = Object(u.a)(["\n  &[data-reach-dialog-overlay] {\n    z-index: 2;\n    background-color: transparent;\n    overflow: hidden;\n\n    display: flex;\n    align-items: center;\n    justify-content: center;\n\n    background-color: rgba(0, 0, 0, 0.3);\n  }\n"]);
-        return xt = function() {
-          return e
-        }, e
-      }
-      var gt = Object(_e.a)(mt.b),
-        Ct = Object(l.default)(gt)(xt()),
-        wt = Object(_e.a)(mt.a),
-        Tt = Object(l.default)((function(e) {
+        Tn = n(194),
+        In = (n(416), n(53)),
+        En = Object(_e.a)(Tn.b),
+        Nn = Object(d.default)(En)(pn || (pn = Object(u.a)(["\n  &[data-reach-dialog-overlay] {\n    z-index: 2;\n    background-color: transparent;\n    overflow: hidden;\n\n    display: flex;\n    align-items: center;\n    justify-content: center;\n\n    background-color: rgba(0, 0, 0, 0.3);\n  }\n"]))),
+        Rn = Object(_e.a)(Tn.a),
+        Sn = Object(d.default)((function(e) {
           e.minHeight, e.maxHeight, e.mobile, e.isOpen;
-          var n = Object(gn.a)(e, ["minHeight", "maxHeight", "mobile", "isOpen"]);
-          return Object(r.jsx)(wt, Object(J.a)({}, n))
+          var t = Object(It.a)(e, ["minHeight", "maxHeight", "mobile", "isOpen"]);
+          return Object(it.jsx)(Rn, Object(X.a)({}, t))
         })).attrs({
           "aria-label": "dialog"
-        })(Ot(), (function(e) {
+        })(jn || (jn = Object(u.a)(["\n  &[data-reach-dialog-content] {\n    margin: 0 0 2rem 0;\n    border: 1px solid ", ";\n    background-color: ", ";\n    box-shadow: 0 4px 8px 0 ", ";\n    padding: 0px;\n    width: 80%;\n    overflow: hidden;\n\n    align-self: ", ";\n\n    max-width: 420px;\n    ", "\n    ", "\n    display: flex;\n    border-radius: 20px;\n\n    ", " {\n      width: 65vw;\n    }\n    ", " {\n      width: 85vw;\n    }\n  }\n"])), (function(e) {
           return e.theme.colors.invertedContrast
         }), (function(e) {
           return e.theme.colors.invertedContrast
-        }), Object(ht.b)(.95, "#191326"), (function(e) {
+        }), Object(In.b)(.95, "#191326"), (function(e) {
           return e.mobile ? "flex-end" : "center"
         }), (function(e) {
-          var n = e.maxHeight;
-          return n && Object(l.css)(vt(), n)
+          var t = e.maxHeight;
+          return t && Object(d.css)(fn || (fn = Object(u.a)(["\n        max-height: ", "vh;\n      "])), t)
         }), (function(e) {
-          var n = e.minHeight;
-          return n && Object(l.css)(yt(), n)
+          var t = e.minHeight;
+          return t && Object(d.css)(hn || (hn = Object(u.a)(["\n        min-height: ", "vh;\n      "])), t)
         }), (function(e) {
           return e.theme.mediaQueries.lg
         }), (function(e) {
           return e.theme.mediaQueries.sm
         }));
 
-      function kt(e) {
-        var n = e.isOpen,
-          t = e.onDismiss,
-          a = e.minHeight,
-          i = void 0 !== a && a,
-          c = e.maxHeight,
-          o = void 0 === c ? 50 : c,
-          s = e.initialFocusRef,
-          u = e.children,
-          l = Object(_e.c)(n, null, {
+      function Un(e) {
+        var t = e.isOpen,
+          n = e.onDismiss,
+          r = e.minHeight,
+          a = void 0 !== r && r,
+          i = e.maxHeight,
+          c = void 0 === i ? 50 : i,
+          o = e.initialFocusRef,
+          s = e.children,
+          l = Object(_e.c)(t, null, {
             config: {
               duration: 200
             },
@@ -1163,124 +943,82 @@
               opacity: 0
             }
           });
-        return Object(r.jsx)(r.Fragment, {
+        return Object(it.jsx)(it.Fragment, {
           children: l.map((function(e) {
-            var n = e.item,
-              a = e.key,
-              c = e.props;
-            return n && Object(r.jsx)(Ct, {
-              style: c,
-              onDismiss: t,
-              initialFocusRef: s,
-              children: Object(r.jsxs)(Tt, {
+            var t = e.item,
+              r = e.key,
+              i = e.props;
+            return t && Object(it.jsx)(Nn, {
+              style: i,
+              onDismiss: n,
+              initialFocusRef: o,
+              children: Object(it.jsxs)(Sn, {
                 "aria-label": "dialog content",
-                minHeight: i,
-                maxHeight: o,
-                mobile: C.isMobile,
-                children: [!s && C.isMobile ? Object(r.jsx)("div", {
+                minHeight: a,
+                maxHeight: c,
+                mobile: g.isMobile,
+                children: [!o && g.isMobile ? Object(it.jsx)("div", {
                   tabIndex: 1
-                }) : null, u]
+                }) : null, s]
               })
-            }, a)
+            }, r)
           }))
         })
       }
-
-      function It() {
-        var e = Object(u.a)(["\n  align-items: center;\n  display: flex;\n\n  & > ", " {\n    flex: 1;\n  }\n"]);
-        return It = function() {
-          return e
-        }, e
-      }
-
-      function Et() {
-        var e = Object(u.a)(["\n  background-color: ", ";\n  border-bottom-left-radius: 20px;\n  border-bottom-right-radius: 20px;\n"]);
-        return Et = function() {
-          return e
-        }, e
-      }
-
-      function Nt() {
-        var e = Object(u.a)(["\n  padding: 40px 0;\n"]);
-        return Nt = function() {
-          return e
-        }, e
-      }
-
-      function Rt() {
-        var e = Object(u.a)(["\n  padding: 24px;\n"]);
-        return Rt = function() {
-          return e
-        }, e
-      }
-
-      function St() {
-        var e = Object(u.a)(["\n  width: 100%;\n  overflow-y: auto;\n"]);
-        return St = function() {
-          return e
-        }, e
-      }
-      var Ut = l.default.div(St()),
-        At = Object(l.default)(De)(Rt()),
-        Bt = Object(l.default)(Pe)(Nt()),
-        Pt = Object(l.default)(At)(Et(), (function(e) {
+      var An, Pn, Bn = d.default.div(mn || (mn = Object(u.a)(["\n  width: 100%;\n  overflow-y: auto;\n"]))),
+        Mn = Object(d.default)(Me)(yn || (yn = Object(u.a)(["\n  padding: 24px;\n"]))),
+        Ln = Object(d.default)(Be)(On || (On = Object(u.a)(["\n  padding: 40px 0;\n"]))),
+        Dn = Object(d.default)(Mn)(vn || (vn = Object(u.a)(["\n  background-color: ", ";\n  border-bottom-left-radius: 20px;\n  border-bottom-right-radius: 20px;\n"])), (function(e) {
           return e.theme.colors.invertedContrast
         })),
-        Dt = l.default.div(It(), s.o),
-        Mt = function(e) {
-          var n = e.children,
-            t = e.onDismiss;
-          return Object(r.jsxs)(Dt, {
-            children: [Object(r.jsx)(s.o, {
-              children: n
-            }), Object(r.jsx)(s.p, {
-              onClick: t,
+        _n = d.default.div(xn || (xn = Object(u.a)(["\n  align-items: center;\n  display: flex;\n\n  & > ", " {\n    flex: 1;\n  }\n"])), l.o),
+        Yn = function(e) {
+          var t = e.children,
+            n = e.onDismiss;
+          return Object(it.jsxs)(_n, {
+            children: [Object(it.jsx)(l.o, {
+              children: t
+            }), Object(it.jsx)(l.p, {
+              onClick: n,
               variant: "text",
-              children: Object(r.jsx)(s.j, {
+              children: Object(it.jsx)(l.j, {
                 color: "primary"
               })
             })]
           })
-        };
-
-      function Lt() {
-        var e = Object(u.a)(["\n  height: ", ";\n  width: ", ";\n"]);
-        return Lt = function() {
-          return e
-        }, e
-      }
-      var _t = Object(l.default)(An)(Lt(), (function(e) {
+        },
+        zn = Object(d.default)(Lt)(An || (An = Object(u.a)(["\n  height: ", ";\n  width: ", ";\n"])), (function(e) {
           return e.size
         }), (function(e) {
           return e.size
         })),
-        Ft = function(e) {
-          var n = e.onDismiss,
-            t = e.pendingText;
-          return Object(r.jsx)(Ut, {
-            children: Object(r.jsxs)(At, {
-              children: [Object(r.jsx)(Mt, {
-                onDismiss: n,
+        Fn = function(e) {
+          var t = e.onDismiss,
+            n = e.pendingText;
+          return Object(it.jsx)(Bn, {
+            children: Object(it.jsxs)(Mn, {
+              children: [Object(it.jsx)(Yn, {
+                onDismiss: t,
                 children: "Waiting for confirmation"
-              }), Object(r.jsx)(Bt, {
-                children: Object(r.jsx)(_t, {
-                  src: "/images/blue-loader.svg",
+              }), Object(it.jsx)(Ln, {
+                children: Object(it.jsx)(zn, {
+                  src: "/images/bluedfgoader.svg",
                   alt: "loader",
                   size: "90px"
                 })
-              }), Object(r.jsxs)(De, {
+              }), Object(it.jsxs)(Me, {
                 gap: "12px",
                 justify: "center",
-                children: [Object(r.jsx)(De, {
+                children: [Object(it.jsx)(Me, {
                   gap: "12px",
                   justify: "center",
-                  children: Object(r.jsx)(s.y, {
+                  children: Object(it.jsx)(l.y, {
                     fontSize: "14px",
-                    children: Object(r.jsx)("strong", {
-                      children: t
+                    children: Object(it.jsx)("strong", {
+                      children: n
                     })
                   })
-                }), Object(r.jsx)(s.y, {
+                }), Object(it.jsx)(l.y, {
                   fontSize: "14px",
                   children: "Confirm this transaction in your wallet"
                 })]
@@ -1288,31 +1026,31 @@
             })
           })
         },
-        Yt = t(494),
-        zt = function(e) {
-          var n = e.onDismiss,
-            t = e.chainId,
-            i = e.hash,
-            c = Object(a.useContext)(l.ThemeContext);
-          return Object(r.jsx)(Ut, {
-            children: Object(r.jsxs)(At, {
-              children: [Object(r.jsx)(Mt, {
-                onDismiss: n,
+        qn = n(528),
+        Vn = function(e) {
+          var t = e.onDismiss,
+            n = e.chainId,
+            r = e.hash,
+            a = Object(i.useContext)(d.ThemeContext);
+          return Object(it.jsx)(Bn, {
+            children: Object(it.jsxs)(Mn, {
+              children: [Object(it.jsx)(Yn, {
+                onDismiss: t,
                 children: "Transaction submitted"
-              }), Object(r.jsx)(Bt, {
-                children: Object(r.jsx)(Yt.a, {
+              }), Object(it.jsx)(Ln, {
+                children: Object(it.jsx)(qn.a, {
                   strokeWidth: .5,
                   size: 97,
-                  color: c.colors.primary
+                  color: a.colors.primary
                 })
-              }), Object(r.jsxs)(De, {
+              }), Object(it.jsxs)(Me, {
                 gap: "8px",
                 justify: "center",
-                children: [t && i && Object(r.jsx)(s.r, {
-                  href: mn(t, i, "transaction"),
+                children: [n && r && Object(it.jsx)(l.r, {
+                  href: ht(n, r, "transaction"),
                   children: "View on BscScan"
-                }), Object(r.jsx)(s.c, {
-                  onClick: n,
+                }), Object(it.jsx)(l.c, {
+                  onClick: t,
                   mt: "20px",
                   children: "Close"
                 })]
@@ -1320,316 +1058,309 @@
             })
           })
         },
-        qt = function(e) {
-          var n = e.isOpen,
-            t = e.onDismiss,
-            a = e.attemptingTxn,
-            i = e.hash,
-            c = e.pendingText,
-            o = e.content,
-            s = ge().chainId;
-          return s ? Object(r.jsx)(kt, {
-            isOpen: n,
-            onDismiss: t,
+        Wn = function(e) {
+          var t = e.isOpen,
+            n = e.onDismiss,
+            r = e.attemptingTxn,
+            a = e.hash,
+            i = e.pendingText,
+            c = e.content,
+            o = ge().chainId;
+          return o ? Object(it.jsx)(Un, {
+            isOpen: t,
+            onDismiss: n,
             maxHeight: 90,
-            children: a ? Object(r.jsx)(Ft, {
-              onDismiss: t,
-              pendingText: c
-            }) : i ? Object(r.jsx)(zt, {
-              chainId: s,
-              hash: i,
-              onDismiss: t
-            }) : o()
+            children: r ? Object(it.jsx)(Fn, {
+              onDismiss: n,
+              pendingText: i
+            }) : a ? Object(it.jsx)(Vn, {
+              chainId: o,
+              hash: a,
+              onDismiss: n
+            }) : c()
           }) : null
         },
-        Vt = function(e) {
-          var n = e.title,
-            t = e.bottomContent,
-            a = e.onDismiss,
-            i = e.topContent;
-          return Object(r.jsxs)(Ut, {
-            children: [Object(r.jsxs)(At, {
-              children: [Object(r.jsx)(Mt, {
-                onDismiss: a,
-                children: n
-              }), i()]
-            }), Object(r.jsx)(Pt, {
+        Hn = function(e) {
+          var t = e.title,
+            n = e.bottomContent,
+            r = e.onDismiss,
+            a = e.topContent;
+          return Object(it.jsxs)(Bn, {
+            children: [Object(it.jsxs)(Mn, {
+              children: [Object(it.jsx)(Yn, {
+                onDismiss: r,
+                children: t
+              }), a()]
+            }), Object(it.jsx)(Dn, {
               gap: "12px",
-              children: t()
+              children: n()
             })]
           })
         },
-        Wt = t(495),
-        Ht = function(e) {
-          var n = e.message,
-            t = e.onDismiss,
-            i = Object(a.useContext)(l.ThemeContext);
-          return Object(r.jsxs)(Ut, {
-            children: [Object(r.jsxs)(At, {
-              children: [Object(r.jsx)(Mt, {
-                onDismiss: t,
+        Qn = n(529),
+        Kn = function(e) {
+          var t = e.message,
+            n = e.onDismiss,
+            r = Object(i.useContext)(d.ThemeContext);
+          return Object(it.jsxs)(Bn, {
+            children: [Object(it.jsxs)(Mn, {
+              children: [Object(it.jsx)(Yn, {
+                onDismiss: n,
                 children: "Error"
-              }), Object(r.jsxs)(De, {
+              }), Object(it.jsxs)(Me, {
                 style: {
                   marginTop: 20,
                   padding: "2rem 0"
                 },
                 gap: "24px",
                 justify: "center",
-                children: [Object(r.jsx)(Wt.a, {
-                  color: i.colors.failure,
+                children: [Object(it.jsx)(Qn.a, {
+                  color: r.colors.failure,
                   style: {
                     strokeWidth: 1.5
                   },
                   size: 64
-                }), Object(r.jsx)(s.y, {
+                }), Object(it.jsx)(l.y, {
                   fontSize: "16px",
                   color: "failure",
                   style: {
                     textAlign: "center",
                     width: "85%"
                   },
-                  children: n
+                  children: t
                 })]
               })]
-            }), Object(r.jsx)(Pt, {
+            }), Object(it.jsx)(Dn, {
               gap: "12px",
-              children: Object(r.jsx)(s.c, {
-                onClick: t,
+              children: Object(it.jsx)(l.c, {
+                onClick: n,
                 children: "Dismiss"
               })
             })]
           })
         },
-        Gt = qt,
-        Kt = {
+        Gn = Wn,
+        Xn = {
           translations: [],
           setTranslations: function() {}
         },
-        Qt = Object(a.createContext)(Kt),
-        Xt = /%(.*?)%/,
-        Jt = function(e, n, t) {
+        Jn = Object(i.createContext)(Xn),
+        $n = /%(.*?)%/,
+        Zn = function(e, t, n) {
           var r = e.find((function(e) {
-            return e.data.stringId === n
+            return e.data.stringId === t
           }));
           if (r) {
             var a = r.data.text;
-            return a.includes("%") ? function(e, n) {
-              var t = Xt.exec(e)[0],
-                r = e.split(" ").indexOf(t),
-                a = n.split(" ")[r];
-              return e.replace(t, a)
-            }(a, t) : a
+            return a.includes("%") ? function(e, t) {
+              var n = $n.exec(e)[0],
+                r = e.split(" ").indexOf(n),
+                a = t.split(" ")[r];
+              return e.replace(n, a)
+            }(a, n) : a
           }
-          return t
+          return n
         },
-        Zt = function(e, n) {
-          var t = Object(a.useContext)(Qt).translations;
-          return "error" === t[0] ? n : t.length > 0 ? Jt(t, e, n) : null
+        er = function(e, t) {
+          var n = Object(i.useContext)(Jn).translations;
+          return "error" === n[0] ? t : n.length > 0 ? Zn(n, e, t) : null
         },
-        $t = function() {
-          var e = Object(a.useContext)(Qt).translations;
-          return Object(a.useCallback)((function(n, t) {
-            return "error" === e[0] ? t : e.length > 0 ? Jt(e, n, t) : t
+        tr = function() {
+          var e = Object(i.useContext)(Jn).translations;
+          return Object(i.useCallback)((function(t, n) {
+            return "error" === e[0] ? n : e.length > 0 ? Zn(e, t, n) : n
           }), [e])
-        };
-
-      function er() {
-        var e = Object(u.a)(["\n  margin-bottom: 40px;\n"]);
-        return er = function() {
-          return e
-        }, e
-      }
-      var nr = l.default.div(er());
-      var tr, rr = function(e) {
-          var n = e.activeIndex,
-            t = void 0 === n ? 0 : n,
-            a = $t();
-          return Object(r.jsx)(nr, {
-            children: Object(r.jsxs)(s.d, {
-              activeIndex: t,
+        },
+        nr = d.default.div(Pn || (Pn = Object(u.a)(["\n  margin-bottom: 40px;\n"])));
+      var rr, ar = function(e) {
+          var t = e.activeIndex,
+            n = void 0 === t ? 0 : t,
+            r = tr();
+          return Object(it.jsx)(nr, {
+            children: Object(it.jsxs)(l.d, {
+              activeIndex: n,
               scale: "sm",
               variant: "subtle",
-              children: [Object(r.jsx)(s.e, {
+              children: [Object(it.jsx)(l.e, {
                 id: "swap-nav-link",
                 to: "/swap",
-                as: y.b,
-                children: a(1142, "Swap")
-              }), Object(r.jsx)(s.e, {
+                as: m.b,
+                children: r(1142, "Swap")
+              }), Object(it.jsx)(l.e, {
                 id: "pool-nav-link",
                 to: "/pool",
-                as: y.b,
-                children: a(262, "Liquidity")
-              })/*, Object(r.jsx)(s.e, {
+                as: m.b,
+                children: r(262, "Liquidity")
+              }), Object(it.jsx)(l.e, {
                 id: "pool-nav-link",
                 as: "a",
                 href: "https://www.binance.org/en/bridge?utm_source=PancakeSwap",
                 target: "_blank",
                 rel: "noreferrer noopener",
                 children: "Bridge"
-              })*/]
+              })]
             })
           })
         },
-        ar = t(116),
-        ir = t(120),
-        cr = t(231),
-        or = new ar.b(ir),
-        sr = t(157),
+        ir = n(119),
+        cr = n(121),
+        or = n(248),
+        sr = new ir.b(cr),
+        lr = n(165),
         ur = function(e) {
-          Object(A.a)(t, e);
-          var n = Object(B.a)(t);
+          Object(U.a)(n, e);
+          var t = Object(A.a)(n);
 
-          function t(e, r) {
+          function n(e, r) {
             var a;
-            return Object(U.a)(this, t), (a = n.call(this, e.chainId, e.address, e.decimals, e.symbol, e.name)).tokenInfo = void 0, a.tags = void 0, a.tokenInfo = e, a.tags = r, a
+            return Object(S.a)(this, n), (a = t.call(this, e.chainId, e.address, e.decimals, e.symbol, e.name)).tokenInfo = void 0, a.tags = void 0, a.tokenInfo = e, a.tags = r, a
           }
-          return Object(R.a)(t, [{
+          return Object(N.a)(n, [{
             key: "logoURI",
             get: function() {
               return this.tokenInfo.logoURI
             }
-          }]), t
-        }(Z.j),
-        lr = (tr = {}, Object(w.a)(tr, Z.a.MAINNET, {}), Object(w.a)(tr, Z.a.BSCTESTNET, {}), tr),
-        dr = "undefined" !== typeof WeakMap ? new WeakMap : null;
+          }]), n
+        }(J.j),
+        dr = (rr = {}, Object(C.a)(rr, J.a.MAINNET, {}), Object(C.a)(rr, J.a.BSCTESTNET, {}), rr),
+        br = "undefined" !== typeof WeakMap ? new WeakMap : null;
 
-      function br(e) {
-        var n = Object(x.d)((function(e) {
+      function pr(e) {
+        var t = Object(v.d)((function(e) {
           return e.lists.byUrl
         }));
-        return Object(a.useMemo)((function() {
-          var t;
-          if (!e) return lr;
-          var r = null === (t = n[e]) || void 0 === t ? void 0 : t.current;
-          if (!r) return lr;
+        return Object(i.useMemo)((function() {
+          var n;
+          if (!e) return dr;
+          var r = null === (n = t[e]) || void 0 === n ? void 0 : n.current;
+          if (!r) return dr;
           try {
             return function(e) {
-              var n = null === dr || void 0 === dr ? void 0 : dr.get(e);
-              if (n) return n;
-              var t = e.tokens.reduce((function(n, t) {
-                var r, a, i, c = null !== (r = null === (a = t.tags) || void 0 === a || null === (i = a.map((function(n) {
-                    var t;
-                    if (null === (t = e.tags) || void 0 === t ? void 0 : t[n]) return Object(J.a)(Object(J.a)({}, e.tags[n]), {}, {
-                      id: n
+              var t = null === br || void 0 === br ? void 0 : br.get(e);
+              if (t) return t;
+              var n = e.tokens.reduce((function(t, n) {
+                var r, a, i, c = null !== (r = null === (a = n.tags) || void 0 === a || null === (i = a.map((function(t) {
+                    var n;
+                    if (null === (n = e.tags) || void 0 === n ? void 0 : n[t]) return Object(X.a)(Object(X.a)({}, e.tags[t]), {}, {
+                      id: t
                     })
                   }))) || void 0 === i ? void 0 : i.filter((function(e) {
                     return Boolean(e)
                   }))) && void 0 !== r ? r : [],
-                  o = new ur(t, c);
-                if (void 0 !== n[o.chainId][o.address]) throw Error("Duplicate tokens.");
-                return Object(J.a)(Object(J.a)({}, n), {}, Object(w.a)({}, o.chainId, Object(J.a)(Object(J.a)({}, n[o.chainId]), {}, Object(w.a)({}, o.address, o))))
-              }), Object(J.a)({}, lr));
-              return null === dr || void 0 === dr || dr.set(e, t), t
+                  o = new ur(n, c);
+                if (void 0 !== t[o.chainId][o.address]) throw Error("Duplicate tokens.");
+                return Object(X.a)(Object(X.a)({}, t), {}, Object(C.a)({}, o.chainId, Object(X.a)(Object(X.a)({}, t[o.chainId]), {}, Object(C.a)({}, o.address, o))))
+              }), Object(X.a)({}, dr));
+              return null === br || void 0 === br || br.set(e, n), n
             }(r)
           } catch (a) {
-            return console.error("Could not show token list due to error", a), lr
+            return console.error("Could not show token list due to error", a), dr
           }
-        }), [n, e])
+        }), [t, e])
       }
 
-      function fr() {
-        return Object(x.d)((function(e) {
+      function jr() {
+        return Object(v.d)((function(e) {
           return e.lists.selectedListUrl
         }))
       }
 
-      function pr() {
-        return br(fr())
+      function fr() {
+        return pr(jr())
       }
-      var jr = /^0x[a-fA-F0-9]{40}$/,
+      var hr = /^0x[a-fA-F0-9]{40}$/,
         mr = /^0x[a-f0-9]*$/;
 
-      function hr(e) {
-        if (!jr.test(e.address)) throw new Error("Invalid address: ".concat(e.address));
+      function yr(e) {
+        if (!hr.test(e.address)) throw new Error("Invalid address: ".concat(e.address));
         if (!mr.test(e.callData)) throw new Error("Invalid hex: ".concat(e.callData));
         return "".concat(e.address, "-").concat(e.callData)
       }
 
-      function yr(e) {
-        var n = e.split("-");
-        if (2 !== n.length) throw new Error("Invalid call key: ".concat(e));
+      function Or(e) {
+        var t = e.split("-");
+        if (2 !== t.length) throw new Error("Invalid call key: ".concat(e));
         return {
-          address: n[0],
-          callData: n[1]
+          address: t[0],
+          callData: t[1]
         }
       }
-      var vr = Object(Ce.b)("multicall/addMulticallListeners"),
-        Or = Object(Ce.b)("multicall/removeMulticallListeners"),
-        xr = Object(Ce.b)("multicall/fetchingMulticallResults"),
-        gr = Object(Ce.b)("multicall/errorFetchingMulticallResults"),
-        Cr = Object(Ce.b)("multicall/updateMulticallResults");
+      var vr = Object(Te.b)("multicall/addMulticallListeners"),
+        xr = Object(Te.b)("multicall/removeMulticallListeners"),
+        gr = Object(Te.b)("multicall/fetchingMulticallResults"),
+        Cr = Object(Te.b)("multicall/errorFetchingMulticallResults"),
+        wr = Object(Te.b)("multicall/updateMulticallResults");
 
-      function wr(e) {
+      function kr(e) {
         return -1 !== ["string", "number"].indexOf(typeof e)
       }
 
       function Tr(e) {
         return void 0 === e || Array.isArray(e) && e.every((function(e) {
-          return wr(e) || Array.isArray(e) && e.every(wr)
+          return kr(e) || Array.isArray(e) && e.every(kr)
         }))
       }
-      var kr = {
+      var Ir = {
           valid: !1,
           blockNumber: void 0,
           data: void 0
         },
-        Ir = {
+        Er = {
           blocksPerFetch: 1 / 0
         };
 
-      function Er(e, n) {
-        var t = ge().chainId,
-          r = Object(x.d)((function(e) {
+      function Nr(e, t) {
+        var n = ge().chainId,
+          r = Object(v.d)((function(e) {
             return e.multicall.callResults
           })),
-          i = Object(x.c)(),
-          c = Object(a.useMemo)((function() {
-            var n, t, r;
-            return JSON.stringify(null !== (n = null === e || void 0 === e || null === (t = e.filter((function(e) {
+          a = Object(v.c)(),
+          c = Object(i.useMemo)((function() {
+            var t, n, r;
+            return JSON.stringify(null !== (t = null === e || void 0 === e || null === (n = e.filter((function(e) {
               return Boolean(e)
-            }))) || void 0 === t || null === (r = t.map(hr)) || void 0 === r ? void 0 : r.sort()) && void 0 !== n ? n : [])
+            }))) || void 0 === n || null === (r = n.map(yr)) || void 0 === r ? void 0 : r.sort()) && void 0 !== t ? t : [])
           }), [e]);
-        return Object(a.useEffect)((function() {
+        return Object(i.useEffect)((function() {
           var e = JSON.parse(c);
-          if (t && 0 !== e.length) {
+          if (n && 0 !== e.length) {
             var r = e.map((function(e) {
-              return yr(e)
+              return Or(e)
             }));
-            return i(vr({
-                chainId: t,
+            return a(vr({
+                chainId: n,
                 calls: r,
-                options: n
+                options: t
               })),
               function() {
-                i(Or({
-                  chainId: t,
+                a(xr({
+                  chainId: n,
                   calls: r,
-                  options: n
+                  options: t
                 }))
               }
           }
-        }), [t, i, n, c]), Object(a.useMemo)((function() {
+        }), [n, a, t, c]), Object(i.useMemo)((function() {
           return e.map((function(e) {
-            var n;
-            if (!t || !e) return kr;
-            var a = null === (n = r[t]) || void 0 === n ? void 0 : n[hr(e)];
+            var t;
+            if (!n || !e) return Ir;
+            var a = null === (t = r[n]) || void 0 === t ? void 0 : t[yr(e)];
             return {
               valid: !0,
               data: (null === a || void 0 === a ? void 0 : a.data) && "0x" !== (null === a || void 0 === a ? void 0 : a.data) ? a.data : null,
               blockNumber: null === a || void 0 === a ? void 0 : a.blockNumber
             }
           }))
-        }), [r, e, t])
+        }), [r, e, n])
       }
-      var Nr = {
+      var Rr = {
           valid: !1,
           result: void 0,
           loading: !1,
           syncing: !1,
           error: !1
         },
-        Rr = {
+        Sr = {
           valid: !0,
           result: void 0,
           loading: !0,
@@ -1637,91 +1368,91 @@
           error: !1
         };
 
-      function Sr(e, n, t, r) {
-        if (!e) return Nr;
+      function Ur(e, t, n, r) {
+        if (!e) return Rr;
         var a = e.valid,
           i = e.data,
           c = e.blockNumber;
-        if (!a) return Nr;
-        if (a && !c) return Rr;
-        if (!n || !t || !r) return Rr;
+        if (!a) return Rr;
+        if (a && !c) return Sr;
+        if (!t || !n || !r) return Sr;
         var o, s = i && i.length > 2,
-          u = (null !== c && void 0 !== c ? c : 0) < r;
+          l = (null !== c && void 0 !== c ? c : 0) < r;
         if (s && i) try {
-          o = n.decodeFunctionResult(t, i)
-        } catch (l) {
-          return console.error("Result data parsing failed", t, i), {
+          o = t.decodeFunctionResult(n, i)
+        } catch (u) {
+          return console.error("Result data parsing failed", n, i), {
             valid: !0,
             loading: !1,
             error: !0,
-            syncing: u,
+            syncing: l,
             result: o
           }
         }
         return {
           valid: !0,
           loading: !1,
-          syncing: u,
+          syncing: l,
           result: o,
           error: !s
         }
       }
 
-      function Ur(e, n, t, r, i) {
-        var c = Object(a.useMemo)((function() {
-            return n.getFunction(t)
-          }), [n, t]),
-          o = Object(a.useMemo)((function() {
-            return c && Tr(r) ? n.encodeFunctionData(c, r) : void 0
-          }), [r, n, c]),
-          s = Er(Object(a.useMemo)((function() {
+      function Ar(e, t, n, r, a) {
+        var c = Object(i.useMemo)((function() {
+            return t.getFunction(n)
+          }), [t, n]),
+          o = Object(i.useMemo)((function() {
+            return c && Tr(r) ? t.encodeFunctionData(c, r) : void 0
+          }), [r, t, c]),
+          s = Nr(Object(i.useMemo)((function() {
             return c && e && e.length > 0 && o ? e.map((function(e) {
               return e && o ? {
                 address: e,
                 callData: o
               } : void 0
             })) : []
-          }), [e, o, c]), i),
-          u = Ne();
-        return Object(a.useMemo)((function() {
+          }), [e, o, c]), a),
+          l = Ue();
+        return Object(i.useMemo)((function() {
           return s.map((function(e) {
-            return Sr(e, n, c, u)
+            return Ur(e, t, c, l)
           }))
-        }), [c, s, n, u])
+        }), [c, s, t, l])
       }
 
-      function Ar(e, n, t, r) {
-        var i = Object(a.useMemo)((function() {
-            var t;
-            return null === e || void 0 === e || null === (t = e.interface) || void 0 === t ? void 0 : t.getFunction(n)
-          }), [e, n]),
-          c = Er(Object(a.useMemo)((function() {
-            return e && i && Tr(t) ? [{
+      function Pr(e, t, n, r) {
+        var a = Object(i.useMemo)((function() {
+            var n;
+            return null === e || void 0 === e || null === (n = e.interface) || void 0 === n ? void 0 : n.getFunction(t)
+          }), [e, t]),
+          c = Nr(Object(i.useMemo)((function() {
+            return e && a && Tr(n) ? [{
               address: e.address,
-              callData: e.interface.encodeFunctionData(i, t)
+              callData: e.interface.encodeFunctionData(a, n)
             }] : []
-          }), [e, i, t]), r)[0],
-          o = Ne();
-        return Object(a.useMemo)((function() {
-          return Sr(c, null === e || void 0 === e ? void 0 : e.interface, i, o)
-        }), [c, e, i, o])
+          }), [e, a, n]), r)[0],
+          o = Ue();
+        return Object(i.useMemo)((function() {
+          return Ur(c, null === e || void 0 === e ? void 0 : e.interface, a, o)
+        }), [c, e, a, o])
       }
-      var Br = t(139),
-        Pr = t.n(Br),
-        Dr = Object(Ce.b)("user/updateMatchesDarkMode"),
-        Mr = Object(Ce.b)("user/updateUserDarkMode"),
-        Lr = Object(Ce.b)("user/updateUserExpertMode"),
-        _r = Object(Ce.b)("user/updateUserSlippageTolerance"),
-        Fr = Object(Ce.b)("user/updateUserDeadline"),
-        Yr = Object(Ce.b)("user/addSerializedToken"),
-        zr = Object(Ce.b)("user/removeSerializedToken"),
-        qr = Object(Ce.b)("user/addSerializedPair"),
-        Vr = Object(Ce.b)("user/removeSerializedPair"),
-        Wr = Object(Ce.b)("user/muteAudio"),
-        Hr = Object(Ce.b)("user/unmuteAudio"),
-        Gr = "IS_DARK";
+      var Br = n(152),
+        Mr = n.n(Br),
+        Lr = Object(Te.b)("user/updateMatchesDarkMode"),
+        Dr = Object(Te.b)("user/updateUserDarkMode"),
+        _r = Object(Te.b)("user/updateUserExpertMode"),
+        Yr = Object(Te.b)("user/updateUserSlippageTolerance"),
+        zr = Object(Te.b)("user/updateUserDeadline"),
+        Fr = Object(Te.b)("user/addSerializedToken"),
+        qr = Object(Te.b)("user/removeSerializedToken"),
+        Vr = Object(Te.b)("user/addSerializedPair"),
+        Wr = Object(Te.b)("user/removeSerializedPair"),
+        Hr = Object(Te.b)("user/muteAudio"),
+        Qr = Object(Te.b)("user/unmuteAudio"),
+        Kr = "IS_DARK";
 
-      function Kr(e) {
+      function Gr(e) {
         return {
           chainId: e.chainId,
           address: e.address,
@@ -1731,444 +1462,416 @@
         }
       }
 
-      function Qr(e) {
-        return new Z.j(e.chainId, e.address, e.decimals, e.symbol, e.name)
+      function Xr(e) {
+        return new J.j(e.chainId, e.address, e.decimals, e.symbol, e.name)
       }
 
-      function Xr() {
-        return Object(x.d)((function(e) {
+      function Jr() {
+        return Object(v.d)((function(e) {
           return e.user.userExpertMode
         }))
       }
 
-      function Jr() {
-        var e = Object(x.c)();
-        return [Object(x.d)((function(e) {
+      function $r() {
+        var e = Object(v.c)();
+        return [Object(v.d)((function(e) {
           return e.user.userSlippageTolerance
-        })), Object(a.useCallback)((function(n) {
-          e(_r({
-            userSlippageTolerance: n
+        })), Object(i.useCallback)((function(t) {
+          e(Yr({
+            userSlippageTolerance: t
           }))
         }), [e])]
       }
 
       function Zr() {
-        var e = Object(x.c)();
-        return [Object(x.d)((function(e) {
+        var e = Object(v.c)();
+        return [Object(v.d)((function(e) {
           return e.user.userDeadline
-        })), Object(a.useCallback)((function(n) {
-          e(Fr({
-            userDeadline: n
+        })), Object(i.useCallback)((function(t) {
+          e(zr({
+            userDeadline: t
           }))
         }), [e])]
       }
 
-      function $r() {
+      function ea() {
         var e = ge().chainId,
-          n = Object(x.d)((function(e) {
+          t = Object(v.d)((function(e) {
             return e.user.tokens
           }));
-        return Object(a.useMemo)((function() {
-          var t;
-          return e ? Object.values(null !== (t = n[e]) && void 0 !== t ? t : {}).map(Qr) : []
-        }), [n, e])
+        return Object(i.useMemo)((function() {
+          var n;
+          return e ? Object.values(null !== (n = t[e]) && void 0 !== n ? n : {}).map(Xr) : []
+        }), [t, e])
       }
 
-      function ea(e) {
+      function ta(e) {
         return {
-          token0: Kr(e.token0),
-          token1: Kr(e.token1)
+          token0: Gr(e.token0),
+          token1: Gr(e.token1)
         }
       }
 
       function na(e) {
-        var n = Object(h.a)(e, 2),
-          t = n[0],
-          r = n[1];
-        return new Z.j(t.chainId, Z.f.getAddress(t, r), 18, "Cake-LP", "Pancake LPs")
+        var t = Object(h.a)(e, 2),
+          n = t[0],
+          r = t[1];
+        return new J.j(n.chainId, J.f.getAddress(n, r), 18, "Cake-LP", "Pancake LPs")
       }
-      var ta, ra = t(147),
-        aa = t(265),
-        ia = t(266),
-        ca = t(267),
-        oa = t(232),
-        sa = (ta = {}, Object(w.a)(ta, Z.a.MAINNET, "0x1Ee38d535d541c55C9dae27B12edf090C608E6Fb"), Object(w.a)(ta, Z.a.BSCTESTNET, "0x301907b5835a2d723Fe3e9E8C5Bc5375d5c1236A"), ta);
+      var ra, aa = n(112),
+        ia = n(279),
+        ca = n(280),
+        oa = n(281),
+        sa = n(249),
+        la = (ra = {}, Object(C.a)(ra, J.a.MAINNET, "0x1Ee38d535d541c55C9dae27B12edf090C608E6Fb"), Object(C.a)(ra, J.a.BSCTESTNET, "0x301907b5835a2d723Fe3e9E8C5Bc5375d5c1236A"), ra);
 
-      function ua(e, n) {
-        var t = !(arguments.length > 2 && void 0 !== arguments[2]) || arguments[2],
+      function ua(e, t) {
+        var n = !(arguments.length > 2 && void 0 !== arguments[2]) || arguments[2],
           r = ge(),
-          i = r.library,
+          a = r.library,
           c = r.account;
-        return Object(a.useMemo)((function() {
-          if (!e || !n || !i) return null;
+        return Object(i.useMemo)((function() {
+          if (!e || !t || !a) return null;
           try {
-            return On(e, n, i, t && c ? c : void 0)
+            return vt(e, t, a, n && c ? c : void 0)
           } catch (r) {
             return console.error("Failed to get contract", r), null
           }
-        }), [e, n, i, t, c])
+        }), [e, t, a, n, c])
       }
 
-      function la(e, n) {
-        return ua(e, ir, n)
+      function da(e, t) {
+        return ua(e, cr, t)
       }
 
-      function da(e) {
-        var n = ge().chainId;
-        if (n) switch (n) {
-          case Z.a.MAINNET:
-          case Z.a.BSCTESTNET:
+      function ba(e) {
+        var t = ge().chainId;
+        if (t) switch (t) {
+          case J.a.MAINNET:
+          case J.a.BSCTESTNET:
         }
-        return ua(undefined, aa, e)
+        return ua(undefined, ia, e)
       }
 
-      function ba(e, n) {
-        return ua(e, ia, n)
+      function pa(e, t) {
+        return ua(e, ca, t)
+      }
+
+      function ja() {
+        var e = ge().chainId;
+        return ua(e && la[e], sa, !1)
       }
 
       function fa() {
-        var e = ge().chainId;
-        return ua(e && sa[e], oa, !1)
-      }
-
-      function pa() {
         var e = ge().chainId,
-          n = $r(),
-          t = pr();
-        return Object(a.useMemo)((function() {
-          return e ? n.reduce((function(e, n) {
-            return e[n.address] = n, e
-          }), Object(J.a)({}, t[e])) : {}
-        }), [e, n, t])
+          t = ea(),
+          n = fr();
+        return Object(i.useMemo)((function() {
+          return e ? t.reduce((function(e, t) {
+            return e[t.address] = t, e
+          }), Object(X.a)({}, n[e])) : {}
+        }), [e, t, n])
       }
-      var ja = /^0x[a-fA-F0-9]{64}$/;
+      var ha = /^0x[a-fA-F0-9]{64}$/;
 
-      function ma(e, n, t) {
-        return e && e.length > 0 ? e : n && ja.test(n) ? Object(sr.b)(n) : t
-      }
-
-      function ha(e) {
-        var n = ge().chainId,
-          t = pa(),
-          r = pn(e),
-          i = la(r || void 0, !1),
-          c = function(e, n) {
-            return ua(e, cr, n)
-          }(r || void 0, !1),
-          o = r ? t[r] : void 0,
-          s = Ar(o ? void 0 : i, "name", void 0, Ir),
-          u = Ar(o ? void 0 : c, "name", void 0, Ir),
-          l = Ar(o ? void 0 : i, "symbol", void 0, Ir),
-          d = Ar(o ? void 0 : c, "symbol", void 0, Ir),
-          b = Ar(o ? void 0 : i, "decimals", void 0, Ir);
-        return Object(a.useMemo)((function() {
-          if (o) return o;
-          if (n && r) {
-            if (b.loading || l.loading || s.loading) return null;
-            var e, t, a, i;
-            if (b.result) return new Z.j(n, r, b.result[0], ma(null === (e = l.result) || void 0 === e ? void 0 : e[0], null === (t = d.result) || void 0 === t ? void 0 : t[0], "UNKNOWN"), ma(null === (a = s.result) || void 0 === a ? void 0 : a[0], null === (i = u.result) || void 0 === i ? void 0 : i[0], "Unknown Token"))
-          }
-        }), [r, n, b.loading, b.result, l.loading, l.result, d.result, o, s.loading, s.result, u.result])
+      function ma(e, t, n) {
+        return e && e.length > 0 ? e : t && ha.test(t) ? Object(lr.b)(t) : n
       }
 
       function ya(e) {
-        var n = "ETH" === (null === e || void 0 === e ? void 0 : e.toUpperCase()),
-          t = ha(n ? void 0 : e);
-        return n ? Z.d : t
+        var t = ge().chainId,
+          n = fa(),
+          r = jt(e),
+          a = da(r || void 0, !1),
+          c = function(e, t) {
+            return ua(e, or, t)
+          }(r || void 0, !1),
+          o = r ? n[r] : void 0,
+          s = Pr(o ? void 0 : a, "name", void 0, Er),
+          l = Pr(o ? void 0 : c, "name", void 0, Er),
+          u = Pr(o ? void 0 : a, "symbol", void 0, Er),
+          d = Pr(o ? void 0 : c, "symbol", void 0, Er),
+          b = Pr(o ? void 0 : a, "decimals", void 0, Er);
+        return Object(i.useMemo)((function() {
+          if (o) return o;
+          if (t && r) {
+            if (b.loading || u.loading || s.loading) return null;
+            var e, n, a, i;
+            if (b.result) return new J.j(t, r, b.result[0], ma(null === (e = u.result) || void 0 === e ? void 0 : e[0], null === (n = d.result) || void 0 === n ? void 0 : n[0], "UNKNOWN"), ma(null === (a = s.result) || void 0 === a ? void 0 : a[0], null === (i = l.result) || void 0 === i ? void 0 : i[0], "Unknown Token"))
+          }
+        }), [r, t, b.loading, b.result, u.loading, u.result, d.result, o, s.loading, s.result, l.result])
+      }
+
+      function Oa(e) {
+        var t = "BNB" === (null === e || void 0 === e ? void 0 : e.toUpperCase()),
+          n = ya(t ? void 0 : e);
+        return t ? J.d : n
       }
 
       function va(e) {
-        var n = fa(),
-          t = Object(a.useMemo)((function() {
-            return e ? e.map(pn).filter((function(e) {
+        var t = ja(),
+          n = Object(i.useMemo)((function() {
+            return e ? e.map(jt).filter((function(e) {
               return !1 !== e
             })).sort() : []
           }), [e]),
-          r = function(e, n, t, r) {
-            var i = Object(a.useMemo)((function() {
-                var t;
-                return null === e || void 0 === e || null === (t = e.interface) || void 0 === t ? void 0 : t.getFunction(n)
-              }), [e, n]),
-              c = Er(Object(a.useMemo)((function() {
-                return e && i && t && t.length > 0 ? t.map((function(n) {
+          r = function(e, t, n, r) {
+            var a = Object(i.useMemo)((function() {
+                var n;
+                return null === e || void 0 === e || null === (n = e.interface) || void 0 === n ? void 0 : n.getFunction(t)
+              }), [e, t]),
+              c = Nr(Object(i.useMemo)((function() {
+                return e && a && n && n.length > 0 ? n.map((function(t) {
                   return {
                     address: e.address,
-                    callData: e.interface.encodeFunctionData(i, n)
+                    callData: e.interface.encodeFunctionData(a, t)
                   }
                 })) : []
-              }), [t, e, i]), r),
-              o = Ne();
-            return Object(a.useMemo)((function() {
-              return c.map((function(n) {
-                return Sr(n, null === e || void 0 === e ? void 0 : e.interface, i, o)
+              }), [n, e, a]), r),
+              o = Ue();
+            return Object(i.useMemo)((function() {
+              return c.map((function(t) {
+                return Ur(t, null === e || void 0 === e ? void 0 : e.interface, a, o)
               }))
-            }), [i, e, c, o])
-          }(n, "getEthBalance", t.map((function(e) {
+            }), [a, e, c, o])
+          }(t, "getEthBalance", n.map((function(e) {
             return [e]
           })));
-        return Object(a.useMemo)((function() {
-          return t.reduce((function(e, n, t) {
-            var a, i, c = null === r || void 0 === r || null === (a = r[t]) || void 0 === a || null === (i = a.result) || void 0 === i ? void 0 : i[0];
-            return c && (e[n] = Z.c.ether(Z.e.BigInt(c.toString()))), e
+        return Object(i.useMemo)((function() {
+          return n.reduce((function(e, t, n) {
+            var a, i, c = null === r || void 0 === r || null === (a = r[n]) || void 0 === a || null === (i = a.result) || void 0 === i ? void 0 : i[0];
+            return c && (e[t] = J.c.ether(J.e.BigInt(c.toString()))), e
           }), {})
-        }), [t, r])
+        }), [n, r])
       }
 
-      function Oa(e, n) {
-        var t = Object(a.useMemo)((function() {
+      function xa(e, t) {
+        var n = Object(i.useMemo)((function() {
             var e;
-            return null !== (e = null === n || void 0 === n ? void 0 : n.filter((function(e) {
-              return !1 !== pn(null === e || void 0 === e ? void 0 : e.address)
+            return null !== (e = null === t || void 0 === t ? void 0 : t.filter((function(e) {
+              return !1 !== jt(null === e || void 0 === e ? void 0 : e.address)
             }))) && void 0 !== e ? e : []
-          }), [n]),
-          r = Ur(Object(a.useMemo)((function() {
-            return t.map((function(e) {
+          }), [t]),
+          r = Ar(Object(i.useMemo)((function() {
+            return n.map((function(e) {
               return e.address
             }))
-          }), [t]), or, "balanceOf", [e]),
-          i = Object(a.useMemo)((function() {
+          }), [n]), sr, "balanceOf", [e]),
+          a = Object(i.useMemo)((function() {
             return r.some((function(e) {
               return e.loading
             }))
           }), [r]);
-        return [Object(a.useMemo)((function() {
-          return e && t.length > 0 ? t.reduce((function(e, n, t) {
-            var a, i, c = null === r || void 0 === r || null === (a = r[t]) || void 0 === a || null === (i = a.result) || void 0 === i ? void 0 : i[0],
-              o = c ? Z.e.BigInt(c.toString()) : void 0;
-            return o && (e[n.address] = new Z.k(n, o)), e
+        return [Object(i.useMemo)((function() {
+          return e && n.length > 0 ? n.reduce((function(e, t, n) {
+            var a, i, c = null === r || void 0 === r || null === (a = r[n]) || void 0 === a || null === (i = a.result) || void 0 === i ? void 0 : i[0],
+              o = c ? J.e.BigInt(c.toString()) : void 0;
+            return o && (e[t.address] = new J.k(t, o)), e
           }), {}) : {}
-        }), [e, t, r]), i]
+        }), [e, n, r]), a]
       }
 
-      function xa(e, n) {
-        return Oa(e, n)[0]
+      function ga(e, t) {
+        return xa(e, t)[0]
       }
 
-      function ga(e, n) {
-        var t = xa(e, [n]);
-        if (n) return t[n.address]
+      function Ca(e, t) {
+        var n = ga(e, [t]);
+        if (t) return n[t.address]
       }
 
-      function Ca(e, n) {
-        var t = Object(a.useMemo)((function() {
+      function wa(e, t) {
+        var n = Object(i.useMemo)((function() {
             var e;
-            return null !== (e = null === n || void 0 === n ? void 0 : n.filter((function(e) {
-              return e instanceof Z.j
+            return null !== (e = null === t || void 0 === t ? void 0 : t.filter((function(e) {
+              return e instanceof J.j
             }))) && void 0 !== e ? e : []
-          }), [n]),
-          r = xa(e, t),
-          i = va(Object(a.useMemo)((function() {
+          }), [t]),
+          r = ga(e, n),
+          a = va(Object(i.useMemo)((function() {
             var e;
-            return null !== (e = null === n || void 0 === n ? void 0 : n.some((function(e) {
-              return e === Z.d
+            return null !== (e = null === t || void 0 === t ? void 0 : t.some((function(e) {
+              return e === J.d
             }))) && void 0 !== e && e
-          }), [n]) ? [e] : []);
-        return Object(a.useMemo)((function() {
-          var t;
-          return null !== (t = null === n || void 0 === n ? void 0 : n.map((function(n) {
-            if (e && n) return n instanceof Z.j ? r[n.address] : n === Z.d ? i[e] : void 0
-          }))) && void 0 !== t ? t : []
-        }), [e, n, i, r])
+          }), [t]) ? [e] : []);
+        return Object(i.useMemo)((function() {
+          var n;
+          return null !== (n = null === t || void 0 === t ? void 0 : t.map((function(t) {
+            if (e && t) return t instanceof J.j ? r[t.address] : t === J.d ? a[e] : void 0
+          }))) && void 0 !== n ? n : []
+        }), [e, t, a, r])
       }
 
-      function wa(e, n) {
-        return Ca(e, [n])[0]
+      function ka(e, t) {
+        return wa(e, [t])[0]
       }
 
-      function Ta(e, n) {
-        var t = Object(a.useState)(n && n(e) ? e : void 0),
-          r = Object(h.a)(t, 2),
-          i = r[0],
+      function Ta(e, t) {
+        var n = Object(i.useState)(t && t(e) ? e : void 0),
+          r = Object(h.a)(n, 2),
+          a = r[0],
           c = r[1];
-        return Object(a.useEffect)((function() {
-          c((function(t) {
-            return !n || n(e) ? e : t
+        return Object(i.useEffect)((function() {
+          c((function(n) {
+            return !t || t(e) ? e : n
           }))
-        }), [n, e]), i
+        }), [t, e]), a
       }
 
-      function ka(e) {
+      function Ia(e) {
         return null !== e && void 0 !== e
       }
-      var Ia = t(268),
-        Ea = t(175),
-        Na = t.n(Ea),
-        Ra = t(125),
-        Sa = t(109);
-      var Ua = new TextDecoder;
+      var Ea = n(282),
+        Na = n(192),
+        Ra = n.n(Na),
+        Sa = n(157),
+        Ua = n(158);
+      var Aa = new TextDecoder;
 
-      function Aa(e) {
-        var n = function(e) {
+      function Pa(e) {
+        var t = function(e) {
             if ((e = e.startsWith("0x") ? e.substr(2) : e).length % 2 !== 0) throw new Error("hex must have length that is multiple of 2");
-            for (var n = new Uint8Array(e.length / 2), t = 0; t < n.length; t++) n[t] = parseInt(e.substr(2 * t, 2), 16);
-            return n
+            for (var t = new Uint8Array(e.length / 2), n = 0; n < t.length; n++) t[n] = parseInt(e.substr(2 * n, 2), 16);
+            return t
           }(e),
-          t = Object(Ra.getCodec)(n);
-        switch (t) {
+          n = Object(Sa.getCodec)(t);
+        switch (n) {
           case "ipfs-ns":
-            var r = Object(Ra.rmPrefix)(n),
-              a = new Na.a(r);
-            return "ipfs://".concat(Object(Sa.toB58String)(a.multihash));
+            var r = Object(Sa.rmPrefix)(t),
+              a = new Ra.a(r);
+            return "ipfs://".concat(Object(Ua.toB58String)(a.multihash));
           case "ipns-ns":
-            var i = Object(Ra.rmPrefix)(n),
-              c = new Na.a(i),
-              o = Object(Sa.decode)(c.multihash);
-            return "identity" === o.name ? "ipns://".concat(Ua.decode(o.digest).trim()) : "ipns://".concat(Object(Sa.toB58String)(c.multihash));
+            var i = Object(Sa.rmPrefix)(t),
+              c = new Ra.a(i),
+              o = Object(Ua.decode)(c.multihash);
+            return "identity" === o.name ? "ipns://".concat(Aa.decode(o.digest).trim()) : "ipns://".concat(Object(Ua.toB58String)(c.multihash));
           default:
-            throw new Error("Unrecognized codec: ".concat(t))
+            throw new Error("Unrecognized codec: ".concat(n))
         }
       }
       var Ba = /^(([a-zA-Z0-9]+\.)+)eth(\/.*)?$/;
 
-      function Pa(e) {
-        var n = e.match(Ba);
-        if (n) return {
-          ensName: "".concat(n[1].toLowerCase(), "eth"),
-          ensPath: n[3]
+      function Ma(e) {
+        var t = e.match(Ba);
+        if (t) return {
+          ensName: "".concat(t[1].toLowerCase(), "eth"),
+          ensPath: t[3]
         }
       }
 
-      function Da(e) {
-        var n, t;
+      function La(e) {
+        var t, n;
         switch (e.split(":")[0].toLowerCase()) {
           case "https":
             return [e];
           case "http":
             return ["https".concat(e.substr(4)), e];
           case "ipfs":
-            var r = null === (n = e.match(/^ipfs:(\/\/)?(.*)$/i)) || void 0 === n ? void 0 : n[2];
+            var r = null === (t = e.match(/^ipfs:(\/\/)?(.*)$/i)) || void 0 === t ? void 0 : t[2];
             return ["https://cloudflare-ipfs.com/ipfs/".concat(r, "/"), "https://ipfs.io/ipfs/".concat(r, "/")];
           case "ipns":
-            var a = null === (t = e.match(/^ipns:(\/\/)?(.*)$/i)) || void 0 === t ? void 0 : t[2];
+            var a = null === (n = e.match(/^ipns:(\/\/)?(.*)$/i)) || void 0 === n ? void 0 : n[2];
             return ["https://cloudflare-ipfs.com/ipns/".concat(a, "/"), "https://ipfs.io/ipns/".concat(a, "/")];
           default:
             return []
         }
       }
-      var Ma = t(90);
+      var Da = n(91);
 
-      function La(e) {
+      function _a(e) {
         return /^0x0*$/.test(e)
       }
 
-      function _a(e) {
-        var n = Object(a.useMemo)((function() {
-            return e ? Pa(e) : void 0
+      function Ya(e) {
+        var t = Object(i.useMemo)((function() {
+            return e ? Ma(e) : void 0
           }), [e]),
-          t = function(e) {
-            var n, t, r, i = Object(a.useMemo)((function() {
+          n = function(e) {
+            var t, n, r, a = Object(i.useMemo)((function() {
                 if (!e) return [void 0];
                 try {
-                  return e ? [Object(Ma.namehash)(e)] : [void 0]
-                } catch (n) {
+                  return e ? [Object(Da.namehash)(e)] : [void 0]
+                } catch (t) {
                   return [void 0]
                 }
               }), [e]),
-              c = Ar(da(!1), "resolver", i),
-              o = null === (n = c.result) || void 0 === n ? void 0 : n[0],
-              s = Ar(ba(o && La(o) ? void 0 : o, !1), "contenthash", i);
+              c = Pr(ba(!1), "resolver", a),
+              o = null === (t = c.result) || void 0 === t ? void 0 : t[0],
+              s = Pr(pa(o && _a(o) ? void 0 : o, !1), "contenthash", a);
             return {
-              contenthash: null !== (t = null === (r = s.result) || void 0 === r ? void 0 : r[0]) && void 0 !== t ? t : null,
+              contenthash: null !== (n = null === (r = s.result) || void 0 === r ? void 0 : r[0]) && void 0 !== n ? n : null,
               loading: c.loading || s.loading
             }
-          }(null === n || void 0 === n ? void 0 : n.ensName);
-        return Object(a.useMemo)((function() {
-          return n ? t.contenthash ? Da(Aa(t.contenthash)) : [] : e ? Da(e) : []
-        }), [n, t.contenthash, e])
+          }(null === t || void 0 === t ? void 0 : t.ensName);
+        return Object(i.useMemo)((function() {
+          return t ? n.contenthash ? La(Pa(n.contenthash)) : [] : e ? La(e) : []
+        }), [t, n.contenthash, e])
       }
-      var Fa = t(496),
-        Ya = {};
+      var za, Fa = n(530),
+        qa = {};
 
-      function za(e) {
-        var n = e.srcs,
-          t = e.alt,
-          i = Object(gn.a)(e, ["srcs", "alt"]),
-          c = Object(a.useState)(0),
-          o = Object(h.a)(c, 2)[1],
-          s = n.find((function(e) {
-            return !Ya[e]
+      function Va(e) {
+        var t = e.srcs,
+          n = e.alt,
+          r = Object(It.a)(e, ["srcs", "alt"]),
+          a = Object(i.useState)(0),
+          c = Object(h.a)(a, 2)[1],
+          o = t.find((function(e) {
+            return !qa[e]
           }));
-        return s ? Object(r.jsx)("img", Object(J.a)(Object(J.a)({}, i), {}, {
-          alt: t,
-          src: s,
+        return o ? Object(it.jsx)("img", Object(X.a)(Object(X.a)({}, r), {}, {
+          alt: n,
+          src: o,
           onError: function() {
-            s && (Ya[s] = !0), o((function(e) {
+            o && (qa[o] = !0), c((function(e) {
               return e + 1
             }))
           }
-        })) : Object(r.jsx)(Fa.a, Object(J.a)({}, i))
+        })) : Object(it.jsx)(Fa.a, Object(X.a)({}, r))
       }
-
-      function qa() {
-        var e = Object(u.a)(["\n  width: ", ";\n  height: ", ";\n"]);
-        return qa = function() {
-          return e
-        }, e
-      }
-      var Va = Object(l.default)(za)(qa(), (function(e) {
+      var Wa = Object(d.default)(Va)(za || (za = Object(u.a)(["\n  width: ", ";\n  height: ", ";\n"])), (function(e) {
         return e.size
       }), (function(e) {
         return e.size
       }));
 
-      function Wa(e) {
-        var n = e.logoURI,
-          t = e.style,
-          a = e.size,
-          i = void 0 === a ? "24px" : a,
-          c = e.alt,
-          o = _a(n);
-        return Object(r.jsx)(Va, {
-          alt: c,
-          size: i,
-          srcs: o,
-          style: t
+      function Ha(e) {
+        var t = e.logoURI,
+          n = e.style,
+          r = e.size,
+          a = void 0 === r ? "24px" : r,
+          i = e.alt,
+          c = Ya(t);
+        return Object(it.jsx)(Wa, {
+          alt: i,
+          size: a,
+          srcs: c,
+          style: n
         })
       }
-      var Ha = t(504),
-        Ga = t(146);
+      var Qa, Ka, Ga, Xa = n(538),
+        Ja = n(151);
 
-      function Ka(e, n) {
-        var t = !(arguments.length > 2 && void 0 !== arguments[2]) || arguments[2],
-          r = Object(a.useRef)();
-        Object(a.useEffect)((function() {
+      function $a(e, t) {
+        var n = !(arguments.length > 2 && void 0 !== arguments[2]) || arguments[2],
+          r = Object(i.useRef)();
+        Object(i.useEffect)((function() {
           r.current = e
-        }), [e]), Object(a.useEffect)((function() {
+        }), [e]), Object(i.useEffect)((function() {
           function e() {
             var e = r.current;
             e && e()
           }
-          if (null !== n) {
-            t && e();
-            var a = setInterval(e, n);
+          if (null !== t) {
+            n && e();
+            var a = setInterval(e, t);
             return function() {
               return clearInterval(a)
             }
           }
-        }), [n, t])
+        }), [t, n])
       }
-
-      function Qa() {
-        var e = Object(u.a)(["\n  width: 8px;\n  height: 8px;\n  z-index: 9998;\n\n  ::before {\n    position: absolute;\n    width: 8px;\n    height: 8px;\n    z-index: 9998;\n\n    content: '';\n    border: 1px solid ", ";\n    transform: rotate(45deg);\n    background: ", ";\n  }\n\n  &.arrow-top {\n    bottom: -5px;\n    ::before {\n      border-top: none;\n      border-left: none;\n    }\n  }\n\n  &.arrow-bottom {\n    top: -5px;\n    ::before {\n      border-bottom: none;\n      border-right: none;\n    }\n  }\n\n  &.arrow-left {\n    right: -5px;\n\n    ::before {\n      border-bottom: none;\n      border-left: none;\n    }\n  }\n\n  &.arrow-right {\n    left: -5px;\n    ::before {\n      border-right: none;\n      border-top: none;\n    }\n  }\n"]);
-        return Qa = function() {
-          return e
-        }, e
-      }
-
-      function Xa() {
-        var e = Object(u.a)(["\n  display: inline-block;\n"]);
-        return Xa = function() {
-          return e
-        }, e
-      }
-
-      function Ja() {
-        var e = Object(u.a)(["\n  z-index: 9999;\n\n  visibility: ", ";\n  opacity: ", ";\n  transition: visibility 150ms linear, opacity 150ms linear;\n\n  background: ", ";\n  border: 1px solid ", ";\n  box-shadow: 0 4px 8px 0 ", ";\n  color: ", ";\n  border-radius: 8px;\n"]);
-        return Ja = function() {
-          return e
-        }, e
-      }
-      var Za = l.default.div(Ja(), (function(e) {
+      var Za, ei = d.default.div(Qa || (Qa = Object(u.a)(["\n  z-index: 9999;\n\n  visibility: ", ";\n  opacity: ", ";\n  transition: visibility 150ms linear, opacity 150ms linear;\n\n  background: ", ";\n  border: 1px solid ", ";\n  box-shadow: 0 4px 8px 0 ", ";\n  color: ", ";\n  border-radius: 8px;\n"])), (function(e) {
           return e.show ? "visible" : "hidden"
         }), (function(e) {
           return e.show ? 1 : 0
@@ -2176,36 +1879,36 @@
           return e.theme.colors.invertedContrast
         }), (function(e) {
           return e.theme.colors.tertiary
-        }), Object(ht.b)(.9, "#ffffff"), (function(e) {
+        }), Object(In.b)(.9, "#ffffff"), (function(e) {
           return e.theme.colors.textSubtle
         })),
-        $a = l.default.div(Xa()),
-        ei = l.default.div(Qa(), (function(e) {
+        ti = d.default.div(Ka || (Ka = Object(u.a)(["\n  display: inline-block;\n"]))),
+        ni = d.default.div(Ga || (Ga = Object(u.a)(["\n  width: 8px;\n  height: 8px;\n  z-index: 9998;\n\n  ::before {\n    position: absolute;\n    width: 8px;\n    height: 8px;\n    z-index: 9998;\n\n    content: '';\n    border: 1px solid ", ";\n    transform: rotate(45deg);\n    background: ", ";\n  }\n\n  &.arrow-top {\n    bottom: -5px;\n    ::before {\n      border-top: none;\n      border-left: none;\n    }\n  }\n\n  &.arrow-bottom {\n    top: -5px;\n    ::before {\n      border-bottom: none;\n      border-right: none;\n    }\n  }\n\n  &.arrow-left {\n    right: -5px;\n\n    ::before {\n      border-bottom: none;\n      border-left: none;\n    }\n  }\n\n  &.arrow-right {\n    left: -5px;\n    ::before {\n      border-right: none;\n      border-top: none;\n    }\n  }\n"])), (function(e) {
           return e.theme.colors.tertiary
         }), (function(e) {
           return e.theme.colors.invertedContrast
         }));
 
-      function ni(e) {
-        var n, t, i = e.content,
-          c = e.show,
-          o = e.children,
-          s = e.placement,
-          u = void 0 === s ? "auto" : s,
-          l = Object(a.useState)(null),
-          d = Object(h.a)(l, 2),
-          b = d[0],
-          f = d[1],
-          p = Object(a.useState)(null),
+      function ri(e) {
+        var t, n, r = e.content,
+          a = e.show,
+          c = e.children,
+          o = e.placement,
+          s = void 0 === o ? "auto" : o,
+          l = Object(i.useState)(null),
+          u = Object(h.a)(l, 2),
+          d = u[0],
+          b = u[1],
+          p = Object(i.useState)(null),
           j = Object(h.a)(p, 2),
-          m = j[0],
-          y = j[1],
-          v = Object(a.useState)(null),
-          O = Object(h.a)(v, 2),
-          x = O[0],
-          g = O[1],
-          C = Object(Ha.a)(b, m, {
-            placement: u,
+          f = j[0],
+          m = j[1],
+          y = Object(i.useState)(null),
+          O = Object(h.a)(y, 2),
+          v = O[0],
+          x = O[1],
+          g = Object(Xa.a)(d, f, {
+            placement: s,
             strategy: "fixed",
             modifiers: [{
               name: "offset",
@@ -2215,248 +1918,206 @@
             }, {
               name: "arrow",
               options: {
-                element: x
+                element: v
               }
             }]
           }),
-          w = C.styles,
-          T = C.update,
-          k = C.attributes;
-        return Ka(Object(a.useCallback)((function() {
-          T && T()
-        }), [T]), c ? 100 : null), Object(r.jsxs)(r.Fragment, {
-          children: [Object(r.jsx)($a, {
-            ref: f,
-            children: o
-          }), Object(r.jsx)(Ga.a, {
-            children: Object(r.jsxs)(Za, Object(J.a)(Object(J.a)({
-              show: c,
-              ref: y,
-              style: w.popper
+          C = g.styles,
+          w = g.update,
+          k = g.attributes;
+        return $a(Object(i.useCallback)((function() {
+          w && w()
+        }), [w]), a ? 100 : null), Object(it.jsxs)(it.Fragment, {
+          children: [Object(it.jsx)(ti, {
+            ref: b,
+            children: c
+          }), Object(it.jsx)(Ja.a, {
+            children: Object(it.jsxs)(ei, Object(X.a)(Object(X.a)({
+              show: a,
+              ref: m,
+              style: C.popper
             }, k.popper), {}, {
-              children: [i, Object(r.jsx)(ei, Object(J.a)({
-                className: "arrow-".concat(null !== (n = null === (t = k.popper) || void 0 === t ? void 0 : t["data-popper-placement"]) && void 0 !== n ? n : ""),
-                ref: g,
-                style: w.arrow
+              children: [r, Object(it.jsx)(ni, Object(X.a)({
+                className: "arrow-".concat(null !== (t = null === (n = k.popper) || void 0 === n ? void 0 : n["data-popper-placement"]) && void 0 !== t ? t : ""),
+                ref: x,
+                style: C.arrow
               }, k.arrow))]
             }))
           })]
         })
       }
+      var ai, ii = d.default.div(Za || (Za = Object(u.a)(["\n  width: 228px;\n  padding: 0.6rem 1rem;\n  line-height: 150%;\n  font-weight: 400;\n"])));
 
-      function ti() {
-        var e = Object(u.a)(["\n  width: 228px;\n  padding: 0.6rem 1rem;\n  line-height: 150%;\n  font-weight: 400;\n"]);
-        return ti = function() {
-          return e
-        }, e
-      }
-      var ri = l.default.div(ti());
-
-      function ai(e) {
-        var n = e.text,
-          t = Object(gn.a)(e, ["text"]);
-        return Object(r.jsx)(ni, Object(J.a)({
-          content: Object(r.jsx)(ri, {
-            children: n
+      function ci(e) {
+        var t = e.text,
+          n = Object(It.a)(e, ["text"]);
+        return Object(it.jsx)(ri, Object(X.a)({
+          content: Object(it.jsx)(ii, {
+            children: t
           })
-        }, t))
+        }, n))
       }
 
-      function ii(e) {
-        var n = e.children,
-          t = Object(gn.a)(e, ["children"]),
-          i = Object(a.useState)(!1),
-          c = Object(h.a)(i, 2),
-          o = c[0],
-          s = c[1],
-          u = Object(a.useCallback)((function() {
-            return s(!0)
-          }), [s]),
-          l = Object(a.useCallback)((function() {
-            return s(!1)
-          }), [s]);
-        return Object(r.jsx)(ai, Object(J.a)(Object(J.a)({}, t), {}, {
-          show: o,
-          children: Object(r.jsx)("div", {
-            onMouseEnter: u,
+      function oi(e) {
+        var t = e.children,
+          n = Object(It.a)(e, ["children"]),
+          r = Object(i.useState)(!1),
+          a = Object(h.a)(r, 2),
+          c = a[0],
+          o = a[1],
+          s = Object(i.useCallback)((function() {
+            return o(!0)
+          }), [o]),
+          l = Object(i.useCallback)((function() {
+            return o(!1)
+          }), [o]);
+        return Object(it.jsx)(ci, Object(X.a)(Object(X.a)({}, n), {}, {
+          show: c,
+          children: Object(it.jsx)("div", {
+            onMouseEnter: s,
             onMouseLeave: l,
-            children: n
+            children: t
           })
         }))
       }
-
-      function ci() {
-        var e = Object(u.a)(["\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 0.2rem;\n  border: none;\n  background: none;\n  outline: none;\n  cursor: default;\n  border-radius: 36px;\n  background-color: ", ";\n  color: ", ";\n\n  :hover,\n  :focus {\n    opacity: 0.7;\n  }\n"]);
-        return ci = function() {
-          return e
-        }, e
-      }
-      var oi = l.default.div(ci(), (function(e) {
+      var si, li = d.default.div(ai || (ai = Object(u.a)(["\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 0.2rem;\n  border: none;\n  background: none;\n  outline: none;\n  cursor: default;\n  border-radius: 36px;\n  background-color: ", ";\n  color: ", ";\n\n  :hover,\n  :focus {\n    opacity: 0.7;\n  }\n"])), (function(e) {
         return e.theme.colors.invertedContrast
       }), (function(e) {
         return e.theme.colors.textSubtle
       }));
 
-      function si(e) {
-        var n = e.text,
-          t = Object(a.useState)(!1),
-          i = Object(h.a)(t, 2),
-          c = i[0],
-          o = i[1],
-          s = Object(a.useCallback)((function() {
-            return o(!0)
-          }), [o]),
-          u = Object(a.useCallback)((function() {
-            return o(!1)
-          }), [o]);
-        return Object(r.jsx)("span", {
+      function ui(e) {
+        var t = e.text,
+          n = Object(i.useState)(!1),
+          r = Object(h.a)(n, 2),
+          a = r[0],
+          c = r[1],
+          o = Object(i.useCallback)((function() {
+            return c(!0)
+          }), [c]),
+          s = Object(i.useCallback)((function() {
+            return c(!1)
+          }), [c]);
+        return Object(it.jsx)("span", {
           style: {
             marginLeft: 4
           },
-          children: Object(r.jsx)(ai, {
-            text: n,
-            show: c,
-            children: Object(r.jsx)(oi, {
-              onClick: s,
-              onMouseEnter: s,
-              onMouseLeave: u,
-              children: Object(r.jsx)(Fa.a, {
+          children: Object(it.jsx)(ci, {
+            text: t,
+            show: a,
+            children: Object(it.jsx)(li, {
+              onClick: o,
+              onMouseEnter: o,
+              onMouseLeave: s,
+              children: Object(it.jsx)(Fa.a, {
                 size: 16
               })
             })
           })
         })
       }
-
-      function ui() {
-        var e = Object(u.a)(["\n  width: ", ";\n  height: ", ";\n"]);
-        return ui = function() {
-          return e
-        }, e
-      }
-      var li = Object(l.default)(za)(ui(), (function(e) {
-        return e.size
-      }), (function(e) {
-        return e.size
-      }));
-
-      function di() {
-        var e = Object(u.a)(["\n  width: ", ";\n  height: ", ";\n"]);
-        return di = function() {
-          return e
-        }, e
-      }
-
-      function bi() {
-        var e = Object(u.a)(["\n  width: ", ";\n  height: ", ";\n  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.075);\n  border-radius: 24px;\n"]);
-        return bi = function() {
-          return e
-        }, e
-      }
-      var fi = function(e) {
-          return "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/".concat(e, "/logo.png")
-        },
-        pi = l.default.img(bi(), (function(e) {
+      var di, bi, pi, ji = Object(d.default)(Va)(si || (si = Object(u.a)(["\n  width: ", ";\n  height: ", ";\n"])), (function(e) {
           return e.size
         }), (function(e) {
           return e.size
         })),
-        ji = Object(l.default)(za)(di(), (function(e) {
+        fi = function(e) {
+          return "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/".concat(e, "/logo17.png")
+        },
+        hi = d.default.img(di || (di = Object(u.a)(["\n  width: ", ";\n  height: ", ";\n  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.075);\n  border-radius: 24px;\n"])), (function(e) {
+          return e.size
+        }), (function(e) {
+          return e.size
+        })),
+        mi = Object(d.default)(Va)(bi || (bi = Object(u.a)(["\n  width: ", ";\n  height: ", ";\n"])), (function(e) {
           return e.size
         }), (function(e) {
           return e.size
         }));
 
-      function mi(e) {
-        var n, t, i = e.currency,
-          c = e.size,
-          o = void 0 === c ? "24px" : c,
-          s = e.style,
-          u = _a(i instanceof ur ? i.logoURI : void 0),
-          l = Object(a.useMemo)((function() {
-            return i === Z.d ? [] : i instanceof Z.j ? i instanceof ur ? [].concat(Object(X.a)(u), ["/images/coins/".concat(null !== (n = null === i || void 0 === i ? void 0 : i.symbol) && void 0 !== n ? n : "token", ".png"), fi(i.address)]) : ["/images/coins/".concat(null !== (e = null === i || void 0 === i ? void 0 : i.symbol) && void 0 !== e ? e : "token", ".png"), fi(i.address)] : [];
-            var e, n
-          }), [i, u]);
-        return i === Z.d ? Object(r.jsx)(pi, {
+      function yi(e) {
+        var t, n, r = e.currency,
+          a = e.size,
+          c = void 0 === a ? "24px" : a,
+          o = e.style,
+          s = Ya(r instanceof ur ? r.logoURI : void 0),
+          l = Object(i.useMemo)((function() {
+            return r === J.d ? [] : r instanceof J.j ? r instanceof ur ? [].concat(Object(G.a)(s), ["/images/coins/".concat(null !== (t = null === r || void 0 === r ? void 0 : r.address) && void 0 !== t ? t : "token", ".png"), fi(r.address)]) : ["/".concat(null !== (e = null === r || void 0 === r ? void 0 : r.address) && void 0 !== e ? e : "token", ".png"), fi(r.address)] : [];
+            var e, t
+          }), [r, s]);
+        return r === J.d ? Object(it.jsx)(hi, {
           src: "/images/coins/bnb.png",
-          size: o,
-          style: s
-        }) : (null === i || void 0 === i ? void 0 : i.symbol) ? Object(r.jsx)(li, {
-          size: o,
+          size: c,
+          style: o
+        }) : (null === r || void 0 === r ? void 0 : r.symbol) ? Object(it.jsx)(ji, {
+          size: c,
           srcs: l,
-          alt: "".concat(null !== (n = null === i || void 0 === i ? void 0 : i.symbol) && void 0 !== n ? n : "token", " logo"),
-          style: s
-        }) : Object(r.jsx)(ji, {
-          size: o,
+          alt: "".concat(null !== (t = null === r || void 0 === r ? void 0 : r.symbol) && void 0 !== t ? t : "token", " logo"),
+          style: o
+        }) : Object(it.jsx)(mi, {
+          size: c,
           srcs: l,
-          alt: "".concat(null !== (t = null === i || void 0 === i ? void 0 : i.symbol) && void 0 !== t ? t : "token", " logo"),
-          style: s
+          alt: "".concat(null !== (n = null === r || void 0 === r ? void 0 : r.symbol) && void 0 !== n ? n : "token", " logo"),
+          style: o
         })
       }
-
-      function hi() {
-        var e = Object(u.a)(["\n  border: 1px solid ", ";\n  border-radius: 10px;\n  display: flex;\n  padding: 6px;\n\n  align-items: center;\n  :hover {\n    cursor: ", ";\n    background-color: ", ";\n  }\n\n  background-color: ", ";\n  opacity: ", ";\n"]);
-        return hi = function() {
-          return e
-        }, e
-      }
-      var yi = l.default.div(hi(), (function(e) {
-        var n = e.theme;
-        return e.disable ? "transparent" : n.colors.tertiary
+      var Oi = d.default.div(pi || (pi = Object(u.a)(["\n  border: 1px solid ", ";\n  border-radius: 10px;\n  display: flex;\n  padding: 6px;\n\n  align-items: center;\n  :hover {\n    cursor: ", ";\n    background-color: ", ";\n  }\n\n  background-color: ", ";\n  opacity: ", ";\n"])), (function(e) {
+        var t = e.theme;
+        return e.disable ? "transparent" : t.colors.tertiary
       }), (function(e) {
         return !e.disable && "pointer"
       }), (function(e) {
-        var n = e.theme;
-        return !e.disable && n.colors.invertedContrast
+        var t = e.theme;
+        return !e.disable && t.colors.invertedContrast
       }), (function(e) {
-        var n = e.theme;
-        return e.disable && n.colors.tertiary
+        var t = e.theme;
+        return e.disable && t.colors.tertiary
       }), (function(e) {
         return e.disable && "0.4"
       }));
 
       function vi(e) {
-        var n = e.chainId,
-          t = e.onSelect,
-          a = e.selectedCurrency,
-          i = $t();
-        return Object(r.jsxs)(De, {
+        var t = e.chainId,
+          n = e.onSelect,
+          r = e.selectedCurrency,
+          a = tr();
+        return Object(it.jsxs)(Me, {
           gap: "md",
-          children: [Object(r.jsxs)(tn, {
-            children: [Object(r.jsx)(s.y, {
+          children: [Object(it.jsxs)(nt, {
+            children: [Object(it.jsx)(l.y, {
               fontSize: "14px",
               children: "Common bases"
-            }), Object(r.jsx)(si, {
-              text: i(1204, "These tokens are commonly paired with other tokens.")
+            }), Object(it.jsx)(ui, {
+              text: a(1204, "These tokens are commonly paired with other tokens.")
             })]
-          }), Object(r.jsxs)(tn, {
+          }), Object(it.jsxs)(nt, {
             gap: "4px",
-            children: [Object(r.jsxs)(yi, {
+            children: [Object(it.jsxs)(Oi, {
               onClick: function() {
-                a && Object(Z.o)(a, Z.d) || t(Z.d)
+                r && Object(J.o)(r, J.d) || n(J.d)
               },
-              disable: a === Z.d,
-              children: [Object(r.jsx)(mi, {
-                currency: Z.d,
+              disable: r === J.d,
+              children: [Object(it.jsx)(yi, {
+                currency: J.d,
                 style: {
                   marginRight: 8
                 }
-              }), Object(r.jsx)(s.y, {
+              }), Object(it.jsx)(l.y, {
                 children: "BNB"
               })]
-            }), (n ? se[n] : []).map((function(e) {
-              var n = a instanceof Z.j && a.address === e.address;
-              return Object(r.jsxs)(yi, {
+            }), (t ? se[t] : []).map((function(e) {
+              var t = r instanceof J.j && r.address === e.address;
+              return Object(it.jsxs)(Oi, {
                 onClick: function() {
-                  return !n && t(e)
+                  return !t && n(e)
                 },
-                disable: n,
-                children: [Object(r.jsx)(mi, {
+                disable: t,
+                children: [Object(it.jsx)(yi, {
                   currency: e,
                   style: {
                     marginRight: 8
                   }
-                }), Object(r.jsx)(s.y, {
+                }), Object(it.jsx)(l.y, {
                   children: e.symbol
                 })]
               }, e.address)
@@ -2464,66 +2125,24 @@
           })]
         })
       }
-      var Oi = t(278);
-
-      function xi() {
-        var e = Object(u.a)(["\n  width: 100%;\n  height: 1px;\n  background-color: ", ";\n"]);
-        return xi = function() {
-          return e
-        }, e
-      }
-
-      function gi() {
-        var e = Object(u.a)(["\n  width: 100%;\n  height: 1px;\n  background-color: ", ";\n"]);
-        return gi = function() {
-          return e
-        }, e
-      }
-
-      function Ci() {
-        var e = Object(u.a)(["\n  position: relative;\n  display: flex;\n  padding: 16px;\n  align-items: center;\n  width: 100%;\n  white-space: nowrap;\n  background: none;\n  border: none;\n  outline: none;\n  border-radius: 20px;\n  color: ", ";\n  border-style: solid;\n  border: 1px solid ", ";\n  -webkit-appearance: none;\n\n  font-size: 18px;\n\n  ::placeholder {\n    color: ", ";\n  }\n  transition: border 100ms;\n  :focus {\n    border: 1px solid ", ";\n    outline: none;\n  }\n"]);
-        return Ci = function() {
-          return e
-        }, e
-      }
-
-      function wi() {
-        var e = Object(u.a)(["\n  padding: 4px 20px;\n  height: 56px;\n  display: grid;\n  grid-template-columns: auto minmax(auto, 1fr) auto minmax(0, 72px);\n  grid-gap: 16px;\n  cursor: ", ";\n  pointer-events: ", ";\n  :hover {\n    background-color: ", ";\n  }\n  opacity: ", ";\n"]);
-        return wi = function() {
-          return e
-        }, e
-      }
-
-      function Ti() {
-        var e = Object(u.a)(["\n  padding: 20px;\n  padding-bottom: 12px;\n"]);
-        return Ti = function() {
-          return e
-        }, e
-      }
-
-      function ki() {
-        var e = Object(u.a)(["\n  color: ", ";\n  font-size: 14px;\n"]);
-        return ki = function() {
-          return e
-        }, e
-      }
-      var Ii = Object(l.default)(rn)(ki(), (function(e) {
+      var xi, gi, Ci, wi, ki, Ti, Ii, Ei, Ni, Ri = n(292),
+        Si = Object(d.default)(rt)(xi || (xi = Object(u.a)(["\n  color: ", ";\n  font-size: 14px;\n"])), (function(e) {
           return e.theme.colors.primary
         })),
-        Ei = Object(l.default)(De)(Ti()),
-        Ni = Object(l.default)(en)(wi(), (function(e) {
+        Ui = Object(d.default)(Me)(gi || (gi = Object(u.a)(["\n  padding: 20px;\n  padding-bottom: 12px;\n"]))),
+        Ai = Object(d.default)(et)(Ci || (Ci = Object(u.a)(["\n  padding: 4px 20px;\n  height: 56px;\n  display: grid;\n  grid-template-columns: auto minmax(auto, 1fr) auto minmax(0, 72px);\n  grid-gap: 16px;\n  cursor: ", ";\n  pointer-events: ", ";\n  :hover {\n    background-color: ", ";\n  }\n  opacity: ", ";\n"])), (function(e) {
           return !e.disabled && "pointer"
         }), (function(e) {
           return e.disabled && "none"
         }), (function(e) {
-          var n = e.theme;
-          return !e.disabled && n.colors.invertedContrast
+          var t = e.theme;
+          return !e.disabled && t.colors.invertedContrast
         }), (function(e) {
-          var n = e.disabled,
-            t = e.selected;
-          return n || t ? .5 : 1
+          var t = e.disabled,
+            n = e.selected;
+          return t || n ? .5 : 1
         })),
-        Ri = l.default.input(Ci(), (function(e) {
+        Pi = d.default.input(wi || (wi = Object(u.a)(["\n  position: relative;\n  display: flex;\n  padding: 16px;\n  align-items: center;\n  width: 100%;\n  white-space: nowrap;\n  background: none;\n  border: none;\n  outline: none;\n  border-radius: 20px;\n  color: ", ";\n  border-style: solid;\n  border: 1px solid ", ";\n  -webkit-appearance: none;\n\n  font-size: 18px;\n\n  ::placeholder {\n    color: ", ";\n  }\n  transition: border 100ms;\n  :focus {\n    border: 1px solid ", ";\n    outline: none;\n  }\n"])), (function(e) {
           return e.theme.colors.text
         }), (function(e) {
           return e.theme.colors.tertiary
@@ -2532,464 +2151,436 @@
         }), (function(e) {
           return e.theme.colors.primary
         })),
-        Si = l.default.div(gi(), (function(e) {
+        Bi = d.default.div(ki || (ki = Object(u.a)(["\n  width: 100%;\n  height: 1px;\n  background-color: ", ";\n"])), (function(e) {
           return e.theme.colors.invertedContrast
         })),
-        Ui = l.default.div(xi(), (function(e) {
+        Mi = d.default.div(Ti || (Ti = Object(u.a)(["\n  width: 100%;\n  height: 1px;\n  background-color: ", ";\n"])), (function(e) {
           return e.theme.colors.tertiary
         }));
 
-      function Ai() {
-        var e = Object(u.a)(["\n  display: flex;\n  justify-content: flex-end;\n"]);
-        return Ai = function() {
-          return e
-        }, e
+      function Li(e) {
+        return e instanceof J.j ? e.address : e === J.d ? "ETHER" : ""
       }
-
-      function Bi() {
-        var e = Object(u.a)(["\n  background-color: ", ";\n  color: ", ";\n  font-size: 14px;\n  border-radius: 4px;\n  padding: 0.25rem 0.3rem 0.25rem 0.3rem;\n  max-width: 6rem;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  justify-self: flex-end;\n  margin-right: 4px;\n"]);
-        return Bi = function() {
-          return e
-        }, e
-      }
-
-      function Pi() {
-        var e = Object(u.a)(["\n  white-space: nowrap;\n  overflow: hidden;\n  max-width: 5rem;\n  text-overflow: ellipsis;\n"]);
-        return Pi = function() {
-          return e
-        }, e
-      }
-
-      function Di(e) {
-        return e instanceof Z.j ? e.address : e === Z.d ? "ETHER" : ""
-      }
-      var Mi = Object(l.default)(s.y)(Pi()),
-        Li = l.default.div(Bi(), (function(e) {
+      var Di = Object(d.default)(l.y)(Ii || (Ii = Object(u.a)(["\n  white-space: nowrap;\n  overflow: hidden;\n  max-width: 5rem;\n  text-overflow: ellipsis;\n"]))),
+        _i = d.default.div(Ei || (Ei = Object(u.a)(["\n  background-color: ", ";\n  color: ", ";\n  font-size: 14px;\n  border-radius: 4px;\n  padding: 0.25rem 0.3rem 0.25rem 0.3rem;\n  max-width: 6rem;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  justify-self: flex-end;\n  margin-right: 4px;\n"])), (function(e) {
           return e.theme.colors.tertiary
         }), (function(e) {
           return e.theme.colors.textSubtle
         }));
 
-      function _i(e) {
-        var n = e.balance;
-        return Object(r.jsx)(Mi, {
-          title: n.toExact(),
-          children: n.toSignificant(4)
+      function Yi(e) {
+        var t = e.balance;
+        return Object(it.jsx)(Di, {
+          title: t.toExact(),
+          children: t.toSignificant(4)
         })
       }
-      var Fi = l.default.div(Ai());
+      var zi = d.default.div(Ni || (Ni = Object(u.a)(["\n  display: flex;\n  justify-content: flex-end;\n"])));
 
-      function Yi(e) {
-        var n = e.currency;
-        if (!(n instanceof ur)) return Object(r.jsx)("span", {});
-        var t = n.tags;
-        if (!t || 0 === t.length) return Object(r.jsx)("span", {});
-        var a = t[0];
-        return Object(r.jsxs)(Fi, {
-          children: [Object(r.jsx)(ii, {
-            text: a.description,
-            children: Object(r.jsx)(Li, {
-              children: a.name
-            }, a.id)
-          }), t.length > 1 ? Object(r.jsx)(ii, {
-            text: t.slice(1).map((function(e) {
-              var n = e.name,
-                t = e.description;
-              return "".concat(n, ": ").concat(t)
+      function Fi(e) {
+        var t = e.currency;
+        if (!(t instanceof ur)) return Object(it.jsx)("span", {});
+        var n = t.tags;
+        if (!n || 0 === n.length) return Object(it.jsx)("span", {});
+        var r = n[0];
+        return Object(it.jsxs)(zi, {
+          children: [Object(it.jsx)(oi, {
+            text: r.description,
+            children: Object(it.jsx)(_i, {
+              children: r.name
+            }, r.id)
+          }), n.length > 1 ? Object(it.jsx)(oi, {
+            text: n.slice(1).map((function(e) {
+              var t = e.name,
+                n = e.description;
+              return "".concat(t, ": ").concat(n)
             })).join("; \n"),
-            children: Object(r.jsx)(Li, {
+            children: Object(it.jsx)(_i, {
               children: "..."
             })
           }) : null]
         })
       }
 
-      function zi(e) {
-        var n = e.currency,
-          t = e.onSelect,
-          i = e.isSelected,
-          c = e.otherSelected,
-          o = e.style,
-          u = ge(),
-          l = u.account,
-          d = u.chainId,
-          b = Di(n),
-          f = function(e, n) {
-            var t;
-            return n === Z.d || Boolean(n instanceof Z.j && (null === (t = e[n.chainId]) || void 0 === t ? void 0 : t[n.address]))
-          }(pr(), n),
+      function qi(e) {
+        var t = e.currency,
+          n = e.onSelect,
+          r = e.isSelected,
+          a = e.otherSelected,
+          c = e.style,
+          o = ge(),
+          s = o.account,
+          u = o.chainId,
+          d = Li(t),
+          b = function(e, t) {
+            var n;
+            return t === J.d || Boolean(t instanceof J.j && (null === (n = e[t.chainId]) || void 0 === n ? void 0 : n[t.address]))
+          }(fr(), t),
           p = function(e) {
-            return !!$r().find((function(n) {
-              return Object(Z.o)(e, n)
+            return !!ea().find((function(t) {
+              return Object(J.o)(e, t)
             }))
-          }(n),
-          j = wa(null !== l && void 0 !== l ? l : void 0, n),
-          m = function() {
-            var e = Object(x.c)();
-            return Object(a.useCallback)((function(n, t) {
-              e(zr({
-                chainId: n,
-                address: t
+          }(t),
+          j = ka(null !== s && void 0 !== s ? s : void 0, t),
+          f = function() {
+            var e = Object(v.c)();
+            return Object(i.useCallback)((function(t, n) {
+              e(qr({
+                chainId: t,
+                address: n
               }))
             }), [e])
           }(),
           h = function() {
-            var e = Object(x.c)();
-            return Object(a.useCallback)((function(n) {
-              e(Yr({
-                serializedToken: Kr(n)
+            var e = Object(v.c)();
+            return Object(i.useCallback)((function(t) {
+              e(Fr({
+                serializedToken: Gr(t)
               }))
             }), [e])
           }();
-        return Object(r.jsxs)(Ni, {
-          style: o,
-          className: "token-item-".concat(b),
+        return Object(it.jsxs)(Ai, {
+          style: c,
+          className: "token-item-".concat(d),
           onClick: function() {
-            return i ? null : t()
+            return r ? null : n()
           },
-          disabled: i,
-          selected: c,
-          children: [Object(r.jsx)(mi, {
-            currency: n,
+          disabled: r,
+          selected: a,
+          children: [Object(it.jsx)(yi, {
+            currency: t,
             size: "24px"
-          }), Object(r.jsxs)(Me, {
-            children: [Object(r.jsx)(s.y, {
-              title: n.name,
-              children: n.symbol
-            }), Object(r.jsxs)(Ii, {
-              children: [f || !p || n instanceof ur ? null : Object(r.jsxs)(s.y, {
-                children: ["Added by user", Object(r.jsx)(En, {
+          }), Object(it.jsxs)(Le, {
+            children: [Object(it.jsx)(l.y, {
+              title: t.name,
+              children: t.symbol
+            }), Object(it.jsxs)(Si, {
+              children: [b || !p || t instanceof ur ? null : Object(it.jsxs)(l.y, {
+                children: ["Added by user", Object(it.jsx)(Et, {
                   onClick: function(e) {
-                    e.stopPropagation(), d && n instanceof Z.j && m(d, n.address)
+                    e.stopPropagation(), u && t instanceof J.j && f(u, t.address)
                   },
                   children: "(Remove)"
                 })]
-              }), f || p || n instanceof ur ? null : Object(r.jsxs)(s.y, {
-                children: ["Found by address", Object(r.jsx)(En, {
+              }), b || p || t instanceof ur ? null : Object(it.jsxs)(l.y, {
+                children: ["Found by address", Object(it.jsx)(Et, {
                   onClick: function(e) {
-                    e.stopPropagation(), n instanceof Z.j && h(n)
+                    e.stopPropagation(), t instanceof J.j && h(t)
                   },
                   children: "(Add)"
                 })]
               })]
             })]
-          }), Object(r.jsx)(Yi, {
-            currency: n
-          }), Object(r.jsx)(rn, {
+          }), Object(it.jsx)(Fi, {
+            currency: t
+          }), Object(it.jsx)(rt, {
             style: {
               justifySelf: "flex-end"
             },
-            children: j ? Object(r.jsx)(_i, {
+            children: j ? Object(it.jsx)(Yi, {
               balance: j
-            }) : l ? Object(r.jsx)(rt, {}) : null
+            }) : s ? Object(it.jsx)(cn, {}) : null
           })]
         })
       }
 
-      function qi(e) {
-        var n = e.height,
-          t = e.currencies,
-          i = e.selectedCurrency,
-          c = e.onCurrencySelect,
-          o = e.otherCurrency,
-          s = e.fixedListRef,
-          u = e.showETH,
-          l = Object(a.useMemo)((function() {
-            return u ? [Z.b.ETHER].concat(Object(X.a)(t)) : Object(X.a)(t)
-          }), [t, u]),
-          d = Object(a.useCallback)((function(e) {
-            var n = e.data,
-              t = e.index,
-              a = e.style,
-              s = n[t],
-              u = Boolean(i && Object(Z.o)(i, s)),
-              l = Boolean(o && Object(Z.o)(o, s));
-            return Object(r.jsx)(zi, {
-              style: a,
-              currency: s,
-              isSelected: u,
+      function Vi(e) {
+        var t = e.height,
+          n = e.currencies,
+          r = e.selectedCurrency,
+          a = e.onCurrencySelect,
+          c = e.otherCurrency,
+          o = e.fixedListRef,
+          s = e.showETH,
+          l = Object(i.useMemo)((function() {
+            return s ? [J.b.ETHER].concat(Object(G.a)(n)) : Object(G.a)(n)
+          }), [n, s]),
+          u = Object(i.useCallback)((function(e) {
+            var t = e.data,
+              n = e.index,
+              i = e.style,
+              o = t[n],
+              s = Boolean(r && Object(J.o)(r, o)),
+              l = Boolean(c && Object(J.o)(c, o));
+            return Object(it.jsx)(qi, {
+              style: i,
+              currency: o,
+              isSelected: s,
               onSelect: function() {
-                return c(s)
+                return a(o)
               },
               otherSelected: l
             })
-          }), [c, o, i]),
-          b = Object(a.useCallback)((function(e, n) {
-            return Di(n[e])
+          }), [a, c, r]),
+          d = Object(i.useCallback)((function(e, t) {
+            return Li(t[e])
           }), []);
-        return Object(r.jsx)(Oi.a, {
-          height: n,
-          ref: s,
+        return Object(it.jsx)(Ri.a, {
+          height: t,
+          ref: o,
           width: "100%",
           itemData: l,
           itemCount: l.length,
           itemSize: 56,
-          itemKey: b,
-          children: d
+          itemKey: d,
+          children: u
         })
       }
 
-      function Vi(e, n) {
-        if (0 === n.length) return e;
-        var t = pn(n);
-        if (t) return e.filter((function(e) {
-          return e.address === t
+      function Wi(e, t) {
+        if (0 === t.length) return e;
+        var n = jt(t);
+        if (n) return e.filter((function(e) {
+          return e.address === n
         }));
-        var r = n.toLowerCase().split(/\s+/).filter((function(e) {
+        var r = t.toLowerCase().split(/\s+/).filter((function(e) {
           return e.length > 0
         }));
         if (0 === r.length) return e;
         var a = function(e) {
-          var n = e.toLowerCase().split(/\s+/).filter((function(e) {
+          var t = e.toLowerCase().split(/\s+/).filter((function(e) {
             return e.length > 0
           }));
           return r.every((function(e) {
-            return 0 === e.length || n.some((function(n) {
-              return n.startsWith(e) || n.endsWith(e)
+            return 0 === e.length || t.some((function(t) {
+              return t.startsWith(e) || t.endsWith(e)
             }))
           }))
         };
         return e.filter((function(e) {
-          var n = e.symbol,
-            t = e.name;
-          return n && a(n) || t && a(t)
+          var t = e.symbol,
+            n = e.name;
+          return t && a(t) || n && a(n)
         }))
       }
-
-      function Wi() {
-        var e = Object(u.a)(["\n  padding: 8px;\n  background-color: ", ";\n  color: ", ";\n  border-radius: 8px;\n  user-select: none;\n  & > * {\n    user-select: none;\n  }\n  :hover {\n    cursor: pointer;\n  }\n"]);
-        return Wi = function() {
-          return e
-        }, e
-      }
-      var Hi = Object(l.default)(rn)(Wi(), (function(e) {
+      var Hi, Qi = Object(d.default)(rt)(Hi || (Hi = Object(u.a)(["\n  padding: 8px;\n  background-color: ", ";\n  color: ", ";\n  border-radius: 8px;\n  user-select: none;\n  & > * {\n    user-select: none;\n  }\n  :hover {\n    cursor: pointer;\n  }\n"])), (function(e) {
         return e.theme.colors.invertedContrast
       }), (function(e) {
         return e.theme.colors.text
       }));
 
-      function Gi(e) {
-        var n = e.toggleSortOrder,
-          t = e.ascending;
-        return Object(r.jsx)(Hi, {
-          onClick: n,
-          children: Object(r.jsx)(s.y, {
+      function Ki(e) {
+        var t = e.toggleSortOrder,
+          n = e.ascending;
+        return Object(it.jsx)(Qi, {
+          onClick: t,
+          children: Object(it.jsx)(l.y, {
             fontSize: "14px",
-            children: t ? "\u2191" : "\u2193"
+            children: n ? "\u2191" : "\u2193"
           })
         })
       }
 
-      function Ki(e) {
-        var n = function() {
+      function Gi(e) {
+        var t = function() {
             var e = ge().account,
-              n = pa(),
-              t = xa(null !== e && void 0 !== e ? e : void 0, Object(a.useMemo)((function() {
-                return Object.values(null !== n && void 0 !== n ? n : {})
-              }), [n]));
-            return null !== t && void 0 !== t ? t : {}
+              t = fa(),
+              n = ga(null !== e && void 0 !== e ? e : void 0, Object(i.useMemo)((function() {
+                return Object.values(null !== t && void 0 !== t ? t : {})
+              }), [t]));
+            return null !== n && void 0 !== n ? n : {}
           }(),
-          t = Object(a.useMemo)((function() {
+          n = Object(i.useMemo)((function() {
             return function(e) {
-              return function(n, t) {
-                var r, a, i = (r = e[n.address], a = e[t.address], r && a ? r.greaterThan(a) ? -1 : r.equalTo(a) ? 0 : 1 : r && r.greaterThan("0") ? -1 : a && a.greaterThan("0") ? 1 : 0);
-                return 0 !== i ? i : n.symbol && t.symbol ? n.symbol.toLowerCase() < t.symbol.toLowerCase() ? -1 : 1 : n.symbol || t.symbol ? -1 : 0
+              return function(t, n) {
+                var r, a, i = (r = e[t.address], a = e[n.address], r && a ? r.greaterThan(a) ? -1 : r.equalTo(a) ? 0 : 1 : r && r.greaterThan("0") ? -1 : a && a.greaterThan("0") ? 1 : 0);
+                return 0 !== i ? i : t.symbol && n.symbol ? t.symbol.toLowerCase() < n.symbol.toLowerCase() ? -1 : 1 : t.symbol || n.symbol ? -1 : 0
               }
-            }(null !== n && void 0 !== n ? n : {})
-          }), [n]);
-        return Object(a.useMemo)((function() {
-          return e ? function(e, n) {
-            return -1 * t(e, n)
-          } : t
-        }), [e, t])
+            }(null !== t && void 0 !== t ? t : {})
+          }), [t]);
+        return Object(i.useMemo)((function() {
+          return e ? function(e, t) {
+            return -1 * n(e, t)
+          } : n
+        }), [e, n])
       }
 
-      function Qi(e) {
-        var n = e.selectedCurrency,
-          t = e.onCurrencySelect,
-          i = e.otherSelectedCurrency,
-          c = e.showCommonBases,
-          o = e.onDismiss,
-          u = e.isOpen,
-          d = (e.onChangeList, Object(Zn.b)().t),
-          b = ge().chainId,
-          f = (Object(a.useContext)(l.ThemeContext), Object(a.useRef)()),
-          p = Object(a.useState)(""),
+      function Xi(e) {
+        var t = e.selectedCurrency,
+          n = e.onCurrencySelect,
+          r = e.otherSelectedCurrency,
+          a = e.showCommonBases,
+          c = e.onDismiss,
+          o = e.isOpen,
+          s = (e.onChangeList, Object(nn.b)().t),
+          u = ge().chainId,
+          b = (Object(i.useContext)(d.ThemeContext), Object(i.useRef)()),
+          p = Object(i.useState)(""),
           j = Object(h.a)(p, 2),
-          m = j[0],
-          y = j[1],
-          v = Object(a.useState)(!1),
-          O = Object(h.a)(v, 2),
-          g = O[0],
-          C = O[1],
-          w = pa(),
-          T = pn(m),
-          k = ha(m),
-          I = Object(a.useMemo)((function() {
-            var e = m.toLowerCase().trim();
-            return "" === e || "e" === e || "et" === e || "eth" === e
-          }), [m]),
-          E = Ki(g),
-          N = Object(x.d)((function(e) {
+          f = j[0],
+          m = j[1],
+          y = Object(i.useState)(!1),
+          O = Object(h.a)(y, 2),
+          x = O[0],
+          g = O[1],
+          C = fa(),
+          w = jt(f),
+          k = ya(f),
+          T = Object(i.useMemo)((function() {
+            var e = f.toLowerCase().trim();
+            return "" === e || "b" === e || "bn" === e || "bnb" === e
+          }), [f]),
+          I = Gi(x),
+          E = Object(v.d)((function(e) {
             return e.user.audioPlay
           })),
-          R = Object(a.useMemo)((function() {
-            return T ? k ? [k] : [] : Vi(Object.values(w), m)
-          }), [T, k, w, m]),
-          S = Object(a.useMemo)((function() {
+          N = Object(i.useMemo)((function() {
+            return w ? k ? [k] : [] : Wi(Object.values(C), f)
+          }), [w, k, C, f]),
+          R = Object(i.useMemo)((function() {
             if (k) return [k];
-            var e = R.sort(E),
-              n = m.toLowerCase().split(/\s+/).filter((function(e) {
+            var e = N.sort(I),
+              t = f.toLowerCase().split(/\s+/).filter((function(e) {
                 return e.length > 0
               }));
-            return n.length > 1 ? e : [].concat(Object(X.a)(k ? [k] : []), Object(X.a)(e.filter((function(e) {
-              var t;
-              return (null === (t = e.symbol) || void 0 === t ? void 0 : t.toLowerCase()) === n[0]
-            }))), Object(X.a)(e.filter((function(e) {
-              var t;
-              return (null === (t = e.symbol) || void 0 === t ? void 0 : t.toLowerCase()) !== n[0]
-            }))))
-          }), [R, m, k, E]),
-          U = Object(a.useCallback)((function(e) {
-            if (t(e), o(), N) {
-              var n = document.getElementById("bgMusic");
-              n && n.play()
-            }
-          }), [o, t, N]);
-        Object(a.useEffect)((function() {
-          u && y("")
-        }), [u]);
-        var A = Object(a.useRef)(),
-          B = Object(a.useCallback)((function(e) {
-            var n, t = e.target.value,
-              r = pn(t);
-            y(r || t), null === (n = f.current) || void 0 === n || n.scrollTo(0)
-          }), []),
-          P = Object(a.useCallback)((function(e) {
-            if ("Enter" === e.key)
-              if ("eth" === m.toLowerCase().trim()) U(Z.d);
-              else if (S.length > 0) {
+            return t.length > 1 ? e : [].concat(Object(G.a)(k ? [k] : []), Object(G.a)(e.filter((function(e) {
               var n;
-              (null === (n = S[0].symbol) || void 0 === n ? void 0 : n.toLowerCase()) !== m.trim().toLowerCase() && 1 !== S.length || U(S[0])
+              return (null === (n = e.symbol) || void 0 === n ? void 0 : n.toLowerCase()) === t[0]
+            }))), Object(G.a)(e.filter((function(e) {
+              var n;
+              return (null === (n = e.symbol) || void 0 === n ? void 0 : n.toLowerCase()) !== t[0]
+            }))))
+          }), [N, f, k, I]),
+          S = Object(i.useCallback)((function(e) {
+            if (n(e), c(), E) {
+              var t = document.getElementById("bgMusic");
+              t && t.play()
             }
-          }), [S, U, m]),
-          D = (function() {
-            var e, n, t = fr(),
-              r = Object(x.d)((function(e) {
+          }), [c, n, E]);
+        Object(i.useEffect)((function() {
+          o && m("")
+        }), [o]);
+        var U = Object(i.useRef)(),
+          A = Object(i.useCallback)((function(e) {
+            var t, n = e.target.value,
+              r = jt(n);
+            m(r || n), null === (t = b.current) || void 0 === t || t.scrollTo(0)
+          }), []),
+          P = Object(i.useCallback)((function(e) {
+            if ("Enter" === e.key)
+              if ("bnb" === f.toLowerCase().trim()) S(J.d);
+              else if (R.length > 0) {
+              var t;
+              (null === (t = R[0].symbol) || void 0 === t ? void 0 : t.toLowerCase()) !== f.trim().toLowerCase() && 1 !== R.length || S(R[0])
+            }
+          }), [R, S, f]),
+          B = (function() {
+            var e, t, n = jr(),
+              r = Object(v.d)((function(e) {
                 return e.lists.byUrl
               })),
-              a = t ? r[t] : void 0;
-            e = null === a || void 0 === a ? void 0 : a.current, n = null === a || void 0 === a ? void 0 : a.pendingUpdate, null === a || void 0 === a || a.loadingRequestId
-          }(), $t());
-        return Object(r.jsxs)(Me, {
+              a = n ? r[n] : void 0;
+            e = null === a || void 0 === a ? void 0 : a.current, t = null === a || void 0 === a ? void 0 : a.pendingUpdate, null === a || void 0 === a || a.loadingRequestId
+          }(), tr());
+        return Object(it.jsxs)(Le, {
           style: {
             width: "100%",
             flex: "1 1"
           },
-          children: [Object(r.jsxs)(Ei, {
+          children: [Object(it.jsxs)(Ui, {
             gap: "14px",
-            children: [Object(r.jsxs)(en, {
-              children: [Object(r.jsxs)(s.y, {
-                children: [D(82, "Select a token"), Object(r.jsx)(si, {
-                  text: D(128, "Find a token by searching for its name or symbol or by pasting its address below.")
+            children: [Object(it.jsxs)(et, {
+              children: [Object(it.jsxs)(l.y, {
+                children: [B(82, "Select a token"), Object(it.jsx)(ui, {
+                  text: B(128, "Find a token by searching for its name or symbol or by pasting its address below.")
                 })]
-              }), Object(r.jsx)(s.j, {
-                onClick: o
+              }), Object(it.jsx)(l.j, {
+                onClick: c
               })]
-            }), Object(r.jsx)(Ri, {
+            }), Object(it.jsx)(Pi, {
               type: "text",
               id: "token-search-input",
-              placeholder: d("tokenSearchPlaceholder"),
-              value: m,
-              ref: A,
-              onChange: B,
+              placeholder: s("tokenSearchPlaceholder"),
+              value: f,
+              ref: U,
+              onChange: A,
               onKeyDown: P
-            }), c && Object(r.jsx)(vi, {
-              chainId: b,
-              onSelect: U,
-              selectedCurrency: n
-            }), Object(r.jsxs)(en, {
-              children: [Object(r.jsx)(s.y, {
+            }), a && Object(it.jsx)(vi, {
+              chainId: u,
+              onSelect: S,
+              selectedCurrency: t
+            }), Object(it.jsxs)(et, {
+              children: [Object(it.jsx)(l.y, {
                 fontSize: "14px",
-                children: D(126, "Token name")
-              }), Object(r.jsx)(Gi, {
-                ascending: g,
+                children: B(126, "Token name")
+              }), Object(it.jsx)(Ki, {
+                ascending: x,
                 toggleSortOrder: function() {
-                  return C((function(e) {
+                  return g((function(e) {
                     return !e
                   }))
                 }
               })]
             })]
-          }), Object(r.jsx)(Si, {}), Object(r.jsx)("div", {
+          }), Object(it.jsx)(Bi, {}), Object(it.jsx)("div", {
             style: {
               flex: "1"
             },
-            children: Object(r.jsx)(Ia.a, {
+            children: Object(it.jsx)(Ea.a, {
               disableWidth: !0,
               children: function(e) {
-                var t = e.height;
-                return Object(r.jsx)(qi, {
-                  height: t,
-                  showETH: I,
-                  currencies: S,
-                  onCurrencySelect: U,
-                  otherCurrency: i,
-                  selectedCurrency: n,
-                  fixedListRef: f
+                var n = e.height;
+                return Object(it.jsx)(Vi, {
+                  height: n,
+                  showETH: T,
+                  currencies: R,
+                  onCurrencySelect: S,
+                  otherCurrency: r,
+                  selectedCurrency: t,
+                  fixedListRef: b
                 })
               }
             })
           }), null]
         })
       }
-      var Xi = t(497),
-        Ji = t(271),
-        Zi = t(272),
-        $i = t.n(Zi),
-        ec = "pancakeswap",
-        nc = [ec],
-        tc = t(149),
-        rc = new $i.a({
+      var Ji = n(531),
+        $i = n(285),
+        Zi = n(286),
+        ec = n.n(Zi),
+        tc = "pancakeswap",
+        nc = [tc],
+        rc = n(154),
+        ac = new ec.a({
           allErrors: !0
-        }).compile(Ji);
+        }).compile($i);
 
-      function ac(e, n) {
-        return ic.apply(this, arguments)
+      function ic(e, t) {
+        return cc.apply(this, arguments)
       }
 
-      function ic() {
-        return (ic = Object(m.a)(j.a.mark((function e(n, t) {
-          var r, a, i, c, o, s, u, l, d, b, f, p, m;
+      function cc() {
+        return (cc = Object(f.a)(j.a.mark((function e(t, n) {
+          var r, a, i, c, o, s, l, u, d, b, p, f, h;
           return j.a.wrap((function(e) {
             for (;;) switch (e.prev = e.next) {
               case 0:
-                if (n !== ec) {
+                if (t !== tc) {
                   e.next = 2;
                   break
                 }
-                return e.abrupt("return", tc);
+                return e.abrupt("return", rc);
               case 2:
-                if (!(r = Pa(n))) {
+                if (!(r = Ma(t))) {
                   e.next = 25;
                   break
                 }
-                return e.prev = 4, e.next = 7, t(r.ensName);
+                return e.prev = 4, e.next = 7, n(r.ensName);
               case 7:
                 c = e.sent, e.next = 14;
                 break;
               case 10:
                 throw e.prev = 10, e.t0 = e.catch(4), console.error("Failed to resolve ENS name: ".concat(r.ensName), e.t0), new Error("Failed to resolve ENS name: ".concat(r.ensName));
               case 14:
-                e.prev = 14, o = Aa(c), e.next = 22;
+                e.prev = 14, o = Pa(c), e.next = 22;
                 break;
               case 18:
                 throw e.prev = 18, e.t1 = e.catch(14), console.error("Failed to translate contenthash to URI", c), new Error("Failed to translate contenthash to URI: ".concat(c));
               case 22:
-                a = Da("".concat(o).concat(null !== (i = r.ensPath) && void 0 !== i ? i : "")), e.next = 26;
+                a = La("".concat(o).concat(null !== (i = r.ensPath) && void 0 !== i ? i : "")), e.next = 26;
                 break;
               case 25:
-                a = Da(n);
+                a = La(t);
               case 26:
                 s = 0;
               case 27:
@@ -2997,16 +2588,16 @@
                   e.next = 57;
                   break
                 }
-                return u = a[s], l = s === a.length - 1, d = void 0, e.prev = 31, e.next = 34, fetch(u);
+                return l = a[s], u = s === a.length - 1, d = void 0, e.prev = 31, e.next = 34, fetch(l);
               case 34:
                 d = e.sent, e.next = 43;
                 break;
               case 37:
-                if (e.prev = 37, e.t2 = e.catch(31), console.error("Failed to fetch list", n, e.t2), !l) {
+                if (e.prev = 37, e.t2 = e.catch(31), console.error("Failed to fetch list", t, e.t2), !u) {
                   e.next = 42;
                   break
                 }
-                throw new Error("Failed to download list ".concat(n));
+                throw new Error("Failed to download list ".concat(t));
               case 42:
                 return e.abrupt("continue", 54);
               case 43:
@@ -3014,24 +2605,24 @@
                   e.next = 47;
                   break
                 }
-                if (!l) {
+                if (!u) {
                   e.next = 46;
                   break
                 }
-                throw new Error("Failed to download list ".concat(n));
+                throw new Error("Failed to download list ".concat(t));
               case 46:
                 return e.abrupt("continue", 54);
               case 47:
                 return e.next = 49, d.json();
               case 49:
-                if (b = e.sent, rc(b)) {
+                if (b = e.sent, ac(b)) {
                   e.next = 53;
                   break
                 }
-                throw m = null !== (f = null === (p = rc.errors) || void 0 === p ? void 0 : p.reduce((function(e, n) {
-                  var t, r = "".concat(n.dataPath, " ").concat(null !== (t = n.message) && void 0 !== t ? t : "");
+                throw h = null !== (p = null === (f = ac.errors) || void 0 === f ? void 0 : f.reduce((function(e, t) {
+                  var n, r = "".concat(t.dataPath, " ").concat(null !== (n = t.message) && void 0 !== n ? n : "");
                   return e.length > 0 ? "".concat(e, "; ").concat(r) : "".concat(r)
-                }), "")) && void 0 !== f ? f : "unknown error", new Error("Token list failed validation: ".concat(m));
+                }), "")) && void 0 !== p ? p : "unknown error", new Error("Token list failed validation: ".concat(h));
               case 53:
                 return e.abrupt("return", b);
               case 54:
@@ -3050,7 +2641,7 @@
           ])
         })))).apply(this, arguments)
       }
-      var cc = [{
+      var oc = [{
           constant: !0,
           inputs: [{
             name: "node",
@@ -3065,8 +2656,8 @@
           stateMutability: "view",
           type: "function"
         }],
-        oc = "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e",
-        sc = [{
+        sc = "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e",
+        lc = [{
           constant: !0,
           inputs: [{
             internalType: "bytes32",
@@ -3084,23 +2675,23 @@
           type: "function"
         }];
 
-      function uc(e, n) {
-        return new un.a(e, sc, n)
+      function uc(e, t) {
+        return new lt.a(e, lc, t)
       }
 
-      function lc(e, n) {
-        return dc.apply(this, arguments)
+      function dc(e, t) {
+        return bc.apply(this, arguments)
       }
 
-      function dc() {
-        return (dc = Object(m.a)(j.a.mark((function e(n, t) {
+      function bc() {
+        return (bc = Object(f.a)(j.a.mark((function e(t, n) {
           var r, a, i;
           return j.a.wrap((function(e) {
             for (;;) switch (e.prev = e.next) {
               case 0:
-                return r = new un.a(oc, cc, t), a = Object(Ma.namehash)(n), e.next = 4, r.resolver(a);
+                return r = new lt.a(sc, oc, n), a = Object(Da.namehash)(t), e.next = 4, r.resolver(a);
               case 4:
-                return i = e.sent, e.abrupt("return", uc(i, t).contenthash(a));
+                return i = e.sent, e.abrupt("return", uc(i, n).contenthash(a));
               case 6:
               case "end":
                 return e.stop()
@@ -3109,43 +2700,43 @@
         })))).apply(this, arguments)
       }
 
-      function bc() {
+      function pc() {
         var e = ge(),
-          n = e.chainId,
-          t = e.library,
-          r = Object(x.c)(),
-          i = Object(a.useCallback)((function(e) {
-            if (!t || n !== Z.a.MAINNET) {
-              if (z === Z.a.MAINNET) {
+          t = e.chainId,
+          n = e.library,
+          r = Object(v.c)(),
+          a = Object(i.useCallback)((function(e) {
+            if (!n || t !== J.a.MAINNET) {
+              if (z === J.a.MAINNET) {
                 var r = function() {
                   var e;
-                  return q = null !== (e = q) && void 0 !== e ? e : new T.a(V.provider)
+                  return F = null !== (e = F) && void 0 !== e ? e : new w.a(q.provider)
                 }();
-                if (r) return lc(e, r)
+                if (r) return dc(e, r)
               }
               throw new Error("Could not construct mainnet ENS resolver")
             }
-            return lc(e, t)
-          }), [n, t]);
-        return Object(a.useCallback)(function() {
-          var e = Object(m.a)(j.a.mark((function e(n) {
-            var t;
+            return dc(e, n)
+          }), [t, n]);
+        return Object(i.useCallback)(function() {
+          var e = Object(f.a)(j.a.mark((function e(t) {
+            var n;
             return j.a.wrap((function(e) {
               for (;;) switch (e.prev = e.next) {
                 case 0:
-                  return t = Object(Ce.e)(), r(Ye.pending({
-                    requestId: t,
-                    url: n
-                  })), e.abrupt("return", ac(n, i).then((function(e) {
-                    return r(Ye.fulfilled({
-                      url: n,
+                  return n = Object(Te.f)(), r(ze.pending({
+                    requestId: n,
+                    url: t
+                  })), e.abrupt("return", ic(t, a).then((function(e) {
+                    return r(ze.fulfilled({
+                      url: t,
                       tokenList: e,
-                      requestId: t
+                      requestId: n
                     })), e
                   })).catch((function(e) {
-                    throw console.error("Failed to get list at url ".concat(n), e), r(Ye.rejected({
-                      url: n,
-                      requestId: t,
+                    throw console.error("Failed to get list at url ".concat(t), e), r(ze.rejected({
+                      url: t,
+                      requestId: n,
                       errorMessage: e.message
                     })), e
                   })));
@@ -3155,66 +2746,32 @@
               }
             }), e)
           })));
-          return function(n) {
+          return function(t) {
             return e.apply(this, arguments)
           }
-        }(), [r, i])
+        }(), [r, a])
       }
 
-      function fc(e, n) {
-        var t = Object(a.useRef)(n);
-        Object(a.useEffect)((function() {
-          t.current = n
-        }), [n]), Object(a.useEffect)((function() {
-          var n = function(n) {
+      function jc(e, t) {
+        var n = Object(i.useRef)(t);
+        Object(i.useEffect)((function() {
+          n.current = t
+        }), [t]), Object(i.useEffect)((function() {
+          var t = function(t) {
             var r, a;
-            null !== (r = null === (a = e.current) || void 0 === a ? void 0 : a.contains(n.target)) && void 0 !== r && r || t.current && t.current()
+            null !== (r = null === (a = e.current) || void 0 === a ? void 0 : a.contains(t.target)) && void 0 !== r && r || n.current && n.current()
           };
-          return document.addEventListener("mousedown", n),
+          return document.addEventListener("mousedown", t),
             function() {
-              document.removeEventListener("mousedown", n)
+              document.removeEventListener("mousedown", t)
             }
         }), [e])
       }
-
-      function pc() {
-        var e = Object(u.a)(["\n  flex: 1;\n  overflow: auto;\n"]);
-        return pc = function() {
-          return e
-        }, e
-      }
-
-      function jc() {
-        var e = Object(u.a)(["\n  max-width: 160px;\n  opacity: 0.6;\n  margin-right: 0.5rem;\n  font-size: 14px;\n  overflow: hidden;\n  text-overflow: ellipsis;\n"]);
-        return jc = function() {
-          return e
-        }, e
-      }
-
-      function mc() {
-        var e = Object(u.a)(["\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  border: none;\n"]);
-        return mc = function() {
-          return e
-        }, e
-      }
-
-      function hc() {
-        var e = Object(u.a)(["\n  z-index: 100;\n  visibility: ", ";\n  opacity: ", ";\n  transition: visibility 150ms linear, opacity 150ms linear;\n  background: ", ";\n  border: 1px solid ", ";\n  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.01), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04),\n    0px 24px 32px rgba(0, 0, 0, 0.01);\n  color: ", ";\n  border-radius: 0.5rem;\n  padding: 1rem;\n  display: grid;\n  grid-template-rows: 1fr;\n  grid-gap: 8px;\n  font-size: 1rem;\n  text-align: left;\n"]);
-        return hc = function() {
-          return e
-        }, e
-      }
-
-      function yc() {
-        var e = Object(u.a)(["\n  padding: 0;\n  font-size: 1rem;\n  opacity: ", ";\n"]);
-        return yc = function() {
-          return e
-        }, e
-      }
-      var vc = Object(l.default)(En)(yc(), (function(e) {
+      var fc, hc, mc, yc, Oc;
+      var vc = Object(d.default)(Et)(fc || (fc = Object(u.a)(["\n  padding: 0;\n  font-size: 1rem;\n  opacity: ", ";\n"])), (function(e) {
           return e.disabled ? "0.4" : "1"
         })),
-        Oc = l.default.div(hc(), (function(e) {
+        xc = d.default.div(hc || (hc = Object(u.a)(["\n  z-index: 100;\n  visibility: ", ";\n  opacity: ", ";\n  transition: visibility 150ms linear, opacity 150ms linear;\n  background: ", ";\n  border: 1px solid ", ";\n  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.01), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04),\n    0px 24px 32px rgba(0, 0, 0, 0.01);\n  color: ", ";\n  border-radius: 0.5rem;\n  padding: 1rem;\n  display: grid;\n  grid-template-rows: 1fr;\n  grid-gap: 8px;\n  font-size: 1rem;\n  text-align: left;\n"])), (function(e) {
           return e.show ? "visible" : "hidden"
         }), (function(e) {
           return e.show ? 1 : 0
@@ -3225,72 +2782,72 @@
         }), (function(e) {
           return e.theme.colors.textSubtle
         })),
-        xc = l.default.div(mc()),
-        gc = l.default.div(jc());
+        gc = d.default.div(mc || (mc = Object(u.a)(["\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  border: none;\n"]))),
+        Cc = d.default.div(yc || (yc = Object(u.a)(["\n  max-width: 160px;\n  opacity: 0.6;\n  margin-right: 0.5rem;\n  font-size: 14px;\n  overflow: hidden;\n  text-overflow: ellipsis;\n"])));
 
-      function Cc(e) {
-        var n = e.listUrl,
-          t = Object(a.useMemo)((function() {
+      function wc(e) {
+        var t = e.listUrl,
+          n = Object(i.useMemo)((function() {
             var e;
-            return null === (e = Pa(n)) || void 0 === e ? void 0 : e.ensName
-          }), [n]),
-          i = Object(a.useMemo)((function() {
-            if (!t) {
-              var e = n.toLowerCase();
-              if (e.startsWith("ipfs://") || e.startsWith("ipns://")) return n;
+            return null === (e = Ma(t)) || void 0 === e ? void 0 : e.ensName
+          }), [t]),
+          r = Object(i.useMemo)((function() {
+            if (!n) {
+              var e = t.toLowerCase();
+              if (e.startsWith("ipfs://") || e.startsWith("ipns://")) return t;
               try {
-                return new URL(n).host
+                return new URL(t).host
               } catch (r) {
                 return
               }
             }
-          }), [n, t]);
-        return Object(r.jsx)(r.Fragment, {
-          children: null !== t && void 0 !== t ? t : i
+          }), [t, n]);
+        return Object(it.jsx)(it.Fragment, {
+          children: null !== n && void 0 !== n ? n : r
         })
       }
 
-      function wc(e) {
+      function kc(e) {
         return "list-row-".concat(e.replace(/\./g, "-"))
       }
-      var Tc = Object(a.memo)((function(e) {
-          var n = e.listUrl,
-            t = e.onBack,
-            i = Object(x.d)((function(e) {
+      var Tc = Object(i.memo)((function(e) {
+          var t = e.listUrl,
+            n = e.onBack,
+            r = Object(v.d)((function(e) {
               return e.lists.byUrl
             })),
-            c = fr(),
-            o = Object(x.c)(),
-            u = i[n],
-            l = u.current,
-            d = u.pendingUpdate,
-            b = n === c,
-            f = function() {
+            a = jr(),
+            c = Object(v.c)(),
+            o = r[t],
+            s = o.current,
+            u = o.pendingUpdate,
+            d = t === a,
+            b = function() {
               var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0],
-                n = Object(a.useState)(e),
-                t = Object(h.a)(n, 2),
-                r = t[0],
-                i = t[1],
-                c = Object(a.useCallback)((function() {
-                  return i((function(e) {
+                t = Object(i.useState)(e),
+                n = Object(h.a)(t, 2),
+                r = n[0],
+                a = n[1],
+                c = Object(i.useCallback)((function() {
+                  return a((function(e) {
                     return !e
                   }))
                 }), []);
               return [r, c]
             }(!1),
-            p = Object(h.a)(f, 2),
+            p = Object(h.a)(b, 2),
             j = p[0],
-            m = p[1],
-            y = Object(a.useRef)(),
-            v = Object(a.useState)(),
-            O = Object(h.a)(v, 2),
-            g = O[0],
-            C = O[1],
-            w = Object(a.useState)(),
-            T = Object(h.a)(w, 2),
-            k = T[0],
-            I = T[1],
-            E = Object(Ha.a)(g, k, {
+            f = p[1],
+            m = Object(i.useRef)(),
+            y = Object(i.useState)(),
+            O = Object(h.a)(y, 2),
+            x = O[0],
+            g = O[1],
+            C = Object(i.useState)(),
+            w = Object(h.a)(C, 2),
+            k = w[0],
+            T = w[1],
+            I = Object(Xa.a)(x, k, {
               placement: "auto",
               strategy: "fixed",
               modifiers: [{
@@ -3300,361 +2857,334 @@
                 }
               }]
             }),
-            N = E.styles,
-            R = E.attributes;
-          fc(y, j ? m : void 0);
-          var S = Object(a.useCallback)((function() {
-              b || (o(We(n)), t())
-            }), [o, b, n, t]),
-            U = Object(a.useCallback)((function() {
-              d && o(ze(n))
-            }), [o, n, d]),
-            A = Object(a.useCallback)((function() {
-              "REMOVE" === window.prompt("Please confirm you would like to remove this list by typing REMOVE") && o(Ve(n))
-            }), [o, n]),
-            B = $t();
-          return l ? Object(r.jsxs)(an, {
+            E = I.styles,
+            N = I.attributes;
+          jc(m, j ? f : void 0);
+          var R = Object(i.useCallback)((function() {
+              d || (c(We(t)), n())
+            }), [c, d, t, n]),
+            S = Object(i.useCallback)((function() {
+              u && c(Fe(t))
+            }), [c, t, u]),
+            U = Object(i.useCallback)((function() {
+              "REMOVE" === window.prompt("Please confirm you would like to remove this list by typing REMOVE") && c(Ve(t))
+            }), [c, t]),
+            A = tr();
+          return s ? Object(it.jsxs)(at, {
             align: "center",
             padding: "16px",
-            id: wc(n),
-            children: [l.logoURI ? Object(r.jsx)(Wa, {
+            id: kc(t),
+            children: [s.logoURI ? Object(it.jsx)(Ha, {
               style: {
                 marginRight: "1rem"
               },
-              logoURI: l.logoURI,
-              alt: "".concat(l.name, " list logo")
-            }) : Object(r.jsx)("div", {
+              logoURI: s.logoURI,
+              alt: "".concat(s.name, " list logo")
+            }) : Object(it.jsx)("div", {
               style: {
                 width: "24px",
                 height: "24px",
                 marginRight: "1rem"
               }
-            }), Object(r.jsxs)(Me, {
+            }), Object(it.jsxs)(Le, {
               style: {
                 flex: "1"
               },
-              children: [Object(r.jsx)(an, {
-                children: Object(r.jsx)(s.y, {
-                  bold: b,
+              children: [Object(it.jsx)(at, {
+                children: Object(it.jsx)(l.y, {
+                  bold: d,
                   fontSize: "16px",
                   style: {
                     overflow: "hidden",
                     textOverflow: "ellipsis"
                   },
-                  children: l.name
+                  children: s.name
                 })
-              }), Object(r.jsx)(an, {
+              }), Object(it.jsx)(at, {
                 style: {
                   marginTop: "4px"
                 },
-                children: Object(r.jsx)(gc, {
-                  title: n,
-                  children: Object(r.jsx)(Cc, {
-                    listUrl: n
+                children: Object(it.jsx)(Cc, {
+                  title: t,
+                  children: Object(it.jsx)(wc, {
+                    listUrl: t
                   })
                 })
               })]
-            }), Object(r.jsxs)(xc, {
-              ref: y,
-              children: [Object(r.jsx)("div", {
+            }), Object(it.jsxs)(gc, {
+              ref: m,
+              children: [Object(it.jsx)("div", {
                 style: {
                   display: "inline-block"
                 },
-                ref: C,
-                children: Object(r.jsx)(s.c, {
+                ref: g,
+                children: Object(it.jsx)(l.c, {
                   style: {
                     width: "32px",
                     marginRight: "8px"
                   },
-                  onClick: m,
+                  onClick: f,
                   variant: "secondary",
-                  children: Object(r.jsx)(s.i, {})
+                  children: Object(it.jsx)(l.i, {})
                 })
-              }), j && Object(r.jsxs)(Oc, Object(J.a)(Object(J.a)({
+              }), j && Object(it.jsxs)(xc, Object(X.a)(Object(X.a)({
                 show: !0,
-                ref: I,
-                style: N.popper
-              }, R.popper), {}, {
-                children: [Object(r.jsx)("div", {
-                  children: l && He(l.version)
-                }), Object(r.jsx)(Ui, {}), Object(r.jsx)(Sn, {
-                  href: "https://tokenlists.org/token-list?url=".concat(n),
-                  children: B(1206, "View list")
-                }), Object(r.jsx)(vc, {
-                  onClick: A,
-                  disabled: 1 === Object.keys(i).length,
-                  children: "Remove list"
-                }), d && Object(r.jsx)(vc, {
+                ref: T,
+                style: E.popper
+              }, N.popper), {}, {
+                children: [Object(it.jsx)("div", {
+                  children: s && He(s.version)
+                }), Object(it.jsx)(Mi, {}), Object(it.jsx)(St, {
+                  href: "https://tokenlists.org/token-list?url=".concat(t),
+                  children: A(1206, "View list")
+                }), Object(it.jsx)(vc, {
                   onClick: U,
+                  disabled: 1 === Object.keys(r).length,
+                  children: "Remove list"
+                }), u && Object(it.jsx)(vc, {
+                  onClick: S,
                   children: "Update list"
                 })]
               }))]
-            }), b ? Object(r.jsx)(s.c, {
+            }), d ? Object(it.jsx)(l.c, {
               disabled: !0,
               style: {
                 width: "5rem",
                 minWidth: "5rem"
               },
               children: "Selected"
-            }) : Object(r.jsx)(r.Fragment, {
-              children: Object(r.jsx)(s.c, {
+            }) : Object(it.jsx)(it.Fragment, {
+              children: Object(it.jsx)(l.c, {
                 className: "select-button",
                 style: {
                   width: "5rem",
                   minWidth: "4.5rem"
                 },
-                onClick: S,
+                onClick: R,
                 children: "Select"
               })
             })]
-          }, n) : null
+          }, t) : null
         })),
-        kc = l.default.div(pc());
+        Ic = d.default.div(Oc || (Oc = Object(u.a)(["\n  flex: 1;\n  overflow: auto;\n"])));
 
-      function Ic(e) {
-        var n, t = e.onDismiss,
-          i = e.onBack,
-          c = Object(a.useState)(""),
-          o = Object(h.a)(c, 2),
-          u = o[0],
-          l = o[1],
-          d = Object(x.c)(),
-          b = Object(x.d)((function(e) {
+      function Ec(e) {
+        var t, n = e.onDismiss,
+          r = e.onBack,
+          a = Object(i.useState)(""),
+          c = Object(h.a)(a, 2),
+          o = c[0],
+          s = c[1],
+          u = Object(v.c)(),
+          d = Object(v.d)((function(e) {
             return e.lists.byUrl
           })),
-          f = Boolean(null === (n = b[u]) || void 0 === n ? void 0 : n.loadingRequestId),
-          p = Object(a.useState)(null),
+          b = Boolean(null === (t = d[o]) || void 0 === t ? void 0 : t.loadingRequestId),
+          p = Object(i.useState)(null),
           j = Object(h.a)(p, 2),
-          m = j[0],
-          y = j[1],
-          v = Object(a.useCallback)((function(e) {
-            l(e.target.value), y(null)
+          f = j[0],
+          m = j[1],
+          y = Object(i.useCallback)((function(e) {
+            s(e.target.value), m(null)
           }), []),
-          O = bc(),
-          g = Object(a.useCallback)((function() {
-            f || (y(null), O(u).then((function() {
-              l("")
+          O = pc(),
+          x = Object(i.useCallback)((function() {
+            b || (m(null), O(o).then((function() {
+              s("")
             })).catch((function(e) {
-              y(e.message), d(Ve(u))
+              m(e.message), u(Ve(o))
             })))
-          }), [f, d, O, u]),
-          C = Object(a.useMemo)((function() {
-            return Da(u).length > 0 || Boolean(Pa(u))
-          }), [u]),
-          w = Object(a.useCallback)((function(e) {
-            C && "Enter" === e.key && g()
-          }), [g, C]),
-          T = Object(a.useMemo)((function() {
-            return Object.keys(b).filter((function(e) {
-              return Boolean(b[e].current)
-            })).sort((function(e, n) {
-              var t = b[e].current,
-                r = b[n].current;
-              return t && r ? t.name.toLowerCase() < r.name.toLowerCase() ? -1 : t.name.toLowerCase() === r.name.toLowerCase() ? 0 : 1 : t ? -1 : r ? 1 : 0
+          }), [b, u, O, o]),
+          g = Object(i.useMemo)((function() {
+            return La(o).length > 0 || Boolean(Ma(o))
+          }), [o]),
+          C = Object(i.useCallback)((function(e) {
+            g && "Enter" === e.key && x()
+          }), [x, g]),
+          w = Object(i.useMemo)((function() {
+            return Object.keys(d).filter((function(e) {
+              return Boolean(d[e].current)
+            })).sort((function(e, t) {
+              var n = d[e].current,
+                r = d[t].current;
+              return n && r ? n.name.toLowerCase() < r.name.toLowerCase() ? -1 : n.name.toLowerCase() === r.name.toLowerCase() ? 0 : 1 : n ? -1 : r ? 1 : 0
             }))
-          }), [b]),
-          k = $t();
-        return Object(r.jsxs)(Me, {
+          }), [d]),
+          k = tr();
+        return Object(it.jsxs)(Le, {
           style: {
             width: "100%",
             flex: "1 1"
           },
-          children: [Object(r.jsx)(Ei, {
-            children: Object(r.jsxs)(en, {
-              children: [Object(r.jsx)("div", {
-                children: Object(r.jsx)(Xi.a, {
+          children: [Object(it.jsx)(Ui, {
+            children: Object(it.jsxs)(et, {
+              children: [Object(it.jsx)("div", {
+                children: Object(it.jsx)(Ji.a, {
                   style: {
                     cursor: "pointer"
                   },
-                  onClick: i
+                  onClick: r
                 })
-              }), Object(r.jsx)(s.y, {
+              }), Object(it.jsx)(l.y, {
                 fontSize: "20px",
                 children: k(1208, "Manage Lists")
-              }), Object(r.jsx)(s.j, {
-                onClick: t
+              }), Object(it.jsx)(l.j, {
+                onClick: n
               })]
             })
-          }), Object(r.jsx)(Si, {}), Object(r.jsxs)(Ei, {
+          }), Object(it.jsx)(Bi, {}), Object(it.jsxs)(Ui, {
             gap: "14px",
-            children: [Object(r.jsxs)(s.y, {
+            children: [Object(it.jsxs)(l.y, {
               bold: !0,
-              children: ["Add a list", " ", Object(r.jsx)(si, {
+              children: ["Add a list", " ", Object(it.jsx)(ui, {
                 text: k(999, "Token lists are an open specification for lists of BEP20 tokens. You can use any token list by entering its URL below. Beware that third party token lists can contain fake or malicious BEP20 tokens.")
               })]
-            }), Object(r.jsxs)(an, {
-              children: [Object(r.jsx)(Ri, {
+            }), Object(it.jsxs)(at, {
+              children: [Object(it.jsx)(Pi, {
                 type: "text",
                 id: "list-add-input",
                 placeholder: "https:// or ipfs:// or ENS name",
-                value: u,
-                onChange: v,
-                onKeyDown: w,
+                value: o,
+                onChange: y,
+                onKeyDown: C,
                 style: {
                   height: "2.75rem",
                   borderRadius: 12,
                   padding: "12px"
                 }
-              }), Object(r.jsx)(s.c, {
-                onClick: g,
+              }), Object(it.jsx)(l.c, {
+                onClick: x,
                 style: {
                   maxWidth: "4em",
                   marginLeft: "1em"
                 },
-                disabled: !C,
+                disabled: !g,
                 children: "Add"
               })]
-            }), m ? Object(r.jsx)(s.y, {
+            }), f ? Object(it.jsx)(l.y, {
               color: "failure",
-              title: m,
+              title: f,
               style: {
                 textOverflow: "ellipsis",
                 overflow: "hidden"
               },
-              children: m
+              children: f
             }) : null]
-          }), Object(r.jsx)(Si, {}), Object(r.jsx)(kc, {
-            children: T.map((function(e) {
-              return Object(r.jsx)(Tc, {
+          }), Object(it.jsx)(Bi, {}), Object(it.jsx)(Ic, {
+            children: w.map((function(e) {
+              return Object(it.jsx)(Tc, {
                 listUrl: e,
-                onBack: i
+                onBack: r
               }, e)
             }))
-          }), Object(r.jsx)(Si, {}), Object(r.jsx)("div", {
+          }), Object(it.jsx)(Bi, {}), Object(it.jsx)("div", {
             style: {
               padding: "16px",
               textAlign: "center"
             },
-            children: Object(r.jsx)(Sn, {
+            children: Object(it.jsx)(St, {
               href: "https://tokenlists.org",
               children: "Browse lists"
             })
           })]
         })
       }
+      var Nc, Rc, Sc;
 
-      function Ec(e) {
-        var n = e.isOpen,
-          t = e.onDismiss,
-          i = e.onCurrencySelect,
-          c = e.selectedCurrency,
-          o = e.otherSelectedCurrency,
-          s = Object(a.useState)(!1),
-          u = Object(h.a)(s, 2),
-          l = u[0],
-          d = u[1],
-          b = Ta(n);
-        Object(a.useEffect)((function() {
-          n && !b && d(!1)
-        }), [n, b]);
-        var f = Object(a.useCallback)((function(e) {
-            i(e), t()
-          }), [t, i]),
-          p = Object(a.useCallback)((function() {
-            d(!0)
+      function Uc(e) {
+        var t = e.isOpen,
+          n = e.onDismiss,
+          r = e.onCurrencySelect,
+          a = e.selectedCurrency,
+          c = e.otherSelectedCurrency,
+          o = Object(i.useState)(!1),
+          s = Object(h.a)(o, 2),
+          l = s[0],
+          u = s[1],
+          d = Ta(t);
+        Object(i.useEffect)((function() {
+          t && !d && u(!1)
+        }), [t, d]);
+        var b = Object(i.useCallback)((function(e) {
+            r(e), n()
+          }), [n, r]),
+          p = Object(i.useCallback)((function() {
+            u(!0)
           }), []),
-          j = Object(a.useCallback)((function() {
-            d(!1)
+          j = Object(i.useCallback)((function() {
+            u(!1)
           }), []),
-          m = !fr();
-        return Object(r.jsx)(kt, {
-          isOpen: n,
-          onDismiss: t,
+          f = !jr();
+        return Object(it.jsx)(Un, {
+          isOpen: t,
+          onDismiss: n,
           maxHeight: 90,
-          minHeight: l ? 40 : m ? 0 : 80,
-          children: l ? Object(r.jsx)(Ic, {
-            onDismiss: t,
+          minHeight: l ? 40 : f ? 0 : 80,
+          children: l ? Object(it.jsx)(Ec, {
+            onDismiss: n,
             onBack: j
-          }) : Object(r.jsx)(Qi, {
-            isOpen: n,
-            onDismiss: t,
-            onCurrencySelect: f,
+          }) : Object(it.jsx)(Xi, {
+            isOpen: t,
+            onDismiss: n,
+            onCurrencySelect: b,
             onChangeList: p,
-            selectedCurrency: c,
-            otherSelectedCurrency: o,
+            selectedCurrency: a,
+            otherSelectedCurrency: c,
             showCommonBases: !1
           })
         })
       }
-
-      function Nc() {
-        var e = Object(u.a)(["\n  position: absolute;\n  left: ", ";\n"]);
-        return Nc = function() {
-          return e
-        }, e
-      }
-
-      function Rc() {
-        var e = Object(u.a)(["\n  z-index: 2;\n"]);
-        return Rc = function() {
-          return e
-        }, e
-      }
-
-      function Sc() {
-        var e = Object(u.a)(["\n  position: relative;\n  display: flex;\n  flex-direction: row;\n  margin-right: ", ";\n"]);
-        return Sc = function() {
-          return e
-        }, e
-      }
-      var Uc = l.default.div(Sc(), (function(e) {
-          var n = e.sizeraw;
-          return e.margin && "".concat((n / 3 + 8).toString(), "px")
+      var Ac, Pc = d.default.div(Nc || (Nc = Object(u.a)(["\n  position: relative;\n  display: flex;\n  flex-direction: row;\n  margin-right: ", ";\n"])), (function(e) {
+          var t = e.sizeraw;
+          return e.margin && "".concat((t / 3 + 8).toString(), "px")
         })),
-        Ac = Object(l.default)(mi)(Rc()),
-        Bc = Object(l.default)(mi)(Nc(), (function(e) {
-          var n = e.sizeraw;
-          return "".concat((n / 2).toString(), "px")
+        Bc = Object(d.default)(yi)(Rc || (Rc = Object(u.a)(["\n  z-index: 2;\n"]))),
+        Mc = Object(d.default)(yi)(Sc || (Sc = Object(u.a)(["\n  position: absolute;\n  left: ", ";\n"])), (function(e) {
+          var t = e.sizeraw;
+          return "".concat((t / 2).toString(), "px")
         }));
 
-      function Pc(e) {
-        var n = e.currency0,
-          t = e.currency1,
-          a = e.size,
-          i = void 0 === a ? 16 : a,
-          c = e.margin,
-          o = void 0 !== c && c;
-        return Object(r.jsxs)(Uc, {
-          sizeraw: i,
-          margin: o,
-          children: [n && Object(r.jsx)(Ac, {
-            currency: n,
-            size: "".concat(i.toString(), "px")
-          }), t && Object(r.jsx)(Bc, {
+      function Lc(e) {
+        var t = e.currency0,
+          n = e.currency1,
+          r = e.size,
+          a = void 0 === r ? 16 : r,
+          i = e.margin,
+          c = void 0 !== i && i;
+        return Object(it.jsxs)(Pc, {
+          sizeraw: a,
+          margin: c,
+          children: [t && Object(it.jsx)(Bc, {
             currency: t,
-            size: "".concat(i.toString(), "px"),
-            sizeraw: i
+            size: "".concat(a.toString(), "px")
+          }), n && Object(it.jsx)(Mc, {
+            currency: n,
+            size: "".concat(a.toString(), "px"),
+            sizeraw: a
           })]
         })
       }
-
-      function Dc() {
-        var e = Object(u.a)(["\n  color: ", ";\n  width: 0;\n  position: relative;\n  font-weight: 500;\n  outline: none;\n  border: none;\n  flex: 1 1 auto;\n  background-color: transparent;\n  font-size: 16px;\n  text-align: ", ";\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  padding: 0px;\n  -webkit-appearance: textfield;\n\n  ::-webkit-search-decoration {\n    -webkit-appearance: none;\n  }\n\n  [type='number'] {\n    -moz-appearance: textfield;\n  }\n\n  ::-webkit-outer-spin-button,\n  ::-webkit-inner-spin-button {\n    -webkit-appearance: none;\n  }\n\n  ::placeholder {\n    color: ", ";\n  }\n"]);
-        return Dc = function() {
-          return e
-        }, e
-      }
-      var Mc = l.default.input(Dc(), (function(e) {
-          var n = e.error,
-            t = e.theme;
-          return n ? t.colors.failure : t.colors.text
+      var Dc, _c, Yc, zc, Fc, qc, Vc, Wc, Hc, Qc = d.default.input(Ac || (Ac = Object(u.a)(["\n  color: ", ";\n  width: 0;\n  position: relative;\n  font-weight: 500;\n  outline: none;\n  border: none;\n  flex: 1 1 auto;\n  background-color: transparent;\n  font-size: 16px;\n  text-align: ", ";\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  padding: 0px;\n  -webkit-appearance: textfield;\n\n  ::-webkit-search-decoration {\n    -webkit-appearance: none;\n  }\n\n  [type='number'] {\n    -moz-appearance: textfield;\n  }\n\n  ::-webkit-outer-spin-button,\n  ::-webkit-inner-spin-button {\n    -webkit-appearance: none;\n  }\n\n  ::placeholder {\n    color: ", ";\n  }\n"])), (function(e) {
+          var t = e.error,
+            n = e.theme;
+          return t ? n.colors.failure : n.colors.text
         }), (function(e) {
-          var n = e.align;
-          return n && n
+          var t = e.align;
+          return t && t
         }), (function(e) {
           return e.theme.colors.textSubtle
         })),
-        Lc = RegExp("^\\d*(?:\\\\[.])?\\d*$"),
-        _c = i.a.memo((function(e) {
-          var n = e.value,
-            t = e.onUserInput,
-            a = e.placeholder,
-            i = Object(gn.a)(e, ["value", "onUserInput", "placeholder"]);
-          return Object(r.jsx)(Mc, Object(J.a)(Object(J.a)({}, i), {}, {
-            value: n,
+        Kc = RegExp("^\\d*(?:\\\\[.])?\\d*$"),
+        Gc = c.a.memo((function(e) {
+          var t = e.value,
+            n = e.onUserInput,
+            r = e.placeholder,
+            a = Object(It.a)(e, ["value", "onUserInput", "placeholder"]);
+          return Object(it.jsx)(Qc, Object(X.a)(Object(X.a)({}, a), {}, {
+            value: t,
             onChange: function(e) {
-              var n;
-              ("" === (n = e.target.value.replace(/,/g, ".")) || Lc.test(n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))) && t(n)
+              var t;
+              ("" === (t = e.target.value.replace(/,/g, ".")) || Kc.test(t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))) && n(t)
             },
             inputMode: "decimal",
             title: "Token Amount",
@@ -3662,369 +3192,230 @@
             autoCorrect: "off",
             type: "text",
             pattern: "^[0-9]*[.,]?[0-9]*$",
-            placeholder: a || "0.0",
+            placeholder: r || "0.0",
             minLength: 1,
             maxLength: 79,
             spellCheck: "false"
           }))
-        }));
-
-      function Fc() {
-        var e = Object(u.a)(["\n  border-radius: 16px;\n  background-color: ", ";\n  box-shadow: ", ";\n"]);
-        return Fc = function() {
-          return e
-        }, e
-      }
-
-      function Yc() {
-        var e = Object(u.a)(["\n  display: flex;\n  flex-flow: column nowrap;\n  position: relative;\n  border-radius: ", ";\n  background-color: ", ";\n  z-index: 1;\n"]);
-        return Yc = function() {
-          return e
-        }, e
-      }
-
-      function zc() {
-        var e = Object(u.a)(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n"]);
-        return zc = function() {
-          return e
-        }, e
-      }
-
-      function qc() {
-        var e = Object(u.a)(["\n  display: flex;\n  flex-flow: row nowrap;\n  align-items: center;\n  color: ", ";\n  font-size: 0.75rem;\n  line-height: 1rem;\n  padding: 0.75rem 1rem 0 1rem;\n  span:hover {\n    cursor: pointer;\n    color: ", ";\n  }\n"]);
-        return qc = function() {
-          return e
-        }, e
-      }
-
-      function Vc() {
-        var e = Object(u.a)(["\n  align-items: center;\n  height: 34px;\n  font-size: 16px;\n  font-weight: 500;\n  background-color: transparent;\n  color: ", ";\n  border-radius: 12px;\n  outline: none;\n  cursor: pointer;\n  user-select: none;\n  border: none;\n  padding: 0 0.5rem;\n  :focus,\n  :hover {\n    background-color: ", ";\n  }\n"]);
-        return Vc = function() {
-          return e
-        }, e
-      }
-
-      function Wc() {
-        var e = Object(u.a)(["\n  display: flex;\n  flex-flow: row nowrap;\n  align-items: center;\n  padding: ", ";\n"]);
-        return Wc = function() {
-          return e
-        }, e
-      }
-      var Hc = l.default.div(Wc(), (function(e) {
+        })),
+        Xc = d.default.div(Dc || (Dc = Object(u.a)(["\n  display: flex;\n  flex-flow: row nowrap;\n  align-items: center;\n  padding: ", ";\n"])), (function(e) {
           return e.selected ? "0.75rem 0.5rem 0.75rem 1rem" : "0.75rem 0.75rem 0.75rem 1rem"
         })),
-        Gc = l.default.button(Vc(), (function(e) {
-          var n = e.selected,
-            t = e.theme;
-          return n ? t.colors.text : "#FFFFFF"
+        Jc = d.default.button(_c || (_c = Object(u.a)(["\n  align-items: center;\n  height: 34px;\n  font-size: 16px;\n  font-weight: 500;\n  background-color: transparent;\n  color: ", ";\n  border-radius: 12px;\n  outline: none;\n  cursor: pointer;\n  user-select: none;\n  border: none;\n  padding: 0 0.5rem;\n  :focus,\n  :hover {\n    background-color: ", ";\n  }\n"])), (function(e) {
+          var t = e.selected,
+            n = e.theme;
+          return t ? n.colors.text : "#FFFFFF"
         }), (function(e) {
-          var n = e.theme;
-          return Object(ht.a)(.05, n.colors.input)
+          var t = e.theme;
+          return Object(In.a)(.05, t.colors.input)
         })),
-        Kc = l.default.div(qc(), (function(e) {
+        $c = d.default.div(Yc || (Yc = Object(u.a)(["\n  display: flex;\n  flex-flow: row nowrap;\n  align-items: center;\n  color: ", ";\n  font-size: 0.75rem;\n  line-height: 1rem;\n  padding: 0.75rem 1rem 0 1rem;\n  span:hover {\n    cursor: pointer;\n    color: ", ";\n  }\n"])), (function(e) {
           return e.theme.colors.text
         }), (function(e) {
-          var n = e.theme;
-          return Object(ht.a)(.2, n.colors.textSubtle)
+          var t = e.theme;
+          return Object(In.a)(.2, t.colors.textSubtle)
         })),
-        Qc = l.default.span(zc()),
-        Xc = l.default.div(Yc(), (function(e) {
+        Zc = d.default.span(zc || (zc = Object(u.a)(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n"]))),
+        eo = d.default.div(Fc || (Fc = Object(u.a)(["\n  display: flex;\n  flex-flow: column nowrap;\n  position: relative;\n  border-radius: ", ";\n  background-color: ", ";\n  z-index: 1;\n"])), (function(e) {
           return e.hideInput ? "8px" : "20px"
         }), (function(e) {
           return e.theme.colors.background
         })),
-        Jc = l.default.div(Fc(), (function(e) {
+        to = d.default.div(qc || (qc = Object(u.a)(["\n  border-radius: 16px;\n  background-color: ", ";\n  box-shadow: ", ";\n"])), (function(e) {
           return e.theme.colors.input
         }), (function(e) {
           return e.theme.shadows.inset
         }));
 
-      function Zc(e) {
-        var n = e.value,
-          t = e.onUserInput,
-          i = e.onMax,
-          c = e.showMaxButton,
-          o = e.label,
-          u = e.onCurrencySelect,
-          l = e.currency,
-          d = e.disableCurrencySelect,
-          b = void 0 !== d && d,
-          f = e.hideBalance,
-          p = void 0 !== f && f,
+      function no(e) {
+        var t = e.value,
+          n = e.onUserInput,
+          r = e.onMax,
+          a = e.showMaxButton,
+          c = e.label,
+          o = e.onCurrencySelect,
+          s = e.currency,
+          u = e.disableCurrencySelect,
+          d = void 0 !== u && u,
+          b = e.hideBalance,
+          p = void 0 !== b && b,
           j = e.pair,
-          m = void 0 === j ? null : j,
-          y = e.hideInput,
-          v = void 0 !== y && y,
+          f = void 0 === j ? null : j,
+          m = e.hideInput,
+          y = void 0 !== m && m,
           O = e.otherCurrency,
-          x = e.id,
-          g = e.showCommonBases,
-          C = Object(a.useState)(!1),
-          w = Object(h.a)(C, 2),
-          T = w[0],
-          k = w[1],
-          I = ge().account,
-          E = wa(null !== I && void 0 !== I ? I : void 0, null !== l && void 0 !== l ? l : void 0),
-          N = $t(),
-          R = o || N(132, "Input"),
-          S = Object(a.useCallback)((function() {
+          v = e.id,
+          x = e.showCommonBases,
+          g = Object(i.useState)(!1),
+          C = Object(h.a)(g, 2),
+          w = C[0],
+          k = C[1],
+          T = ge().account,
+          I = ka(null !== T && void 0 !== T ? T : void 0, null !== s && void 0 !== s ? s : void 0),
+          E = tr(),
+          N = c || E(132, "Input"),
+          R = Object(i.useCallback)((function() {
             k(!1)
           }), [k]);
-        return Object(r.jsxs)(Xc, {
-          id: x,
-          children: [Object(r.jsxs)(Jc, {
-            hideInput: v,
-            children: [!v && Object(r.jsx)(Kc, {
-              children: Object(r.jsxs)(en, {
-                children: [Object(r.jsx)(s.y, {
+        return Object(it.jsxs)(eo, {
+          id: v,
+          children: [Object(it.jsxs)(to, {
+            hideInput: y,
+            children: [!y && Object(it.jsx)($c, {
+              children: Object(it.jsxs)(et, {
+                children: [Object(it.jsx)(l.y, {
                   fontSize: "14px",
-                  children: R
-                }), I && Object(r.jsx)(s.y, {
-                  onClick: i,
+                  children: N
+                }), T && Object(it.jsx)(l.y, {
+                  onClick: r,
                   fontSize: "14px",
                   style: {
                     display: "inline",
                     cursor: "pointer"
                   },
-                  children: !p && l && E ? "Balance: ".concat(null === E || void 0 === E ? void 0 : E.toSignificant(6)) : " -"
+                  children: !p && s && I ? "Balance: ".concat(null === I || void 0 === I ? void 0 : I.toSignificant(6)) : " -"
                 })]
               })
-            }), Object(r.jsxs)(Hc, {
-              style: v ? {
+            }), Object(it.jsxs)(Xc, {
+              style: y ? {
                 padding: "0",
                 borderRadius: "8px"
               } : {},
-              selected: b,
-              children: [!v && Object(r.jsxs)(r.Fragment, {
-                children: [Object(r.jsx)(_c, {
+              selected: d,
+              children: [!y && Object(it.jsxs)(it.Fragment, {
+                children: [Object(it.jsx)(Gc, {
                   className: "token-amount-input",
-                  value: n,
+                  value: t,
                   onUserInput: function(e) {
-                    t(e)
+                    n(e)
                   }
-                }), I && l && c && "To" !== o && Object(r.jsx)(s.c, {
-                  onClick: i,
+                }), T && s && a && "To" !== c && Object(it.jsx)(l.c, {
+                  onClick: r,
                   scale: "sm",
                   variant: "text",
                   children: "MAX"
                 })]
-              }), Object(r.jsx)(Gc, {
-                selected: !!l,
+              }), Object(it.jsx)(Jc, {
+                selected: !!s,
                 className: "open-currency-select-button",
                 onClick: function() {
-                  b || k(!0)
+                  d || k(!0)
                 },
-                children: Object(r.jsxs)(Qc, {
-                  children: [m ? Object(r.jsx)(Pc, {
-                    currency0: m.token0,
-                    currency1: m.token1,
+                children: Object(it.jsxs)(Zc, {
+                  children: [f ? Object(it.jsx)(Lc, {
+                    currency0: f.token0,
+                    currency1: f.token1,
                     size: 16,
                     margin: !0
-                  }) : l ? Object(r.jsx)(mi, {
-                    currency: l,
+                  }) : s ? Object(it.jsx)(yi, {
+                    currency: s,
                     size: "24px",
                     style: {
                       marginRight: "8px"
                     }
-                  }) : null, m ? Object(r.jsxs)(s.y, {
-                    children: [null === m || void 0 === m ? void 0 : m.token0.symbol, ":", null === m || void 0 === m ? void 0 : m.token1.symbol]
-                  }) : Object(r.jsx)(s.y, {
-                    children: (l && l.symbol && l.symbol.length > 20 ? "".concat(l.symbol.slice(0, 4), "...").concat(l.symbol.slice(l.symbol.length - 5, l.symbol.length)) : null === l || void 0 === l ? void 0 : l.symbol) || N(1196, "Select a currency")
-                  }), !b && Object(r.jsx)(s.i, {})]
+                  }) : null, f ? Object(it.jsxs)(l.y, {
+                    children: [null === f || void 0 === f ? void 0 : f.token0.symbol, ":", null === f || void 0 === f ? void 0 : f.token1.symbol]
+                  }) : Object(it.jsx)(l.y, {
+                    children: (s && s.symbol && s.symbol.length > 20 ? "".concat(s.symbol.slice(0, 4), "...").concat(s.symbol.slice(s.symbol.length - 5, s.symbol.length)) : null === s || void 0 === s ? void 0 : s.symbol) || E(1196, "Select a currency")
+                  }), !d && Object(it.jsx)(l.i, {})]
                 })
               })]
             })]
-          }), !b && u && Object(r.jsx)(Ec, {
-            isOpen: T,
-            onDismiss: S,
-            onCurrencySelect: u,
-            selectedCurrency: l,
+          }), !d && o && Object(it.jsx)(Uc, {
+            isOpen: w,
+            onDismiss: R,
+            onCurrencySelect: o,
+            selectedCurrency: s,
             otherSelectedCurrency: O,
-            showCommonBases: g
+            showCommonBases: x
           })]
         })
       }
-
-      function $c() {
-        var e = Object(u.a)(["\n  color: ", ";\n"]);
-        return $c = function() {
-          return e
-        }, e
-      }
-
-      function eo() {
-        var e = Object(u.a)(["\n  font-weight: 500;\n  font-size: 20px;\n"]);
-        return eo = function() {
-          return e
-        }, e
-      }
-
-      function no() {
-        var e = Object(u.a)(["\n  display: flex;\n  flex-flow: row nowrap;\n  align-items: center;\n  border-radius: 3rem;\n  justify-content: space-evenly;\n"]);
-        return no = function() {
-          return e
-        }, e
-      }
-      var to = l.default.div(no()),
-        ro = l.default.div(eo()),
-        ao = Object(l.default)(Xi.a)($c(), (function(e) {
+      var ro = d.default.div(Vc || (Vc = Object(u.a)(["\n  display: flex;\n  flex-flow: row nowrap;\n  align-items: center;\n  border-radius: 3rem;\n  justify-content: space-evenly;\n"]))),
+        ao = d.default.div(Wc || (Wc = Object(u.a)(["\n  font-weight: 500;\n  font-size: 20px;\n"]))),
+        io = Object(d.default)(Ji.a)(Hc || (Hc = Object(u.a)(["\n  color: ", ";\n"])), (function(e) {
           return e.theme.colors.text
         }));
 
-      function io() {
-        var e = $t();
-        return Object(r.jsx)(to, {
-          children: Object(r.jsxs)(en, {
+      function co() {
+        var e = tr();
+        return Object(it.jsx)(ro, {
+          children: Object(it.jsxs)(et, {
             style: {
               padding: "1rem"
             },
-            children: [Object(r.jsx)(y.b, {
+            children: [Object(it.jsx)(m.b, {
               to: "/pool",
-              children: Object(r.jsx)(ao, {})
-            }), Object(r.jsx)(ro, {
+              children: Object(it.jsx)(io, {})
+            }), Object(it.jsx)(ao, {
               children: "Import Pool"
-            }), Object(r.jsx)(si, {
+            }), Object(it.jsx)(ui, {
               text: e(256, "Use this tool to find pairs that do not automatically appear in the interface.")
             })]
           })
         })
       }
 
-      function co(e) {
-        var n = e.adding,
-          t = $t();
-        return Object(r.jsx)(to, {
-          children: Object(r.jsxs)(en, {
+      function oo(e) {
+        var t = e.adding,
+          n = tr();
+        return Object(it.jsx)(ro, {
+          children: Object(it.jsxs)(et, {
             style: {
               padding: "1rem"
             },
-            children: [Object(r.jsx)(y.b, {
+            children: [Object(it.jsx)(m.b, {
               to: "/pool",
-              children: Object(r.jsx)(ao, {})
-            }), Object(r.jsxs)(ro, {
-              children: [n ? t(258, "Add") : t(260, "Remove"), " Liquidity"]
-            }), Object(r.jsx)(si, {
-              text: n ? t(264, "When you add liquidity, you are given pool tokens representing your position. These tokens automatically earn fees proportional to your share of the pool, and can be redeemed at any time.") : t(266, "Removing pool tokens converts your position back into underlying tokens at the current rate, proportional to your share of the pool. Accrued fees are included in the amounts you receive.")
+              children: Object(it.jsx)(io, {})
+            }), Object(it.jsxs)(ao, {
+              children: [t ? n(258, "Add") : n(260, "Remove"), " Liquidity"]
+            }), Object(it.jsx)(ui, {
+              text: t ? n(264, "When you add liquidity, you are given pool tokens representing your position. These tokens automatically earn fees proportional to your share of the pool, and can be redeemed at any time.") : n(266, "Removing pool tokens converts your position back into underlying tokens at the current rate, proportional to your share of the pool. Accrued fees are included in the amounts you receive.")
             })]
           })
         })
       }
-      var oo = t(498),
-        so = t(499);
+      var so = n(532),
+        lo = n(533);
 
       function uo(e) {
-        var n, t, r = null === (n = Ar(la(null === e || void 0 === e ? void 0 : e.address, !1), "totalSupply")) || void 0 === n || null === (t = n.result) || void 0 === t ? void 0 : t[0];
-        return e && r ? new Z.k(e, r.toString()) : void 0
+        var t, n, r = null === (t = Pr(da(null === e || void 0 === e ? void 0 : e.address, !1), "totalSupply")) || void 0 === t || null === (n = t.result) || void 0 === n ? void 0 : n[0];
+        return e && r ? new J.k(e, r.toString()) : void 0
       }
 
-      function lo(e) {
-        if (e === Z.d) return "ETH";
-        if (e instanceof Z.j) return e.address;
+      function bo(e) {
+        if (e === J.d) return "BNB";
+        if (e instanceof J.j) return e.address;
         throw new Error("invalid currency")
       }
+      var po, jo, fo, ho, mo, yo, Oo, vo, xo, go, Co;
 
-      function bo(e, n) {
-        return n && e === Z.d ? Z.n[n] : e instanceof Z.j ? e : void 0
+      function wo(e, t) {
+        return t && e === J.d ? J.n[t] : e instanceof J.j ? e : void 0
       }
 
-      function fo(e, n) {
-        var t = e && n ? bo(e.currency, n) : void 0;
-        return t && e ? new Z.k(t, e.raw) : void 0
+      function ko(e, t) {
+        var n = e && t ? wo(e.currency, t) : void 0;
+        return n && e ? new J.k(n, e.raw) : void 0
       }
 
-      function po(e) {
-        return e.equals(Z.n[e.chainId]) ? Z.d : e
+      function To(e) {
+        return e.equals(J.n[e.chainId]) ? J.d : e
       }
-
-      function jo() {
-        var e = Object(u.a)(["\n  background-color: ", ";\n  color: ", ";\n  padding: 0.5rem;\n  border-radius: 12px;\n  margin-top: 8px;\n"]);
-        return jo = function() {
-          return e
-        }, e
-      }
-
-      function mo() {
-        var e = Object(u.a)(["\n  background-color: ", ";\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin-right: 12px;\n  border-radius: 12px;\n  min-width: 48px;\n  height: 48px;\n"]);
-        return mo = function() {
-          return e
-        }, e
-      }
-
-      function ho() {
-        var e = Object(u.a)(["\n  background-color: ", ";\n  border-radius: 1rem;\n  display: flex;\n  align-items: center;\n  font-size: 0.825rem;\n  width: 100%;\n  padding: 3rem 1.25rem 1rem 1rem;\n  margin-top: -2rem;\n  color: ", ";\n  z-index: -1;\n  p {\n    padding: 0;\n    margin: 0;\n    font-weight: 500;\n  }\n"]);
-        return ho = function() {
-          return e
-        }, e
-      }
-
-      function yo() {
-        var e = Object(u.a)(["\n  &::after {\n    display: inline-block;\n    animation: ellipsis 1.25s infinite;\n    content: '.';\n    width: 1em;\n    text-align: left;\n  }\n  @keyframes ellipsis {\n    0% {\n      content: '.';\n    }\n    33% {\n      content: '..';\n    }\n    66% {\n      content: '...';\n    }\n  }\n"]);
-        return yo = function() {
-          return e
-        }, e
-      }
-
-      function vo() {
-        var e = Object(u.a)(["\n  height: 22px;\n  width: 22px;\n  background-color: ", ";\n  border: none;\n  border-radius: 50%;\n  padding: 0.2rem;\n  font-size: 0.875rem;\n  font-weight: 400;\n  margin-left: 0.4rem;\n  cursor: pointer;\n  color: ", ";\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  float: right;\n\n  :hover {\n    background-color: ", ";\n  }\n  :focus {\n    background-color: ", ";\n    outline: none;\n  }\n"]);
-        return vo = function() {
-          return e
-        }, e
-      }
-
-      function Oo() {
-        var e = Object(u.a)(["\n  color: ", ";\n"]);
-        return Oo = function() {
-          return e
-        }, e
-      }
-
-      function xo() {
-        var e = Object(u.a)(["\n  margin-top: 1rem;\n"]);
-        return xo = function() {
-          return e
-        }, e
-      }
-
-      function go() {
-        var e = Object(u.a)(["\n  height: 1px;\n  width: 100%;\n  background-color: ", ";\n"]);
-        return go = function() {
-          return e
-        }, e
-      }
-
-      function Co() {
-        var e = Object(u.a)(["\n          :hover {\n            cursor: pointer;\n            opacity: 0.8;\n          }\n        "]);
-        return Co = function() {
-          return e
-        }, e
-      }
-
-      function wo() {
-        var e = Object(u.a)(["\n  padding: 2px;\n\n  ", "\n"]);
-        return wo = function() {
-          return e
-        }, e
-      }
-
-      function To() {
-        var e = Object(u.a)(["\n  position: relative;\n"]);
-        return To = function() {
-          return e
-        }, e
-      }
-      var ko = l.default.div(To()),
-        Io = l.default.div(wo(), (function(e) {
-          return e.clickable ? Object(l.css)(Co()) : null
+      var Io = d.default.div(po || (po = Object(u.a)(["\n  position: relative;\n"]))),
+        Eo = d.default.div(jo || (jo = Object(u.a)(["\n  padding: 2px;\n\n  ", "\n"])), (function(e) {
+          return e.clickable ? Object(d.css)(fo || (fo = Object(u.a)(["\n          :hover {\n            cursor: pointer;\n            opacity: 0.8;\n          }\n        "]))) : null
         })),
-        Eo = l.default.div(go(), (function(e) {
+        No = d.default.div(ho || (ho = Object(u.a)(["\n  height: 1px;\n  width: 100%;\n  background-color: ", ";\n"])), (function(e) {
           return e.theme.colors.tertiary
         })),
-        No = l.default.div(xo()),
-        Ro = Object(l.default)(s.y)(Oo(), (function(e) {
-          var n = e.theme,
-            t = e.severity;
-          return 3 === t || 4 === t ? n.colors.failure : 2 === t ? n.colors.binance : 1 === t ? n.colors.text : n.colors.success
+        Ro = d.default.div(mo || (mo = Object(u.a)(["\n  margin-top: 1rem;\n"]))),
+        So = Object(d.default)(l.y)(yo || (yo = Object(u.a)(["\n  color: ", ";\n"])), (function(e) {
+          var t = e.theme,
+            n = e.severity;
+          return 3 === n || 4 === n ? t.colors.failure : 2 === n ? t.colors.binance : 1 === n ? t.colors.text : t.colors.success
         })),
-        So = l.default.button(vo(), (function(e) {
+        Uo = d.default.button(Oo || (Oo = Object(u.a)(["\n  height: 22px;\n  width: 22px;\n  background-color: ", ";\n  border: none;\n  border-radius: 50%;\n  padding: 0.2rem;\n  font-size: 0.875rem;\n  font-weight: 400;\n  margin-left: 0.4rem;\n  cursor: pointer;\n  color: ", ";\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  float: right;\n\n  :hover {\n    background-color: ", ";\n  }\n  :focus {\n    background-color: ", ";\n    outline: none;\n  }\n"])), (function(e) {
           return e.theme.colors.invertedContrast
         }), (function(e) {
           return e.theme.colors.textSubtle
@@ -4033,83 +3424,69 @@
         }), (function(e) {
           return e.theme.colors.tertiary
         })),
-        Uo = l.default.span(yo()),
-        Ao = l.default.div(ho(), (function(e) {
-          var n = e.theme;
-          return Object(ht.b)(.9, n.colors.failure)
+        Ao = d.default.span(vo || (vo = Object(u.a)(["\n  &::after {\n    display: inline-block;\n    animation: ellipsis 1.25s infinite;\n    content: '.';\n    width: 1em;\n    text-align: left;\n  }\n  @keyframes ellipsis {\n    0% {\n      content: '.';\n    }\n    33% {\n      content: '..';\n    }\n    66% {\n      content: '...';\n    }\n  }\n"]))),
+        Po = d.default.div(xo || (xo = Object(u.a)(["\n  background-color: ", ";\n  border-radius: 1rem;\n  display: flex;\n  align-items: center;\n  font-size: 0.825rem;\n  width: 100%;\n  padding: 3rem 1.25rem 1rem 1rem;\n  margin-top: -2rem;\n  color: ", ";\n  z-index: -1;\n  p {\n    padding: 0;\n    margin: 0;\n    font-weight: 500;\n  }\n"])), (function(e) {
+          var t = e.theme;
+          return Object(In.b)(.9, t.colors.failure)
         }), (function(e) {
           return e.theme.colors.failure
         })),
-        Bo = l.default.div(mo(), (function(e) {
-          var n = e.theme;
-          return Object(ht.b)(.9, n.colors.failure)
+        Bo = d.default.div(go || (go = Object(u.a)(["\n  background-color: ", ";\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin-right: 12px;\n  border-radius: 12px;\n  min-width: 48px;\n  height: 48px;\n"])), (function(e) {
+          var t = e.theme;
+          return Object(In.b)(.9, t.colors.failure)
         }));
 
-      function Po(e) {
-        var n = e.error;
-        return Object(r.jsxs)(Ao, {
-          children: [Object(r.jsx)(Bo, {
-            children: Object(r.jsx)(Wt.a, {
+      function Mo(e) {
+        var t = e.error;
+        return Object(it.jsxs)(Po, {
+          children: [Object(it.jsx)(Bo, {
+            children: Object(it.jsx)(Qn.a, {
               size: 24
             })
-          }), Object(r.jsx)("p", {
-            children: n
+          }), Object(it.jsx)("p", {
+            children: t
           })]
         })
       }
-      var Do = Object(l.default)(De)(jo(), (function(e) {
-        var n = e.theme;
-        return Object(ht.b)(.9, n.colors.primary)
-      }), (function(e) {
-        return e.theme.colors.primary
-      }));
-
-      function Mo() {
-        var e = Object(u.a)(["\n  border: 1px solid ", ";\n  :hover {\n    border: 1px solid ", ";\n  }\n"]);
-        return Mo = function() {
-          return e
-        }, e
-      }
-
-      function Lo() {
-        var e = Object(u.a)(["\n  height: 24px;\n"]);
-        return Lo = function() {
-          return e
-        }, e
-      }
-      var _o = Object(l.default)(en)(Lo()),
-        Fo = Object(l.default)(ft)(Mo(), (function(e) {
+      var Lo, Do, _o = Object(d.default)(Me)(Co || (Co = Object(u.a)(["\n  background-color: ", ";\n  color: ", ";\n  padding: 0.5rem;\n  border-radius: 12px;\n  margin-top: 8px;\n"])), (function(e) {
+          var t = e.theme;
+          return Object(In.b)(.9, t.colors.primary)
+        }), (function(e) {
+          return e.theme.colors.primary
+        })),
+        Yo = Object(d.default)(et)(Lo || (Lo = Object(u.a)(["\n  height: 24px;\n"]))),
+        zo = Object(d.default)(Cn)(Do || (Do = Object(u.a)(["\n  border: 1px solid ", ";\n  :hover {\n    border: 1px solid ", ";\n  }\n"])), (function(e) {
           return e.theme.colors.invertedContrast
         }), (function(e) {
-          var n = e.theme;
-          return Object(ht.a)(.06, n.colors.invertedContrast)
+          var t = e.theme;
+          return Object(In.a)(.06, t.colors.invertedContrast)
         }));
 
-      function Yo(e) {
-        var n = e.pair,
-          t = e.showUnwrapped,
-          i = void 0 !== t && t,
-          c = ge().account,
-          o = i ? n.token0 : po(n.token0),
-          u = i ? n.token1 : po(n.token1),
-          l = Object(a.useState)(!1),
-          d = Object(h.a)(l, 2),
-          b = d[0],
-          f = d[1],
-          p = ga(null !== c && void 0 !== c ? c : void 0, n.liquidityToken),
-          j = uo(n.liquidityToken),
-          m = n && j && p && Z.e.greaterThanOrEqual(j.raw, p.raw) ? [n.getLiquidityValue(n.token0, j, p, !1), n.getLiquidityValue(n.token1, j, p, !1)] : [void 0, void 0],
-          y = Object(h.a)(m, 2),
-          v = y[0],
-          O = y[1];
-        return Object(r.jsx)(r.Fragment, {
-          children: p && Object(r.jsx)(s.f, {
-            children: Object(r.jsx)(s.g, {
-              children: Object(r.jsxs)(De, {
+      function Fo(e) {
+        var t = e.pair,
+          n = e.showUnwrapped,
+          r = void 0 !== n && n,
+          a = ge().account,
+          c = r ? t.token0 : To(t.token0),
+          o = r ? t.token1 : To(t.token1),
+          s = Object(i.useState)(!1),
+          u = Object(h.a)(s, 2),
+          d = u[0],
+          b = u[1],
+          p = Ca(null !== a && void 0 !== a ? a : void 0, t.liquidityToken),
+          j = uo(t.liquidityToken),
+          f = t && j && p && J.e.greaterThanOrEqual(j.raw, p.raw) ? [t.getLiquidityValue(t.token0, j, p, !1), t.getLiquidityValue(t.token1, j, p, !1)] : [void 0, void 0],
+          m = Object(h.a)(f, 2),
+          y = m[0],
+          O = m[1];
+        return Object(it.jsx)(it.Fragment, {
+          children: p && Object(it.jsx)(l.f, {
+            children: Object(it.jsx)(l.g, {
+              children: Object(it.jsxs)(Me, {
                 gap: "12px",
-                children: [Object(r.jsx)(_o, {
-                  children: Object(r.jsx)(rn, {
-                    children: Object(r.jsx)(s.y, {
+                children: [Object(it.jsx)(Yo, {
+                  children: Object(it.jsx)(rt, {
+                    children: Object(it.jsx)(l.y, {
                       style: {
                         textTransform: "uppercase",
                         fontWeight: 600
@@ -4119,45 +3496,45 @@
                       children: "LP Tokens in your Wallet"
                     })
                   })
-                }), Object(r.jsxs)(_o, {
+                }), Object(it.jsxs)(Yo, {
                   onClick: function() {
-                    return f(!b)
+                    return b(!d)
                   },
-                  children: [Object(r.jsxs)(rn, {
-                    children: [Object(r.jsx)(Pc, {
-                      currency0: o,
-                      currency1: u,
+                  children: [Object(it.jsxs)(rt, {
+                    children: [Object(it.jsx)(Lc, {
+                      currency0: c,
+                      currency1: o,
                       margin: !0,
                       size: 20
-                    }), Object(r.jsxs)(s.y, {
+                    }), Object(it.jsxs)(l.y, {
                       fontSize: "14px",
-                      children: [o.symbol, "/", u.symbol]
+                      children: [c.symbol, "/", o.symbol]
                     })]
-                  }), Object(r.jsx)(rn, {
-                    children: Object(r.jsx)(s.y, {
+                  }), Object(it.jsx)(rt, {
+                    children: Object(it.jsx)(l.y, {
                       fontSize: "14px",
                       children: p ? p.toSignificant(4) : "-"
                     })
                   })]
-                }), Object(r.jsxs)(De, {
+                }), Object(it.jsxs)(Me, {
                   gap: "4px",
-                  children: [Object(r.jsxs)(_o, {
-                    children: [Object(r.jsxs)(s.y, {
+                  children: [Object(it.jsxs)(Yo, {
+                    children: [Object(it.jsxs)(l.y, {
                       fontSize: "14px",
-                      children: [o.symbol, ":"]
-                    }), v ? Object(r.jsx)(rn, {
-                      children: Object(r.jsx)(s.y, {
+                      children: [c.symbol, ":"]
+                    }), y ? Object(it.jsx)(rt, {
+                      children: Object(it.jsx)(l.y, {
                         ml: "6px",
                         fontSize: "14px",
-                        children: null === v || void 0 === v ? void 0 : v.toSignificant(6)
+                        children: null === y || void 0 === y ? void 0 : y.toSignificant(6)
                       })
                     }) : "-"]
-                  }), Object(r.jsxs)(_o, {
-                    children: [Object(r.jsxs)(s.y, {
+                  }), Object(it.jsxs)(Yo, {
+                    children: [Object(it.jsxs)(l.y, {
                       fontSize: "14px",
-                      children: [u.symbol, ":"]
-                    }), O ? Object(r.jsx)(rn, {
-                      children: Object(r.jsx)(s.y, {
+                      children: [o.symbol, ":"]
+                    }), O ? Object(it.jsx)(rt, {
+                      children: Object(it.jsx)(l.y, {
                         ml: "6px",
                         fontSize: "14px",
                         children: null === O || void 0 === O ? void 0 : O.toSignificant(6)
@@ -4171,119 +3548,119 @@
         })
       }
 
-      function zo(e) {
-        var n = e.pair,
-          t = ge().account,
-          i = po(n.token0),
-          c = po(n.token1),
-          o = Object(a.useState)(!1),
-          u = Object(h.a)(o, 2),
-          l = u[0],
-          d = u[1],
-          b = ga(null !== t && void 0 !== t ? t : void 0, n.liquidityToken),
-          f = uo(n.liquidityToken),
-          p = b && f && Z.e.greaterThanOrEqual(f.raw, b.raw) ? new Z.g(b.raw, f.raw) : void 0,
-          j = n && f && b && Z.e.greaterThanOrEqual(f.raw, b.raw) ? [n.getLiquidityValue(n.token0, f, b, !1), n.getLiquidityValue(n.token1, f, b, !1)] : [void 0, void 0],
-          m = Object(h.a)(j, 2),
-          v = m[0],
-          O = m[1];
-        return Object(r.jsx)(Fo, {
-          children: Object(r.jsxs)(De, {
+      function qo(e) {
+        var t = e.pair,
+          n = ge().account,
+          r = To(t.token0),
+          a = To(t.token1),
+          c = Object(i.useState)(!1),
+          o = Object(h.a)(c, 2),
+          s = o[0],
+          u = o[1],
+          d = Ca(null !== n && void 0 !== n ? n : void 0, t.liquidityToken),
+          b = uo(t.liquidityToken),
+          p = d && b && J.e.greaterThanOrEqual(b.raw, d.raw) ? new J.g(d.raw, b.raw) : void 0,
+          j = t && b && d && J.e.greaterThanOrEqual(b.raw, d.raw) ? [t.getLiquidityValue(t.token0, b, d, !1), t.getLiquidityValue(t.token1, b, d, !1)] : [void 0, void 0],
+          f = Object(h.a)(j, 2),
+          y = f[0],
+          O = f[1];
+        return Object(it.jsx)(zo, {
+          children: Object(it.jsxs)(Me, {
             gap: "12px",
-            children: [Object(r.jsxs)(_o, {
+            children: [Object(it.jsxs)(Yo, {
               onClick: function() {
-                return d(!l)
+                return u(!s)
               },
               style: {
                 cursor: "pointer"
               },
-              children: [Object(r.jsxs)(rn, {
-                children: [Object(r.jsx)(Pc, {
-                  currency0: i,
-                  currency1: c,
+              children: [Object(it.jsxs)(rt, {
+                children: [Object(it.jsx)(Lc, {
+                  currency0: r,
+                  currency1: a,
                   margin: !0,
                   size: 20
-                }), Object(r.jsx)(s.y, {
-                  children: i && c ? "".concat(i.symbol, "/").concat(c.symbol) : Object(r.jsx)(Uo, {
+                }), Object(it.jsx)(l.y, {
+                  children: r && a ? "".concat(r.symbol, "/").concat(a.symbol) : Object(it.jsx)(Ao, {
                     children: "Loading"
                   })
                 })]
-              }), Object(r.jsx)(rn, {
-                children: l ? Object(r.jsx)(oo.a, {
+              }), Object(it.jsx)(rt, {
+                children: s ? Object(it.jsx)(so.a, {
                   size: "20",
                   style: {
                     marginLeft: "10px"
                   }
-                }) : Object(r.jsx)(so.a, {
+                }) : Object(it.jsx)(lo.a, {
                   size: "20",
                   style: {
                     marginLeft: "10px"
                   }
                 })
               })]
-            }), l && Object(r.jsxs)(De, {
+            }), s && Object(it.jsxs)(Me, {
               gap: "8px",
-              children: [Object(r.jsxs)(_o, {
-                children: [Object(r.jsx)(rn, {
-                  children: Object(r.jsxs)(s.y, {
-                    children: ["Pooled ", i.symbol, ":"]
+              children: [Object(it.jsxs)(Yo, {
+                children: [Object(it.jsx)(rt, {
+                  children: Object(it.jsxs)(l.y, {
+                    children: ["Pooled ", r.symbol, ":"]
                   })
-                }), v ? Object(r.jsxs)(rn, {
-                  children: [Object(r.jsx)(s.y, {
+                }), y ? Object(it.jsxs)(rt, {
+                  children: [Object(it.jsx)(l.y, {
                     ml: "6px",
-                    children: null === v || void 0 === v ? void 0 : v.toSignificant(6)
-                  }), Object(r.jsx)(mi, {
+                    children: null === y || void 0 === y ? void 0 : y.toSignificant(6)
+                  }), Object(it.jsx)(yi, {
                     size: "20px",
                     style: {
                       marginLeft: "8px"
                     },
-                    currency: i
+                    currency: r
                   })]
                 }) : "-"]
-              }), Object(r.jsxs)(_o, {
-                children: [Object(r.jsx)(rn, {
-                  children: Object(r.jsxs)(s.y, {
-                    children: ["Pooled ", c.symbol, ":"]
+              }), Object(it.jsxs)(Yo, {
+                children: [Object(it.jsx)(rt, {
+                  children: Object(it.jsxs)(l.y, {
+                    children: ["Pooled ", a.symbol, ":"]
                   })
-                }), O ? Object(r.jsxs)(rn, {
-                  children: [Object(r.jsx)(s.y, {
+                }), O ? Object(it.jsxs)(rt, {
+                  children: [Object(it.jsx)(l.y, {
                     ml: "6px",
                     children: null === O || void 0 === O ? void 0 : O.toSignificant(6)
-                  }), Object(r.jsx)(mi, {
+                  }), Object(it.jsx)(yi, {
                     size: "20px",
                     style: {
                       marginLeft: "8px"
                     },
-                    currency: c
+                    currency: a
                   })]
                 }) : "-"]
-              }), Object(r.jsxs)(_o, {
-                children: [Object(r.jsx)(s.y, {
+              }), Object(it.jsxs)(Yo, {
+                children: [Object(it.jsx)(l.y, {
                   children: "Your pool tokens:"
-                }), Object(r.jsx)(s.y, {
-                  children: b ? b.toSignificant(4) : "-"
+                }), Object(it.jsx)(l.y, {
+                  children: d ? d.toSignificant(4) : "-"
                 })]
-              }), Object(r.jsxs)(_o, {
-                children: [Object(r.jsx)(s.y, {
+              }), Object(it.jsxs)(Yo, {
+                children: [Object(it.jsx)(l.y, {
                   children: "Your pool share:"
-                }), Object(r.jsx)(s.y, {
+                }), Object(it.jsx)(l.y, {
                   children: p ? "".concat(p.toFixed(2), "%") : "-"
                 })]
-              }), Object(r.jsxs)(en, {
+              }), Object(it.jsxs)(et, {
                 marginTop: "10px",
-                children: [Object(r.jsx)(s.c, {
-                  as: y.b,
-                  to: "/add/".concat(lo(i), "/").concat(lo(c)),
+                children: [Object(it.jsx)(l.c, {
+                  as: m.b,
+                  to: "/add/".concat(bo(r), "/").concat(bo(a)),
                   style: {
                     width: "48%"
                   },
                   children: "Add"
-                }), Object(r.jsx)(s.c, {
-                  as: y.b,
+                }), Object(it.jsx)(l.c, {
+                  as: m.b,
                   style: {
                     width: "48%"
                   },
-                  to: "/remove/".concat(lo(i), "/").concat(lo(c)),
+                  to: "/remove/".concat(bo(r), "/").concat(bo(a)),
                   children: "Remove"
                 })]
               })]
@@ -4291,207 +3668,207 @@
           })
         })
       }
-      var qo, Vo = new ar.b(ra.a);
+      var Vo, Wo = new ir.b(aa.abi);
 
-      function Wo(e) {
-        var n = ge().chainId,
-          t = Object(a.useMemo)((function() {
+      function Ho(e) {
+        var t = ge().chainId,
+          n = Object(i.useMemo)((function() {
             return e.map((function(e) {
-              var t = Object(h.a)(e, 2),
-                r = t[0],
-                a = t[1];
-              return [bo(r, n), bo(a, n)]
-            }))
-          }), [n, e]),
-          r = Ur(Object(a.useMemo)((function() {
-            return t.map((function(e) {
               var n = Object(h.a)(e, 2),
-                t = n[0],
-                r = n[1];
-              return t && r && !t.equals(r) ? Z.f.getAddress(t, r) : void 0
+                r = n[0],
+                a = n[1];
+              return [wo(r, t), wo(a, t)]
             }))
-          }), [t]), Vo, "getReserves");
-        return Object(a.useMemo)((function() {
-          return r.map((function(e, n) {
+          }), [t, e]),
+          r = Ar(Object(i.useMemo)((function() {
+            return n.map((function(e) {
+              var t = Object(h.a)(e, 2),
+                n = t[0],
+                r = t[1];
+              return n && r && !n.equals(r) ? J.f.getAddress(n, r) : void 0
+            }))
+          }), [n]), Wo, "getReserves");
+        return Object(i.useMemo)((function() {
+          return r.map((function(e, t) {
             var r = e.result,
               a = e.loading,
-              i = t[n][0],
-              c = t[n][1];
-            if (a) return [qo.LOADING, null];
-            if (!i || !c || i.equals(c)) return [qo.INVALID, null];
-            if (!r) return [qo.NOT_EXISTS, null];
+              i = n[t][0],
+              c = n[t][1];
+            if (a) return [Vo.LOADING, null];
+            if (!i || !c || i.equals(c)) return [Vo.INVALID, null];
+            if (!r) return [Vo.NOT_EXISTS, null];
             var o = r.reserve0,
               s = r.reserve1,
-              u = i.sortsBefore(c) ? [i, c] : [c, i],
-              l = Object(h.a)(u, 2),
-              d = l[0],
-              b = l[1];
-            return [qo.EXISTS, new Z.f(new Z.k(d, o.toString()), new Z.k(b, s.toString()))]
+              l = i.sortsBefore(c) ? [i, c] : [c, i],
+              u = Object(h.a)(l, 2),
+              d = u[0],
+              b = u[1];
+            return [Vo.EXISTS, new J.f(new J.k(d, o.toString()), new J.k(b, s.toString()))]
           }))
-        }), [r, t])
+        }), [r, n])
       }
 
-      function Ho(e, n) {
-        return Wo([
-          [e, n]
+      function Qo(e, t) {
+        return Ho([
+          [e, t]
         ])[0]
       }! function(e) {
         e[e.LOADING = 0] = "LOADING", e[e.NOT_EXISTS = 1] = "NOT_EXISTS", e[e.EXISTS = 2] = "EXISTS", e[e.INVALID = 3] = "INVALID"
-      }(qo || (qo = {}));
-      var Go = t(490);
+      }(Vo || (Vo = {}));
+      var Ko = n(524);
 
-      function Ko(e, n, t) {
-        var r = Ar(la(null === e || void 0 === e ? void 0 : e.address, !1), "allowance", Object(a.useMemo)((function() {
-          return [n, t]
-        }), [n, t])).result;
-        return Object(a.useMemo)((function() {
-          return e && r ? new Z.k(e, r.toString()) : void 0
+      function Go(e, t, n) {
+        var r = Pr(da(null === e || void 0 === e ? void 0 : e.address, !1), "allowance", Object(i.useMemo)((function() {
+          return [t, n]
+        }), [t, n])).result;
+        return Object(i.useMemo)((function() {
+          return e && r ? new J.k(e, r.toString()) : void 0
         }), [e, r])
       }
-      var Qo;
+      var Xo;
       ! function(e) {
         e.INPUT = "INPUT", e.OUTPUT = "OUTPUT"
-      }(Qo || (Qo = {}));
-      var Xo = Object(Ce.b)("swap/selectCurrency"),
-        Jo = Object(Ce.b)("swap/switchCurrencies"),
-        Zo = Object(Ce.b)("swap/typeInput"),
-        $o = Object(Ce.b)("swap/replaceSwapState"),
-        es = Object(Ce.b)("swap/setRecipient"),
-        ns = Object(Ce.b)("transactions/addTransaction"),
-        ts = Object(Ce.b)("transactions/clearAllTransactions"),
-        rs = Object(Ce.b)("transactions/finalizeTransaction"),
-        as = Object(Ce.b)("transactions/checkedTransaction");
+      }(Xo || (Xo = {}));
+      var Jo = Object(Te.b)("swap/selectCurrency"),
+        $o = Object(Te.b)("swap/switchCurrencies"),
+        Zo = Object(Te.b)("swap/typeInput"),
+        es = Object(Te.b)("swap/replaceSwapState"),
+        ts = Object(Te.b)("swap/setRecipient"),
+        ns = Object(Te.b)("transactions/addTransaction"),
+        rs = Object(Te.b)("transactions/clearAllTransactions"),
+        as = Object(Te.b)("transactions/finalizeTransaction"),
+        is = Object(Te.b)("transactions/checkedTransaction");
 
-      function is() {
+      function cs() {
         var e = ge(),
-          n = e.chainId,
-          t = e.account,
-          r = Object(x.c)();
-        return Object(a.useCallback)((function(e) {
+          t = e.chainId,
+          n = e.account,
+          r = Object(v.c)();
+        return Object(i.useCallback)((function(e) {
           var a = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {},
             i = a.summary,
             c = a.approval;
-          if (t && n) {
+          if (n && t) {
             var o = e.hash;
             if (!o) throw Error("No transaction hash found.");
             r(ns({
               hash: o,
-              from: t,
-              chainId: n,
+              from: n,
+              chainId: t,
               approval: c,
               summary: i
             }))
           }
-        }), [r, n, t])
+        }), [r, t, n])
       }
 
-      function cs() {
-        var e, n = ge().chainId,
-          t = Object(x.d)((function(e) {
+      function os() {
+        var e, t = ge().chainId,
+          n = Object(v.d)((function(e) {
             return e.transactions
           }));
-        return n && null !== (e = t[n]) && void 0 !== e ? e : {}
+        return t && null !== (e = n[t]) && void 0 !== e ? e : {}
       }
 
-      function os(e) {
+      function ss(e) {
         return (new Date).getTime() - e.addedTime < 864e5
       }
-      var ss, us, ls = new Z.g(Z.e.BigInt(20), Z.e.BigInt(1e4)),
-        ds = new Z.g(Z.e.BigInt(1e4), Z.e.BigInt(1e4)),
-        bs = ds.subtract(ls);
+      var ls, us, ds = new J.g(J.e.BigInt(20), J.e.BigInt(1e4)),
+        bs = new J.g(J.e.BigInt(1e4), J.e.BigInt(1e4)),
+        ps = bs.subtract(ds);
 
-      function fs(e) {
-        var n = e ? ds.subtract(e.route.pairs.reduce((function(e) {
-            return e.multiply(bs)
-          }), ds)) : void 0,
-          t = e && n ? e.priceImpact.subtract(n) : void 0;
+      function js(e) {
+        var t = e ? bs.subtract(e.route.pairs.reduce((function(e) {
+            return e.multiply(ps)
+          }), bs)) : void 0,
+          n = e && t ? e.priceImpact.subtract(t) : void 0;
         return {
-          priceImpactWithoutFee: t ? new Z.g(null === t || void 0 === t ? void 0 : t.numerator, null === t || void 0 === t ? void 0 : t.denominator) : void 0,
-          realizedLPFee: n && e && (e.inputAmount instanceof Z.k ? new Z.k(e.inputAmount.token, n.multiply(e.inputAmount.raw).quotient) : Z.c.ether(n.multiply(e.inputAmount.raw).quotient))
+          priceImpactWithoutFee: n ? new J.g(null === n || void 0 === n ? void 0 : n.numerator, null === n || void 0 === n ? void 0 : n.denominator) : void 0,
+          realizedLPFee: t && e && (e.inputAmount instanceof J.k ? new J.k(e.inputAmount.token, t.multiply(e.inputAmount.raw).quotient) : J.c.ether(t.multiply(e.inputAmount.raw).quotient))
         }
       }
 
-      function ps(e, n) {
-        var t, r, a = (r = n, new Z.g(Z.e.BigInt(Math.floor(r)), Z.e.BigInt(1e4)));
-        return t = {}, Object(w.a)(t, Qo.INPUT, null === e || void 0 === e ? void 0 : e.maximumAmountIn(a)), Object(w.a)(t, Qo.OUTPUT, null === e || void 0 === e ? void 0 : e.minimumAmountOut(a)), t
+      function fs(e, t) {
+        var n, r, a = (r = t, new J.g(J.e.BigInt(Math.floor(r)), J.e.BigInt(1e4)));
+        return n = {}, Object(C.a)(n, Xo.INPUT, null === e || void 0 === e ? void 0 : e.maximumAmountIn(a)), Object(C.a)(n, Xo.OUTPUT, null === e || void 0 === e ? void 0 : e.minimumAmountOut(a)), n
       }
 
-      function js(e) {
-        return (null === e || void 0 === e ? void 0 : e.lessThan(Oe)) ? (null === e || void 0 === e ? void 0 : e.lessThan(ye)) ? (null === e || void 0 === e ? void 0 : e.lessThan(he)) ? (null === e || void 0 === e ? void 0 : e.lessThan(me)) ? 0 : 1 : 2 : 3 : 4
+      function hs(e) {
+        return (null === e || void 0 === e ? void 0 : e.lessThan(ve)) ? (null === e || void 0 === e ? void 0 : e.lessThan(ye)) ? (null === e || void 0 === e ? void 0 : e.lessThan(me)) ? (null === e || void 0 === e ? void 0 : e.lessThan(he)) ? 0 : 1 : 2 : 3 : 4
       }
 
-      function ms(e, n) {
-        return e ? n ? "".concat(e.executionPrice.invert().toSignificant(6), " ").concat(e.inputAmount.currency.symbol, " / ").concat(e.outputAmount.currency.symbol) : "".concat(e.executionPrice.toSignificant(6), " ").concat(e.outputAmount.currency.symbol, " / ").concat(e.inputAmount.currency.symbol) : ""
+      function ms(e, t) {
+        return e ? t ? "".concat(e.executionPrice.invert().toSignificant(6), " ").concat(e.inputAmount.currency.symbol, " / ").concat(e.outputAmount.currency.symbol) : "".concat(e.executionPrice.toSignificant(6), " ").concat(e.outputAmount.currency.symbol, " / ").concat(e.inputAmount.currency.symbol) : ""
       }
 
-      function hs(e, n) {
-        var t = ge().account,
-          r = e instanceof Z.k ? e.token : void 0,
-          i = Ko(r, null !== t && void 0 !== t ? t : void 0, n),
-          c = function(e, n) {
-            var t = cs();
-            return Object(a.useMemo)((function() {
-              return "string" === typeof e && "string" === typeof n && Object.keys(t).some((function(r) {
-                var a = t[r];
+      function ys(e, t) {
+        var n = ge().account,
+          r = e instanceof J.k ? e.token : void 0,
+          a = Go(r, null !== n && void 0 !== n ? n : void 0, t),
+          c = function(e, t) {
+            var n = os();
+            return Object(i.useMemo)((function() {
+              return "string" === typeof e && "string" === typeof t && Object.keys(n).some((function(r) {
+                var a = n[r];
                 if (!a) return !1;
                 if (a.receipt) return !1;
                 var i = a.approval;
-                return !!i && i.spender === n && i.tokenAddress === e && os(a)
+                return !!i && i.spender === t && i.tokenAddress === e && ss(a)
               }))
-            }), [t, n, e])
-          }(null === r || void 0 === r ? void 0 : r.address, n),
-          o = Object(a.useMemo)((function() {
-            return e && n ? e.currency === Z.d ? ss.APPROVED : i ? i.lessThan(e) ? c ? ss.PENDING : ss.NOT_APPROVED : ss.APPROVED : ss.UNKNOWN : ss.UNKNOWN
-          }), [e, i, c, n]),
-          s = la(null === r || void 0 === r ? void 0 : r.address),
-          u = is(),
-          l = Object(a.useCallback)(Object(m.a)(j.a.mark((function t() {
+            }), [n, t, e])
+          }(null === r || void 0 === r ? void 0 : r.address, t),
+          o = Object(i.useMemo)((function() {
+            return e && t ? e.currency === J.d ? ls.APPROVED : a ? a.lessThan(e) ? c ? ls.PENDING : ls.NOT_APPROVED : ls.APPROVED : ls.UNKNOWN : ls.UNKNOWN
+          }), [e, a, c, t]),
+          s = da(null === r || void 0 === r ? void 0 : r.address),
+          l = cs(),
+          u = Object(i.useCallback)(Object(f.a)(j.a.mark((function n() {
             var a, i;
-            return j.a.wrap((function(t) {
-              for (;;) switch (t.prev = t.next) {
+            return j.a.wrap((function(n) {
+              for (;;) switch (n.prev = n.next) {
                 case 0:
-                  if (o === ss.NOT_APPROVED) {
-                    t.next = 3;
+                  if (o === ls.NOT_APPROVED) {
+                    n.next = 3;
                     break
                   }
-                  return console.error("approve was called unnecessarily"), t.abrupt("return");
+                  return console.error("approve was called unnecessarily"), n.abrupt("return");
                 case 3:
                   if (r) {
-                    t.next = 6;
+                    n.next = 6;
                     break
                   }
-                  return console.error("no token"), t.abrupt("return");
+                  return console.error("no token"), n.abrupt("return");
                 case 6:
                   if (s) {
-                    t.next = 9;
+                    n.next = 9;
                     break
                   }
-                  return console.error("tokenContract is null"), t.abrupt("return");
+                  return console.error("tokenContract is null"), n.abrupt("return");
                 case 9:
                   if (e) {
-                    t.next = 12;
+                    n.next = 12;
                     break
                   }
-                  return console.error("missing amount to approve"), t.abrupt("return");
+                  return console.error("missing amount to approve"), n.abrupt("return");
                 case 12:
-                  if (n) {
-                    t.next = 15;
+                  if (t) {
+                    n.next = 15;
                     break
                   }
-                  return console.error("no spender"), t.abrupt("return");
+                  return console.error("no spender"), n.abrupt("return");
                 case 15:
-                  return a = !1, t.next = 18, s.estimateGas.approve(n, Go.a).catch((function() {
-                    return a = !0, s.estimateGas.approve(n, e.raw.toString())
+                  return a = !1, n.next = 18, s.estimateGas.approve(t, Ko.a).catch((function() {
+                    return a = !0, s.estimateGas.approve(t, e.raw.toString())
                   }));
                 case 18:
-                  return i = t.sent, t.abrupt("return", s.approve(n, a ? e.raw.toString() : Go.a, {
-                    gasLimit: yn(i)
-                  }).then((function(t) {
-                    u(t, {
+                  return i = n.sent, n.abrupt("return", s.approve(t, a ? e.raw.toString() : Ko.a, {
+                    gasLimit: yt(i)
+                  }).then((function(n) {
+                    l(n, {
                       summary: "Approve ".concat(e.currency.symbol),
                       approval: {
                         tokenAddress: r.address,
-                        spender: n
+                        spender: t
                       }
                     })
                   })).catch((function(e) {
@@ -4499,124 +3876,124 @@
                   })));
                 case 20:
                 case "end":
-                  return t.stop()
+                  return n.stop()
               }
-            }), t)
-          }))), [o, r, s, e, n, u]);
-        return [o, l]
+            }), n)
+          }))), [o, r, s, e, t, l]);
+        return [o, u]
       }! function(e) {
         e[e.UNKNOWN = 0] = "UNKNOWN", e[e.NOT_APPROVED = 1] = "NOT_APPROVED", e[e.PENDING = 2] = "PENDING", e[e.APPROVED = 3] = "APPROVED"
-      }(ss || (ss = {})),
+      }(ls || (ls = {})),
       function(e) {
         e.CURRENCY_A = "CURRENCY_A", e.CURRENCY_B = "CURRENCY_B"
       }(us || (us = {}));
-      var ys = Object(Ce.b)("mint/typeInputMint"),
-        vs = Object(Ce.b)("mint/resetMintState"),
-        Os = t(169);
+      var Os = Object(Te.b)("mint/typeInputMint"),
+        vs = Object(Te.b)("mint/resetMintState"),
+        xs = n(184);
 
-      function xs(e, n) {
-        var t = Object(a.useState)(e),
-          r = Object(h.a)(t, 2),
-          i = r[0],
+      function gs(e, t) {
+        var n = Object(i.useState)(e),
+          r = Object(h.a)(n, 2),
+          a = r[0],
           c = r[1];
-        return Object(a.useEffect)((function() {
-          var t = setTimeout((function() {
+        return Object(i.useEffect)((function() {
+          var n = setTimeout((function() {
             c(e)
-          }), n);
+          }), t);
           return function() {
-            clearTimeout(t)
+            clearTimeout(n)
           }
-        }), [e, n]), i
+        }), [e, t]), a
       }
 
-      function gs(e) {
-        var n = pn(e),
-          t = function(e) {
-            var n, t, r, i = xs(e, 200),
-              c = Object(a.useMemo)((function() {
-                if (!i || !pn(i)) return [void 0];
+      function Cs(e) {
+        var t = jt(e),
+          n = function(e) {
+            var t, n, r, a = gs(e, 200),
+              c = Object(i.useMemo)((function() {
+                if (!a || !jt(a)) return [void 0];
                 try {
-                  return i ? [Object(Ma.namehash)("".concat(i.toLowerCase().substr(2), ".addr.reverse"))] : [void 0]
+                  return a ? [Object(Da.namehash)("".concat(a.toLowerCase().substr(2), ".addr.reverse"))] : [void 0]
                 } catch (e) {
                   return [void 0]
                 }
-              }), [i]),
-              o = Ar(da(!1), "resolver", c),
-              s = null === (n = o.result) || void 0 === n ? void 0 : n[0],
-              u = Ar(ba(s && !La(s) ? s : void 0, !1), "name", c),
-              l = i !== e;
+              }), [a]),
+              o = Pr(ba(!1), "resolver", c),
+              s = null === (t = o.result) || void 0 === t ? void 0 : t[0],
+              l = Pr(pa(s && !_a(s) ? s : void 0, !1), "name", c),
+              u = a !== e;
             return {
-              ENSName: l ? null : null !== (t = null === (r = u.result) || void 0 === r ? void 0 : r[0]) && void 0 !== t ? t : null,
-              loading: l || o.loading || u.loading
+              ENSName: u ? null : null !== (n = null === (r = l.result) || void 0 === r ? void 0 : r[0]) && void 0 !== n ? n : null,
+              loading: u || o.loading || l.loading
             }
-          }(n || void 0),
+          }(t || void 0),
           r = function(e) {
-            var n, t, r, i = xs(e, 200),
-              c = Object(a.useMemo)((function() {
-                if (!i) return [void 0];
+            var t, n, r, a = gs(e, 200),
+              c = Object(i.useMemo)((function() {
+                if (!a) return [void 0];
                 try {
-                  return i ? [Object(Ma.namehash)(i)] : [void 0]
+                  return a ? [Object(Da.namehash)(a)] : [void 0]
                 } catch (e) {
                   return [void 0]
                 }
-              }), [i]),
-              o = Ar(da(!1), "resolver", c),
-              s = null === (n = o.result) || void 0 === n ? void 0 : n[0],
-              u = Ar(ba(s && !La(s) ? s : void 0, !1), "addr", c),
-              l = i !== e;
+              }), [a]),
+              o = Pr(ba(!1), "resolver", c),
+              s = null === (t = o.result) || void 0 === t ? void 0 : t[0],
+              l = Pr(pa(s && !_a(s) ? s : void 0, !1), "addr", c),
+              u = a !== e;
             return {
-              address: l ? null : null !== (t = null === (r = u.result) || void 0 === r ? void 0 : r[0]) && void 0 !== t ? t : null,
-              loading: l || o.loading || u.loading
+              address: u ? null : null !== (n = null === (r = l.result) || void 0 === r ? void 0 : r[0]) && void 0 !== n ? n : null,
+              loading: u || o.loading || l.loading
             }
           }(e);
         return {
-          loading: t.loading || r.loading,
-          address: n || r.address,
-          name: t.ENSName ? t.ENSName : !n && r.address && e || null
+          loading: n.loading || r.loading,
+          address: t || r.address,
+          name: n.ENSName ? n.ENSName : !t && r.address && e || null
         }
       }
 
-      function Cs(e, n) {
-        var t = ge().chainId,
-          r = Object(a.useMemo)((function() {
-            return t ? ce[t] : []
-          }), [t]),
-          i = Object(a.useMemo)((function() {
-            return Pr()(r, (function(e) {
-              return r.map((function(n) {
-                return [e, n]
+      function ws(e, t) {
+        var n = ge().chainId,
+          r = Object(i.useMemo)((function() {
+            return n ? ce[n] : []
+          }), [n]),
+          a = Object(i.useMemo)((function() {
+            return Mr()(r, (function(e) {
+              return r.map((function(t) {
+                return [e, t]
               }))
             })).filter((function(e) {
-              var n = Object(h.a)(e, 2),
-                t = n[0],
-                r = n[1];
-              return t.address !== r.address
+              var t = Object(h.a)(e, 2),
+                n = t[0],
+                r = t[1];
+              return n.address !== r.address
             }))
           }), [r]),
-          c = t ? [bo(e, t), bo(n, t)] : [void 0, void 0],
+          c = n ? [wo(e, n), wo(t, n)] : [void 0, void 0],
           o = Object(h.a)(c, 2),
           s = o[0],
-          u = o[1],
-          l = Wo(Object(a.useMemo)((function() {
-            return s && u ? [
-              [s, u]
-            ].concat(Object(X.a)(r.map((function(e) {
+          l = o[1],
+          u = Ho(Object(i.useMemo)((function() {
+            return s && l ? [
+              [s, l]
+            ].concat(Object(G.a)(r.map((function(e) {
               return [s, e]
-            }))), Object(X.a)(r.map((function(e) {
-              return [u, e]
-            }))), Object(X.a)(i)).filter((function(e) {
+            }))), Object(G.a)(r.map((function(e) {
+              return [l, e]
+            }))), Object(G.a)(a)).filter((function(e) {
               return Boolean(e[0] && e[1])
             })).filter((function(e) {
-              var n = Object(h.a)(e, 2),
-                t = n[0],
-                r = n[1];
-              return t.address !== r.address
+              var t = Object(h.a)(e, 2),
+                n = t[0],
+                r = t[1];
+              return n.address !== r.address
             })).filter((function(e) {
-              var n = Object(h.a)(e, 2),
-                r = n[0],
-                a = n[1];
-              if (!t) return !0;
-              var i = oe[t];
+              var t = Object(h.a)(e, 2),
+                r = t[0],
+                a = t[1];
+              if (!n) return !0;
+              var i = oe[n];
               if (!i) return !0;
               var c = i[r.address],
                 o = i[a.address];
@@ -4626,339 +4003,407 @@
                 return r.equals(e)
               })))
             })) : []
-          }), [s, u, r, i, t]));
-        return Object(a.useMemo)((function() {
-          return Object.values(l.filter((function(e) {
-            return Boolean(e[0] === qo.EXISTS && e[1])
-          })).reduce((function(e, n) {
-            var t, r = Object(h.a)(n, 2)[1];
-            return e[r.liquidityToken.address] = null !== (t = e[r.liquidityToken.address]) && void 0 !== t ? t : r, e
+          }), [s, l, r, a, n]));
+        return Object(i.useMemo)((function() {
+          return Object.values(u.filter((function(e) {
+            return Boolean(e[0] === Vo.EXISTS && e[1])
+          })).reduce((function(e, t) {
+            var n, r = Object(h.a)(t, 2)[1];
+            return e[r.liquidityToken.address] = null !== (n = e[r.liquidityToken.address]) && void 0 !== n ? n : r, e
           }), {}))
-        }), [l])
+        }), [u])
       }
-      var ws = t(273);
+      var ks = n(287);
 
       function Ts() {
-        return Object(x.d)((function(e) {
+        return Object(v.d)((function(e) {
           return e.swap
         }))
       }
 
-      function ks(e, n) {
-        if (e && n) try {
-          var t = Object(Os.parseUnits)(e, n.decimals).toString();
-          if ("0" !== t) return n instanceof Z.j ? new Z.k(n, Z.e.BigInt(t)) : Z.c.ether(Z.e.BigInt(t))
+      function Is(e, t) {
+        if (e && t) try {
+          var n = Object(xs.parseUnits)(e, t.decimals).toString();
+          if ("0" !== n) return t instanceof J.j ? new J.k(t, J.e.BigInt(n)) : J.c.ether(J.e.BigInt(n))
         } catch (r) {
           console.info('Failed to parse input amount: "'.concat(e, '"'), r)
         }
       }
-      var Is = ["0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73", "0xf164fC0Ec4E93095b804a4795bBe1e041497b92a", "0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F"];
+      var Es = ["0xb7926c0430afb07aa7defde6da862ae0bde767bc", "0xa4208bBe230c99685ba3985203061B73F049637A", "0xa4208bBe230c99685ba3985203061B73F049637A"];
 
-      function Es(e, n) {
+      function Ns(e, t) {
         return e.route.path.some((function(e) {
-          return e.address === n
+          return e.address === t
         })) || e.route.pairs.some((function(e) {
-          return e.liquidityToken.address === n
+          return e.liquidityToken.address === t
         }))
       }
 
-      function Ns() {
-        var e, n, t, r, i, c, o, s = ge().account,
-          u = Ts(),
-          l = u.independentField,
-          d = u.typedValue,
-          b = u[Qo.INPUT].currencyId,
-          f = u[Qo.OUTPUT].currencyId,
-          p = u.recipient,
-          j = ya(b),
-          m = ya(f),
-          y = gs(null !== p && void 0 !== p ? p : void 0),
-          v = null !== (e = null === p ? s : y.address) && void 0 !== e ? e : null,
-          O = Ca(null !== s && void 0 !== s ? s : void 0, [null !== j && void 0 !== j ? j : void 0, null !== m && void 0 !== m ? m : void 0]),
-          x = l === Qo.INPUT,
-          g = ks(d, null !== (n = x ? j : m) && void 0 !== n ? n : void 0),
-          C = function(e, n) {
-            var t = Cs(null === e || void 0 === e ? void 0 : e.currency, n);
-            return Object(a.useMemo)((function() {
+      function Rs() {
+        var e, t, n, r, a, c, o, s = ge().account,
+          l = Ts(),
+          u = l.independentField,
+          d = l.typedValue,
+          b = l[Xo.INPUT].currencyId,
+          p = l[Xo.OUTPUT].currencyId,
+          j = l.recipient,
+          f = Oa(b),
+          m = Oa(p),
+          y = Cs(null !== j && void 0 !== j ? j : void 0),
+          O = null !== (e = null === j ? s : y.address) && void 0 !== e ? e : null,
+          v = wa(null !== s && void 0 !== s ? s : void 0, [null !== f && void 0 !== f ? f : void 0, null !== m && void 0 !== m ? m : void 0]),
+          x = u === Xo.INPUT,
+          g = Is(d, null !== (t = x ? f : m) && void 0 !== t ? t : void 0),
+          w = function(e, t) {
+            var n = ws(null === e || void 0 === e ? void 0 : e.currency, t);
+            return Object(i.useMemo)((function() {
               var r;
-              return e && n && t.length > 0 && null !== (r = Z.l.bestTradeExactIn(t, e, n, {
+              return e && t && n.length > 0 && null !== (r = J.l.bestTradeExactIn(n, e, t, {
                 maxHops: 3,
                 maxNumResults: 1
               })[0]) && void 0 !== r ? r : null
-            }), [t, e, n])
+            }), [n, e, t])
           }(x ? g : void 0, null !== m && void 0 !== m ? m : void 0),
-          T = function(e, n) {
-            var t = Cs(e, null === n || void 0 === n ? void 0 : n.currency);
-            return Object(a.useMemo)((function() {
+          k = function(e, t) {
+            var n = ws(e, null === t || void 0 === t ? void 0 : t.currency);
+            return Object(i.useMemo)((function() {
               var r;
-              return e && n && t.length > 0 && null !== (r = Z.l.bestTradeExactOut(t, e, n, {
+              return e && t && n.length > 0 && null !== (r = J.l.bestTradeExactOut(n, e, t, {
                 maxHops: 3,
                 maxNumResults: 1
               })[0]) && void 0 !== r ? r : null
-            }), [t, e, n])
-          }(null !== j && void 0 !== j ? j : void 0, x ? void 0 : g),
-          k = x ? C : T,
-          I = (t = {}, Object(w.a)(t, Qo.INPUT, O[0]), Object(w.a)(t, Qo.OUTPUT, O[1]), t),
-          E = (r = {}, Object(w.a)(r, Qo.INPUT, null !== j && void 0 !== j ? j : void 0), Object(w.a)(r, Qo.OUTPUT, null !== m && void 0 !== m ? m : void 0), r);
-        (s || (i = "Connect Wallet"), g) || (i = null !== (c = i) && void 0 !== c ? c : "Enter an amount");
-        E[Qo.INPUT] && E[Qo.OUTPUT] || (i = null !== (o = i) && void 0 !== o ? o : "Select a token");
-        var N, R = pn(v);
-        if (v && R) {
-          if (-1 !== Is.indexOf(R) || C && Es(C, R) || T && Es(T, R)) {
+            }), [n, e, t])
+          }(null !== f && void 0 !== f ? f : void 0, x ? void 0 : g),
+          T = x ? w : k,
+          I = (n = {}, Object(C.a)(n, Xo.INPUT, v[0]), Object(C.a)(n, Xo.OUTPUT, v[1]), n),
+          E = (r = {}, Object(C.a)(r, Xo.INPUT, null !== f && void 0 !== f ? f : void 0), Object(C.a)(r, Xo.OUTPUT, null !== m && void 0 !== m ? m : void 0), r);
+        (s || (a = "Connect Wallet"), g) || (a = null !== (c = a) && void 0 !== c ? c : "Enter an amount");
+        E[Xo.INPUT] && E[Xo.OUTPUT] || (a = null !== (o = a) && void 0 !== o ? o : "Select a token");
+        var N, R = jt(O);
+        if (O && R) {
+          if (-1 !== Es.indexOf(R) || w && Ns(w, R) || k && Ns(k, R)) {
             var S;
-            i = null !== (S = i) && void 0 !== S ? S : "Invalid recipient"
+            a = null !== (S = a) && void 0 !== S ? S : "Invalid recipient"
           }
-        } else i = null !== (N = i) && void 0 !== N ? N : "Enter a recipient";
-        var U = Jr(),
+        } else a = null !== (N = a) && void 0 !== N ? N : "Enter a recipient";
+        var U = $r(),
           A = Object(h.a)(U, 1)[0],
-          B = k && A && ps(k, A),
-          P = [I[Qo.INPUT], B ? B[Qo.INPUT] : null],
-          D = P[0],
-          M = P[1];
-        return D && M && D.lessThan(M) && (i = "Insufficient ".concat(M.currency.symbol, " balance")), {
+          P = T && A && fs(T, A),
+          B = [I[Xo.INPUT], P ? P[Xo.INPUT] : null],
+          M = B[0],
+          L = B[1];
+        return M && L && M.lessThan(L) && (a = "Insufficient ".concat(L.currency.symbol, " balance")), {
           currencies: E,
           currencyBalances: I,
           parsedAmount: g,
-          v2Trade: null !== k && void 0 !== k ? k : void 0,
-          inputError: i
+          v2Trade: null !== T && void 0 !== T ? T : void 0,
+          inputError: a
         }
       }
 
-      function Rs(e) {
+      function Ss(e) {
         if ("string" === typeof e) {
-          var n = pn(e);
-          if (n) return n;
-          if ("ETH" === e.toUpperCase()) return "ETH";
-          if (!1 === n) return "ETH"
+          var t = jt(e);
+          if (t) return t;
+          if ("BNB" === e.toUpperCase()) return "BNB";
+          if (!1 === t) return "BNB"
         }
-        return null !== "ETH" ? "ETH" : ""
+        return null !== "BNB" ? "BNB" : ""
       }
-      var Ss = /^[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)?$/,
-        Us = /^0x[a-fA-F0-9]{40}$/;
+      var Us = /^[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)?$/,
+        As = /^0x[a-fA-F0-9]{40}$/;
 
-      function As(e) {
-        var n, t = Rs(e.inputCurrency),
-          r = Rs(e.outputCurrency);
-        t === r && ("string" === typeof e.outputCurrency ? t = "" : r = "");
+      function Ps(e) {
+        var t, n = Ss(e.inputCurrency),
+          r = Ss(e.outputCurrency);
+        n === r && ("string" === typeof e.outputCurrency ? n = "" : r = "");
         var a, i = function(e) {
-          return "string" !== typeof e ? null : pn(e) || (Ss.test(e) || Us.test(e) ? e : null)
+          return "string" !== typeof e ? null : jt(e) || (Us.test(e) || As.test(e) ? e : null)
         }(e.recipient);
-        return n = {}, Object(w.a)(n, Qo.INPUT, {
-          currencyId: t
-        }), Object(w.a)(n, Qo.OUTPUT, {
+        return t = {}, Object(C.a)(t, Xo.INPUT, {
+          currencyId: n
+        }), Object(C.a)(t, Xo.OUTPUT, {
           currencyId: r
-        }), Object(w.a)(n, "typedValue", "string" !== typeof(a = e.exactAmount) || isNaN(parseFloat(a)) ? "" : a), Object(w.a)(n, "independentField", function(e) {
-          return "string" === typeof e && "output" === e.toLowerCase() ? Qo.OUTPUT : Qo.INPUT
-        }(e.exactField)), Object(w.a)(n, "recipient", i), n
+        }), Object(C.a)(t, "typedValue", "string" !== typeof(a = e.exactAmount) || isNaN(parseFloat(a)) ? "" : a), Object(C.a)(t, "independentField", function(e) {
+          return "string" === typeof e && "output" === e.toLowerCase() ? Xo.OUTPUT : Xo.INPUT
+        }(e.exactField)), Object(C.a)(t, "recipient", i), t
       }
 
       function Bs() {
         var e = ge().chainId,
-          n = Object(x.c)(),
-          t = function() {
-            var e = Object(v.g)().search;
-            return Object(a.useMemo)((function() {
-              return e && e.length > 1 ? Object(ws.parse)(e, {
+          t = Object(v.c)(),
+          n = function() {
+            var e = Object(y.g)().search;
+            return Object(i.useMemo)((function() {
+              return e && e.length > 1 ? Object(ks.parse)(e, {
                 parseArrays: !1,
                 ignoreQueryPrefix: !0
               }) : {}
             }), [e])
           }(),
-          r = Object(a.useState)(),
-          i = Object(h.a)(r, 2),
-          c = i[0],
-          o = i[1];
-        return Object(a.useEffect)((function() {
+          r = Object(i.useState)(),
+          a = Object(h.a)(r, 2),
+          c = a[0],
+          o = a[1];
+        return Object(i.useEffect)((function() {
           if (e) {
-            var r = As(t);
-            n($o({
+            var r = Ps(n);
+            t(es({
               typedValue: r.typedValue,
               field: r.independentField,
-              inputCurrencyId: r[Qo.INPUT].currencyId,
-              outputCurrencyId: r[Qo.OUTPUT].currencyId,
+              inputCurrencyId: r[Xo.INPUT].currencyId,
+              outputCurrencyId: r[Xo.OUTPUT].currencyId,
               recipient: r.recipient
             })), o({
-              inputCurrencyId: r[Qo.INPUT].currencyId,
-              outputCurrencyId: r[Qo.OUTPUT].currencyId
+              inputCurrencyId: r[Xo.INPUT].currencyId,
+              outputCurrencyId: r[Xo.OUTPUT].currencyId
             })
           }
-        }), [n, e]), c
+        }), [t, e]), c
       }
-      var Ps = Z.e.BigInt(0);
+      var Ms = J.e.BigInt(0);
 
-      function Ds() {
-        return Object(x.d)((function(e) {
+      function Ls() {
+        return Object(v.d)((function(e) {
           return e.mint
         }))
       }
 
-      function Ms(e) {
-        if (e) return e.currency === Z.d ? Z.e.greaterThan(e.raw, xe) ? Z.c.ether(Z.e.subtract(e.raw, xe)) : Z.c.ether(Z.e.BigInt(0)) : e
+      function Ds(e) {
+        if (e) return e.currency === J.d ? J.e.greaterThan(e.raw, xe) ? J.c.ether(J.e.subtract(e.raw, xe)) : J.c.ether(J.e.BigInt(0)) : e
       }
-
-      function Ls() {
-        var e = Object(u.a)(["\n  border: 2px solid ", ";\n  border-radius: 16px;\n  padding: 16px;\n"]);
-        return Ls = function() {
-          return e
-        }, e
-      }
-      var _s = l.default.div(Ls(), (function(e) {
+      var _s, Ys, zs, Fs, qs, Vs = d.default.div(_s || (_s = Object(u.a)(["\n  border: 2px solid ", ";\n  border-radius: 16px;\n  padding: 16px;\n"])), (function(e) {
           return e.theme.colors.borderColor
         })),
-        Fs = function(e) {
-          var n = $t(),
-            t = Object(g.c)(),
-            a = t.account,
-            i = t.activate,
-            c = t.deactivate,
-            o = Object(s.D)((function(e) {
-              var n = Q[e];
-              n && i(n)
-            }), c, a).onPresentConnectModal;
-          return Object(r.jsx)(s.c, Object(J.a)(Object(J.a)({
-            onClick: o
+        Ws = n(130),
+        Hs = Object(Te.d)({
+          name: "toasts",
+          initialState: {
+            data: []
+          },
+          reducers: {
+            push: function(e, t) {
+              var n = t.payload,
+                r = e.data.findIndex((function(e) {
+                  return e.id === t.payload.id
+                }));
+              r >= 0 && e.data.splice(r, 1), e.data.unshift(n)
+            },
+            remove: function(e, t) {
+              var n = e.data.findIndex((function(e) {
+                return e.id === t.payload
+              }));
+              n >= 0 && e.data.splice(n, 1)
+            },
+            clear: function(e) {
+              e.data = []
+            }
+          }
+        }),
+        Qs = Hs.actions,
+        Ks = Qs.clear,
+        Gs = Qs.remove,
+        Xs = Qs.push,
+        Js = Hs.reducer,
+        $s = function() {
+          var e = Object(v.c)();
+          return Object(i.useMemo)((function() {
+            var t = function(t) {
+              return e(Xs(t))
+            };
+            return {
+              toastError: function(e, n) {
+                return t({
+                  id: Object(Ws.kebabCase)(e),
+                  type: l.D.DANGER,
+                  title: e,
+                  description: n
+                })
+              },
+              toastInfo: function(e, n) {
+                return t({
+                  id: Object(Ws.kebabCase)(e),
+                  type: l.D.INFO,
+                  title: e,
+                  description: n
+                })
+              },
+              toastSuccess: function(e, n) {
+                return t({
+                  id: Object(Ws.kebabCase)(e),
+                  type: l.D.SUCCESS,
+                  title: e,
+                  description: n
+                })
+              },
+              toastWarning: function(e, n) {
+                return t({
+                  id: Object(Ws.kebabCase)(e),
+                  type: l.D.WARNING,
+                  title: e,
+                  description: n
+                })
+              },
+              push: t,
+              remove: function(t) {
+                return e(Gs(t))
+              },
+              clear: function() {
+                return e(Ks())
+              }
+            }
+          }), [e])
+        },
+        Zs = function() {
+          var e = Object(x.d)(),
+            t = e.activate,
+            n = e.deactivate,
+            r = $s().toastError;
+          return {
+            login: Object(i.useCallback)((function(e) {
+              var n = K[e];
+              n ? t(n, function() {
+                var e = Object(f.a)(j.a.mark((function e(t) {
+                  return j.a.wrap((function(e) {
+                    for (;;) switch (e.prev = e.next) {
+                      case 0:
+                        window.localStorage.removeItem(l.A), t instanceof x.a ? r("Unsupported Chain Id", "Unsupported Chain Id Error. Check your chain Id.") : t instanceof k.b || t instanceof E.NoBscProviderError ? r("Provider Error", "No provider was found") : t instanceof k.c || t instanceof T.a ? (n instanceof T.b && (n.walletConnectProvider = null), r("Authorization Error", "Please authorize to access your account")) : r(t.name, t.message);
+                      case 2:
+                      case "end":
+                        return e.stop()
+                    }
+                  }), e)
+                })));
+                return function(t) {
+                  return e.apply(this, arguments)
+                }
+              }()) : r("Can't find connector", "The connector config is wrong")
+            }), []),
+            logout: n
+          }
+        },
+        el = function(e) {
+          var t = tr(),
+            n = Zs(),
+            r = n.login,
+            a = n.logout,
+            i = Object(l.F)(r, a).onPresentConnectModal;
+          return Object(it.jsx)(l.c, Object(X.a)(Object(X.a)({
+            onClick: i
           }, e), {}, {
-            children: n(292, "Unlock Wallet")
+            children: t(292, "Unlock Wallet")
           }))
-        };
+        },
+        tl = Object(d.default)(l.f)(Ys || (Ys = Object(u.a)(["\n  position: relative;\n  max-width: 436px;\n  width: 100%;\n  z-index: 5;\n"])));
 
-      function Ys() {
-        var e = Object(u.a)(["\n  position: relative;\n  max-width: 436px;\n  width: 100%;\n  z-index: 5;\n"]);
-        return Ys = function() {
-          return e
-        }, e
-      }
-      var zs = Object(l.default)(s.f)(Ys());
-
-      function qs(e) {
-        var n = e.children;
-        return Object(r.jsx)(zs, {
-          children: n
+      function nl(e) {
+        var t = e.children;
+        return Object(it.jsx)(tl, {
+          children: t
         })
       }
-
-      function Vs() {
-        var e = Object(u.a)(["\n  &::after {\n    display: inline-block;\n    animation: ellipsis 1.25s infinite;\n    content: '.';\n    width: 1em;\n    text-align: left;\n  }\n  @keyframes ellipsis {\n    0% {\n      content: '.';\n    }\n    33% {\n      content: '..';\n    }\n    66% {\n      content: '...';\n    }\n  }\n"]);
-        return Vs = function() {
-          return e
-        }, e
-      }
-
-      function Ws() {
-        var e = Object(u.a)(["\n  :hover {\n    cursor: pointer;\n  }\n  color: ", ";\n"]);
-        return Ws = function() {
-          return e
-        }, e
-      }
-
-      function Hs() {
-        var e = Object(u.a)(["\n  position: relative;\n"]);
-        return Hs = function() {
-          return e
-        }, e
-      }
-      var Gs = l.default.div(Hs()),
-        Ks = Object(l.default)(s.y)(Ws(), (function(e) {
+      var rl = d.default.div(zs || (zs = Object(u.a)(["\n  position: relative;\n"]))),
+        al = Object(d.default)(l.y)(Fs || (Fs = Object(u.a)(["\n  :hover {\n    cursor: pointer;\n  }\n  color: ", ";\n"])), (function(e) {
           return e.theme.colors.primary
         })),
-        Qs = l.default.span(Vs());
+        il = d.default.span(qs || (qs = Object(u.a)(["\n  &::after {\n    display: inline-block;\n    animation: ellipsis 1.25s infinite;\n    content: '.';\n    width: 1em;\n    text-align: left;\n  }\n  @keyframes ellipsis {\n    0% {\n      content: '.';\n    }\n    33% {\n      content: '..';\n    }\n    66% {\n      content: '...';\n    }\n  }\n"])));
 
-      function Xs(e) {
-        var n, t, a, i, c, o, u, l, d = e.noLiquidity,
-          b = e.price,
-          f = e.currencies,
+      function cl(e) {
+        var t, n, r, a, i, c, o, s, u = e.noLiquidity,
+          d = e.price,
+          b = e.currencies,
           p = e.parsedAmounts,
           j = e.poolTokenPercentage,
-          m = e.onAdd;
-        return Object(r.jsxs)(r.Fragment, {
-          children: [Object(r.jsxs)(en, {
-            children: [Object(r.jsxs)(s.y, {
-              children: [null === (n = f[us.CURRENCY_A]) || void 0 === n ? void 0 : n.symbol, " Deposited"]
-            }), Object(r.jsxs)(rn, {
-              children: [Object(r.jsx)(mi, {
-                currency: f[us.CURRENCY_A],
+          f = e.onAdd;
+        return Object(it.jsxs)(it.Fragment, {
+          children: [Object(it.jsxs)(et, {
+            children: [Object(it.jsxs)(l.y, {
+              children: [null === (t = b[us.CURRENCY_A]) || void 0 === t ? void 0 : t.symbol, " Deposited"]
+            }), Object(it.jsxs)(rt, {
+              children: [Object(it.jsx)(yi, {
+                currency: b[us.CURRENCY_A],
                 style: {
                   marginRight: "8px"
                 }
-              }), Object(r.jsx)(s.y, {
-                children: null === (t = p[us.CURRENCY_A]) || void 0 === t ? void 0 : t.toSignificant(6)
+              }), Object(it.jsx)(l.y, {
+                children: null === (n = p[us.CURRENCY_A]) || void 0 === n ? void 0 : n.toSignificant(6)
               })]
             })]
-          }), Object(r.jsxs)(en, {
-            children: [Object(r.jsxs)(s.y, {
-              children: [null === (a = f[us.CURRENCY_B]) || void 0 === a ? void 0 : a.symbol, " Deposited"]
-            }), Object(r.jsxs)(rn, {
-              children: [Object(r.jsx)(mi, {
-                currency: f[us.CURRENCY_B],
+          }), Object(it.jsxs)(et, {
+            children: [Object(it.jsxs)(l.y, {
+              children: [null === (r = b[us.CURRENCY_B]) || void 0 === r ? void 0 : r.symbol, " Deposited"]
+            }), Object(it.jsxs)(rt, {
+              children: [Object(it.jsx)(yi, {
+                currency: b[us.CURRENCY_B],
                 style: {
                   marginRight: "8px"
                 }
-              }), Object(r.jsx)(s.y, {
-                children: null === (i = p[us.CURRENCY_B]) || void 0 === i ? void 0 : i.toSignificant(6)
+              }), Object(it.jsx)(l.y, {
+                children: null === (a = p[us.CURRENCY_B]) || void 0 === a ? void 0 : a.toSignificant(6)
               })]
             })]
-          }), Object(r.jsxs)(en, {
-            children: [Object(r.jsx)(s.y, {
+          }), Object(it.jsxs)(et, {
+            children: [Object(it.jsx)(l.y, {
               children: "Rates"
-            }), Object(r.jsx)(s.y, {
-              children: "1 ".concat(null === (c = f[us.CURRENCY_A]) || void 0 === c ? void 0 : c.symbol, " = ").concat(null === b || void 0 === b ? void 0 : b.toSignificant(4), " ").concat(null === (o = f[us.CURRENCY_B]) || void 0 === o ? void 0 : o.symbol)
+            }), Object(it.jsx)(l.y, {
+              children: "1 ".concat(null === (i = b[us.CURRENCY_A]) || void 0 === i ? void 0 : i.symbol, " = ").concat(null === d || void 0 === d ? void 0 : d.toSignificant(4), " ").concat(null === (c = b[us.CURRENCY_B]) || void 0 === c ? void 0 : c.symbol)
             })]
-          }), Object(r.jsx)(en, {
+          }), Object(it.jsx)(et, {
             style: {
               justifyContent: "flex-end"
             },
-            children: Object(r.jsx)(s.y, {
-              children: "1 ".concat(null === (u = f[us.CURRENCY_B]) || void 0 === u ? void 0 : u.symbol, " = ").concat(null === b || void 0 === b ? void 0 : b.invert().toSignificant(4), " ").concat(null === (l = f[us.CURRENCY_A]) || void 0 === l ? void 0 : l.symbol)
+            children: Object(it.jsx)(l.y, {
+              children: "1 ".concat(null === (o = b[us.CURRENCY_B]) || void 0 === o ? void 0 : o.symbol, " = ").concat(null === d || void 0 === d ? void 0 : d.invert().toSignificant(4), " ").concat(null === (s = b[us.CURRENCY_A]) || void 0 === s ? void 0 : s.symbol)
             })
-          }), Object(r.jsxs)(en, {
-            children: [Object(r.jsx)(s.y, {
+          }), Object(it.jsxs)(et, {
+            children: [Object(it.jsx)(l.y, {
               children: "Share of Pool:"
-            }), Object(r.jsxs)(s.y, {
-              children: [d ? "100" : null === j || void 0 === j ? void 0 : j.toSignificant(4), "%"]
+            }), Object(it.jsxs)(l.y, {
+              children: [u ? "100" : null === j || void 0 === j ? void 0 : j.toSignificant(4), "%"]
             })]
-          }), Object(r.jsx)(s.c, {
+          }), Object(it.jsx)(l.c, {
             mt: "20px",
-            onClick: m,
-            children: d ? Zt(250, "Create Pool & Supply") : Zt(252, "Confirm Supply")
+            onClick: f,
+            children: u ? er(250, "Create Pool & Supply") : er(252, "Confirm Supply")
           })]
         })
       }
 
-      function Js(e) {
-        var n, t, a, i, c, o, u, l, d = e.currencies,
-          b = e.noLiquidity,
-          f = e.poolTokenPercentage,
+      function ol(e) {
+        var t, n, r, a, i, c, o, s, u = e.currencies,
+          d = e.noLiquidity,
+          b = e.poolTokenPercentage,
           p = e.price;
-        return Object(r.jsx)(De, {
+        return Object(it.jsx)(Me, {
           gap: "md",
-          children: Object(r.jsxs)(tn, {
+          children: Object(it.jsxs)(nt, {
             justify: "space-around",
             gap: "4px",
-            children: [Object(r.jsxs)(De, {
+            children: [Object(it.jsxs)(Me, {
               justify: "center",
-              children: [Object(r.jsx)(s.y, {
-                children: null !== (n = null === p || void 0 === p ? void 0 : p.toSignificant(6)) && void 0 !== n ? n : "-"
-              }), Object(r.jsxs)(s.y, {
+              children: [Object(it.jsx)(l.y, {
+                children: null !== (t = null === p || void 0 === p ? void 0 : p.toSignificant(6)) && void 0 !== t ? t : "-"
+              }), Object(it.jsxs)(l.y, {
                 fontSize: "14px",
                 color: "textSubtle",
                 pt: 1,
-                children: [null === (t = d[us.CURRENCY_B]) || void 0 === t ? void 0 : t.symbol, " per ", null === (a = d[us.CURRENCY_A]) || void 0 === a ? void 0 : a.symbol]
+                children: [null === (n = u[us.CURRENCY_B]) || void 0 === n ? void 0 : n.symbol, " per ", null === (r = u[us.CURRENCY_A]) || void 0 === r ? void 0 : r.symbol]
               })]
-            }), Object(r.jsxs)(De, {
+            }), Object(it.jsxs)(Me, {
               justify: "center",
-              children: [Object(r.jsx)(s.y, {
-                children: null !== (i = null === p || void 0 === p || null === (c = p.invert()) || void 0 === c ? void 0 : c.toSignificant(6)) && void 0 !== i ? i : "-"
-              }), Object(r.jsxs)(s.y, {
+              children: [Object(it.jsx)(l.y, {
+                children: null !== (a = null === p || void 0 === p || null === (i = p.invert()) || void 0 === i ? void 0 : i.toSignificant(6)) && void 0 !== a ? a : "-"
+              }), Object(it.jsxs)(l.y, {
                 fontSize: "14px",
                 color: "textSubtle",
                 pt: 1,
-                children: [null === (o = d[us.CURRENCY_A]) || void 0 === o ? void 0 : o.symbol, " per ", null === (u = d[us.CURRENCY_B]) || void 0 === u ? void 0 : u.symbol]
+                children: [null === (c = u[us.CURRENCY_A]) || void 0 === c ? void 0 : c.symbol, " per ", null === (o = u[us.CURRENCY_B]) || void 0 === o ? void 0 : o.symbol]
               })]
-            }), Object(r.jsxs)(De, {
+            }), Object(it.jsxs)(Me, {
               justify: "center",
-              children: [Object(r.jsxs)(s.y, {
-                children: [b && p ? "100" : null !== (l = (null === f || void 0 === f ? void 0 : f.lessThan(pe)) ? "<0.01" : null === f || void 0 === f ? void 0 : f.toFixed(2)) && void 0 !== l ? l : "0", "%"]
-              }), Object(r.jsx)(s.y, {
+              children: [Object(it.jsxs)(l.y, {
+                children: [d && p ? "100" : null !== (s = (null === b || void 0 === b ? void 0 : b.lessThan(je)) ? "<0.01" : null === b || void 0 === b ? void 0 : b.toFixed(2)) && void 0 !== s ? s : "0", "%"]
+              }), Object(it.jsx)(l.y, {
                 fontSize: "14px",
                 color: "textSubtle",
                 pt: 1,
@@ -4969,250 +4414,266 @@
         })
       }
 
-      function Zs(e) {
-        var n, t, i, c, o, u, l, d, b, f, p, y = e.match.params,
-          v = y.currencyIdA,
-          O = y.currencyIdB,
-          g = e.history,
-          C = ge(),
-          T = C.account,
-          k = C.chainId,
-          I = C.library,
-          E = ya(v),
-          N = ya(O),
-          R = $t(),
-          S = Boolean(k && (E && Object(Z.o)(E, Z.n[k]) || N && Object(Z.o)(N, Z.n[k]))),
-          U = Xr(),
-          A = Ds(),
-          B = A.independentField,
-          P = A.typedValue,
-          D = A.otherTypedValue,
-          M = function(e, n) {
-            var t, r, i, c, o, s, u, l = ge(),
-              d = l.account,
-              b = l.chainId,
-              f = Ds(),
-              p = f.independentField,
-              j = f.typedValue,
-              m = f.otherTypedValue,
-              y = p === us.CURRENCY_A ? us.CURRENCY_B : us.CURRENCY_A,
-              v = Object(a.useMemo)((function() {
-                var t;
-                return t = {}, Object(w.a)(t, us.CURRENCY_A, null !== e && void 0 !== e ? e : void 0), Object(w.a)(t, us.CURRENCY_B, null !== n && void 0 !== n ? n : void 0), t
-              }), [e, n]),
-              O = Ho(v[us.CURRENCY_A], v[us.CURRENCY_B]),
-              x = Object(h.a)(O, 2),
+      function sl(e) {
+        var t, n, r, a, c, o, s, u, d, b, p, m = e.match.params,
+          y = m.currencyIdA,
+          O = m.currencyIdB,
+          x = e.history,
+          g = ge(),
+          w = g.account,
+          k = g.chainId,
+          T = g.library,
+          I = Oa(y),
+          E = Oa(O),
+          N = tr(),
+          R = Boolean(k && (I && Object(J.o)(I, J.n[k]) || E && Object(J.o)(E, J.n[k]))),
+          S = Jr(),
+          U = Ls(),
+          A = U.independentField,
+          P = U.typedValue,
+          B = U.otherTypedValue,
+          M = function(e, t) {
+            var n, r, a, c, o, s, l, u = ge(),
+              d = u.account,
+              b = u.chainId,
+              p = Ls(),
+              j = p.independentField,
+              f = p.typedValue,
+              m = p.otherTypedValue,
+              y = j === us.CURRENCY_A ? us.CURRENCY_B : us.CURRENCY_A,
+              O = Object(i.useMemo)((function() {
+                var n;
+                return n = {}, Object(C.a)(n, us.CURRENCY_A, null !== e && void 0 !== e ? e : void 0), Object(C.a)(n, us.CURRENCY_B, null !== t && void 0 !== t ? t : void 0), n
+              }), [e, t]),
+              v = Qo(O[us.CURRENCY_A], O[us.CURRENCY_B]),
+              x = Object(h.a)(v, 2),
               g = x[0],
-              C = x[1],
-              T = uo(null === C || void 0 === C ? void 0 : C.liquidityToken),
-              k = g === qo.NOT_EXISTS || Boolean(T && Z.e.equal(T.raw, Ps)),
-              I = Ca(null !== d && void 0 !== d ? d : void 0, [v[us.CURRENCY_A], v[us.CURRENCY_B]]),
-              E = (t = {}, Object(w.a)(t, us.CURRENCY_A, I[0]), Object(w.a)(t, us.CURRENCY_B, I[1]), t),
-              N = ks(j, v[p]),
-              R = Object(a.useMemo)((function() {
-                if (k) return m && v[y] ? ks(m, v[y]) : void 0;
+              w = x[1],
+              k = uo(null === w || void 0 === w ? void 0 : w.liquidityToken),
+              T = g === Vo.NOT_EXISTS || Boolean(k && J.e.equal(k.raw, Ms)),
+              I = wa(null !== d && void 0 !== d ? d : void 0, [O[us.CURRENCY_A], O[us.CURRENCY_B]]),
+              E = (n = {}, Object(C.a)(n, us.CURRENCY_A, I[0]), Object(C.a)(n, us.CURRENCY_B, I[1]), n),
+              N = Is(f, O[j]),
+              R = Object(i.useMemo)((function() {
+                if (T) return m && O[y] ? Is(m, O[y]) : void 0;
                 if (N) {
-                  var t = fo(N, b),
-                    r = [bo(e, b), bo(n, b)],
+                  var n = ko(N, b),
+                    r = [wo(e, b), wo(t, b)],
                     a = r[0],
                     i = r[1];
-                  if (a && i && t && C) {
-                    var c = y === us.CURRENCY_B ? n : e,
-                      o = y === us.CURRENCY_B ? C.priceOf(a).quote(t) : C.priceOf(i).quote(t);
-                    return c === Z.d ? Z.c.ether(o.raw) : o
+                  if (a && i && n && w) {
+                    var c = y === us.CURRENCY_B ? t : e,
+                      o = y === us.CURRENCY_B ? w.priceOf(a).quote(n) : w.priceOf(i).quote(n);
+                    return c === J.d ? J.c.ether(o.raw) : o
                   }
                 }
-              }), [k, m, v, y, N, e, b, n, C]),
-              S = (r = {}, Object(w.a)(r, us.CURRENCY_A, p === us.CURRENCY_A ? N : R), Object(w.a)(r, us.CURRENCY_B, p === us.CURRENCY_A ? R : N), r),
-              U = Object(a.useMemo)((function() {
-                if (k) {
-                  var n = S[us.CURRENCY_A],
-                    t = S[us.CURRENCY_B];
-                  return n && t ? new Z.h(n.currency, t.currency, n.raw, t.raw) : void 0
+              }), [T, m, O, y, N, e, b, t, w]),
+              S = (r = {}, Object(C.a)(r, us.CURRENCY_A, j === us.CURRENCY_A ? N : R), Object(C.a)(r, us.CURRENCY_B, j === us.CURRENCY_A ? R : N), r),
+              U = Object(i.useMemo)((function() {
+                if (T) {
+                  var t = S[us.CURRENCY_A],
+                    n = S[us.CURRENCY_B];
+                  return t && n ? new J.h(t.currency, n.currency, t.raw, n.raw) : void 0
                 }
-                var r = bo(e, b);
-                return C && r ? C.priceOf(r) : void 0
-              }), [b, e, k, C, S]),
-              A = Object(a.useMemo)((function() {
+                var r = wo(e, b);
+                return w && r ? w.priceOf(r) : void 0
+              }), [b, e, T, w, S]),
+              A = Object(i.useMemo)((function() {
                 var e = S[us.CURRENCY_A],
-                  n = S[us.CURRENCY_B],
-                  t = [fo(e, b), fo(n, b)],
-                  r = t[0],
-                  a = t[1];
-                if (C && T && r && a) return C.getLiquidityMinted(T, r, a)
-              }), [S, b, C, T]),
-              B = Object(a.useMemo)((function() {
-                if (A && T) return new Z.g(A.raw, T.add(A).raw)
-              }), [A, T]);
-            d || (o = "Connect Wallet"), g === qo.INVALID && (o = null !== (s = o) && void 0 !== s ? s : Zt(136, "Invalid pair")), S[us.CURRENCY_A] && S[us.CURRENCY_B] || (o = null !== (u = o) && void 0 !== u ? u : Zt(84, "Enter an amount"));
-            var P, D, M = S[us.CURRENCY_A],
-              L = S[us.CURRENCY_B];
-            return M && (null === E || void 0 === E || null === (i = E[us.CURRENCY_A]) || void 0 === i ? void 0 : i.lessThan(M)) && (o = "Insufficient ".concat(null === (P = v[us.CURRENCY_A]) || void 0 === P ? void 0 : P.symbol, " balance")), L && (null === E || void 0 === E || null === (c = E[us.CURRENCY_B]) || void 0 === c ? void 0 : c.lessThan(L)) && (o = "Insufficient ".concat(null === (D = v[us.CURRENCY_B]) || void 0 === D ? void 0 : D.symbol, " balance")), {
+                  t = S[us.CURRENCY_B],
+                  n = [ko(e, b), ko(t, b)],
+                  r = n[0],
+                  a = n[1];
+                if (w && k && r && a) return w.getLiquidityMinted(k, r, a)
+              }), [S, b, w, k]),
+              P = Object(i.useMemo)((function() {
+                if (A && k) return new J.g(A.raw, k.add(A).raw)
+              }), [A, k]);
+            d || (o = "Connect Wallet"), g === Vo.INVALID && (o = null !== (s = o) && void 0 !== s ? s : er(136, "Invalid pair")), S[us.CURRENCY_A] && S[us.CURRENCY_B] || (o = null !== (l = o) && void 0 !== l ? l : er(84, "Enter an amount"));
+            var B, M, L = S[us.CURRENCY_A],
+              D = S[us.CURRENCY_B];
+            return L && (null === E || void 0 === E || null === (a = E[us.CURRENCY_A]) || void 0 === a ? void 0 : a.lessThan(L)) && (o = "Insufficient ".concat(null === (B = O[us.CURRENCY_A]) || void 0 === B ? void 0 : B.symbol, " balance")), D && (null === E || void 0 === E || null === (c = E[us.CURRENCY_B]) || void 0 === c ? void 0 : c.lessThan(D)) && (o = "Insufficient ".concat(null === (M = O[us.CURRENCY_B]) || void 0 === M ? void 0 : M.symbol, " balance")), {
               dependentField: y,
-              currencies: v,
-              pair: C,
+              currencies: O,
+              pair: w,
               pairState: g,
               currencyBalances: E,
               parsedAmounts: S,
               price: U,
-              noLiquidity: k,
+              noLiquidity: T,
               liquidityMinted: A,
-              poolTokenPercentage: B,
+              poolTokenPercentage: P,
               error: o
             }
-          }(null !== E && void 0 !== E ? E : void 0, null !== N && void 0 !== N ? N : void 0),
+          }(null !== I && void 0 !== I ? I : void 0, null !== E && void 0 !== E ? E : void 0),
           L = M.dependentField,
-          _ = M.currencies,
-          F = M.pair,
+          D = M.currencies,
+          _ = M.pair,
           Y = M.pairState,
           z = M.currencyBalances,
-          q = M.parsedAmounts,
-          V = M.price,
-          W = M.noLiquidity,
-          H = M.liquidityMinted,
-          G = M.poolTokenPercentage,
-          K = M.error,
-          Q = function(e) {
-            var n = Object(x.c)();
+          F = M.parsedAmounts,
+          q = M.price,
+          V = M.noLiquidity,
+          W = M.liquidityMinted,
+          H = M.poolTokenPercentage,
+          Q = M.error,
+          K = function(e) {
+            var t = Object(v.c)();
             return {
-              onFieldAInput: Object(a.useCallback)((function(t) {
-                n(ys({
+              onFieldAInput: Object(i.useCallback)((function(n) {
+                t(Os({
                   field: us.CURRENCY_A,
-                  typedValue: t,
+                  typedValue: n,
                   noLiquidity: !0 === e
                 }))
-              }), [n, e]),
-              onFieldBInput: Object(a.useCallback)((function(t) {
-                n(ys({
+              }), [t, e]),
+              onFieldBInput: Object(i.useCallback)((function(n) {
+                t(Os({
                   field: us.CURRENCY_B,
-                  typedValue: t,
+                  typedValue: n,
                   noLiquidity: !0 === e
                 }))
-              }), [n, e])
+              }), [t, e])
             }
-          }(W),
-          ee = Q.onFieldAInput,
-          ne = Q.onFieldBInput,
-          te = !K,
-          re = Object(a.useState)(!1),
-          ae = Object(h.a)(re, 2),
-          ie = ae[0],
-          ce = ae[1],
-          oe = Object(a.useState)(!1),
-          se = Object(h.a)(oe, 2),
-          ue = se[0],
-          le = se[1],
-          de = Zr(),
-          be = Object(h.a)(de, 1)[0],
-          fe = Jr(),
-          pe = Object(h.a)(fe, 1)[0],
-          je = Object(a.useState)(""),
-          me = Object(h.a)(je, 2),
-          he = me[0],
-          ye = me[1],
-          ve = (i = {}, Object(w.a)(i, B, P), Object(w.a)(i, L, W ? D : null !== (n = null === (t = q[L]) || void 0 === t ? void 0 : t.toSignificant(6)) && void 0 !== n ? n : ""), i),
-          Oe = [us.CURRENCY_A, us.CURRENCY_B].reduce((function(e, n) {
-            return Object(J.a)(Object(J.a)({}, e), {}, Object(w.a)({}, n, Ms(z[n])))
+          }(V),
+          Z = K.onFieldAInput,
+          ee = K.onFieldBInput,
+          te = !Q,
+          ne = Object(i.useState)(!1),
+          re = Object(h.a)(ne, 2),
+          ae = re[0],
+          ie = re[1],
+          ce = Object(i.useState)(!1),
+          oe = Object(h.a)(ce, 2),
+          se = oe[0],
+          le = oe[1],
+          ue = Zr(),
+          de = Object(h.a)(ue, 1)[0],
+          be = $r(),
+          pe = Object(h.a)(be, 1)[0],
+          je = Object(i.useState)(""),
+          fe = Object(h.a)(je, 2),
+          he = fe[0],
+          me = fe[1],
+          ye = (r = {}, Object(C.a)(r, A, P), Object(C.a)(r, L, V ? B : null !== (t = null === (n = F[L]) || void 0 === n ? void 0 : n.toSignificant(6)) && void 0 !== t ? t : ""), r),
+          Oe = [us.CURRENCY_A, us.CURRENCY_B].reduce((function(e, t) {
+            return Object(X.a)(Object(X.a)({}, e), {}, Object(C.a)({}, t, Ds(z[t])))
           }), {}),
-          xe = [us.CURRENCY_A, us.CURRENCY_B].reduce((function(e, n) {
-            var t, r;
-            return Object(J.a)(Object(J.a)({}, e), {}, Object(w.a)({}, n, null === (t = Oe[n]) || void 0 === t ? void 0 : t.equalTo(null !== (r = q[n]) && void 0 !== r ? r : "0")))
+          ve = [us.CURRENCY_A, us.CURRENCY_B].reduce((function(e, t) {
+            var n, r;
+            return Object(X.a)(Object(X.a)({}, e), {}, Object(C.a)({}, t, null === (n = Oe[t]) || void 0 === n ? void 0 : n.equalTo(null !== (r = F[t]) && void 0 !== r ? r : "0")))
           }), {}),
-          Ce = hs(q[us.CURRENCY_A], $),
-          we = Object(h.a)(Ce, 2),
-          Te = we[0],
-          ke = we[1],
-          Ie = hs(q[us.CURRENCY_B], $),
-          Ee = Object(h.a)(Ie, 2),
-          Ne = Ee[0],
-          Re = Ee[1],
-          Se = is();
+          xe = ys(F[us.CURRENCY_A], $),
+          Ce = Object(h.a)(xe, 2),
+          we = Ce[0],
+          ke = Ce[1],
+          Te = ys(F[us.CURRENCY_B], $),
+          Ie = Object(h.a)(Te, 2),
+          Ee = Ie[0],
+          Ne = Ie[1],
+          Re = cs();
 
-        function Ue() {
-          return Ae.apply(this, arguments)
+        function Se() {
+          return Ue.apply(this, arguments)
         }
 
-        function Ae() {
-          return (Ae = Object(m.a)(j.a.mark((function e() {
-            var n, t, r, a, i, c, o, s, u, l, d, b, f, p, m, h, y;
+        function Ue() {
+          return (Ue = Object(f.a)(j.a.mark((function e() {
+            var t, n, r, a, i, c, o, s, l, u, d, b, p, h, m, y, O;
             return j.a.wrap((function(e) {
               for (;;) switch (e.prev = e.next) {
                 case 0:
-                  if (k && I && T) {
+                  if (k && T && w) {
                     e.next = 2;
                     break
                   }
                   return e.abrupt("return");
                 case 2:
-                  if (t = xn(0, I, T), r = q[us.CURRENCY_A], a = q[us.CURRENCY_B], r && a && E && N) {
+                  if (n = xt(0, T, w), r = F[us.CURRENCY_A], a = F[us.CURRENCY_B], r && a && I && E) {
                     e.next = 6;
                     break
                   }
                   return e.abrupt("return");
                 case 6:
-                  return n = {}, Object(w.a)(n, us.CURRENCY_A, vn(r, W ? 0 : pe)[0]), Object(w.a)(n, us.CURRENCY_B, vn(a, W ? 0 : pe)[0]), i = n, c = Math.ceil(Date.now() / 1e3) + be, E === Z.d || N === Z.d ? (f = N === Z.d, o = t.estimateGas.addLiquidityETH, s = t.addLiquidityETH, u = [null !== (d = null === (b = bo(f ? E : N, k)) || void 0 === b ? void 0 : b.address) && void 0 !== d ? d : "", (f ? r : a).raw.toString(), i[f ? us.CURRENCY_A : us.CURRENCY_B].toString(), i[f ? us.CURRENCY_B : us.CURRENCY_A].toString(), T, c], l = bn.a.from((f ? a : r).raw.toString())) : (o = t.estimateGas.addLiquidity, s = t.addLiquidity, u = [null !== (p = null === (m = bo(E, k)) || void 0 === m ? void 0 : m.address) && void 0 !== p ? p : "", null !== (h = null === (y = bo(N, k)) || void 0 === y ? void 0 : y.address) && void 0 !== h ? h : "", r.raw.toString(), a.raw.toString(), i[us.CURRENCY_A].toString(), i[us.CURRENCY_B].toString(), T, c], l = null), le(!0), e.next = 12, o.apply(void 0, Object(X.a)(u).concat([l ? {
-                    value: l
+                  return t = {}, Object(C.a)(t, us.CURRENCY_A, Ot(r, V ? 0 : pe)[0]), Object(C.a)(t, us.CURRENCY_B, Ot(a, V ? 0 : pe)[0]), i = t, c = Math.ceil(Date.now() / 1e3) + de, I === J.d || E === J.d ? (p = E === J.d, o = n.estimateGas.addLiquidityETH, s = n.addLiquidityETH, l = [null !== (d = null === (b = wo(p ? I : E, k)) || void 0 === b ? void 0 : b.address) && void 0 !== d ? d : "", (p ? r : a).raw.toString(), i[p ? us.CURRENCY_A : us.CURRENCY_B].toString(), i[p ? us.CURRENCY_B : us.CURRENCY_A].toString(), w, c], u = bt.a.from((p ? a : r).raw.toString())) : (o = n.estimateGas.addLiquidity, s = n.addLiquidity, l = [null !== (h = null === (m = wo(I, k)) || void 0 === m ? void 0 : m.address) && void 0 !== h ? h : "", null !== (y = null === (O = wo(E, k)) || void 0 === O ? void 0 : O.address) && void 0 !== y ? y : "", r.raw.toString(), a.raw.toString(), i[us.CURRENCY_A].toString(), i[us.CURRENCY_B].toString(), w, c], u = null), o = function() {
+                    var e = Object(f.a)(j.a.mark((function e() {
+                      return j.a.wrap((function(e) {
+                        for (;;) switch (e.prev = e.next) {
+                          case 0:
+                            return e.abrupt("return", 5e6);
+                          case 1:
+                          case "end":
+                            return e.stop()
+                        }
+                      }), e)
+                    })));
+                    return function() {
+                      return e.apply(this, arguments)
+                    }
+                  }(), le(!0), e.next = 13, o.apply(void 0, Object(G.a)(l).concat([u ? {
+                    value: u
                   } : {}])).then((function(e) {
-                    return s.apply(void 0, Object(X.a)(u).concat([Object(J.a)(Object(J.a)({}, l ? {
-                      value: l
+                    return s.apply(void 0, Object(G.a)(l).concat([Object(X.a)(Object(X.a)({}, u ? {
+                      value: u
                     } : {}), {}, {
-                      gasLimit: yn(e)
+                      gasLimit: e,
+                      gasPrice: 2e10
                     })])).then((function(e) {
-                      var n, t, r, a;
-                      le(!1), Se(e, {
-                        summary: "Add ".concat(null === (n = q[us.CURRENCY_A]) || void 0 === n ? void 0 : n.toSignificant(3), " ").concat(null === (t = _[us.CURRENCY_A]) || void 0 === t ? void 0 : t.symbol, " and ").concat(null === (r = q[us.CURRENCY_B]) || void 0 === r ? void 0 : r.toSignificant(3), " ").concat(null === (a = _[us.CURRENCY_B]) || void 0 === a ? void 0 : a.symbol)
-                      }), ye(e.hash)
+                      var t, n, r, a;
+                      le(!1), Re(e, {
+                        summary: "Add ".concat(null === (t = F[us.CURRENCY_A]) || void 0 === t ? void 0 : t.toSignificant(3), " ").concat(null === (n = D[us.CURRENCY_A]) || void 0 === n ? void 0 : n.symbol, " and ").concat(null === (r = F[us.CURRENCY_B]) || void 0 === r ? void 0 : r.toSignificant(3), " ").concat(null === (a = D[us.CURRENCY_B]) || void 0 === a ? void 0 : a.symbol)
+                      }), me(e.hash)
                     }))
                   })).catch((function(e) {
                     le(!1), 4001 !== (null === e || void 0 === e ? void 0 : e.code) && console.error(e)
                   }));
-                case 12:
+                case 13:
                 case "end":
                   return e.stop()
               }
             }), e)
           })))).apply(this, arguments)
         }
-        var Be = function() {
-            var e, n, t, a;
-            return W ? Object(r.jsx)(De, {
+        var Ae = function() {
+            var e, t, n, r;
+            return V ? Object(it.jsx)(Me, {
               gap: "20px",
-              children: Object(r.jsx)(pt, {
+              children: Object(it.jsx)(wn, {
                 mt: "20px",
                 borderRadius: "20px",
-                children: Object(r.jsxs)(nn, {
-                  children: [Object(r.jsx)(s.y, {
+                children: Object(it.jsxs)(tt, {
+                  children: [Object(it.jsx)(l.y, {
                     fontSize: "48px",
                     mr: "8px",
-                    children: "".concat(null === (e = _[us.CURRENCY_A]) || void 0 === e ? void 0 : e.symbol, "/").concat(null === (n = _[us.CURRENCY_B]) || void 0 === n ? void 0 : n.symbol)
-                  }), Object(r.jsx)(Pc, {
-                    currency0: _[us.CURRENCY_A],
-                    currency1: _[us.CURRENCY_B],
+                    children: "".concat(null === (e = D[us.CURRENCY_A]) || void 0 === e ? void 0 : e.symbol, "/").concat(null === (t = D[us.CURRENCY_B]) || void 0 === t ? void 0 : t.symbol)
+                  }), Object(it.jsx)(Lc, {
+                    currency0: D[us.CURRENCY_A],
+                    currency1: D[us.CURRENCY_B],
                     size: 30
                   })]
                 })
               })
-            }) : Object(r.jsxs)(De, {
+            }) : Object(it.jsxs)(Me, {
               gap: "20px",
-              children: [Object(r.jsxs)(nn, {
+              children: [Object(it.jsxs)(tt, {
                 style: {
                   marginTop: "20px"
                 },
-                children: [Object(r.jsx)(s.y, {
+                children: [Object(it.jsx)(l.y, {
                   fontSize: "48px",
                   mr: "8px",
-                  children: null === H || void 0 === H ? void 0 : H.toSignificant(6)
-                }), Object(r.jsx)(Pc, {
-                  currency0: _[us.CURRENCY_A],
-                  currency1: _[us.CURRENCY_B],
+                  children: null === W || void 0 === W ? void 0 : W.toSignificant(6)
+                }), Object(it.jsx)(Lc, {
+                  currency0: D[us.CURRENCY_A],
+                  currency1: D[us.CURRENCY_B],
                   size: 30
                 })]
-              }), Object(r.jsx)(an, {
-                children: Object(r.jsx)(s.y, {
+              }), Object(it.jsx)(at, {
+                children: Object(it.jsx)(l.y, {
                   fontSize: "24px",
-                  children: "".concat(null === (t = _[us.CURRENCY_A]) || void 0 === t ? void 0 : t.symbol, "/").concat(null === (a = _[us.CURRENCY_B]) || void 0 === a ? void 0 : a.symbol, " Pool Tokens")
+                  children: "".concat(null === (n = D[us.CURRENCY_A]) || void 0 === n ? void 0 : n.symbol, "/").concat(null === (r = D[us.CURRENCY_B]) || void 0 === r ? void 0 : r.symbol, " Pool Tokens")
                 })
-              }), Object(r.jsx)(s.y, {
+              }), Object(it.jsx)(l.y, {
                 small: !0,
                 textAlign: "left",
                 padding: "8px 0 0 0 ",
@@ -5223,95 +4684,95 @@
               })]
             })
           },
-          Me = function() {
-            return Object(r.jsx)(Xs, {
-              price: V,
-              currencies: _,
-              parsedAmounts: q,
-              noLiquidity: W,
-              onAdd: Ue,
-              poolTokenPercentage: G
+          Pe = function() {
+            return Object(it.jsx)(cl, {
+              price: q,
+              currencies: D,
+              parsedAmounts: F,
+              noLiquidity: V,
+              onAdd: Se,
+              poolTokenPercentage: H
             })
           },
-          Le = "Supplying ".concat(null === (c = q[us.CURRENCY_A]) || void 0 === c ? void 0 : c.toSignificant(6), " ").concat(null === (o = _[us.CURRENCY_A]) || void 0 === o ? void 0 : o.symbol, " and ").concat(null === (u = q[us.CURRENCY_B]) || void 0 === u ? void 0 : u.toSignificant(6), " ").concat(null === (l = _[us.CURRENCY_B]) || void 0 === l ? void 0 : l.symbol),
-          _e = Object(a.useCallback)((function(e) {
-            var n = lo(e);
-            n === O ? g.push("/add/".concat(O, "/").concat(v)) : g.push("/add/".concat(n, "/").concat(O))
-          }), [O, g, v]),
-          Fe = Object(a.useCallback)((function(e) {
-            var n = lo(e);
-            v === n ? O ? g.push("/add/".concat(O, "/").concat(n)) : g.push("/add/".concat(n)) : g.push("/add/".concat(v || "ETH", "/").concat(n))
-          }), [v, g, O]),
-          Ye = Object(a.useCallback)((function() {
-            ce(!1), he && ee(""), ye("")
-          }), [ee, he]);
-        return Object(r.jsxs)(r.Fragment, {
-          children: [Object(r.jsx)(rr, {
+          Le = "Supplying ".concat(null === (a = F[us.CURRENCY_A]) || void 0 === a ? void 0 : a.toSignificant(6), " ").concat(null === (c = D[us.CURRENCY_A]) || void 0 === c ? void 0 : c.symbol, " and ").concat(null === (o = F[us.CURRENCY_B]) || void 0 === o ? void 0 : o.toSignificant(6), " ").concat(null === (s = D[us.CURRENCY_B]) || void 0 === s ? void 0 : s.symbol),
+          De = Object(i.useCallback)((function(e) {
+            var t = bo(e);
+            t === O ? x.push("/add/".concat(O, "/").concat(y)) : x.push("/add/".concat(t, "/").concat(O))
+          }), [O, x, y]),
+          _e = Object(i.useCallback)((function(e) {
+            var t = bo(e);
+            y === t ? O ? x.push("/add/".concat(O, "/").concat(t)) : x.push("/add/".concat(t)) : x.push("/add/".concat(y || "BNB", "/").concat(t))
+          }), [y, x, O]),
+          Ye = Object(i.useCallback)((function() {
+            ie(!1), he && Z(""), me("")
+          }), [Z, he]);
+        return Object(it.jsxs)(it.Fragment, {
+          children: [Object(it.jsx)(ar, {
             activeIndex: 1
-          }), Object(r.jsxs)(qs, {
-            children: [Object(r.jsx)(co, {
+          }), Object(it.jsxs)(nl, {
+            children: [Object(it.jsx)(oo, {
               adding: !0
-            }), Object(r.jsxs)(Gs, {
-              children: [Object(r.jsx)(Gt, {
-                isOpen: ie,
+            }), Object(it.jsxs)(rl, {
+              children: [Object(it.jsx)(Gn, {
+                isOpen: ae,
                 onDismiss: Ye,
-                attemptingTxn: ue,
+                attemptingTxn: se,
                 hash: he,
                 content: function() {
-                  return Object(r.jsx)(Vt, {
-                    title: W ? R(1154, "You are creating a pool") : R(1156, "You will receive"),
+                  return Object(it.jsx)(Hn, {
+                    title: V ? N(1154, "You are creating a pool") : N(1156, "You will receive"),
                     onDismiss: Ye,
-                    topContent: Be,
-                    bottomContent: Me
+                    topContent: Ae,
+                    bottomContent: Pe
                   })
                 },
                 pendingText: Le
-              }), Object(r.jsx)(s.g, {
-                children: Object(r.jsxs)(De, {
+              }), Object(it.jsx)(l.g, {
+                children: Object(it.jsxs)(Me, {
                   gap: "20px",
-                  children: [W && Object(r.jsx)(Pe, {
-                    children: Object(r.jsx)(_s, {
-                      children: Object(r.jsxs)(De, {
+                  children: [V && Object(it.jsx)(Be, {
+                    children: Object(it.jsx)(Vs, {
+                      children: Object(it.jsxs)(Me, {
                         gap: "12px",
-                        children: [Object(r.jsx)(s.y, {
-                          children: R(1158, "You are the first liquidity provider.")
-                        }), Object(r.jsx)(s.y, {
-                          children: R(1160, "The ratio of tokens you add will set the price of this pool.")
-                        }), Object(r.jsx)(s.y, {
-                          children: R(1162, "Once you are happy with the rate click supply to review.")
+                        children: [Object(it.jsx)(l.y, {
+                          children: N(1158, "You are the first liquidity provider.")
+                        }), Object(it.jsx)(l.y, {
+                          children: N(1160, "The ratio of tokens you add will set the price of this pool.")
+                        }), Object(it.jsx)(l.y, {
+                          children: N(1162, "Once you are happy with the rate click supply to review.")
                         })]
                       })
                     })
-                  }), Object(r.jsx)(Zc, {
-                    value: ve[us.CURRENCY_A],
-                    onUserInput: ee,
+                  }), Object(it.jsx)(no, {
+                    value: ye[us.CURRENCY_A],
+                    onUserInput: Z,
                     onMax: function() {
-                      var e, n;
-                      ee(null !== (e = null === (n = Oe[us.CURRENCY_A]) || void 0 === n ? void 0 : n.toExact()) && void 0 !== e ? e : "")
+                      var e, t;
+                      Z(null !== (e = null === (t = Oe[us.CURRENCY_A]) || void 0 === t ? void 0 : t.toExact()) && void 0 !== e ? e : "")
                     },
-                    onCurrencySelect: _e,
-                    showMaxButton: !xe[us.CURRENCY_A],
-                    currency: _[us.CURRENCY_A],
+                    onCurrencySelect: De,
+                    showMaxButton: !ve[us.CURRENCY_A],
+                    currency: D[us.CURRENCY_A],
                     id: "add-liquidity-input-tokena",
                     showCommonBases: !1
-                  }), Object(r.jsx)(Pe, {
-                    children: Object(r.jsx)(s.a, {
+                  }), Object(it.jsx)(Be, {
+                    children: Object(it.jsx)(l.a, {
                       color: "textSubtle"
                     })
-                  }), Object(r.jsx)(Zc, {
-                    value: ve[us.CURRENCY_B],
-                    onUserInput: ne,
-                    onCurrencySelect: Fe,
+                  }), Object(it.jsx)(no, {
+                    value: ye[us.CURRENCY_B],
+                    onUserInput: ee,
+                    onCurrencySelect: _e,
                     onMax: function() {
-                      var e, n;
-                      ne(null !== (e = null === (n = Oe[us.CURRENCY_B]) || void 0 === n ? void 0 : n.toExact()) && void 0 !== e ? e : "")
+                      var e, t;
+                      ee(null !== (e = null === (t = Oe[us.CURRENCY_B]) || void 0 === t ? void 0 : t.toExact()) && void 0 !== e ? e : "")
                     },
-                    showMaxButton: !xe[us.CURRENCY_B],
-                    currency: _[us.CURRENCY_B],
+                    showMaxButton: !ve[us.CURRENCY_B],
+                    currency: D[us.CURRENCY_B],
                     id: "add-liquidity-input-tokenb",
                     showCommonBases: !1
-                  }), _[us.CURRENCY_A] && _[us.CURRENCY_B] && Y !== qo.INVALID && Object(r.jsxs)("div", {
-                    children: [Object(r.jsx)(s.y, {
+                  }), D[us.CURRENCY_A] && D[us.CURRENCY_B] && Y !== Vo.INVALID && Object(it.jsxs)("div", {
+                    children: [Object(it.jsx)(l.y, {
                       style: {
                         textTransform: "uppercase",
                         fontWeight: 600
@@ -5319,131 +4780,103 @@
                       color: "textSubtle",
                       fontSize: "12px",
                       mb: "2px",
-                      children: W ? R(1164, "Initial prices and pool share") : R(1166, "Prices and pool share")
-                    }), Object(r.jsx)(_s, {
-                      children: Object(r.jsx)(Js, {
-                        currencies: _,
-                        poolTokenPercentage: G,
-                        noLiquidity: W,
-                        price: V
+                      children: V ? N(1164, "Initial prices and pool share") : N(1166, "Prices and pool share")
+                    }), Object(it.jsx)(Vs, {
+                      children: Object(it.jsx)(ol, {
+                        currencies: D,
+                        poolTokenPercentage: H,
+                        noLiquidity: V,
+                        price: q
                       })
                     })]
-                  }), T ? Object(r.jsxs)(De, {
+                  }), w ? Object(it.jsxs)(Me, {
                     gap: "md",
-                    children: [(Te === ss.NOT_APPROVED || Te === ss.PENDING || Ne === ss.NOT_APPROVED || Ne === ss.PENDING) && te && Object(r.jsxs)(en, {
-                      children: [Te !== ss.APPROVED && Object(r.jsx)(s.c, {
+                    children: [(we === ls.NOT_APPROVED || we === ls.PENDING || Ee === ls.NOT_APPROVED || Ee === ls.PENDING) && te && Object(it.jsxs)(et, {
+                      children: [we !== ls.APPROVED && Object(it.jsx)(l.c, {
                         onClick: ke,
-                        disabled: Te === ss.PENDING,
+                        disabled: we === ls.PENDING,
                         style: {
-                          width: Ne !== ss.APPROVED ? "48%" : "100%"
+                          width: Ee !== ls.APPROVED ? "48%" : "100%"
                         },
-                        children: Te === ss.PENDING ? Object(r.jsxs)(Qs, {
-                          children: ["Approving ", null === (d = _[us.CURRENCY_A]) || void 0 === d ? void 0 : d.symbol]
-                        }) : "Approve ".concat(null === (b = _[us.CURRENCY_A]) || void 0 === b ? void 0 : b.symbol)
-                      }), Ne !== ss.APPROVED && Object(r.jsx)(s.c, {
-                        onClick: Re,
-                        disabled: Ne === ss.PENDING,
+                        children: we === ls.PENDING ? Object(it.jsxs)(il, {
+                          children: ["Approving ", null === (u = D[us.CURRENCY_A]) || void 0 === u ? void 0 : u.symbol]
+                        }) : "Approve ".concat(null === (d = D[us.CURRENCY_A]) || void 0 === d ? void 0 : d.symbol)
+                      }), Ee !== ls.APPROVED && Object(it.jsx)(l.c, {
+                        onClick: Ne,
+                        disabled: Ee === ls.PENDING,
                         style: {
-                          width: Te !== ss.APPROVED ? "48%" : "100%"
+                          width: we !== ls.APPROVED ? "48%" : "100%"
                         },
-                        children: Ne === ss.PENDING ? Object(r.jsxs)(Qs, {
-                          children: ["Approving ", null === (f = _[us.CURRENCY_B]) || void 0 === f ? void 0 : f.symbol]
-                        }) : "Approve ".concat(null === (p = _[us.CURRENCY_B]) || void 0 === p ? void 0 : p.symbol)
+                        children: Ee === ls.PENDING ? Object(it.jsxs)(il, {
+                          children: ["Approving ", null === (b = D[us.CURRENCY_B]) || void 0 === b ? void 0 : b.symbol]
+                        }) : "Approve ".concat(null === (p = D[us.CURRENCY_B]) || void 0 === p ? void 0 : p.symbol)
                       })]
-                    }), Object(r.jsx)(s.c, {
+                    }), Object(it.jsx)(l.c, {
                       onClick: function() {
-                        U ? Ue() : ce(!0)
+                        S ? Se() : ie(!0)
                       },
-                      disabled: !te || Te !== ss.APPROVED || Ne !== ss.APPROVED,
-                      variant: !te && q[us.CURRENCY_A] && q[us.CURRENCY_B] ? "danger" : "primary",
+                      disabled: !te || we !== ls.APPROVED || Ee !== ls.APPROVED,
+                      variant: !te && F[us.CURRENCY_A] && F[us.CURRENCY_B] ? "danger" : "primary",
                       width: "100%",
-                      children: null !== K && void 0 !== K ? K : "Supply"
+                      children: null !== Q && void 0 !== Q ? Q : "Supply"
                     })]
-                  }) : Object(r.jsx)(Fs, {
+                  }) : Object(it.jsx)(el, {
                     width: "100%"
                   })]
                 })
               })]
             })]
-          }), F && !W && Y !== qo.INVALID ? Object(r.jsx)(De, {
+          }), _ && !V && Y !== Vo.INVALID ? Object(it.jsx)(Me, {
             style: {
               minWidth: "20rem",
               marginTop: "1rem"
             },
-            children: Object(r.jsx)(Yo, {
-              showUnwrapped: S,
-              pair: F
+            children: Object(it.jsx)(Fo, {
+              showUnwrapped: R,
+              pair: _
             })
           }) : null]
         })
       }
-      var $s = /^(0x[a-fA-F0-9]{40})-(0x[a-fA-F0-9]{40})$/;
+      var ll = /^(0x[a-fA-F0-9]{40})-(0x[a-fA-F0-9]{40})$/;
 
-      function eu(e) {
-        var n = e.match.params.currencyIdA.match($s);
-        return (null === n || void 0 === n ? void 0 : n.length) ? Object(r.jsx)(v.a, {
-          to: "/add/".concat(n[1], "/").concat(n[2])
-        }) : Object(r.jsx)(Zs, Object(J.a)({}, e))
+      function ul(e) {
+        var t = e.match.params.currencyIdA.match(ll);
+        return (null === t || void 0 === t ? void 0 : t.length) ? Object(it.jsx)(y.a, {
+          to: "/add/".concat(t[1], "/").concat(t[2])
+        }) : Object(it.jsx)(sl, Object(X.a)({}, e))
       }
 
-      function nu(e) {
-        var n = e.match.params,
-          t = n.currencyIdA,
-          a = n.currencyIdB;
-        return t.toLowerCase() === a.toLowerCase() ? Object(r.jsx)(v.a, {
-          to: "/add/".concat(t)
-        }) : Object(r.jsx)(Zs, Object(J.a)({}, e))
+      function dl(e) {
+        var t = e.match.params,
+          n = t.currencyIdA,
+          r = t.currencyIdB;
+        return n.toLowerCase() === r.toLowerCase() ? Object(it.jsx)(y.a, {
+          to: "/add/".concat(n)
+        }) : Object(it.jsx)(sl, Object(X.a)({}, e))
       }
-      var tu = /^(0x[a-fA-F0-9]{40})-(0x[a-fA-F0-9]{40})$/;
+      var bl = /^(0x[a-fA-F0-9]{40})-(0x[a-fA-F0-9]{40})$/;
 
-      function ru(e) {
-        var n = e.match.params.tokens;
-        if (!tu.test(n)) return Object(r.jsx)(v.a, {
+      function pl(e) {
+        var t = e.match.params.tokens;
+        if (!bl.test(t)) return Object(it.jsx)(y.a, {
           to: "/pool"
         });
-        var t = n.split("-"),
-          a = Object(h.a)(t, 2),
-          i = a[0],
-          c = a[1];
-        return Object(r.jsx)(v.a, {
-          to: "/remove/".concat(i, "/").concat(c)
+        var n = t.split("-"),
+          r = Object(h.a)(n, 2),
+          a = r[0],
+          i = r[1];
+        return Object(it.jsx)(y.a, {
+          to: "/remove/".concat(a, "/").concat(i)
         })
       }
-
-      function au() {
-        var e = Object(u.a)(["\n  align-items: center;\n  display: flex;\n  margin-bottom: 8px;\n"]);
-        return au = function() {
-          return e
-        }, e
-      }
-
-      function iu() {
-        var e = Object(u.a)(["\n  align-items: center;\n  display: flex;\n  flex-direction: column;\n\n  ", ":first-child {\n    padding-left: 0;\n  }\n\n  ", ":last-child {\n    padding-right: 0;\n  }\n\n  ", " {\n    flex-direction: row;\n  }\n"]);
-        return iu = function() {
-          return e
-        }, e
-      }
-
-      function cu() {
-        var e = Object(u.a)(["\n  padding: 0 4px;\n"]);
-        return cu = function() {
-          return e
-        }, e
-      }
-
-      function ou() {
-        var e = Object(u.a)(["\n  margin-bottom: 16px;\n"]);
-        return ou = function() {
-          return e
-        }, e
-      }
-      var su = l.default.div(ou()),
-        uu = l.default.div(cu()),
-        lu = l.default.div(iu(), uu, uu, (function(e) {
+      var jl, fl, hl, ml, yl, Ol, vl, xl, gl, Cl, wl = d.default.div(jl || (jl = Object(u.a)(["\n  margin-bottom: 16px;\n"]))),
+        kl = d.default.div(fl || (fl = Object(u.a)(["\n  padding: 0 4px;\n"]))),
+        Tl = d.default.div(hl || (hl = Object(u.a)(["\n  align-items: center;\n  display: flex;\n  flex-direction: column;\n\n  ", ":first-child {\n    padding-left: 0;\n  }\n\n  ", ":last-child {\n    padding-right: 0;\n  }\n\n  ", " {\n    flex-direction: row;\n  }\n"])), kl, kl, (function(e) {
           return e.theme.mediaQueries.sm
         })),
-        du = l.default.div(au()),
-        bu = [{
+        Il = d.default.div(ml || (ml = Object(u.a)(["\n  align-items: center;\n  display: flex;\n  margin-bottom: 8px;\n"]))),
+        El = [{
           label: "0.1%",
           value: .1
         }, {
@@ -5453,486 +4886,461 @@
           label: "1%",
           value: 1
         }],
-        fu = function() {
-          var e = $t(),
-            n = Jr(),
-            t = Object(h.a)(n, 2),
-            i = t[0],
-            c = t[1],
-            o = Object(a.useState)(i / 100),
-            u = Object(h.a)(o, 2),
-            l = u[0],
-            d = u[1],
-            b = Object(a.useState)(null),
-            f = Object(h.a)(b, 2),
-            p = f[0],
-            j = f[1];
-          return Object(a.useEffect)((function() {
+        Nl = function(e) {
+          var t = e.translateString,
+            n = $r(),
+            r = Object(h.a)(n, 2),
+            a = r[0],
+            c = r[1],
+            o = Object(i.useState)(a / 100),
+            s = Object(h.a)(o, 2),
+            u = s[0],
+            d = s[1],
+            b = Object(i.useState)(null),
+            p = Object(h.a)(b, 2),
+            j = p[0],
+            f = p[1];
+          return Object(i.useEffect)((function() {
             try {
-              var n = 100 * l;
-              !Number.isNaN(n) && n > 0 && n < 5e3 ? (c(n), j(null)) : j(e(1144, "Enter a valid slippage percentage"))
-            } catch (t) {
-              j(e(1144, "Enter a valid slippage percentage"))
+              var e = 100 * u;
+              !Number.isNaN(e) && e > 0 && e < 5e3 ? (c(e), f(null)) : f(t(1144, "Enter a valid slippage percentage"))
+            } catch (n) {
+              f(t(1144, "Enter a valid slippage percentage"))
             }
-          }), [l, j, c, e]), Object(a.useEffect)((function() {
-            i < 50 ? j(e(1146, "Your transaction may fail")) : i > 500 && j(e(1148, "Your transaction may be frontrun"))
-          }), [i, j, e]), Object(r.jsxs)(su, {
-            children: [Object(r.jsxs)(du, {
-              children: [Object(r.jsx)(s.y, {
+          }), [u, f, c, t]), Object(i.useEffect)((function() {
+            a < 50 ? f(t(1146, "Your transaction may fail")) : a > 500 && f(t(1148, "Your transaction may be frontrun"))
+          }), [a, f, t]), Object(it.jsxs)(wl, {
+            children: [Object(it.jsxs)(Il, {
+              children: [Object(it.jsx)(l.y, {
                 style: {
                   fontWeight: 600
                 },
-                children: e(88, "Slippage tolerance")
-              }), Object(r.jsx)(si, {
-                text: e(186, "Your transaction will revert if the price changes unfavorably by more than this percentage.")
+                children: t(88, "Slippage tolerance")
+              }), Object(it.jsx)(ui, {
+                text: t(186, "Your transaction will revert if the price changes unfavorably by more than this percentage.")
               })]
-            }), Object(r.jsxs)(lu, {
-              children: [Object(r.jsx)(s.n, {
+            }), Object(it.jsxs)(Tl, {
+              children: [Object(it.jsx)(l.n, {
                 mb: ["8px", 0],
                 mr: [0, "8px"],
-                children: bu.map((function(e) {
-                  var n = e.label,
-                    t = e.value;
-                  return Object(r.jsx)(uu, {
-                    children: Object(r.jsx)(s.c, {
-                      variant: l === t ? "primary" : "tertiary",
+                children: El.map((function(e) {
+                  var t = e.label,
+                    n = e.value;
+                  return Object(it.jsx)(kl, {
+                    children: Object(it.jsx)(l.c, {
+                      variant: u === n ? "primary" : "tertiary",
                       onClick: function() {
-                        return d(t)
+                        return d(n)
                       },
-                      children: n
+                      children: t
                     })
-                  }, t)
+                  }, n)
                 }))
-              }), Object(r.jsxs)(s.n, {
+              }), Object(it.jsxs)(l.n, {
                 alignItems: "center",
-                children: [Object(r.jsx)(uu, {
-                  children: Object(r.jsx)(s.q, {
+                children: [Object(it.jsx)(kl, {
+                  children: Object(it.jsx)(l.q, {
                     type: "number",
                     scale: "lg",
                     step: .1,
                     min: .1,
                     placeholder: "5%",
-                    value: l,
+                    value: u,
                     onChange: function(e) {
-                      var n = e.target.value;
-                      d(parseFloat(n))
+                      var t = e.target.value;
+                      d(parseFloat(t))
                     },
-                    isWarning: null !== p
+                    isWarning: null !== j
                   })
-                }), Object(r.jsx)(uu, {
-                  children: Object(r.jsx)(s.y, {
+                }), Object(it.jsx)(kl, {
+                  children: Object(it.jsx)(l.y, {
                     fontSize: "18px",
                     children: "%"
                   })
                 })]
               })]
-            }), p && Object(r.jsx)(s.y, {
+            }), j && Object(it.jsx)(l.y, {
               mt: "8px",
               color: "failure",
-              children: p
+              children: j
             })]
           })
-        };
-
-      function pu() {
-        var e = Object(u.a)(["\n  align-items: center;\n  display: inline-flex;\n\n  & > ", " {\n    max-width: 100px;\n  }\n\n  & > ", " {\n    font-size: 14px;\n    margin-left: 8px;\n  }\n"]);
-        return pu = function() {
-          return e
-        }, e
-      }
-
-      function ju() {
-        var e = Object(u.a)(["\n  align-items: center;\n  display: flex;\n  margin-bottom: 8px;\n"]);
-        return ju = function() {
-          return e
-        }, e
-      }
-
-      function mu() {
-        var e = Object(u.a)(["\n  margin-bottom: 16px;\n"]);
-        return mu = function() {
-          return e
-        }, e
-      }
-      var hu = l.default.div(mu()),
-        yu = l.default.div(ju()),
-        vu = l.default.div(pu(), s.q, s.y),
-        Ou = function() {
-          var e = $t(),
+        },
+        Rl = d.default.div(yl || (yl = Object(u.a)(["\n  margin-bottom: 16px;\n"]))),
+        Sl = d.default.div(Ol || (Ol = Object(u.a)(["\n  align-items: center;\n  display: flex;\n  margin-bottom: 8px;\n"]))),
+        Ul = d.default.div(vl || (vl = Object(u.a)(["\n  align-items: center;\n  display: inline-flex;\n\n  & > ", " {\n    max-width: 100px;\n  }\n\n  & > ", " {\n    font-size: 14px;\n    margin-left: 8px;\n  }\n"])), l.q, l.y),
+        Al = function(e) {
+          var t = e.translateString,
             n = Zr(),
-            t = Object(h.a)(n, 2),
-            i = t[0],
-            c = t[1],
-            o = Object(a.useState)(i / 60),
-            u = Object(h.a)(o, 2),
-            l = u[0],
-            d = u[1],
-            b = Object(a.useState)(null),
-            f = Object(h.a)(b, 2),
-            p = f[0],
-            j = f[1];
-          return Object(a.useEffect)((function() {
+            r = Object(h.a)(n, 2),
+            a = r[0],
+            c = r[1],
+            o = Object(i.useState)(a / 60),
+            s = Object(h.a)(o, 2),
+            u = s[0],
+            d = s[1],
+            b = Object(i.useState)(null),
+            p = Object(h.a)(b, 2),
+            j = p[0],
+            f = p[1];
+          return Object(i.useEffect)((function() {
             try {
-              var n = 60 * l;
-              !Number.isNaN(n) && n > 0 ? (c(n), j(null)) : j(e(1150, "Enter a valid deadline"))
-            } catch (t) {
-              j(e(1150, "Enter a valid deadline"))
+              var e = 60 * u;
+              !Number.isNaN(e) && e > 0 ? (c(e), f(null)) : f(t(1150, "Enter a valid deadline"))
+            } catch (n) {
+              f(t(1150, "Enter a valid deadline"))
             }
-          }), [l, j, c, e]), Object(r.jsxs)(hu, {
-            children: [Object(r.jsxs)(yu, {
-              children: [Object(r.jsx)(s.y, {
+          }), [u, f, c, t]), Object(it.jsxs)(Rl, {
+            children: [Object(it.jsxs)(Sl, {
+              children: [Object(it.jsx)(l.y, {
                 style: {
                   fontWeight: 600
                 },
-                children: e(90, "Transaction deadline")
-              }), Object(r.jsx)(si, {
-                text: e(188, "Your transaction will revert if it is pending for more than this long.")
+                children: t(90, "Transaction deadline")
+              }), Object(it.jsx)(ui, {
+                text: t(188, "Your transaction will revert if it is pending for more than this long.")
               })]
-            }), Object(r.jsxs)(vu, {
-              children: [Object(r.jsx)(s.q, {
+            }), Object(it.jsxs)(Ul, {
+              children: [Object(it.jsx)(l.q, {
                 type: "number",
                 step: "1",
                 min: "1",
-                value: l,
+                value: u,
                 onChange: function(e) {
-                  var n = e.target.value;
-                  d(parseInt(n, 10))
+                  var t = e.target.value;
+                  d(parseInt(t, 10))
                 }
-              }), Object(r.jsx)(s.y, {
+              }), Object(it.jsx)(l.y, {
                 children: "Minutes"
               })]
-            }), p && Object(r.jsx)(s.y, {
+            }), j && Object(it.jsx)(l.y, {
               mt: "8px",
               color: "failure",
-              children: p
+              children: j
             })]
           })
         },
-        xu = function() {
+        Pl = function() {
           return null
         },
-        gu = function(e) {
-          var n = e.onDismiss,
-            t = void 0 === n ? xu : n;
-          return Object(r.jsxs)(s.t, {
-            title: "Settings",
-            onDismiss: t,
-            children: [Object(r.jsx)(fu, {}), Object(r.jsx)(Ou, {})]
+        Bl = function(e) {
+          var t = e.onDismiss,
+            n = void 0 === t ? Pl : t,
+            r = e.translateString;
+          return Object(it.jsxs)(l.t, {
+            title: r(1200, "Settings"),
+            onDismiss: n,
+            children: [Object(it.jsx)(Nl, {
+              translateString: r
+            }), Object(it.jsx)(Al, {
+              translateString: r
+            })]
           })
         },
-        Cu = function() {
+        Ml = function() {
           return null
         },
-        wu = function(e, n) {
-          return n.addedTime - e.addedTime
+        Ll = function(e, t) {
+          return t.addedTime - e.addedTime
         },
-        Tu = function(e) {
-          var n = e.onDismiss,
-            t = void 0 === n ? Cu : n,
-            i = ge(),
-            c = i.account,
-            o = i.chainId,
-            u = cs(),
-            l = Object(a.useMemo)((function() {
-              return Object.values(u).filter(os).sort(wu)
-            }), [u]);
-          return Object(r.jsxs)(s.t, {
-            title: "Recent Transactions",
-            onDismiss: t,
-            children: [!c && Object(r.jsxs)(s.n, {
+        Dl = function(e) {
+          var t = e.onDismiss,
+            n = void 0 === t ? Ml : t,
+            r = e.translateString,
+            a = ge(),
+            c = a.account,
+            o = a.chainId,
+            s = os(),
+            u = Object(i.useMemo)((function() {
+              return Object.values(s).filter(ss).sort(Ll)
+            }), [s]);
+          return Object(it.jsxs)(l.t, {
+            title: r(1202, "Recent transactions"),
+            onDismiss: n,
+            children: [!c && Object(it.jsxs)(l.n, {
               justifyContent: "center",
               flexDirection: "column",
               alignItems: "center",
-              children: [Object(r.jsx)(s.y, {
+              children: [Object(it.jsx)(l.y, {
                 mb: "8px",
                 bold: !0,
                 children: "Please connect your wallet to view your recent transactions"
-              }), Object(r.jsx)(s.c, {
+              }), Object(it.jsx)(l.c, {
                 variant: "tertiary",
                 scale: "sm",
-                onClick: t,
+                onClick: n,
                 children: "Close"
               })]
-            }), c && o && 0 === l.length && Object(r.jsxs)(s.n, {
+            }), c && o && 0 === u.length && Object(it.jsxs)(l.n, {
               justifyContent: "center",
               flexDirection: "column",
               alignItems: "center",
-              children: [Object(r.jsx)(s.y, {
+              children: [Object(it.jsx)(l.y, {
                 mb: "8px",
                 bold: !0,
                 children: "No recent transactions"
-              }), Object(r.jsx)(s.c, {
+              }), Object(it.jsx)(l.c, {
                 variant: "tertiary",
                 scale: "sm",
-                onClick: t,
+                onClick: n,
                 children: "Close"
               })]
-            }), c && o && l.map((function(e) {
-              var n = e.hash,
-                t = e.summary,
-                a = function(e) {
-                  var n = e.hash,
-                    t = e.receipt;
-                  return n ? n && 1 === (null === t || void 0 === t ? void 0 : t.status) ? {
-                    icon: Object(r.jsx)(s.h, {
+            }), c && o && u.map((function(e) {
+              var t = e.hash,
+                n = e.summary,
+                r = function(e) {
+                  var t = e.hash,
+                    n = e.receipt;
+                  return t ? t && 1 === (null === n || void 0 === n ? void 0 : n.status) ? {
+                    icon: Object(it.jsx)(l.h, {
                       color: "success"
                     }),
                     color: "success"
                   } : {
-                    icon: Object(r.jsx)(s.m, {
+                    icon: Object(it.jsx)(l.m, {
                       color: "failure"
                     }),
                     color: "failure"
                   } : {
-                    icon: Object(r.jsx)(rt, {}),
+                    icon: Object(it.jsx)(cn, {}),
                     color: "text"
                   }
                 }(e),
-                i = a.icon,
-                c = a.color;
-              return Object(r.jsx)(r.Fragment, {
-                children: Object(r.jsxs)(s.n, {
+                a = r.icon,
+                i = r.color;
+              return Object(it.jsx)(it.Fragment, {
+                children: Object(it.jsxs)(l.n, {
                   alignItems: "center",
                   justifyContent: "space-between",
                   mb: "4px",
-                  children: [Object(r.jsx)(s.r, {
-                    href: mn(o, n, "transaction"),
-                    color: c,
-                    children: null !== t && void 0 !== t ? t : n
-                  }), i]
-                }, n)
+                  children: [Object(it.jsx)(l.r, {
+                    href: ht(o, t, "transaction"),
+                    color: i,
+                    children: null !== n && void 0 !== n ? n : t
+                  }), a]
+                }, t)
               })
             }))]
           })
-        };
-
-      function ku() {
-        var e = Object(u.a)(["\n  flex: 1;\n"]);
-        return ku = function() {
-          return e
-        }, e
-      }
-
-      function Iu() {
-        var e = Object(u.a)(["\n  border-bottom: 1px solid ", ";\n  padding: 24px;\n"]);
-        return Iu = function() {
-          return e
-        }, e
-      }
-      var Eu, Nu = function() {
-          return Object(r.jsx)(s.w, {
+        },
+        _l = function() {
+          return Object(it.jsx)(l.w, {
             width: "24",
             height: "24",
             viewBox: "0 0 24 24",
-            children: Object(r.jsx)("path", {
+            children: Object(it.jsx)("path", {
               d: "M13 3C8.03 3 4 7.03 4 12H1L4.89 15.89L4.96 16.03L9 12H6C6 8.13 9.13 5 13 5C16.87 5 20 8.13 20 12C20 15.87 16.87 19 13 19C11.07 19 9.32 18.21 8.06 16.94L6.64 18.36C8.27 19.99 10.51 21 13 21C17.97 21 22 16.97 22 12C22 7.03 17.97 3 13 3ZM12 8V13L16.28 15.54L17 14.33L13.5 12.25V8H12Z",
               fill: "currentColor"
             })
           })
         },
-        Ru = l.default.div(Iu(), (function(e) {
+        Yl = d.default.div(xl || (xl = Object(u.a)(["\n  border-bottom: 1px solid ", ";\n  padding: 24px;\n"])), (function(e) {
           return e.theme.colors.borderColor
         })),
-        Su = l.default.div(ku()),
-        Uu = function(e) {
-          var n = e.title,
-            t = e.description,
-            a = e.children,
-            i = Object(s.C)(Object(r.jsx)(gu, {})),
+        zl = d.default.div(gl || (gl = Object(u.a)(["\n  flex: 1;\n"]))),
+        Fl = function(e) {
+          var t = e.title,
+            n = e.description,
+            r = e.children,
+            a = tr(),
+            i = Object(l.E)(Object(it.jsx)(Bl, {
+              translateString: a
+            })),
             c = Object(h.a)(i, 1)[0],
-            o = Object(s.C)(Object(r.jsx)(Tu, {})),
-            u = Object(h.a)(o, 1)[0],
-            l = $t();
-          return Object(r.jsxs)(Ru, {
-            children: [Object(r.jsxs)(s.n, {
+            o = Object(l.E)(Object(it.jsx)(Dl, {
+              translateString: a
+            })),
+            s = Object(h.a)(o, 1)[0];
+          return Object(it.jsxs)(Yl, {
+            children: [Object(it.jsxs)(l.n, {
               alignItems: "center",
-              children: [Object(r.jsxs)(Su, {
-                children: [Object(r.jsx)(s.o, {
+              children: [Object(it.jsxs)(zl, {
+                children: [Object(it.jsx)(l.o, {
                   mb: "8px",
-                  children: n
-                }), t && Object(r.jsx)(s.y, {
+                  children: t
+                }), n && Object(it.jsx)(l.y, {
                   color: "textSubtle",
                   fontSize: "14px",
-                  children: t
+                  children: n
                 })]
-              }), Object(r.jsx)(s.p, {
+              }), Object(it.jsx)(l.p, {
                 variant: "text",
                 onClick: c,
-                title: l(1200, "Settings"),
-                children: Object(r.jsx)(s.k, {
+                title: a(1200, "Settings"),
+                children: Object(it.jsx)(l.k, {
                   width: "24px",
                   color: "currentColor"
                 })
-              }), Object(r.jsx)(s.p, {
+              }), Object(it.jsx)(l.p, {
                 variant: "text",
-                onClick: u,
-                title: l(1202, "Recent transactions"),
-                children: Object(r.jsx)(Nu, {})
+                onClick: s,
+                title: a(1202, "Recent transactions"),
+                children: Object(it.jsx)(_l, {})
               })]
-            }), a && Object(r.jsx)(s.y, {
+            }), r && Object(it.jsx)(l.y, {
               mt: "16px",
-              children: a
+              children: r
             })]
           })
         };
 
-      function Au() {
-        var e = Object(a.useContext)(l.ThemeContext),
-          n = ge().account,
-          t = $t(),
-          i = function() {
+      function ql() {
+        var e = Object(i.useContext)(d.ThemeContext),
+          t = ge().account,
+          n = tr(),
+          r = function() {
             var e = ge().chainId,
-              n = pa(),
-              t = Object(a.useMemo)((function() {
-                var n;
-                return e && null !== (n = le[e]) && void 0 !== n ? n : []
+              t = fa(),
+              n = Object(i.useMemo)((function() {
+                var t;
+                return e && null !== (t = ue[e]) && void 0 !== t ? t : []
               }), [e]),
-              r = Object(a.useMemo)((function() {
-                return e ? Pr()(Object.keys(n), (function(t) {
-                  var r, a = n[t];
-                  return (null !== (r = ue[e]) && void 0 !== r ? r : []).map((function(e) {
+              r = Object(i.useMemo)((function() {
+                return e ? Mr()(Object.keys(t), (function(n) {
+                  var r, a = t[n];
+                  return (null !== (r = le[e]) && void 0 !== r ? r : []).map((function(e) {
                     return e.address === a.address ? null : [e, a]
                   })).filter((function(e) {
                     return null !== e
                   }))
                 })) : []
-              }), [n, e]),
-              i = Object(x.d)((function(e) {
+              }), [t, e]),
+              a = Object(v.d)((function(e) {
                 return e.user.pairs
               })),
-              c = Object(a.useMemo)((function() {
-                if (!e || !i) return [];
-                var n = i[e];
-                return n ? Object.keys(n).map((function(e) {
-                  return [Qr(n[e].token0), Qr(n[e].token1)]
+              c = Object(i.useMemo)((function() {
+                if (!e || !a) return [];
+                var t = a[e];
+                return t ? Object.keys(t).map((function(e) {
+                  return [Xr(t[e].token0), Xr(t[e].token1)]
                 })) : []
-              }), [i, e]),
-              o = Object(a.useMemo)((function() {
-                return c.concat(r).concat(t)
-              }), [r, t, c]);
-            return Object(a.useMemo)((function() {
-              var e = o.reduce((function(e, n) {
-                var t = Object(h.a)(n, 2),
-                  r = t[0],
-                  a = t[1],
+              }), [a, e]),
+              o = Object(i.useMemo)((function() {
+                return c.concat(r).concat(n)
+              }), [r, n, c]);
+            return Object(i.useMemo)((function() {
+              var e = o.reduce((function(e, t) {
+                var n = Object(h.a)(t, 2),
+                  r = n[0],
+                  a = n[1],
                   i = r.sortsBefore(a),
                   c = i ? "".concat(r.address, ":").concat(a.address) : "".concat(a.address, ":").concat(r.address);
                 return e[c] || (e[c] = i ? [r, a] : [a, r]), e
               }), {});
-              return Object.keys(e).map((function(n) {
-                return e[n]
+              return Object.keys(e).map((function(t) {
+                return e[t]
               }))
             }), [o])
           }(),
-          c = Object(a.useMemo)((function() {
-            return i.map((function(e) {
+          a = Object(i.useMemo)((function() {
+            return r.map((function(e) {
               return {
                 liquidityToken: na(e),
                 tokens: e
               }
             }))
-          }), [i]),
-          o = Oa(null !== n && void 0 !== n ? n : void 0, Object(a.useMemo)((function() {
-            return c.map((function(e) {
+          }), [r]),
+          c = xa(null !== t && void 0 !== t ? t : void 0, Object(i.useMemo)((function() {
+            return a.map((function(e) {
               return e.liquidityToken
             }))
-          }), [c])),
-          u = Object(h.a)(o, 2),
-          d = u[0],
-          b = u[1],
-          f = Object(a.useMemo)((function() {
-            return c.filter((function(e) {
-              var n, t = e.liquidityToken;
-              return null === (n = d[t.address]) || void 0 === n ? void 0 : n.greaterThan("0")
+          }), [a])),
+          o = Object(h.a)(c, 2),
+          s = o[0],
+          u = o[1],
+          b = Object(i.useMemo)((function() {
+            return a.filter((function(e) {
+              var t, n = e.liquidityToken;
+              return null === (t = s[n.address]) || void 0 === t ? void 0 : t.greaterThan("0")
             }))
-          }), [c, d]),
-          p = Wo(f.map((function(e) {
+          }), [a, s]),
+          p = Ho(b.map((function(e) {
             return e.tokens
           }))),
-          j = b || (null === p || void 0 === p ? void 0 : p.length) < f.length || (null === p || void 0 === p ? void 0 : p.some((function(e) {
+          j = u || (null === p || void 0 === p ? void 0 : p.length) < b.length || (null === p || void 0 === p ? void 0 : p.some((function(e) {
             return !e
           }))),
-          m = p.map((function(e) {
+          f = p.map((function(e) {
             return Object(h.a)(e, 2)[1]
           })).filter((function(e) {
             return Boolean(e)
           }));
-        return Object(r.jsxs)(r.Fragment, {
-          children: [Object(r.jsx)(rr, {
+        return Object(it.jsxs)(it.Fragment, {
+          children: [Object(it.jsx)(ar, {
             activeIndex: 1
-          }), Object(r.jsxs)(qs, {
-            children: [Object(r.jsx)(Uu, {
-              title: t(262, "Liquidity"),
-              description: t(1168, "Add liquidity to receive LP tokens"),
-              children: Object(r.jsx)(s.c, {
+          }), Object(it.jsxs)(nl, {
+            children: [Object(it.jsx)(Fl, {
+              title: n(262, "Liquidity"),
+              description: n(1168, "Add liquidity to receive LP tokens"),
+              children: Object(it.jsx)(l.c, {
                 id: "join-pool-button",
-                as: y.b,
-                to: "/add/ETH",
-                children: t(168, "Add Liquidity")
+                as: m.b,
+                to: "/add/BNB",
+                children: n(168, "Add Liquidity")
               })
-            }), Object(r.jsx)(De, {
+            }), Object(it.jsx)(Me, {
               gap: "lg",
               justify: "center",
-              children: Object(r.jsx)(s.g, {
-                children: Object(r.jsxs)(De, {
+              children: Object(it.jsx)(l.g, {
+                children: Object(it.jsxs)(Me, {
                   gap: "12px",
                   style: {
                     width: "100%"
                   },
-                  children: [Object(r.jsxs)(en, {
+                  children: [Object(it.jsxs)(et, {
                     padding: "0 8px",
-                    children: [Object(r.jsx)(s.y, {
+                    children: [Object(it.jsx)(l.y, {
                       color: e.colors.text,
-                      children: t(107, "Your Liquidity")
-                    }), Object(r.jsx)(si, {
-                      text: t(1170, "When you add liquidity, you are given pool tokens that represent your share. If you don\u2019t see a pool you joined in this list, try importing a pool below.")
+                      children: n(107, "Your Liquidity")
+                    }), Object(it.jsx)(ui, {
+                      text: n(1170, "When you add liquidity, you are given pool tokens that represent your share. If you don\u2019t see a pool you joined in this list, try importing a pool below.")
                     })]
-                  }), n ? j ? Object(r.jsx)(pt, {
+                  }), t ? j ? Object(it.jsx)(wn, {
                     padding: "40px",
-                    children: Object(r.jsx)(s.y, {
+                    children: Object(it.jsx)(l.y, {
                       color: "textDisabled",
                       textAlign: "center",
-                      children: Object(r.jsx)(Uo, {
+                      children: Object(it.jsx)(Ao, {
                         children: "Loading"
                       })
                     })
-                  }) : (null === m || void 0 === m ? void 0 : m.length) > 0 ? Object(r.jsx)(r.Fragment, {
-                    children: m.map((function(e) {
-                      return Object(r.jsx)(zo, {
+                  }) : (null === f || void 0 === f ? void 0 : f.length) > 0 ? Object(it.jsx)(it.Fragment, {
+                    children: f.map((function(e) {
+                      return Object(it.jsx)(qo, {
                         pair: e
                       }, e.liquidityToken.address)
                     }))
-                  }) : Object(r.jsx)(pt, {
+                  }) : Object(it.jsx)(wn, {
                     padding: "40px",
-                    children: Object(r.jsx)(s.y, {
+                    children: Object(it.jsx)(l.y, {
                       color: "textDisabled",
                       textAlign: "center",
-                      children: t(104, "No liquidity found.")
+                      children: n(104, "No liquidity found.")
                     })
-                  }) : Object(r.jsx)(pt, {
+                  }) : Object(it.jsx)(wn, {
                     padding: "40px",
-                    children: Object(r.jsx)(s.y, {
+                    children: Object(it.jsx)(l.y, {
                       color: "textDisabled",
                       textAlign: "center",
-                      children: t(156, "Connect to a wallet to view your liquidity.")
+                      children: n(156, "Connect to a wallet to view your liquidity.")
                     })
-                  }), Object(r.jsxs)("div", {
-                    children: [Object(r.jsxs)(s.y, {
+                  }), Object(it.jsxs)("div", {
+                    children: [Object(it.jsxs)(l.y, {
                       fontSize: "14px",
                       style: {
                         padding: ".5rem 0 .5rem 0"
                       },
-                      children: [t(106, "Don't see a pool you joined?"), " ", Object(r.jsx)(Nn, {
+                      children: [n(106, "Don't see a pool you joined?"), " ", Object(it.jsx)(Nt, {
                         id: "import-pool-link",
                         to: "/find",
-                        children: t(108, "Import it.")
+                        children: n(108, "Import it.")
                       })]
-                    }), Object(r.jsx)(s.y, {
+                    }), Object(it.jsx)(l.y, {
                       fontSize: "14px",
                       style: {
                         padding: ".5rem 0 .5rem 0"
                       },
-                      children: t(1172, "Or, if you staked your LP tokens in a farm, unstake them to see them here.")
+                      children: n(1172, "Or, if you staked your LP tokens in a farm, unstake them to see them here.")
                     })]
                   })]
                 })
@@ -5942,586 +5350,399 @@
         })
       }
 
-           function Au() {
-        var e = Object(a.useContext)(l.ThemeContext),
-          n = ge().account,
-          t = $t(),
-          i = function() {
-            var e = ge().chainId,
-              n = pa(),
-              t = Object(a.useMemo)((function() {
-                var n;
-                return e && null !== (n = le[e]) && void 0 !== n ? n : []
-              }), [e]),
-              r = Object(a.useMemo)((function() {
-                return e ? Pr()(Object.keys(n), (function(t) {
-                  var r, a = n[t];
-                  return (null !== (r = ue[e]) && void 0 !== r ? r : []).map((function(e) {
-                    return e.address === a.address ? null : [e, a]
-                  })).filter((function(e) {
-                    return null !== e
-                  }))
-                })) : []
-              }), [n, e]),
-              i = Object(x.d)((function(e) {
-                return e.user.pairs
-              })),
-              c = Object(a.useMemo)((function() {
-                if (!e || !i) return [];
-                var n = i[e];
-                return n ? Object.keys(n).map((function(e) {
-                  return [Qr(n[e].token0), Qr(n[e].token1)]
-                })) : []
-              }), [i, e]),
-              o = Object(a.useMemo)((function() {
-                return c.concat(r).concat(t)
-              }), [r, t, c]);
-            return Object(a.useMemo)((function() {
-              var e = o.reduce((function(e, n) {
-                var t = Object(h.a)(n, 2),
-                  r = t[0],
-                  a = t[1],
-                  i = r.sortsBefore(a),
-                  c = i ? "".concat(r.address, ":").concat(a.address) : "".concat(a.address, ":").concat(r.address);
-                return e[c] || (e[c] = i ? [r, a] : [a, r]), e
-              }), {});
-              return Object.keys(e).map((function(n) {
-                return e[n]
-              }))
-            }), [o])
-          }(),
-          c = Object(a.useMemo)((function() {
-            return i.map((function(e) {
-              return {
-                liquidityToken: na(e),
-                tokens: e
-              }
-            }))
-          }), [i]),
-          o = Oa(null !== n && void 0 !== n ? n : void 0, Object(a.useMemo)((function() {
-            return c.map((function(e) {
-              return e.liquidityToken
-            }))
-          }), [c])),
-          u = Object(h.a)(o, 2),
-          d = u[0],
-          b = u[1],
-          f = Object(a.useMemo)((function() {
-            return c.filter((function(e) {
-              var n, t = e.liquidityToken;
-              return null === (n = d[t.address]) || void 0 === n ? void 0 : n.greaterThan("0")
-            }))
-          }), [c, d]),
-          p = Wo(f.map((function(e) {
-            return e.tokens
-          }))),
-          j = b || (null === p || void 0 === p ? void 0 : p.length) < f.length || (null === p || void 0 === p ? void 0 : p.some((function(e) {
-            return !e
-          }))),
-          m = p.map((function(e) {
-            return Object(h.a)(e, 2)[1]
-          })).filter((function(e) {
-            return Boolean(e)
-          }));
-        return Object(r.jsxs)(r.Fragment, {
-          children: [Object(r.jsx)(rr, {
-            activeIndex: 1
-          }), Object(r.jsxs)(qs, {
-            children: [Object(r.jsx)(Uu, {
-              title: t(262, "Liquidity"),
-              description: t(1168, "Add liquidity to receive LP tokens"),
-              children: Object(r.jsx)(s.c, {
-                id: "join-pool-button",
-                as: y.b,
-                to: "/add/ETH",
-                children: t(168, "Add Liquidity")
-              })
-            }), Object(r.jsx)(De, {
-              gap: "lg",
-              justify: "center",
-              children: Object(r.jsx)(s.g, {
-                children: Object(r.jsxs)(De, {
-                  gap: "12px",
-                  style: {
-                    width: "100%"
-                  },
-                  children: [Object(r.jsxs)(en, {
-                    padding: "0 8px",
-                    children: [Object(r.jsx)(s.y, {
-                      color: e.colors.text,
-                      children: t(107, "Your Liquidity")
-                    }), Object(r.jsx)(si, {
-                      text: t(1170, "When you add liquidity, you are given pool tokens that represent your share. If you don\u2019t see a pool you joined in this list, try importing a pool below.")
-                    })]
-                  }), n ? j ? Object(r.jsx)(pt, {
-                    padding: "40px",
-                    children: Object(r.jsx)(s.y, {
-                      color: "textDisabled",
-                      textAlign: "center",
-                      children: Object(r.jsx)(Uo, {
-                        children: "Loading"
-                      })
-                    })
-                  }) : (null === m || void 0 === m ? void 0 : m.length) > 0 ? Object(r.jsx)(r.Fragment, {
-                    children: m.map((function(e) {
-                      return Object(r.jsx)(zo, {
-                        pair: e
-                      }, e.liquidityToken.address)
-                    }))
-                  }) : Object(r.jsx)(pt, {
-                    padding: "40px",
-                    children: Object(r.jsx)(s.y, {
-                      color: "textDisabled",
-                      textAlign: "center",
-                      children: t(104, "No liquidity found.")
-                    })
-                  }) : Object(r.jsx)(pt, {
-                    padding: "40px",
-                    children: Object(r.jsx)(s.y, {
-                      color: "textDisabled",
-                      textAlign: "center",
-                      children: t(156, "Connect to a wallet to view your liquidity.")
-                    })
-                  }), Object(r.jsxs)("div", {
-                    children: [Object(r.jsxs)(s.y, {
-                      fontSize: "14px",
-                      style: {
-                        padding: ".5rem 0 .5rem 0"
-                      },
-                      children: [t(106, "Don't see a pool you joined?"), " ", Object(r.jsx)(Nn, {
-                        id: "import-pool-link",
-                        to: "/find",
-                        children: t(108, "Import it.")
-                      })]
-                    }), Object(r.jsx)(s.y, {
-                      fontSize: "14px",
-                      style: {
-                        padding: ".5rem 0 .5rem 0"
-                      },
-                      children: t(1172, "Or, if you staked your LP tokens in a farm, unstake them to see them here.")
-                    })]
-                  })]
-                })
-              })
-            })]
-          })]
-        })
-      }
-
-      function Bu() {
-        var e, n = ge().account,
-          t = Object(a.useState)(!1),
-          i = Object(h.a)(t, 2),
-          c = i[0],
-          o = i[1],
-          u = Object(a.useState)(Eu.TOKEN1),
-          l = Object(h.a)(u, 2),
-          d = l[0],
-          b = l[1],
-          f = Object(a.useState)(Z.d),
-          p = Object(h.a)(f, 2),
+      function Vl() {
+        var e, t = ge().account,
+          n = Object(i.useState)(!1),
+          r = Object(h.a)(n, 2),
+          a = r[0],
+          c = r[1],
+          o = Object(i.useState)(Cl.TOKEN1),
+          s = Object(h.a)(o, 2),
+          u = s[0],
+          d = s[1],
+          b = Object(i.useState)(J.d),
+          p = Object(h.a)(b, 2),
           j = p[0],
-          m = p[1],
-          y = Object(a.useState)(null),
-          v = Object(h.a)(y, 2),
-          O = v[0],
-          g = v[1],
-          C = Ho(null !== j && void 0 !== j ? j : void 0, null !== O && void 0 !== O ? O : void 0),
-          w = Object(h.a)(C, 2),
-          T = w[0],
-          k = w[1],
-          I = function() {
-            var e = Object(x.c)();
-            return Object(a.useCallback)((function(n) {
-              e(qr({
-                serializedPair: ea(n)
+          f = p[1],
+          m = Object(i.useState)(null),
+          y = Object(h.a)(m, 2),
+          O = y[0],
+          x = y[1],
+          g = Qo(null !== j && void 0 !== j ? j : void 0, null !== O && void 0 !== O ? O : void 0),
+          C = Object(h.a)(g, 2),
+          w = C[0],
+          k = C[1],
+          T = function() {
+            var e = Object(v.c)();
+            return Object(i.useCallback)((function(t) {
+              e(Vr({
+                serializedPair: ta(t)
               }))
             }), [e])
           }(),
-          E = $t();
-        Object(a.useEffect)((function() {
-          k && I(k)
-        }), [k, I]);
-        var N = T === qo.NOT_EXISTS || Boolean(T === qo.EXISTS && k && Z.e.equal(k.reserve0.raw, Z.e.BigInt(0)) && Z.e.equal(k.reserve1.raw, Z.e.BigInt(0))),
-          R = ga(null !== n && void 0 !== n ? n : void 0, null === k || void 0 === k ? void 0 : k.liquidityToken),
-          S = Boolean(R && Z.e.greaterThan(R.raw, Z.e.BigInt(0))),
-          U = Object(a.useCallback)((function(e) {
-            d === Eu.TOKEN0 ? m(e) : g(e)
-          }), [d]),
-          A = Object(a.useCallback)((function() {
-            o(!1)
-          }), [o]),
-          B = Object(r.jsx)(pt, {
+          I = tr();
+        Object(i.useEffect)((function() {
+          k && T(k)
+        }), [k, T]);
+        var E = w === Vo.NOT_EXISTS || Boolean(w === Vo.EXISTS && k && J.e.equal(k.reserve0.raw, J.e.BigInt(0)) && J.e.equal(k.reserve1.raw, J.e.BigInt(0))),
+          N = Ca(null !== t && void 0 !== t ? t : void 0, null === k || void 0 === k ? void 0 : k.liquidityToken),
+          R = Boolean(N && J.e.greaterThan(N.raw, J.e.BigInt(0))),
+          S = Object(i.useCallback)((function(e) {
+            u === Cl.TOKEN0 ? f(e) : x(e)
+          }), [u]),
+          U = Object(i.useCallback)((function() {
+            c(!1)
+          }), [c]),
+          A = Object(it.jsx)(wn, {
             padding: "45px 10px",
-            children: Object(r.jsx)(s.y, {
+            children: Object(it.jsx)(l.y, {
               style: {
                 textAlign: "center"
               },
-              children: n ? E(208, "Select a token to find your liquidity.") : E(1174, "Connect to a wallet to find pools")
+              children: t ? I(208, "Select a token to find your liquidity.") : I(1174, "Connect to a wallet to find pools")
             })
           });
-        return Object(r.jsxs)(r.Fragment, {
-          children: [Object(r.jsx)(rr, {
+        return Object(it.jsxs)(it.Fragment, {
+          children: [Object(it.jsx)(ar, {
             activeIndex: 1
-          }), Object(r.jsxs)(qs, {
-            children: [Object(r.jsx)(io, {}), Object(r.jsxs)(s.g, {
-              children: [Object(r.jsxs)(De, {
+          }), Object(it.jsxs)(nl, {
+            children: [Object(it.jsx)(co, {}), Object(it.jsxs)(l.g, {
+              children: [Object(it.jsxs)(Me, {
                 gap: "md",
-                children: [Object(r.jsx)(s.c, {
+                children: [Object(it.jsx)(l.c, {
                   onClick: function() {
-                    o(!0), b(Eu.TOKEN0)
+                    c(!0), d(Cl.TOKEN0)
                   },
-                  startIcon: j ? Object(r.jsx)(mi, {
+                  startIcon: j ? Object(it.jsx)(yi, {
                     currency: j,
                     style: {
                       marginRight: ".5rem"
                     }
                   }) : null,
-                  endIcon: Object(r.jsx)(s.i, {
+                  endIcon: Object(it.jsx)(l.i, {
                     width: "24px",
                     color: "white"
                   }),
                   width: "100%",
-                  children: j ? j.symbol : E(82, "Select a Token")
-                }), Object(r.jsx)(Pe, {
-                  children: Object(r.jsx)(s.a, {
+                  children: j ? j.symbol : I(82, "Select a Token")
+                }), Object(it.jsx)(Be, {
+                  children: Object(it.jsx)(l.a, {
                     color: "textSubtle"
                   })
-                }), Object(r.jsx)(s.c, {
+                }), Object(it.jsx)(l.c, {
                   onClick: function() {
-                    o(!0), b(Eu.TOKEN1)
+                    c(!0), d(Cl.TOKEN1)
                   },
-                  startIcon: O ? Object(r.jsx)(mi, {
+                  startIcon: O ? Object(it.jsx)(yi, {
                     currency: O,
                     style: {
                       marginRight: ".5rem"
                     }
                   }) : null,
-                  endIcon: Object(r.jsx)(s.i, {
+                  endIcon: Object(it.jsx)(l.i, {
                     width: "24px",
                     color: "white"
                   }),
                   width: "100%",
-                  children: O ? O.symbol : E(82, "Select a Token")
-                }), S && Object(r.jsx)(Pe, {
+                  children: O ? O.symbol : I(82, "Select a Token")
+                }), R && Object(it.jsx)(Be, {
                   style: {
                     justifyItems: "center",
                     backgroundColor: "",
                     padding: "12px 0px",
                     borderRadius: "12px"
                   },
-                  children: Object(r.jsx)(s.y, {
+                  children: Object(it.jsx)(l.y, {
                     style: {
                       textAlign: "center"
                     },
-                    children: E(210, "Pool found!")
+                    children: I(210, "Pool found!")
                   })
-                }), j && O ? T === qo.EXISTS ? S && k ? Object(r.jsx)(Yo, {
+                }), j && O ? w === Vo.EXISTS ? R && k ? Object(it.jsx)(Fo, {
                   pair: k
-                }) : Object(r.jsx)(pt, {
+                }) : Object(it.jsx)(wn, {
                   padding: "45px 10px",
-                  children: Object(r.jsxs)(De, {
+                  children: Object(it.jsxs)(Me, {
                     gap: "sm",
                     justify: "center",
-                    children: [Object(r.jsx)(s.y, {
+                    children: [Object(it.jsx)(l.y, {
                       style: {
                         textAlign: "center"
                       },
-                      children: E(212, "You don\u2019t have liquidity in this pool yet.")
-                    }), Object(r.jsx)(Nn, {
-                      to: "/add/".concat(lo(j), "/").concat(lo(O)),
-                      children: Object(r.jsx)(s.y, {
+                      children: I(212, "You don\u2019t have liquidity in this pool yet.")
+                    }), Object(it.jsx)(Nt, {
+                      to: "/add/".concat(bo(j), "/").concat(bo(O)),
+                      children: Object(it.jsx)(l.y, {
                         style: {
                           textAlign: "center"
                         },
-                        children: E(168, "Add Liquidity")
+                        children: I(168, "Add Liquidity")
                       })
                     })]
                   })
-                }) : N ? Object(r.jsx)(pt, {
+                }) : E ? Object(it.jsx)(wn, {
                   padding: "45px 10px",
-                  children: Object(r.jsxs)(De, {
+                  children: Object(it.jsxs)(Me, {
                     gap: "sm",
                     justify: "center",
-                    children: [Object(r.jsx)(s.y, {
+                    children: [Object(it.jsx)(l.y, {
                       style: {
                         textAlign: "center"
                       },
-                      children: E(214, "No pool found.")
-                    }), Object(r.jsx)(Nn, {
-                      to: "/add/".concat(lo(j), "/").concat(lo(O)),
+                      children: I(214, "No pool found.")
+                    }), Object(it.jsx)(Nt, {
+                      to: "/add/".concat(bo(j), "/").concat(bo(O)),
                       children: "Create pool."
                     })]
                   })
-                }) : T === qo.INVALID ? Object(r.jsx)(pt, {
+                }) : w === Vo.INVALID ? Object(it.jsx)(wn, {
                   padding: "45px 10px",
-                  children: Object(r.jsx)(De, {
+                  children: Object(it.jsx)(Me, {
                     gap: "sm",
                     justify: "center",
-                    children: Object(r.jsx)(s.y, {
+                    children: Object(it.jsx)(l.y, {
                       style: {
                         textAlign: "center"
                       },
-                      children: E(136, "Invalid pair.")
+                      children: I(136, "Invalid pair.")
                     })
                   })
-                }) : T === qo.LOADING ? Object(r.jsx)(pt, {
+                }) : w === Vo.LOADING ? Object(it.jsx)(wn, {
                   padding: "45px 10px",
-                  children: Object(r.jsx)(De, {
+                  children: Object(it.jsx)(Me, {
                     gap: "sm",
                     justify: "center",
-                    children: Object(r.jsxs)(s.y, {
+                    children: Object(it.jsxs)(l.y, {
                       style: {
                         textAlign: "center"
                       },
-                      children: ["Loading", Object(r.jsx)(Qs, {})]
+                      children: ["Loading", Object(it.jsx)(il, {})]
                     })
                   })
-                }) : null : B]
-              }), Object(r.jsx)(Ec, {
-                isOpen: c,
-                onCurrencySelect: U,
-                onDismiss: A,
+                }) : null : A]
+              }), Object(it.jsx)(Uc, {
+                isOpen: a,
+                onCurrencySelect: S,
+                onDismiss: U,
                 showCommonBases: !0,
-                selectedCurrency: null !== (e = d === Eu.TOKEN0 ? O : j) && void 0 !== e ? e : void 0
+                selectedCurrency: null !== (e = u === Cl.TOKEN0 ? O : j) && void 0 !== e ? e : void 0
               })]
             })]
           })]
         })
       }! function(e) {
         e[e.TOKEN0 = 0] = "TOKEN0", e[e.TOKEN1 = 1] = "TOKEN1"
-      }(Eu || (Eu = {}));
-      var Pu = t(2),
-        Du = t(500),
-        Mu = t(501);
+      }(Cl || (Cl = {}));
+      var Wl, Hl, Ql = n(2),
+        Kl = n(534),
+        Gl = n(535),
+        Xl = d.default.input(Wl || (Wl = Object(u.a)(["\n  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */\n  width: 100%; /* Specific width is required for Firefox. */\n  background: transparent; /* Otherwise white in Chrome */\n  cursor: pointer;\n\n  &:focus {\n    outline: none;\n  }\n\n  &::-moz-focus-outer {\n    border: 0;\n  }\n\n  &::-webkit-slider-thumb {\n    -webkit-appearance: none;\n    height: ", "px;\n    width: ", "px;\n    background-color: #565a69;\n    border-radius: 100%;\n    border: none;\n    transform: translateY(-50%);\n    color: ", ";\n\n    &:hover,\n    &:focus {\n      box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.08), 0px 16px 24px rgba(0, 0, 0, 0.06),\n        0px 24px 32px rgba(0, 0, 0, 0.04);\n    }\n  }\n\n  &::-moz-range-thumb {\n    height: ", "px;\n    width: ", "px;\n    background-color: #565a69;\n    border-radius: 100%;\n    border: none;\n    color: ", ";\n\n    &:hover,\n    &:focus {\n      box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.08), 0px 16px 24px rgba(0, 0, 0, 0.06),\n        0px 24px 32px rgba(0, 0, 0, 0.04);\n    }\n  }\n\n  &::-ms-thumb {\n    height: ", "px;\n    width: ", "px;\n    background-color: #565a69;\n    border-radius: 100%;\n    color: ", ";\n\n    &:hover,\n    &:focus {\n      box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.08), 0px 16px 24px rgba(0, 0, 0, 0.06),\n        0px 24px 32px rgba(0, 0, 0, 0.04);\n    }\n  }\n\n  &::-webkit-slider-runnable-track {\n    background: linear-gradient(\n      90deg,\n      ", ",\n      ", "\n    );\n    height: 2px;\n  }\n\n  &::-moz-range-track {\n    background: linear-gradient(\n      90deg,\n      ", ",\n      ", "\n    );\n    height: 2px;\n  }\n\n  &::-ms-track {\n    width: 100%;\n    border-color: transparent;\n    color: transparent;\n\n    background: ", ";\n    height: 2px;\n  }\n  &::-ms-fill-lower {\n    background: ", ";\n  }\n  &::-ms-fill-upper {\n    background: ", ";\n  }\n"])), (function(e) {
+          return e.size
+        }), (function(e) {
+          return e.size
+        }), (function(e) {
+          return e.theme.colors.invertedContrast
+        }), (function(e) {
+          return e.size
+        }), (function(e) {
+          return e.size
+        }), (function(e) {
+          return e.theme.colors.invertedContrast
+        }), (function(e) {
+          return e.size
+        }), (function(e) {
+          return e.size
+        }), (function(e) {
+          return e.theme.colors.invertedContrast
+        }), (function(e) {
+          return e.theme.colors.primaryDark
+        }), (function(e) {
+          return e.theme.colors.tertiary
+        }), (function(e) {
+          return e.theme.colors.primaryDark
+        }), (function(e) {
+          return e.theme.colors.tertiary
+        }), (function(e) {
+          return e.theme.colors.primaryDark
+        }), (function(e) {
+          return e.theme.colors.primaryDark
+        }), (function(e) {
+          return e.theme.colors.tertiary
+        }));
 
-      function Lu() {
-        var e = Object(u.a)(["\n  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */\n  width: 100%; /* Specific width is required for Firefox. */\n  background: transparent; /* Otherwise white in Chrome */\n  cursor: pointer;\n\n  &:focus {\n    outline: none;\n  }\n\n  &::-moz-focus-outer {\n    border: 0;\n  }\n\n  &::-webkit-slider-thumb {\n    -webkit-appearance: none;\n    height: ", "px;\n    width: ", "px;\n    background-color: #565a69;\n    border-radius: 100%;\n    border: none;\n    transform: translateY(-50%);\n    color: ", ";\n\n    &:hover,\n    &:focus {\n      box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.08), 0px 16px 24px rgba(0, 0, 0, 0.06),\n        0px 24px 32px rgba(0, 0, 0, 0.04);\n    }\n  }\n\n  &::-moz-range-thumb {\n    height: ", "px;\n    width: ", "px;\n    background-color: #565a69;\n    border-radius: 100%;\n    border: none;\n    color: ", ";\n\n    &:hover,\n    &:focus {\n      box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.08), 0px 16px 24px rgba(0, 0, 0, 0.06),\n        0px 24px 32px rgba(0, 0, 0, 0.04);\n    }\n  }\n\n  &::-ms-thumb {\n    height: ", "px;\n    width: ", "px;\n    background-color: #565a69;\n    border-radius: 100%;\n    color: ", ";\n\n    &:hover,\n    &:focus {\n      box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.08), 0px 16px 24px rgba(0, 0, 0, 0.06),\n        0px 24px 32px rgba(0, 0, 0, 0.04);\n    }\n  }\n\n  &::-webkit-slider-runnable-track {\n    background: linear-gradient(\n      90deg,\n      ", ",\n      ", "\n    );\n    height: 2px;\n  }\n\n  &::-moz-range-track {\n    background: linear-gradient(\n      90deg,\n      ", ",\n      ", "\n    );\n    height: 2px;\n  }\n\n  &::-ms-track {\n    width: 100%;\n    border-color: transparent;\n    color: transparent;\n\n    background: ", ";\n    height: 2px;\n  }\n  &::-ms-fill-lower {\n    background: ", ";\n  }\n  &::-ms-fill-upper {\n    background: ", ";\n  }\n"]);
-        return Lu = function() {
-          return e
-        }, e
-      }
-      var _u, Fu = l.default.input(Lu(), (function(e) {
-        return e.size
-      }), (function(e) {
-        return e.size
-      }), (function(e) {
-        return e.theme.colors.invertedContrast
-      }), (function(e) {
-        return e.size
-      }), (function(e) {
-        return e.size
-      }), (function(e) {
-        return e.theme.colors.invertedContrast
-      }), (function(e) {
-        return e.size
-      }), (function(e) {
-        return e.size
-      }), (function(e) {
-        return e.theme.colors.invertedContrast
-      }), (function(e) {
-        return e.theme.colors.primaryDark
-      }), (function(e) {
-        return e.theme.colors.tertiary
-      }), (function(e) {
-        return e.theme.colors.primaryDark
-      }), (function(e) {
-        return e.theme.colors.tertiary
-      }), (function(e) {
-        return e.theme.colors.primaryDark
-      }), (function(e) {
-        return e.theme.colors.primaryDark
-      }), (function(e) {
-        return e.theme.colors.tertiary
-      }));
-
-      function Yu(e) {
-        var n = e.value,
-          t = e.onChange,
-          i = e.min,
-          c = void 0 === i ? 0 : i,
-          o = e.step,
-          s = void 0 === o ? 1 : o,
-          u = e.max,
-          l = void 0 === u ? 100 : u,
-          d = e.size,
-          b = void 0 === d ? 28 : d,
-          f = Object(a.useCallback)((function(e) {
-            t(parseInt(e.target.value))
-          }), [t]);
-        return Object(r.jsx)(Fu, {
-          size: b,
+      function Jl(e) {
+        var t = e.value,
+          n = e.onChange,
+          r = e.min,
+          a = void 0 === r ? 0 : r,
+          c = e.step,
+          o = void 0 === c ? 1 : c,
+          s = e.max,
+          l = void 0 === s ? 100 : s,
+          u = e.size,
+          d = void 0 === u ? 28 : u,
+          b = Object(i.useCallback)((function(e) {
+            n(parseInt(e.target.value))
+          }), [n]);
+        return Object(it.jsx)(Xl, {
+          size: d,
           type: "range",
-          value: n,
+          value: t,
           style: {
             width: "90%",
             marginLeft: 15,
             marginRight: 15,
             padding: "15px 0"
           },
-          onChange: f,
+          onChange: b,
           "aria-labelledby": "input slider",
-          step: s,
-          min: c,
+          step: o,
+          min: a,
           max: l
         })
       }! function(e) {
         e.LIQUIDITY_PERCENT = "LIQUIDITY_PERCENT", e.LIQUIDITY = "LIQUIDITY", e.CURRENCY_A = "CURRENCY_A", e.CURRENCY_B = "CURRENCY_B"
-      }(_u || (_u = {}));
-      var zu = Object(Ce.b)("burn/typeInputBurn");
+      }(Hl || (Hl = {}));
+      var $l, Zl, eu = Object(Te.b)("burn/typeInputBurn");
 
-      function qu() {
-        return Object(x.d)((function(e) {
+      function tu() {
+        return Object(v.d)((function(e) {
           return e.burn
         }))
       }
-
-      function Vu() {
-        var e = Object(u.a)(["\n  padding-left: 24px;\n  padding-right: 24px;\n"]);
-        return Vu = function() {
-          return e
-        }, e
-      }
-
-      function Wu() {
-        var e = Object(u.a)(["\n  border: 1px solid ", ";\n  border-radius: 16px;\n  padding: 24px;\n"]);
-        return Wu = function() {
-          return e
-        }, e
-      }
-      var Hu = l.default.div(Wu(), (function(e) {
+      var nu, ru, au, iu, cu = d.default.div($l || ($l = Object(u.a)(["\n  border: 1px solid ", ";\n  border-radius: 16px;\n  padding: 24px;\n"])), (function(e) {
           return e.theme.colors.borderColor
         })),
-        Gu = l.default.div(Vu());
+        ou = d.default.div(Zl || (Zl = Object(u.a)(["\n  padding-left: 24px;\n  padding-right: 24px;\n"])));
 
-      function Ku(e) {
-        var n, t, i, c, o, u, d, b, f, p, y, v, O, g, C = e.history,
-          T = e.match.params,
-          k = T.currencyIdA,
-          I = T.currencyIdB,
-          E = null !== (n = ya(k)) && void 0 !== n ? n : void 0,
-          N = null !== (t = ya(I)) && void 0 !== t ? t : void 0,
-          R = ge(),
-          S = R.account,
-          U = R.chainId,
-          A = R.library,
-          B = $t(),
-          P = Object(a.useMemo)((function() {
-            return [bo(E, U), bo(N, U)]
-          }), [E, N, U]),
-          D = Object(h.a)(P, 2),
-          M = D[0],
-          L = D[1],
-          _ = Object(a.useContext)(l.ThemeContext),
-          F = qu(),
-          Y = F.independentField,
-          z = F.typedValue,
-          q = function(e, n) {
-            var t, r, a, i, c, o = ge(),
+      function su(e) {
+        var t, n, r, a, c, o, s, u, b, p, m, y, O, x, g = e.history,
+          w = e.match.params,
+          k = w.currencyIdA,
+          T = w.currencyIdB,
+          I = null !== (t = Oa(k)) && void 0 !== t ? t : void 0,
+          E = null !== (n = Oa(T)) && void 0 !== n ? n : void 0,
+          N = ge(),
+          R = N.account,
+          S = N.chainId,
+          U = N.library,
+          A = tr(),
+          P = Object(i.useMemo)((function() {
+            return [wo(I, S), wo(E, S)]
+          }), [I, E, S]),
+          B = Object(h.a)(P, 2),
+          M = B[0],
+          L = B[1],
+          D = Object(i.useContext)(d.ThemeContext),
+          _ = tu(),
+          Y = _.independentField,
+          z = _.typedValue,
+          F = function(e, t) {
+            var n, r, a, i, c, o = ge(),
               s = o.account,
-              u = o.chainId,
-              l = qu(),
-              d = l.independentField,
-              b = l.typedValue,
-              f = Ho(e, n),
-              p = Object(h.a)(f, 2)[1],
-              j = xa(null !== s && void 0 !== s ? s : void 0, [null === p || void 0 === p ? void 0 : p.liquidityToken]),
-              m = null === j || void 0 === j ? void 0 : j[null !== (t = null === p || void 0 === p || null === (r = p.liquidityToken) || void 0 === r ? void 0 : r.address) && void 0 !== t ? t : ""],
-              y = [bo(e, u), bo(n, u)],
-              v = y[0],
-              O = y[1],
-              x = (a = {}, Object(w.a)(a, _u.CURRENCY_A, v), Object(w.a)(a, _u.CURRENCY_B, O), Object(w.a)(a, _u.LIQUIDITY, null === p || void 0 === p ? void 0 : p.liquidityToken), a),
-              g = uo(null === p || void 0 === p ? void 0 : p.liquidityToken),
-              C = p && g && m && v && Z.e.greaterThanOrEqual(g.raw, m.raw) ? new Z.k(v, p.getLiquidityValue(v, g, m, !1).raw) : void 0,
-              T = p && g && m && O && Z.e.greaterThanOrEqual(g.raw, m.raw) ? new Z.k(O, p.getLiquidityValue(O, g, m, !1).raw) : void 0,
-              k = (i = {}, Object(w.a)(i, _u.CURRENCY_A, C), Object(w.a)(i, _u.CURRENCY_B, T), i),
-              I = new Z.g("0", "100");
-            if (d === _u.LIQUIDITY_PERCENT) I = new Z.g(b, "100");
-            else if (d === _u.LIQUIDITY) {
-              if (null === p || void 0 === p ? void 0 : p.liquidityToken) {
-                var E = ks(b, p.liquidityToken);
-                E && m && !E.greaterThan(m) && (I = new Z.g(E.raw, m.raw))
+              l = o.chainId,
+              u = tu(),
+              d = u.independentField,
+              b = u.typedValue,
+              p = Qo(e, t),
+              j = Object(h.a)(p, 2)[1],
+              f = ga(null !== s && void 0 !== s ? s : void 0, [null === j || void 0 === j ? void 0 : j.liquidityToken]),
+              m = null === f || void 0 === f ? void 0 : f[null !== (n = null === j || void 0 === j || null === (r = j.liquidityToken) || void 0 === r ? void 0 : r.address) && void 0 !== n ? n : ""],
+              y = [wo(e, l), wo(t, l)],
+              O = y[0],
+              v = y[1],
+              x = (a = {}, Object(C.a)(a, Hl.CURRENCY_A, O), Object(C.a)(a, Hl.CURRENCY_B, v), Object(C.a)(a, Hl.LIQUIDITY, null === j || void 0 === j ? void 0 : j.liquidityToken), a),
+              g = uo(null === j || void 0 === j ? void 0 : j.liquidityToken),
+              w = j && g && m && O && J.e.greaterThanOrEqual(g.raw, m.raw) ? new J.k(O, j.getLiquidityValue(O, g, m, !1).raw) : void 0,
+              k = j && g && m && v && J.e.greaterThanOrEqual(g.raw, m.raw) ? new J.k(v, j.getLiquidityValue(v, g, m, !1).raw) : void 0,
+              T = (i = {}, Object(C.a)(i, Hl.CURRENCY_A, w), Object(C.a)(i, Hl.CURRENCY_B, k), i),
+              I = new J.g("0", "100");
+            if (d === Hl.LIQUIDITY_PERCENT) I = new J.g(b, "100");
+            else if (d === Hl.LIQUIDITY) {
+              if (null === j || void 0 === j ? void 0 : j.liquidityToken) {
+                var E = Is(b, j.liquidityToken);
+                E && m && !E.greaterThan(m) && (I = new J.g(E.raw, m.raw))
               }
             } else if (x[d]) {
-              var N = ks(b, x[d]),
-                R = k[d];
-              N && R && !N.greaterThan(R) && (I = new Z.g(N.raw, R.raw))
+              var N = Is(b, x[d]),
+                R = T[d];
+              N && R && !N.greaterThan(R) && (I = new J.g(N.raw, R.raw))
             }
-            var S, U, A = (c = {}, Object(w.a)(c, _u.LIQUIDITY_PERCENT, I), Object(w.a)(c, _u.LIQUIDITY, m && I && I.greaterThan("0") ? new Z.k(m.token, I.multiply(m.raw).quotient) : void 0), Object(w.a)(c, _u.CURRENCY_A, v && I && I.greaterThan("0") && C ? new Z.k(v, I.multiply(C.raw).quotient) : void 0), Object(w.a)(c, _u.CURRENCY_B, O && I && I.greaterThan("0") && T ? new Z.k(O, I.multiply(T.raw).quotient) : void 0), c);
-            return s || (S = "Connect Wallet"), A[_u.LIQUIDITY] && A[_u.CURRENCY_A] && A[_u.CURRENCY_B] || (S = null !== (U = S) && void 0 !== U ? U : "Enter an amount"), {
-              pair: p,
+            var S, U, A = (c = {}, Object(C.a)(c, Hl.LIQUIDITY_PERCENT, I), Object(C.a)(c, Hl.LIQUIDITY, m && I && I.greaterThan("0") ? new J.k(m.token, I.multiply(m.raw).quotient) : void 0), Object(C.a)(c, Hl.CURRENCY_A, O && I && I.greaterThan("0") && w ? new J.k(O, I.multiply(w.raw).quotient) : void 0), Object(C.a)(c, Hl.CURRENCY_B, v && I && I.greaterThan("0") && k ? new J.k(v, I.multiply(k.raw).quotient) : void 0), c);
+            return s || (S = "Connect Wallet"), A[Hl.LIQUIDITY] && A[Hl.CURRENCY_A] && A[Hl.CURRENCY_B] || (S = null !== (U = S) && void 0 !== U ? U : "Enter an amount"), {
+              pair: j,
               parsedAmounts: A,
               error: S
             }
-          }(null !== E && void 0 !== E ? E : void 0, null !== N && void 0 !== N ? N : void 0),
-          V = q.pair,
-          W = q.parsedAmounts,
-          H = q.error,
-          G = function() {
-            var e = Object(x.c)();
+          }(null !== I && void 0 !== I ? I : void 0, null !== E && void 0 !== E ? E : void 0),
+          q = F.pair,
+          V = F.parsedAmounts,
+          W = F.error,
+          H = function() {
+            var e = Object(v.c)();
             return {
-              onUserInput: Object(a.useCallback)((function(n, t) {
-                e(zu({
-                  field: n,
-                  typedValue: t
+              onUserInput: Object(i.useCallback)((function(t, n) {
+                e(eu({
+                  field: t,
+                  typedValue: n
                 }))
               }), [e])
             }
           }().onUserInput,
-          K = !H,
-          Q = Object(a.useState)(!1),
-          J = Object(h.a)(Q, 2),
-          ee = J[0],
-          ne = J[1],
-          te = Object(a.useState)(!1),
-          re = Object(h.a)(te, 2),
-          ae = re[0],
-          ie = re[1],
-          ce = Object(a.useState)(!1),
-          oe = Object(h.a)(ce, 2),
-          se = oe[0],
-          ue = oe[1],
-          le = Object(a.useState)(""),
-          de = Object(h.a)(le, 2),
-          be = de[0],
-          fe = de[1],
+          Q = !W,
+          K = Object(i.useState)(!1),
+          X = Object(h.a)(K, 2),
+          Z = X[0],
+          ee = X[1],
+          te = Object(i.useState)(!1),
+          ne = Object(h.a)(te, 2),
+          re = ne[0],
+          ae = ne[1],
+          ie = Object(i.useState)(!1),
+          ce = Object(h.a)(ie, 2),
+          oe = ce[0],
+          se = ce[1],
+          le = Object(i.useState)(""),
+          ue = Object(h.a)(le, 2),
+          de = ue[0],
+          be = ue[1],
           pe = Zr(),
           je = Object(h.a)(pe, 1)[0],
-          me = Jr(),
-          he = Object(h.a)(me, 1)[0],
-          ye = (f = {}, Object(w.a)(f, _u.LIQUIDITY_PERCENT, W[_u.LIQUIDITY_PERCENT].equalTo("0") ? "0" : W[_u.LIQUIDITY_PERCENT].lessThan(new Z.g("1", "100")) ? "<1" : W[_u.LIQUIDITY_PERCENT].toFixed(0)), Object(w.a)(f, _u.LIQUIDITY, Y === _u.LIQUIDITY ? z : null !== (i = null === (c = W[_u.LIQUIDITY]) || void 0 === c ? void 0 : c.toSignificant(6)) && void 0 !== i ? i : ""), Object(w.a)(f, _u.CURRENCY_A, Y === _u.CURRENCY_A ? z : null !== (o = null === (u = W[_u.CURRENCY_A]) || void 0 === u ? void 0 : u.toSignificant(6)) && void 0 !== o ? o : ""), Object(w.a)(f, _u.CURRENCY_B, Y === _u.CURRENCY_B ? z : null !== (d = null === (b = W[_u.CURRENCY_B]) || void 0 === b ? void 0 : b.toSignificant(6)) && void 0 !== d ? d : ""), f),
-          ve = null === (p = W[_u.LIQUIDITY_PERCENT]) || void 0 === p ? void 0 : p.equalTo(new Z.g("1")),
-          Oe = ua(null === V || void 0 === V || null === (y = V.liquidityToken) || void 0 === y ? void 0 : y.address, ra.a, g),
-          xe = Object(a.useState)(null),
-          Ce = Object(h.a)(xe, 2),
-          we = Ce[0],
-          Te = Ce[1],
-          ke = hs(W[_u.LIQUIDITY], $),
-          Ie = Object(h.a)(ke, 2),
-          Ee = Ie[0],
-          Ne = Ie[1];
+          fe = $r(),
+          he = Object(h.a)(fe, 1)[0],
+          me = (b = {}, Object(C.a)(b, Hl.LIQUIDITY_PERCENT, V[Hl.LIQUIDITY_PERCENT].equalTo("0") ? "0" : V[Hl.LIQUIDITY_PERCENT].lessThan(new J.g("1", "100")) ? "<1" : V[Hl.LIQUIDITY_PERCENT].toFixed(0)), Object(C.a)(b, Hl.LIQUIDITY, Y === Hl.LIQUIDITY ? z : null !== (r = null === (a = V[Hl.LIQUIDITY]) || void 0 === a ? void 0 : a.toSignificant(6)) && void 0 !== r ? r : ""), Object(C.a)(b, Hl.CURRENCY_A, Y === Hl.CURRENCY_A ? z : null !== (c = null === (o = V[Hl.CURRENCY_A]) || void 0 === o ? void 0 : o.toSignificant(6)) && void 0 !== c ? c : ""), Object(C.a)(b, Hl.CURRENCY_B, Y === Hl.CURRENCY_B ? z : null !== (s = null === (u = V[Hl.CURRENCY_B]) || void 0 === u ? void 0 : u.toSignificant(6)) && void 0 !== s ? s : ""), b),
+          ye = null === (p = V[Hl.LIQUIDITY_PERCENT]) || void 0 === p ? void 0 : p.equalTo(new J.g("1")),
+          Oe = ua(null === q || void 0 === q || null === (m = q.liquidityToken) || void 0 === m ? void 0 : m.address, aa.abi, x),
+          ve = Object(i.useState)(null),
+          xe = Object(h.a)(ve, 2),
+          Ce = xe[0],
+          we = xe[1],
+          ke = ys(V[Hl.LIQUIDITY], $),
+          Te = Object(h.a)(ke, 2),
+          Ie = Te[0],
+          Ee = Te[1];
 
-        function Re() {
-          return (Re = Object(m.a)(j.a.mark((function e() {
-            var n, t, r, a, i, c, o, s;
+        function Ne() {
+          return (Ne = Object(f.a)(j.a.mark((function e() {
+            var t, n, r, a, i, c, o, s;
             return j.a.wrap((function(e) {
               for (;;) switch (e.prev = e.next) {
                 case 0:
-                  if (Oe && V && A) {
+                  if (Oe && q && U) {
                     e.next = 2;
                     break
                   }
                   throw new Error("missing dependencies");
                 case 2:
-                  if (n = W[_u.LIQUIDITY]) {
+                  if (t = V[Hl.LIQUIDITY]) {
                     e.next = 5;
                     break
                   }
                   throw new Error("missing liquidity amount");
                 case 5:
-                  return e.next = 7, Oe.nonces(S);
+                  return e.next = 7, Oe.nonces(R);
                 case 7:
-                  t = e.sent, r = Math.ceil(Date.now() / 1e3) + je, a = [{
+                  n = e.sent, r = Math.ceil(Date.now() / 1e3) + je, a = [{
                     name: "name",
                     type: "string"
                   }, {
@@ -6536,8 +5757,8 @@
                   }], i = {
                     name: "Pancake LPs",
                     version: "1",
-                    chainId: U,
-                    verifyingContract: V.liquidityToken.address
+                    chainId: S,
+                    verifyingContract: q.liquidityToken.address
                   }, c = [{
                     name: "owner",
                     type: "address"
@@ -6554,10 +5775,10 @@
                     name: "deadline",
                     type: "uint256"
                   }], o = {
-                    owner: S,
+                    owner: R,
                     spender: $,
-                    value: n.raw.toString(),
-                    nonce: t.toHexString(),
+                    value: t.raw.toString(),
+                    nonce: n.toHexString(),
                     deadline: r
                   }, s = JSON.stringify({
                     types: {
@@ -6567,15 +5788,15 @@
                     domain: i,
                     primaryType: "Permit",
                     message: o
-                  }), A.send("eth_signTypedData_v4", [S, s]).then(Pu.splitSignature).then((function(e) {
-                    Te({
+                  }), U.send("eth_signTypedData_v4", [R, s]).then(Ql.m).then((function(e) {
+                    we({
                       v: e.v,
                       r: e.r,
                       s: e.s,
                       deadline: r
                     })
                   })).catch((function(e) {
-                    4001 !== (null === e || void 0 === e ? void 0 : e.code) && Ne()
+                    4001 !== (null === e || void 0 === e ? void 0 : e.code) && Ee()
                   }));
                 case 15:
                 case "end":
@@ -6584,85 +5805,85 @@
             }), e)
           })))).apply(this, arguments)
         }
-        var Se = Object(a.useCallback)((function(e, n) {
-            return Te(null), G(e, n)
-          }), [G]),
-          Ue = Object(a.useCallback)((function(e) {
-            return Se(_u.LIQUIDITY, e)
-          }), [Se]),
-          Ae = Object(a.useCallback)((function(e) {
-            return Se(_u.CURRENCY_A, e)
-          }), [Se]),
-          Be = Object(a.useCallback)((function(e) {
-            return Se(_u.CURRENCY_B, e)
-          }), [Se]),
-          Me = is();
+        var Re = Object(i.useCallback)((function(e, t) {
+            return we(null), H(e, t)
+          }), [H]),
+          Se = Object(i.useCallback)((function(e) {
+            return Re(Hl.LIQUIDITY, e)
+          }), [Re]),
+          Ue = Object(i.useCallback)((function(e) {
+            return Re(Hl.CURRENCY_A, e)
+          }), [Re]),
+          Ae = Object(i.useCallback)((function(e) {
+            return Re(Hl.CURRENCY_B, e)
+          }), [Re]),
+          Pe = cs();
 
         function Le() {
-          return _e.apply(this, arguments)
+          return De.apply(this, arguments)
         }
 
-        function _e() {
-          return (_e = Object(m.a)(j.a.mark((function e() {
-            var n, t, r, a, i, c, o, s, u, l, d, b, f, p, m;
+        function De() {
+          return (De = Object(f.a)(j.a.mark((function e() {
+            var t, n, r, a, i, c, o, s, l, u, d, b, p, f, h;
             return j.a.wrap((function(e) {
               for (;;) switch (e.prev = e.next) {
                 case 0:
-                  if (U && A && S) {
+                  if (S && U && R) {
                     e.next = 2;
                     break
                   }
                   throw new Error("missing dependencies");
                 case 2:
-                  if (t = W[_u.CURRENCY_A], r = W[_u.CURRENCY_B], t && r) {
+                  if (n = V[Hl.CURRENCY_A], r = V[Hl.CURRENCY_B], n && r) {
                     e.next = 5;
                     break
                   }
                   throw new Error("missing currency amounts");
                 case 5:
-                  if (a = xn(0, A, S), n = {}, Object(w.a)(n, _u.CURRENCY_A, vn(t, he)[0]), Object(w.a)(n, _u.CURRENCY_B, vn(r, he)[0]), i = n, E && N) {
+                  if (a = xt(0, U, R), t = {}, Object(C.a)(t, Hl.CURRENCY_A, Ot(n, he)[0]), Object(C.a)(t, Hl.CURRENCY_B, Ot(r, he)[0]), i = t, I && E) {
                     e.next = 9;
                     break
                   }
                   throw new Error("missing tokens");
                 case 9:
-                  if (c = W[_u.LIQUIDITY]) {
+                  if (c = V[Hl.LIQUIDITY]) {
                     e.next = 12;
                     break
                   }
                   throw new Error("missing liquidity amount");
                 case 12:
-                  if (o = N === Z.d, s = E === Z.d || o, u = Math.ceil(Date.now() / 1e3) + je, M && L) {
+                  if (o = E === J.d, s = I === J.d || o, l = Math.ceil(Date.now() / 1e3) + je, M && L) {
                     e.next = 17;
                     break
                   }
                   throw new Error("could not wrap");
                 case 17:
-                  if (Ee !== ss.APPROVED) {
+                  if (Ie !== ls.APPROVED) {
                     e.next = 21;
                     break
                   }
-                  s ? (l = ["removeLiquidityETH", "removeLiquidityETHSupportingFeeOnTransferTokens"], d = [o ? M.address : L.address, c.raw.toString(), i[o ? _u.CURRENCY_A : _u.CURRENCY_B].toString(), i[o ? _u.CURRENCY_B : _u.CURRENCY_A].toString(), S, u]) : (l = ["removeLiquidity"], d = [M.address, L.address, c.raw.toString(), i[_u.CURRENCY_A].toString(), i[_u.CURRENCY_B].toString(), S, u]), e.next = 26;
+                  s ? (u = ["removeLiquidityETH", "removeLiquidityETHSupportingFeeOnTransferTokens"], d = [o ? M.address : L.address, c.raw.toString(), i[o ? Hl.CURRENCY_A : Hl.CURRENCY_B].toString(), i[o ? Hl.CURRENCY_B : Hl.CURRENCY_A].toString(), R, l]) : (u = ["removeLiquidity"], d = [M.address, L.address, c.raw.toString(), i[Hl.CURRENCY_A].toString(), i[Hl.CURRENCY_B].toString(), R, l]), e.next = 26;
                   break;
                 case 21:
-                  if (null === we) {
+                  if (null === Ce) {
                     e.next = 25;
                     break
                   }
-                  s ? (l = ["removeLiquidityETHWithPermit", "removeLiquidityETHWithPermitSupportingFeeOnTransferTokens"], d = [o ? M.address : L.address, c.raw.toString(), i[o ? _u.CURRENCY_A : _u.CURRENCY_B].toString(), i[o ? _u.CURRENCY_B : _u.CURRENCY_A].toString(), S, we.deadline, !1, we.v, we.r, we.s]) : (l = ["removeLiquidityWithPermit"], d = [M.address, L.address, c.raw.toString(), i[_u.CURRENCY_A].toString(), i[_u.CURRENCY_B].toString(), S, we.deadline, !1, we.v, we.r, we.s]), e.next = 26;
+                  s ? (u = ["removeLiquidityETHWithPermit", "removeLiquidityETHWithPermitSupportingFeeOnTransferTokens"], d = [o ? M.address : L.address, c.raw.toString(), i[o ? Hl.CURRENCY_A : Hl.CURRENCY_B].toString(), i[o ? Hl.CURRENCY_B : Hl.CURRENCY_A].toString(), R, Ce.deadline, !1, Ce.v, Ce.r, Ce.s]) : (u = ["removeLiquidityWithPermit"], d = [M.address, L.address, c.raw.toString(), i[Hl.CURRENCY_A].toString(), i[Hl.CURRENCY_B].toString(), R, Ce.deadline, !1, Ce.v, Ce.r, Ce.s]), e.next = 26;
                   break;
                 case 25:
                   throw new Error("Attempting to confirm without approval or a signature. Please contact support.");
                 case 26:
-                  return e.next = 28, Promise.all(l.map((function(e, n) {
-                    var t;
-                    return (t = a.estimateGas)[e].apply(t, Object(X.a)(d)).then(yn).catch((function(t) {
-                      console.error("estimateGas failed", n, e, d, t)
+                  return e.next = 28, Promise.all(u.map((function(e, t) {
+                    var n;
+                    return (n = a.estimateGas)[e].apply(n, Object(G.a)(d)).then(yt).catch((function(n) {
+                      console.error("estimateGas failed", t, e, d, n)
                     }))
                   })));
                 case 28:
-                  if (b = e.sent, -1 !== (f = b.findIndex((function(e) {
-                      return bn.a.isBigNumber(e)
+                  if (b = e.sent, -1 !== (p = b.findIndex((function(e) {
+                      return bt.a.isBigNumber(e)
                     })))) {
                     e.next = 34;
                     break
@@ -6670,15 +5891,15 @@
                   console.error("This transaction would fail. Please contact support."), e.next = 39;
                   break;
                 case 34:
-                  return p = l[f], m = b[f], ue(!0), e.next = 39, a[p].apply(a, Object(X.a)(d).concat([{
-                    gasLimit: m
+                  return f = u[p], h = b[p], se(!0), e.next = 39, a[f].apply(a, Object(G.a)(d).concat([{
+                    gasLimit: h
                   }])).then((function(e) {
-                    var n, t;
-                    ue(!1), Me(e, {
-                      summary: "Remove ".concat(null === (n = W[_u.CURRENCY_A]) || void 0 === n ? void 0 : n.toSignificant(3), " ").concat(null === E || void 0 === E ? void 0 : E.symbol, " and ").concat(null === (t = W[_u.CURRENCY_B]) || void 0 === t ? void 0 : t.toSignificant(3), " ").concat(null === N || void 0 === N ? void 0 : N.symbol)
-                    }), fe(e.hash)
+                    var t, n;
+                    se(!1), Pe(e, {
+                      summary: "Remove ".concat(null === (t = V[Hl.CURRENCY_A]) || void 0 === t ? void 0 : t.toSignificant(3), " ").concat(null === I || void 0 === I ? void 0 : I.symbol, " and ").concat(null === (n = V[Hl.CURRENCY_B]) || void 0 === n ? void 0 : n.toSignificant(3), " ").concat(null === E || void 0 === E ? void 0 : E.symbol)
+                    }), be(e.hash)
                   })).catch((function(e) {
-                    ue(!1), console.error(e)
+                    se(!1), console.error(e)
                   }));
                 case 39:
                 case "end":
@@ -6688,24 +5909,47 @@
           })))).apply(this, arguments)
         }
 
-        function Fe() {
-          var e, n;
-          return Object(r.jsxs)(De, {
+        function _e() {
+          var e, t;
+          return Object(it.jsxs)(Me, {
             gap: "md",
             style: {
               marginTop: "20px"
             },
-            children: [Object(r.jsxs)(en, {
+            children: [Object(it.jsxs)(et, {
               align: "flex-end",
-              children: [Object(r.jsx)(s.y, {
+              children: [Object(it.jsx)(l.y, {
                 fontSize: "24px",
-                children: null === (e = W[_u.CURRENCY_A]) || void 0 === e ? void 0 : e.toSignificant(6)
-              }), Object(r.jsxs)(rn, {
+                children: null === (e = V[Hl.CURRENCY_A]) || void 0 === e ? void 0 : e.toSignificant(6)
+              }), Object(it.jsxs)(rt, {
                 gap: "4px",
-                children: [Object(r.jsx)(mi, {
+                children: [Object(it.jsx)(yi, {
+                  currency: I,
+                  size: "24px"
+                }), Object(it.jsx)(l.y, {
+                  fontSize: "24px",
+                  style: {
+                    marginLeft: "10px"
+                  },
+                  children: null === I || void 0 === I ? void 0 : I.symbol
+                })]
+              })]
+            }), Object(it.jsx)(rt, {
+              children: Object(it.jsx)(Kl.a, {
+                size: "16",
+                color: D.colors.textSubtle
+              })
+            }), Object(it.jsxs)(et, {
+              align: "flex-end",
+              children: [Object(it.jsx)(l.y, {
+                fontSize: "24px",
+                children: null === (t = V[Hl.CURRENCY_B]) || void 0 === t ? void 0 : t.toSignificant(6)
+              }), Object(it.jsxs)(rt, {
+                gap: "4px",
+                children: [Object(it.jsx)(yi, {
                   currency: E,
                   size: "24px"
-                }), Object(r.jsx)(s.y, {
+                }), Object(it.jsx)(l.y, {
                   fontSize: "24px",
                   style: {
                     marginLeft: "10px"
@@ -6713,30 +5957,7 @@
                   children: null === E || void 0 === E ? void 0 : E.symbol
                 })]
               })]
-            }), Object(r.jsx)(rn, {
-              children: Object(r.jsx)(Du.a, {
-                size: "16",
-                color: _.colors.textSubtle
-              })
-            }), Object(r.jsxs)(en, {
-              align: "flex-end",
-              children: [Object(r.jsx)(s.y, {
-                fontSize: "24px",
-                children: null === (n = W[_u.CURRENCY_B]) || void 0 === n ? void 0 : n.toSignificant(6)
-              }), Object(r.jsxs)(rn, {
-                gap: "4px",
-                children: [Object(r.jsx)(mi, {
-                  currency: N,
-                  size: "24px"
-                }), Object(r.jsx)(s.y, {
-                  fontSize: "24px",
-                  style: {
-                    marginLeft: "10px"
-                  },
-                  children: null === N || void 0 === N ? void 0 : N.symbol
-                })]
-              })]
-            }), Object(r.jsx)(s.y, {
+            }), Object(it.jsx)(l.y, {
               small: !0,
               color: "textSubtle",
               textAlign: "left",
@@ -6751,358 +5972,330 @@
 
         function Ye() {
           var e;
-          return Object(r.jsxs)(r.Fragment, {
-            children: [Object(r.jsxs)(en, {
-              children: [Object(r.jsxs)(s.y, {
+          return Object(it.jsxs)(it.Fragment, {
+            children: [Object(it.jsxs)(et, {
+              children: [Object(it.jsxs)(l.y, {
                 color: "textSubtle",
-                children: ["LP ".concat(null === E || void 0 === E ? void 0 : E.symbol, "/").concat(null === N || void 0 === N ? void 0 : N.symbol), " Burned"]
-              }), Object(r.jsxs)(rn, {
-                children: [Object(r.jsx)(Pc, {
-                  currency0: E,
-                  currency1: N,
+                children: ["LP ".concat(null === I || void 0 === I ? void 0 : I.symbol, "/").concat(null === E || void 0 === E ? void 0 : E.symbol), " Burned"]
+              }), Object(it.jsxs)(rt, {
+                children: [Object(it.jsx)(Lc, {
+                  currency0: I,
+                  currency1: E,
                   margin: !0
-                }), Object(r.jsx)(s.y, {
-                  children: null === (e = W[_u.LIQUIDITY]) || void 0 === e ? void 0 : e.toSignificant(6)
+                }), Object(it.jsx)(l.y, {
+                  children: null === (e = V[Hl.LIQUIDITY]) || void 0 === e ? void 0 : e.toSignificant(6)
                 })]
               })]
-            }), V && Object(r.jsxs)(r.Fragment, {
-              children: [Object(r.jsxs)(en, {
-                children: [Object(r.jsx)(s.y, {
+            }), q && Object(it.jsxs)(it.Fragment, {
+              children: [Object(it.jsxs)(et, {
+                children: [Object(it.jsx)(l.y, {
                   color: "textSubtle",
-                  children: B(1182, "Price")
-                }), Object(r.jsxs)(s.y, {
-                  children: ["1 ", null === E || void 0 === E ? void 0 : E.symbol, " = ", M ? V.priceOf(M).toSignificant(6) : "-", " ", null === N || void 0 === N ? void 0 : N.symbol]
+                  children: A(1182, "Price")
+                }), Object(it.jsxs)(l.y, {
+                  children: ["1 ", null === I || void 0 === I ? void 0 : I.symbol, " = ", M ? q.priceOf(M).toSignificant(6) : "-", " ", null === E || void 0 === E ? void 0 : E.symbol]
                 })]
-              }), Object(r.jsxs)(en, {
-                children: [Object(r.jsx)("div", {}), Object(r.jsxs)(s.y, {
-                  children: ["1 ", null === N || void 0 === N ? void 0 : N.symbol, " = ", L ? V.priceOf(L).toSignificant(6) : "-", " ", null === E || void 0 === E ? void 0 : E.symbol]
+              }), Object(it.jsxs)(et, {
+                children: [Object(it.jsx)("div", {}), Object(it.jsxs)(l.y, {
+                  children: ["1 ", null === E || void 0 === E ? void 0 : E.symbol, " = ", L ? q.priceOf(L).toSignificant(6) : "-", " ", null === I || void 0 === I ? void 0 : I.symbol]
                 })]
               })]
-            }), Object(r.jsx)(s.c, {
-              disabled: !(Ee === ss.APPROVED || null !== we),
+            }), Object(it.jsx)(l.c, {
+              disabled: !(Ie === ls.APPROVED || null !== Ce),
               onClick: Le,
-              children: B(1136, "Confirm")
+              children: A(1136, "Confirm")
             })]
           })
         }
-        var ze = "Removing ".concat(null === (v = W[_u.CURRENCY_A]) || void 0 === v ? void 0 : v.toSignificant(6), " ").concat(null === E || void 0 === E ? void 0 : E.symbol, " and ").concat(null === (O = W[_u.CURRENCY_B]) || void 0 === O ? void 0 : O.toSignificant(6), " ").concat(null === N || void 0 === N ? void 0 : N.symbol),
-          qe = Object(a.useCallback)((function(e) {
-            Se(_u.LIQUIDITY_PERCENT, e.toString())
-          }), [Se]),
-          Ve = E === Z.d || N === Z.d,
-          We = Boolean(U && (E && Object(Z.o)(Z.n[U], E) || N && Object(Z.o)(Z.n[U], N))),
-          He = Object(a.useCallback)((function(e) {
-            I && lo(e) === I ? C.push("/remove/".concat(lo(e), "/").concat(k)) : C.push("/remove/".concat(lo(e), "/").concat(I))
-          }), [k, I, C]),
-          Ge = Object(a.useCallback)((function(e) {
-            k && lo(e) === k ? C.push("/remove/".concat(I, "/").concat(lo(e))) : C.push("/remove/".concat(k, "/").concat(lo(e)))
-          }), [k, I, C]),
-          Ke = Object(a.useCallback)((function() {
-            ne(!1), Te(null), be && Se(_u.LIQUIDITY_PERCENT, "0"), fe("")
-          }), [Se, be]),
-          Qe = function(e, n) {
-            var t = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : 100,
-              r = Object(a.useState)((function() {
+        var ze = "Removing ".concat(null === (y = V[Hl.CURRENCY_A]) || void 0 === y ? void 0 : y.toSignificant(6), " ").concat(null === I || void 0 === I ? void 0 : I.symbol, " and ").concat(null === (O = V[Hl.CURRENCY_B]) || void 0 === O ? void 0 : O.toSignificant(6), " ").concat(null === E || void 0 === E ? void 0 : E.symbol),
+          Fe = Object(i.useCallback)((function(e) {
+            Re(Hl.LIQUIDITY_PERCENT, e.toString())
+          }), [Re]),
+          qe = I === J.d || E === J.d,
+          Ve = Boolean(S && (I && Object(J.o)(J.n[S], I) || E && Object(J.o)(J.n[S], E))),
+          We = Object(i.useCallback)((function(e) {
+            T && bo(e) === T ? g.push("/remove/".concat(bo(e), "/").concat(k)) : g.push("/remove/".concat(bo(e), "/").concat(T))
+          }), [k, T, g]),
+          He = Object(i.useCallback)((function(e) {
+            k && bo(e) === k ? g.push("/remove/".concat(T, "/").concat(bo(e))) : g.push("/remove/".concat(k, "/").concat(bo(e)))
+          }), [k, T, g]),
+          Qe = Object(i.useCallback)((function() {
+            ee(!1), we(null), de && Re(Hl.LIQUIDITY_PERCENT, "0"), be("")
+          }), [Re, de]),
+          Ke = function(e, t) {
+            var n = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : 100,
+              r = Object(i.useState)((function() {
                 return e
               })),
-              i = Object(h.a)(r, 2),
-              c = i[0],
-              o = i[1],
-              s = Object(a.useRef)(),
-              u = Object(a.useCallback)((function(e) {
+              a = Object(h.a)(r, 2),
+              c = a[0],
+              o = a[1],
+              s = Object(i.useRef)(),
+              l = Object(i.useCallback)((function(e) {
                 o(e), s.current && clearTimeout(s.current), s.current = setTimeout((function() {
-                  n(e), s.current = void 0
-                }), t)
-              }), [t, n]);
-            return Object(a.useEffect)((function() {
+                  t(e), s.current = void 0
+                }), n)
+              }), [n, t]);
+            return Object(i.useEffect)((function() {
               s.current && (clearTimeout(s.current), s.current = void 0), o(e)
-            }), [e]), [c, u]
-          }(Number.parseInt(W[_u.LIQUIDITY_PERCENT].toFixed(0)), qe),
-          Xe = Object(h.a)(Qe, 2),
-          Je = Xe[0],
-          Ze = Xe[1];
-        return Object(r.jsxs)(r.Fragment, {
-          children: [Object(r.jsxs)(qs, {
-            children: [Object(r.jsx)(co, {
+            }), [e]), [c, l]
+          }(Number.parseInt(V[Hl.LIQUIDITY_PERCENT].toFixed(0)), Fe),
+          Ge = Object(h.a)(Ke, 2),
+          Xe = Ge[0],
+          Je = Ge[1];
+        return Object(it.jsxs)(it.Fragment, {
+          children: [Object(it.jsxs)(nl, {
+            children: [Object(it.jsx)(oo, {
               adding: !1
-            }), Object(r.jsxs)(Gs, {
-              children: [Object(r.jsx)(Gt, {
-                isOpen: ee,
-                onDismiss: Ke,
-                attemptingTxn: se,
-                hash: be || "",
+            }), Object(it.jsxs)(rl, {
+              children: [Object(it.jsx)(Gn, {
+                isOpen: Z,
+                onDismiss: Qe,
+                attemptingTxn: oe,
+                hash: de || "",
                 content: function() {
-                  return Object(r.jsx)(Vt, {
-                    title: B(1156, "You will receive"),
-                    onDismiss: Ke,
-                    topContent: Fe,
+                  return Object(it.jsx)(Hn, {
+                    title: A(1156, "You will receive"),
+                    onDismiss: Qe,
+                    topContent: _e,
                     bottomContent: Ye
                   })
                 },
                 pendingText: ze
-              }), Object(r.jsxs)(De, {
+              }), Object(it.jsxs)(Me, {
                 gap: "md",
-                children: [Object(r.jsx)(Gu, {
-                  children: Object(r.jsx)(Hu, {
-                    children: Object(r.jsxs)(De, {
-                      children: [Object(r.jsxs)(en, {
-                        children: [Object(r.jsx)(s.y, {
+                children: [Object(it.jsx)(ou, {
+                  children: Object(it.jsx)(cu, {
+                    children: Object(it.jsxs)(Me, {
+                      children: [Object(it.jsxs)(et, {
+                        children: [Object(it.jsx)(l.y, {
                           children: "Amount"
-                        }), Object(r.jsx)(Ks, {
+                        }), Object(it.jsx)(al, {
                           onClick: function() {
-                            ie(!ae)
+                            ae(!re)
                           },
-                          children: ae ? B(1184, "Simple") : B(1186, "Detailed")
+                          children: re ? A(1184, "Simple") : A(1186, "Detailed")
                         })]
-                      }), Object(r.jsx)(s.n, {
+                      }), Object(it.jsx)(l.n, {
                         justifyContent: "start",
-                        children: Object(r.jsxs)(s.y, {
+                        children: Object(it.jsxs)(l.y, {
                           fontSize: "64px",
-                          children: [ye[_u.LIQUIDITY_PERCENT], "%"]
+                          children: [me[Hl.LIQUIDITY_PERCENT], "%"]
                         })
-                      }), !ae && Object(r.jsxs)(r.Fragment, {
-                        children: [Object(r.jsx)(s.n, {
+                      }), !re && Object(it.jsxs)(it.Fragment, {
+                        children: [Object(it.jsx)(l.n, {
                           mb: "8px",
-                          children: Object(r.jsx)(Yu, {
-                            value: Je,
-                            onChange: Ze
+                          children: Object(it.jsx)(Jl, {
+                            value: Xe,
+                            onChange: Je
                           })
-                        }), Object(r.jsxs)(s.n, {
+                        }), Object(it.jsxs)(l.n, {
                           justifyContent: "space-around",
-                          children: [Object(r.jsx)(s.c, {
+                          children: [Object(it.jsx)(l.c, {
                             variant: "tertiary",
                             scale: "sm",
                             onClick: function() {
-                              return Se(_u.LIQUIDITY_PERCENT, "25")
+                              return Re(Hl.LIQUIDITY_PERCENT, "25")
                             },
                             children: "25%"
-                          }), Object(r.jsx)(s.c, {
+                          }), Object(it.jsx)(l.c, {
                             variant: "tertiary",
                             scale: "sm",
                             onClick: function() {
-                              return Se(_u.LIQUIDITY_PERCENT, "50")
+                              return Re(Hl.LIQUIDITY_PERCENT, "50")
                             },
                             children: "50%"
-                          }), Object(r.jsx)(s.c, {
+                          }), Object(it.jsx)(l.c, {
                             variant: "tertiary",
                             scale: "sm",
                             onClick: function() {
-                              return Se(_u.LIQUIDITY_PERCENT, "75")
+                              return Re(Hl.LIQUIDITY_PERCENT, "75")
                             },
                             children: "75%"
-                          }), Object(r.jsx)(s.c, {
+                          }), Object(it.jsx)(l.c, {
                             variant: "tertiary",
                             scale: "sm",
                             onClick: function() {
-                              return Se(_u.LIQUIDITY_PERCENT, "100")
+                              return Re(Hl.LIQUIDITY_PERCENT, "100")
                             },
-                            children: B(166, "Max")
+                            children: A(166, "Max")
                           })]
                         })]
                       })]
                     })
                   })
-                }), !ae && Object(r.jsxs)(r.Fragment, {
-                  children: [Object(r.jsx)(Pe, {
-                    children: Object(r.jsx)(Mu.a, {
+                }), !re && Object(it.jsxs)(it.Fragment, {
+                  children: [Object(it.jsx)(Be, {
+                    children: Object(it.jsx)(Gl.a, {
                       size: "16",
-                      color: _.colors.textSubtle
+                      color: D.colors.textSubtle
                     })
-                  }), Object(r.jsx)(Gu, {
-                    children: Object(r.jsx)(Hu, {
-                      children: Object(r.jsxs)(De, {
+                  }), Object(it.jsx)(ou, {
+                    children: Object(it.jsx)(cu, {
+                      children: Object(it.jsxs)(Me, {
                         gap: "10px",
-                        children: [Object(r.jsxs)(en, {
-                          children: [Object(r.jsx)(s.y, {
+                        children: [Object(it.jsxs)(et, {
+                          children: [Object(it.jsx)(l.y, {
                             fontSize: "24px",
-                            children: ye[_u.CURRENCY_A] || "-"
-                          }), Object(r.jsxs)(rn, {
-                            children: [Object(r.jsx)(mi, {
+                            children: me[Hl.CURRENCY_A] || "-"
+                          }), Object(it.jsxs)(rt, {
+                            children: [Object(it.jsx)(yi, {
+                              currency: I,
+                              style: {
+                                marginRight: "12px"
+                              }
+                            }), Object(it.jsx)(l.y, {
+                              fontSize: "24px",
+                              id: "remove-liquidity-tokena-symbol",
+                              children: null === I || void 0 === I ? void 0 : I.symbol
+                            })]
+                          })]
+                        }), Object(it.jsxs)(et, {
+                          children: [Object(it.jsx)(l.y, {
+                            fontSize: "24px",
+                            children: me[Hl.CURRENCY_B] || "-"
+                          }), Object(it.jsxs)(rt, {
+                            children: [Object(it.jsx)(yi, {
                               currency: E,
                               style: {
                                 marginRight: "12px"
                               }
-                            }), Object(r.jsx)(s.y, {
+                            }), Object(it.jsx)(l.y, {
                               fontSize: "24px",
-                              id: "remove-liquidity-tokena-symbol",
+                              id: "remove-liquidity-tokenb-symbol",
                               children: null === E || void 0 === E ? void 0 : E.symbol
                             })]
                           })]
-                        }), Object(r.jsxs)(en, {
-                          children: [Object(r.jsx)(s.y, {
-                            fontSize: "24px",
-                            children: ye[_u.CURRENCY_B] || "-"
-                          }), Object(r.jsxs)(rn, {
-                            children: [Object(r.jsx)(mi, {
-                              currency: N,
-                              style: {
-                                marginRight: "12px"
-                              }
-                            }), Object(r.jsx)(s.y, {
-                              fontSize: "24px",
-                              id: "remove-liquidity-tokenb-symbol",
-                              children: null === N || void 0 === N ? void 0 : N.symbol
-                            })]
-                          })]
-                        }), U && (We || Ve) ? Object(r.jsx)(en, {
+                        }), S && (Ve || qe) ? Object(it.jsx)(et, {
                           style: {
                             justifyContent: "flex-end"
                           },
-                          children: Ve ? Object(r.jsx)(Nn, {
-                            to: "/remove/".concat(E === Z.d ? Z.n[U].address : k, "/").concat(N === Z.d ? Z.n[U].address : I),
-                            children: B(1188, "Receive WBNB")
-                          }) : We ? Object(r.jsx)(Nn, {
-                            to: "/remove/".concat(E && Object(Z.o)(E, Z.n[U]) ? "BNB" : k, "/").concat(N && Object(Z.o)(N, Z.n[U]) ? "BNB" : I),
-                            children: B(1190, "Receive BNB")
+                          children: qe ? Object(it.jsx)(Nt, {
+                            to: "/remove/".concat(I === J.d ? J.n[S].address : k, "/").concat(E === J.d ? J.n[S].address : T),
+                            children: A(1188, "Receive WBNB")
+                          }) : Ve ? Object(it.jsx)(Nt, {
+                            to: "/remove/".concat(I && Object(J.o)(I, J.n[S]) ? "BNB" : k, "/").concat(E && Object(J.o)(E, J.n[S]) ? "BNB" : T),
+                            children: A(1190, "Receive BNB")
                           }) : null
                         }) : null]
                       })
                     })
                   })]
-                }), Object(r.jsxs)(Gu, {
+                }), Object(it.jsxs)(ou, {
                   style: {
                     paddingBottom: "24px"
                   },
-                  children: [ae && Object(r.jsxs)(r.Fragment, {
-                    children: [Object(r.jsx)(Zc, {
-                      value: ye[_u.LIQUIDITY],
+                  children: [re && Object(it.jsxs)(it.Fragment, {
+                    children: [Object(it.jsx)(no, {
+                      value: me[Hl.LIQUIDITY],
+                      onUserInput: Se,
+                      onMax: function() {
+                        Re(Hl.LIQUIDITY_PERCENT, "100")
+                      },
+                      showMaxButton: !ye,
+                      disableCurrencySelect: !0,
+                      currency: null === q || void 0 === q ? void 0 : q.liquidityToken,
+                      pair: q,
+                      id: "liquidity-amount"
+                    }), Object(it.jsx)(Be, {
+                      children: Object(it.jsx)(Gl.a, {
+                        size: "16",
+                        color: D.colors.textSubtle
+                      })
+                    }), Object(it.jsx)(no, {
+                      hideBalance: !0,
+                      value: me[Hl.CURRENCY_A],
                       onUserInput: Ue,
                       onMax: function() {
-                        Se(_u.LIQUIDITY_PERCENT, "100")
+                        return Re(Hl.LIQUIDITY_PERCENT, "100")
                       },
-                      showMaxButton: !ve,
-                      disableCurrencySelect: !0,
-                      currency: null === V || void 0 === V ? void 0 : V.liquidityToken,
-                      pair: V,
-                      id: "liquidity-amount"
-                    }), Object(r.jsx)(Pe, {
-                      children: Object(r.jsx)(Mu.a, {
+                      showMaxButton: !ye,
+                      currency: I,
+                      label: "Output",
+                      onCurrencySelect: We,
+                      id: "remove-liquidity-tokena"
+                    }), Object(it.jsx)(Be, {
+                      children: Object(it.jsx)(Kl.a, {
                         size: "16",
-                        color: _.colors.textSubtle
+                        color: D.colors.textSubtle
                       })
-                    }), Object(r.jsx)(Zc, {
+                    }), Object(it.jsx)(no, {
                       hideBalance: !0,
-                      value: ye[_u.CURRENCY_A],
+                      value: me[Hl.CURRENCY_B],
                       onUserInput: Ae,
                       onMax: function() {
-                        return Se(_u.LIQUIDITY_PERCENT, "100")
+                        return Re(Hl.LIQUIDITY_PERCENT, "100")
                       },
-                      showMaxButton: !ve,
+                      showMaxButton: !ye,
                       currency: E,
                       label: "Output",
                       onCurrencySelect: He,
-                      id: "remove-liquidity-tokena"
-                    }), Object(r.jsx)(Pe, {
-                      children: Object(r.jsx)(Du.a, {
-                        size: "16",
-                        color: _.colors.textSubtle
-                      })
-                    }), Object(r.jsx)(Zc, {
-                      hideBalance: !0,
-                      value: ye[_u.CURRENCY_B],
-                      onUserInput: Be,
-                      onMax: function() {
-                        return Se(_u.LIQUIDITY_PERCENT, "100")
-                      },
-                      showMaxButton: !ve,
-                      currency: N,
-                      label: "Output",
-                      onCurrencySelect: Ge,
                       id: "remove-liquidity-tokenb"
                     })]
-                  }), V && Object(r.jsxs)("div", {
+                  }), q && Object(it.jsxs)("div", {
                     style: {
                       padding: "24px"
                     },
-                    children: [Object(r.jsxs)(s.n, {
+                    children: [Object(it.jsxs)(l.n, {
                       justifyContent: "space-between",
                       mb: "8px",
-                      children: ["Price:", Object(r.jsxs)("div", {
-                        children: ["1 ", null === E || void 0 === E ? void 0 : E.symbol, " = ", M ? V.priceOf(M).toSignificant(6) : "-", " ", null === N || void 0 === N ? void 0 : N.symbol]
+                      children: ["Price:", Object(it.jsxs)("div", {
+                        children: ["1 ", null === I || void 0 === I ? void 0 : I.symbol, " = ", M ? q.priceOf(M).toSignificant(6) : "-", " ", null === E || void 0 === E ? void 0 : E.symbol]
                       })]
-                    }), Object(r.jsxs)(s.n, {
+                    }), Object(it.jsxs)(l.n, {
                       justifyContent: "space-between",
-                      children: [Object(r.jsx)("div", {}), Object(r.jsxs)("div", {
-                        children: ["1 ", null === N || void 0 === N ? void 0 : N.symbol, " = ", L ? V.priceOf(L).toSignificant(6) : "-", " ", null === E || void 0 === E ? void 0 : E.symbol]
+                      children: [Object(it.jsx)("div", {}), Object(it.jsxs)("div", {
+                        children: ["1 ", null === E || void 0 === E ? void 0 : E.symbol, " = ", L ? q.priceOf(L).toSignificant(6) : "-", " ", null === I || void 0 === I ? void 0 : I.symbol]
                       })]
                     })]
-                  }), Object(r.jsx)("div", {
+                  }), Object(it.jsx)("div", {
                     style: {
                       position: "relative"
                     },
-                    children: S ? Object(r.jsxs)(en, {
-                      children: [Object(r.jsx)(s.c, {
+                    children: R ? Object(it.jsxs)(et, {
+                      children: [Object(it.jsx)(l.c, {
                         onClick: function() {
-                          return Re.apply(this, arguments)
+                          return Ne.apply(this, arguments)
                         },
-                        variant: Ee === ss.APPROVED || null !== we ? "success" : "primary",
-                        disabled: Ee !== ss.NOT_APPROVED || null !== we,
+                        variant: Ie === ls.APPROVED || null !== Ce ? "success" : "primary",
+                        disabled: Ie !== ls.NOT_APPROVED || null !== Ce,
                         mr: "8px",
-                        children: Ee === ss.PENDING ? Object(r.jsx)(Uo, {
+                        children: Ie === ls.PENDING ? Object(it.jsx)(Ao, {
                           children: "Approving"
-                        }) : Ee === ss.APPROVED || null !== we ? "Approved" : "Approve"
-                      }), Object(r.jsx)(s.c, {
+                        }) : Ie === ls.APPROVED || null !== Ce ? "Approved" : "Approve"
+                      }), Object(it.jsx)(l.c, {
                         onClick: function() {
-                          ne(!0)
+                          ee(!0)
                         },
-                        disabled: !K || null === we && Ee !== ss.APPROVED,
-                        variant: !K && W[_u.CURRENCY_A] && W[_u.CURRENCY_B] ? "danger" : "primary",
-                        children: H || "Remove"
+                        disabled: !Q || null === Ce && Ie !== ls.APPROVED,
+                        variant: !Q && V[Hl.CURRENCY_A] && V[Hl.CURRENCY_B] ? "danger" : "primary",
+                        children: W || "Remove"
                       })]
-                    }) : Object(r.jsx)(Fs, {
+                    }) : Object(it.jsx)(el, {
                       width: "100%"
                     })
                   })]
                 })]
               })]
             })]
-          }), V ? Object(r.jsx)(De, {
+          }), q ? Object(it.jsx)(Me, {
             style: {
               minWidth: "20rem",
               marginTop: "1rem"
             },
-            children: Object(r.jsx)(Yo, {
-              showUnwrapped: We,
-              pair: V
+            children: Object(it.jsx)(Fo, {
+              showUnwrapped: Ve,
+              pair: q
             })
           }) : null]
         })
       }
-
-      function Qu() {
-        var e = Object(u.a)(["\n  font-size: 1.25rem;\n  outline: none;\n  border: none;\n  flex: 1 1 auto;\n  width: 0;\n  background-color: ", ";\n  transition: color 300ms ", ";\n  color: ", ";\n  overflow: hidden;\n  text-overflow: ellipsis;\n  font-weight: 500;\n  width: 100%;\n  ::placeholder {\n    color: ", ";\n  }\n  padding: 0px;\n  -webkit-appearance: textfield;\n\n  ::-webkit-search-decoration {\n    -webkit-appearance: none;\n  }\n\n  ::-webkit-outer-spin-button,\n  ::-webkit-inner-spin-button {\n    -webkit-appearance: none;\n  }\n\n  ::placeholder {\n    color: ", ";\n  }\n"]);
-        return Qu = function() {
-          return e
-        }, e
-      }
-
-      function Xu() {
-        var e = Object(u.a)(["\n  flex: 1;\n  padding: 1rem;\n"]);
-        return Xu = function() {
-          return e
-        }, e
-      }
-
-      function Ju() {
-        var e = Object(u.a)(["\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border-radius: 1.25rem;\n  border: 1px solid ", ";\n  transition: border-color 300ms ", ",\n    color 500ms ", ";\n  background-color: ", ";\n"]);
-        return Ju = function() {
-          return e
-        }, e
-      }
-
-      function Zu() {
-        var e = Object(u.a)(["\n  display: flex;\n  flex-flow: column nowrap;\n  position: relative;\n  border-radius: 1.25rem;\n  background-color: ", ";\n  z-index: 1;\n  width: 100%;\n"]);
-        return Zu = function() {
-          return e
-        }, e
-      }
-      var $u = l.default.div(Zu(), (function(e) {
+      var lu = d.default.div(nu || (nu = Object(u.a)(["\n  display: flex;\n  flex-flow: column nowrap;\n  position: relative;\n  border-radius: 1.25rem;\n  background-color: ", ";\n  z-index: 1;\n  width: 100%;\n"])), (function(e) {
           return e.theme.colors.invertedContrast
         })),
-        el = l.default.div(Ju(), (function(e) {
-          var n = e.error,
-            t = e.theme;
-          return n ? t.colors.failure : t.colors.invertedContrast
+        uu = d.default.div(ru || (ru = Object(u.a)(["\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border-radius: 1.25rem;\n  border: 1px solid ", ";\n  transition: border-color 300ms ", ",\n    color 500ms ", ";\n  background-color: ", ";\n"])), (function(e) {
+          var t = e.error,
+            n = e.theme;
+          return t ? n.colors.failure : n.colors.invertedContrast
         }), (function(e) {
           return e.error ? "step-end" : "step-start"
         }), (function(e) {
@@ -7110,114 +6303,114 @@
         }), (function(e) {
           return e.theme.colors.invertedContrast
         })),
-        nl = l.default.div(Xu()),
-        tl = l.default.input(Qu(), (function(e) {
+        du = d.default.div(au || (au = Object(u.a)(["\n  flex: 1;\n  padding: 1rem;\n"]))),
+        bu = d.default.input(iu || (iu = Object(u.a)(["\n  font-size: 1.25rem;\n  outline: none;\n  border: none;\n  flex: 1 1 auto;\n  width: 0;\n  background-color: ", ";\n  transition: color 300ms ", ";\n  color: ", ";\n  overflow: hidden;\n  text-overflow: ellipsis;\n  font-weight: 500;\n  width: 100%;\n  ::placeholder {\n    color: ", ";\n  }\n  padding: 0px;\n  -webkit-appearance: textfield;\n\n  ::-webkit-search-decoration {\n    -webkit-appearance: none;\n  }\n\n  ::-webkit-outer-spin-button,\n  ::-webkit-inner-spin-button {\n    -webkit-appearance: none;\n  }\n\n  ::placeholder {\n    color: ", ";\n  }\n"])), (function(e) {
           return e.theme.colors.invertedContrast
         }), (function(e) {
           return e.error ? "step-end" : "step-start"
         }), (function(e) {
-          var n = e.error,
-            t = e.theme;
-          return n ? t.colors.failure : t.colors.primary
+          var t = e.error,
+            n = e.theme;
+          return t ? n.colors.failure : n.colors.primary
         }), (function(e) {
           return e.theme.colors.textDisabled
         }), (function(e) {
           return e.theme.colors.textDisabled
         }));
 
-      function rl(e) {
-        var n = e.id,
-          t = e.value,
-          i = e.onChange,
-          c = ge().chainId,
-          o = $t(),
-          u = gs(t),
-          l = u.address,
-          d = u.loading,
-          b = u.name,
-          f = Object(a.useCallback)((function(e) {
-            var n = e.target.value.replace(/\s+/g, "");
-            i(n)
-          }), [i]),
-          p = Boolean(t.length > 0 && !d && !l);
-        return Object(r.jsx)($u, {
-          id: n,
-          children: Object(r.jsx)(el, {
+      function pu(e) {
+        var t = e.id,
+          n = e.value,
+          r = e.onChange,
+          a = ge().chainId,
+          c = tr(),
+          o = Cs(n),
+          s = o.address,
+          u = o.loading,
+          d = o.name,
+          b = Object(i.useCallback)((function(e) {
+            var t = e.target.value.replace(/\s+/g, "");
+            r(t)
+          }), [r]),
+          p = Boolean(n.length > 0 && !u && !s);
+        return Object(it.jsx)(lu, {
+          id: t,
+          children: Object(it.jsx)(uu, {
             error: p,
-            children: Object(r.jsx)(nl, {
-              children: Object(r.jsxs)(De, {
+            children: Object(it.jsx)(du, {
+              children: Object(it.jsxs)(Me, {
                 gap: "md",
-                children: [Object(r.jsxs)(en, {
-                  children: [Object(r.jsx)(s.y, {
+                children: [Object(it.jsxs)(et, {
+                  children: [Object(it.jsx)(l.y, {
                     color: "textSubtle",
                     fontWeight: 500,
                     fontSize: "14px",
-                    children: o(1138, "Recipient")
-                  }), l && c && Object(r.jsx)(Sn, {
-                    href: mn(c, null !== b && void 0 !== b ? b : l, "address"),
+                    children: c(1138, "Recipient")
+                  }), s && a && Object(it.jsx)(St, {
+                    href: ht(a, null !== d && void 0 !== d ? d : s, "address"),
                     style: {
                       fontSize: "14px"
                     },
-                    children: o(116, "(View on BscScan)")
+                    children: c(116, "(View on BscScan)")
                   })]
-                }), Object(r.jsx)(tl, {
+                }), Object(it.jsx)(bu, {
                   className: "recipient-address-input",
                   type: "text",
                   autoComplete: "off",
                   autoCorrect: "off",
                   autoCapitalize: "off",
                   spellCheck: "false",
-                  placeholder: o(1140, "Wallet Address or ENS name"),
+                  placeholder: c(1140, "Wallet Address or ENS name"),
                   error: p,
                   pattern: "^(0x[a-fA-F0-9]{40})$",
-                  onChange: f,
-                  value: t
+                  onChange: b,
+                  value: n
                 })]
               })
             })
           })
         })
       }
-      var al = t(502);
+      var ju, fu = n(536);
 
-      function il(e) {
-        var n = e.priceImpact;
-        return Object(r.jsx)(Ro, {
+      function hu(e) {
+        var t = e.priceImpact;
+        return Object(it.jsx)(So, {
           fontSize: "14px",
-          severity: js(n),
-          children: n ? n.lessThan(pe) ? "<0.01%" : "".concat(n.toFixed(2), "%") : "-"
+          severity: hs(t),
+          children: t ? t.lessThan(je) ? "<0.01%" : "".concat(t.toFixed(2), "%") : "-"
         })
       }
 
-      function cl(e) {
-        var n, t, i, c, o = e.trade,
-          u = e.onConfirm,
-          l = e.allowedSlippage,
-          d = e.swapErrorMessage,
-          b = e.disabledConfirm,
-          f = Object(a.useState)(!1),
-          p = Object(h.a)(f, 2),
+      function mu(e) {
+        var t, n, r, a, c = e.trade,
+          o = e.onConfirm,
+          s = e.allowedSlippage,
+          u = e.swapErrorMessage,
+          d = e.disabledConfirm,
+          b = Object(i.useState)(!1),
+          p = Object(h.a)(b, 2),
           j = p[0],
-          m = p[1],
-          y = Object(a.useMemo)((function() {
-            return ps(o, l)
-          }), [l, o]),
-          v = Object(a.useMemo)((function() {
-            return fs(o)
-          }), [o]),
-          O = v.priceImpactWithoutFee,
-          x = v.realizedLPFee,
-          g = js(O),
-          C = $t();
-        return Object(r.jsxs)(r.Fragment, {
-          children: [Object(r.jsxs)(De, {
+          f = p[1],
+          m = Object(i.useMemo)((function() {
+            return fs(c, s)
+          }), [s, c]),
+          y = Object(i.useMemo)((function() {
+            return js(c)
+          }), [c]),
+          O = y.priceImpactWithoutFee,
+          v = y.realizedLPFee,
+          x = hs(O),
+          g = tr();
+        return Object(it.jsxs)(it.Fragment, {
+          children: [Object(it.jsxs)(Me, {
             gap: "0px",
-            children: [Object(r.jsxs)(en, {
+            children: [Object(it.jsxs)(et, {
               align: "center",
-              children: [Object(r.jsx)(s.y, {
+              children: [Object(it.jsx)(l.y, {
                 fontSize: "14px",
                 children: "Price"
-              }), Object(r.jsxs)(s.y, {
+              }), Object(it.jsxs)(l.y, {
                 fontSize: "14px",
                 style: {
                   justifyContent: "center",
@@ -7227,129 +6420,122 @@
                   paddingLeft: "8px",
                   fontWeight: 500
                 },
-                children: [ms(o, j), Object(r.jsx)(So, {
+                children: [ms(c, j), Object(it.jsx)(Uo, {
                   onClick: function() {
-                    return m(!j)
+                    return f(!j)
                   },
-                  children: Object(r.jsx)(al.a, {
+                  children: Object(it.jsx)(fu.a, {
                     size: 14
                   })
                 })]
               })]
-            }), Object(r.jsxs)(en, {
-              children: [Object(r.jsxs)(rn, {
-                children: [Object(r.jsx)(s.y, {
+            }), Object(it.jsxs)(et, {
+              children: [Object(it.jsxs)(rt, {
+                children: [Object(it.jsx)(l.y, {
                   fontSize: "14px",
-                  children: o.tradeType === Z.m.EXACT_INPUT ? C(1210, "Minimum received") : C(220, "Maximum sold")
-                }), Object(r.jsx)(si, {
-                  text: C(202, "Your transaction will revert if there is a large, unfavorable price movement before it is confirmed.")
+                  children: c.tradeType === J.m.EXACT_INPUT ? g(1210, "Minimum received") : g(220, "Maximum sold")
+                }), Object(it.jsx)(ui, {
+                  text: g(202, "Your transaction will revert if there is a large, unfavorable price movement before it is confirmed.")
                 })]
-              }), Object(r.jsxs)(rn, {
-                children: [Object(r.jsx)(s.y, {
+              }), Object(it.jsxs)(rt, {
+                children: [Object(it.jsx)(l.y, {
                   fontSize: "14px",
-                  children: o.tradeType === Z.m.EXACT_INPUT ? null !== (n = null === (t = y[Qo.OUTPUT]) || void 0 === t ? void 0 : t.toSignificant(4)) && void 0 !== n ? n : "-" : null !== (i = null === (c = y[Qo.INPUT]) || void 0 === c ? void 0 : c.toSignificant(4)) && void 0 !== i ? i : "-"
-                }), Object(r.jsx)(s.y, {
+                  children: c.tradeType === J.m.EXACT_INPUT ? null !== (t = null === (n = m[Xo.OUTPUT]) || void 0 === n ? void 0 : n.toSignificant(4)) && void 0 !== t ? t : "-" : null !== (r = null === (a = m[Xo.INPUT]) || void 0 === a ? void 0 : a.toSignificant(4)) && void 0 !== r ? r : "-"
+                }), Object(it.jsx)(l.y, {
                   fontSize: "14px",
                   marginLeft: "4px",
-                  children: o.tradeType === Z.m.EXACT_INPUT ? o.outputAmount.currency.symbol : o.inputAmount.currency.symbol
+                  children: c.tradeType === J.m.EXACT_INPUT ? c.outputAmount.currency.symbol : c.inputAmount.currency.symbol
                 })]
               })]
-            }), Object(r.jsxs)(en, {
-              children: [Object(r.jsxs)(rn, {
-                children: [Object(r.jsx)(s.y, {
+            }), Object(it.jsxs)(et, {
+              children: [Object(it.jsxs)(rt, {
+                children: [Object(it.jsx)(l.y, {
                   fontSize: "14px",
-                  children: "Price Impact"
-                }), Object(r.jsx)(si, {
-                  text: C(224, "The difference between the market price and your price due to trade size.")
+                  children: g(226, "Price Impact")
+                }), Object(it.jsx)(ui, {
+                  text: g(224, "The difference between the market price and your price due to trade size.")
                 })]
-              }), Object(r.jsx)(il, {
+              }), Object(it.jsx)(hu, {
                 priceImpact: O
               })]
-            }), Object(r.jsxs)(en, {
-              children: [Object(r.jsxs)(rn, {
-                children: [Object(r.jsx)(s.y, {
+            }), Object(it.jsxs)(et, {
+              children: [Object(it.jsxs)(rt, {
+                children: [Object(it.jsx)(l.y, {
                   fontSize: "14px",
-                  children: "Liquidity Provider Fee"
-                }), Object(r.jsx)(si, {
-                  text: C(999, "For each trade a 0.2% fee is paid. 0.17% goes to liquidity providers and 0.03% goes to the PancakeSwap treasury.")
+                  children: g(228, "Liquidity Provider Fee")
+                }), Object(it.jsx)(ui, {
+                  text: g(999, "For each trade a 0.2% fee is paid. 0.17% goes to liquidity providers and 0.03% goes to the PancakeSwap treasury.")
                 })]
-              }), Object(r.jsx)(s.y, {
+              }), Object(it.jsx)(l.y, {
                 fontSize: "14px",
-                children: x ? "".concat(null === x || void 0 === x ? void 0 : x.toSignificant(6), " ").concat(o.inputAmount.currency.symbol) : "-"
+                children: v ? "".concat(null === v || void 0 === v ? void 0 : v.toSignificant(6), " ").concat(c.inputAmount.currency.symbol) : "-"
               })]
             })]
-          }), Object(r.jsxs)(tn, {
-            children: [Object(r.jsx)(s.c, {
-              onClick: u,
-              disabled: b,
-              variant: g > 2 ? "danger" : "primary",
+          }), Object(it.jsxs)(nt, {
+            children: [Object(it.jsx)(l.c, {
+              onClick: o,
+              disabled: d,
+              variant: x > 2 ? "danger" : "primary",
               mt: "10px",
               id: "confirm-swap-or-send",
               width: "100%",
-              children: g > 2 ? "Swap Anyway" : "Confirm Swap"
-            }), d ? Object(r.jsx)(Po, {
-              error: d
+              children: x > 2 ? "Swap Anyway" : "Confirm Swap"
+            }), u ? Object(it.jsx)(Mo, {
+              error: u
             }) : null]
           })]
         })
       }
-
-      function ol() {
-        var e = Object(u.a)(["\n  font-style: italic;\n  line-height: 1.3;\n\n  span {\n    color: ", ";\n    font-weight: 600;\n  }\n"]);
-        return ol = function() {
-          return e
-        }, e
-      }
-      var sl = Object(l.default)(s.y)(ol(), (function(e) {
+      var yu = Object(d.default)(l.y)(ju || (ju = Object(u.a)(["\n  font-style: italic;\n  line-height: 1.3;\n\n  span {\n    color: ", ";\n    font-weight: 600;\n  }\n"])), (function(e) {
         return e.theme.colors.primary
       }));
 
-      function ul(e) {
-        var n, t, i = e.trade,
-          c = e.allowedSlippage,
-          o = e.recipient,
-          u = e.showAcceptChanges,
-          d = e.onAcceptChanges,
-          b = Object(a.useMemo)((function() {
-            return ps(i, c)
-          }), [i, c]),
-          f = js(Object(a.useMemo)((function() {
-            return fs(i)
-          }), [i]).priceImpactWithoutFee),
-          p = Object(a.useContext)(l.ThemeContext);
-        return Object(r.jsxs)(De, {
+      function Ou(e) {
+        var t, n, r = e.trade,
+          a = e.allowedSlippage,
+          c = e.recipient,
+          o = e.showAcceptChanges,
+          s = e.onAcceptChanges,
+          u = Object(i.useMemo)((function() {
+            return fs(r, a)
+          }), [r, a]),
+          b = hs(Object(i.useMemo)((function() {
+            return js(r)
+          }), [r]).priceImpactWithoutFee),
+          p = Object(i.useContext)(d.ThemeContext);
+        return Object(it.jsxs)(Me, {
           gap: "md",
           style: {
             marginTop: "20px"
           },
-          children: [Object(r.jsxs)(en, {
+          children: [Object(it.jsxs)(et, {
             align: "flex-end",
-            children: [Object(r.jsxs)(rn, {
+            children: [Object(it.jsxs)(rt, {
               gap: "0px",
-              children: [Object(r.jsx)(mi, {
-                currency: i.inputAmount.currency,
+              children: [Object(it.jsx)(yi, {
+                currency: r.inputAmount.currency,
                 size: "24px",
                 style: {
                   marginRight: "12px"
                 }
-              }), Object(r.jsx)(s.y, {
+              }), Object(it.jsx)(l.y, {
                 fontSize: "24px",
-                color: u && i.tradeType === Z.m.EXACT_OUTPUT ? p.colors.primary : "text",
-                children: i.inputAmount.toSignificant(6)
+                color: o && r.tradeType === J.m.EXACT_OUTPUT ? p.colors.primary : "text",
+                children: r.inputAmount.toSignificant(6)
               })]
-            }), Object(r.jsx)(rn, {
+            }), Object(it.jsx)(rt, {
               gap: "0px",
-              children: Object(r.jsx)(s.y, {
+              children: Object(it.jsx)(l.y, {
                 fontSize: "24px",
                 style: {
                   marginLeft: "10px",
                   fontWeight: 500
                 },
-                children: i.inputAmount.currency.symbol
+                children: r.inputAmount.currency.symbol
               })
             })]
-          }), Object(r.jsx)(rn, {
-            children: Object(r.jsx)(Mu.a, {
+          }), Object(it.jsx)(rt, {
+            children: Object(it.jsx)(Gl.a, {
               size: "16",
               color: p.colors.textSubtle,
               style: {
@@ -7357,313 +6543,306 @@
                 minWidth: "16px"
               }
             })
-          }), Object(r.jsxs)(en, {
+          }), Object(it.jsxs)(et, {
             align: "flex-end",
-            children: [Object(r.jsxs)(rn, {
+            children: [Object(it.jsxs)(rt, {
               gap: "0px",
-              children: [Object(r.jsx)(mi, {
-                currency: i.outputAmount.currency,
+              children: [Object(it.jsx)(yi, {
+                currency: r.outputAmount.currency,
                 size: "24px",
                 style: {
                   marginRight: "12px"
                 }
-              }), Object(r.jsx)(s.y, {
+              }), Object(it.jsx)(l.y, {
                 fontSize: "24px",
                 style: {
                   marginLeft: "10px",
                   fontWeight: 500
                 },
-                color: f > 2 ? p.colors.failure : u && i.tradeType === Z.m.EXACT_INPUT ? p.colors.primary : "text",
-                children: i.outputAmount.toSignificant(6)
+                color: b > 2 ? p.colors.failure : o && r.tradeType === J.m.EXACT_INPUT ? p.colors.primary : "text",
+                children: r.outputAmount.toSignificant(6)
               })]
-            }), Object(r.jsx)(rn, {
+            }), Object(it.jsx)(rt, {
               gap: "0px",
-              children: Object(r.jsx)(s.y, {
+              children: Object(it.jsx)(l.y, {
                 fontSize: "24px",
                 style: {
                   marginLeft: "10px",
                   fontWeight: 500
                 },
-                children: i.outputAmount.currency.symbol
+                children: r.outputAmount.currency.symbol
               })
             })]
-          }), u ? Object(r.jsx)(Do, {
+          }), o ? Object(it.jsx)(_o, {
             justify: "flex-start",
             gap: "0px",
-            children: Object(r.jsxs)(en, {
-              children: [Object(r.jsxs)(rn, {
-                children: [Object(r.jsx)(Wt.a, {
+            children: Object(it.jsxs)(et, {
+              children: [Object(it.jsxs)(rt, {
+                children: [Object(it.jsx)(Qn.a, {
                   size: 20,
                   style: {
                     marginRight: "8px",
                     minWidth: 24
                   }
-                }), Object(r.jsx)(s.y, {
+                }), Object(it.jsx)(l.y, {
                   color: "primary",
                   children: " Price Updated"
                 })]
-              }), Object(r.jsx)(s.c, {
-                onClick: d,
+              }), Object(it.jsx)(l.c, {
+                onClick: s,
                 children: "Accept"
               })]
             })
-          }) : null, Object(r.jsx)(De, {
+          }) : null, Object(it.jsx)(Me, {
             justify: "flex-start",
             gap: "sm",
             style: {
               padding: "16px 0 0"
             },
-            children: i.tradeType === Z.m.EXACT_INPUT ? Object(r.jsxs)(sl, {
-              children: ["Output is estimated. You will receive at least ", Object(r.jsxs)("span", {
-                children: [null === (n = b[Qo.OUTPUT]) || void 0 === n ? void 0 : n.toSignificant(6), " ", i.outputAmount.currency.symbol]
+            children: r.tradeType === J.m.EXACT_INPUT ? Object(it.jsxs)(yu, {
+              children: ["Output is estimated. You will receive at least ", Object(it.jsxs)("span", {
+                children: [null === (t = u[Xo.OUTPUT]) || void 0 === t ? void 0 : t.toSignificant(6), " ", r.outputAmount.currency.symbol]
               }), " or the transaction will revert."]
-            }) : Object(r.jsxs)(sl, {
-              children: ["Input is estimated. You will sell at most ", Object(r.jsxs)("span", {
-                children: [null === (t = b[Qo.INPUT]) || void 0 === t ? void 0 : t.toSignificant(6), " ", i.inputAmount.currency.symbol]
+            }) : Object(it.jsxs)(yu, {
+              children: ["Input is estimated. You will sell at most ", Object(it.jsxs)("span", {
+                children: [null === (n = u[Xo.INPUT]) || void 0 === n ? void 0 : n.toSignificant(6), " ", r.inputAmount.currency.symbol]
               }), " or the transaction will revert."]
             })
-          }), null !== o ? Object(r.jsx)(De, {
+          }), null !== c ? Object(it.jsx)(Me, {
             justify: "flex-start",
             gap: "sm",
             style: {
               padding: "16px 0 0"
             },
-            children: Object(r.jsxs)(s.y, {
-              children: ["Output will be sent to", " ", Object(r.jsx)("b", {
-                title: o,
-                children: pn(o) ? hn(o) : o
+            children: Object(it.jsxs)(l.y, {
+              children: ["Output will be sent to", " ", Object(it.jsx)("b", {
+                title: c,
+                children: jt(c) ? mt(c) : c
               })]
             })
           }) : null]
         })
       }
 
-      function ll(e) {
-        var n, t, i, c, o, s, u = e.trade,
+      function vu(e) {
+        var t, n, r, a, c, o, s = e.trade,
           l = e.originalTrade,
-          d = e.onAcceptChanges,
-          b = e.allowedSlippage,
-          f = e.onConfirm,
+          u = e.onAcceptChanges,
+          d = e.allowedSlippage,
+          b = e.onConfirm,
           p = e.onDismiss,
           j = e.recipient,
-          m = e.swapErrorMessage,
+          f = e.swapErrorMessage,
           h = e.isOpen,
-          y = e.attemptingTxn,
-          v = e.txHash,
-          O = Object(a.useMemo)((function() {
-            return Boolean(u && l && (n = l, (e = u).tradeType !== n.tradeType || !Object(Z.o)(e.inputAmount.currency, n.inputAmount.currency) || !e.inputAmount.equalTo(n.inputAmount) || !Object(Z.o)(e.outputAmount.currency, n.outputAmount.currency) || !e.outputAmount.equalTo(n.outputAmount)));
-            var e, n
-          }), [l, u]),
-          x = Object(a.useCallback)((function() {
-            return u ? Object(r.jsx)(ul, {
-              trade: u,
-              allowedSlippage: b,
+          m = e.attemptingTxn,
+          y = e.txHash,
+          O = Object(i.useMemo)((function() {
+            return Boolean(s && l && (t = l, (e = s).tradeType !== t.tradeType || !Object(J.o)(e.inputAmount.currency, t.inputAmount.currency) || !e.inputAmount.equalTo(t.inputAmount) || !Object(J.o)(e.outputAmount.currency, t.outputAmount.currency) || !e.outputAmount.equalTo(t.outputAmount)));
+            var e, t
+          }), [l, s]),
+          v = Object(i.useCallback)((function() {
+            return s ? Object(it.jsx)(Ou, {
+              trade: s,
+              allowedSlippage: d,
               recipient: j,
               showAcceptChanges: O,
-              onAcceptChanges: d
+              onAcceptChanges: u
             }) : null
-          }), [b, d, j, O, u]),
-          g = Object(a.useCallback)((function() {
-            return u ? Object(r.jsx)(cl, {
-              onConfirm: f,
-              trade: u,
+          }), [d, u, j, O, s]),
+          x = Object(i.useCallback)((function() {
+            return s ? Object(it.jsx)(mu, {
+              onConfirm: b,
+              trade: s,
               disabledConfirm: O,
-              swapErrorMessage: m,
-              allowedSlippage: b
+              swapErrorMessage: f,
+              allowedSlippage: d
             }) : null
-          }), [b, f, O, m, u]),
-          C = "Swapping ".concat(null === u || void 0 === u || null === (n = u.inputAmount) || void 0 === n ? void 0 : n.toSignificant(6), " ").concat(null === u || void 0 === u || null === (t = u.inputAmount) || void 0 === t || null === (i = t.currency) || void 0 === i ? void 0 : i.symbol, " for ").concat(null === u || void 0 === u || null === (c = u.outputAmount) || void 0 === c ? void 0 : c.toSignificant(6), " ").concat(null === u || void 0 === u || null === (o = u.outputAmount) || void 0 === o || null === (s = o.currency) || void 0 === s ? void 0 : s.symbol),
-          w = Object(a.useCallback)((function() {
-            return m ? Object(r.jsx)(Ht, {
+          }), [d, b, O, f, s]),
+          g = "Swapping ".concat(null === s || void 0 === s || null === (t = s.inputAmount) || void 0 === t ? void 0 : t.toSignificant(6), " ").concat(null === s || void 0 === s || null === (n = s.inputAmount) || void 0 === n || null === (r = n.currency) || void 0 === r ? void 0 : r.symbol, " for ").concat(null === s || void 0 === s || null === (a = s.outputAmount) || void 0 === a ? void 0 : a.toSignificant(6), " ").concat(null === s || void 0 === s || null === (c = s.outputAmount) || void 0 === c || null === (o = c.currency) || void 0 === o ? void 0 : o.symbol),
+          C = Object(i.useCallback)((function() {
+            return f ? Object(it.jsx)(Kn, {
               onDismiss: p,
-              message: m
-            }) : Object(r.jsx)(Vt, {
+              message: f
+            }) : Object(it.jsx)(Hn, {
               title: "Confirm Swap",
               onDismiss: p,
-              topContent: x,
-              bottomContent: g
+              topContent: v,
+              bottomContent: x
             })
-          }), [p, g, x, m]);
-        return Object(r.jsx)(Gt, {
+          }), [p, x, v, f]);
+        return Object(it.jsx)(Gn, {
           isOpen: h,
           onDismiss: p,
-          attemptingTxn: y,
-          hash: v,
-          content: w,
-          pendingText: C
+          attemptingTxn: m,
+          hash: y,
+          content: C,
+          pendingText: g
         })
       }
-      var dl = t(503),
-        bl = Object(a.memo)((function(e) {
-          var n = e.trade,
-            t = Object(a.useContext)(l.ThemeContext);
-          return Object(r.jsx)(s.n, {
+      var xu, gu = n(537),
+        Cu = Object(i.memo)((function(e) {
+          var t = e.trade,
+            n = Object(i.useContext)(d.ThemeContext);
+          return Object(it.jsx)(l.n, {
             px: "1rem",
             py: "0.5rem",
             my: "0.5rem",
             style: {
-              border: "1px solid ".concat(t.colors.tertiary),
+              border: "1px solid ".concat(n.colors.tertiary),
               borderRadius: "1rem"
             },
             flexWrap: "wrap",
             justifyContent: "space-evenly",
             alignItems: "center",
-            children: n.route.path.map((function(e, n, t) {
-              var i = n === t.length - 1;
-              return Object(r.jsxs)(a.Fragment, {
-                children: [Object(r.jsxs)(s.n, {
+            children: t.route.path.map((function(e, t, n) {
+              var r = t === n.length - 1;
+              return Object(it.jsxs)(i.Fragment, {
+                children: [Object(it.jsxs)(l.n, {
                   my: "0.5rem",
                   alignItems: "center",
                   style: {
                     flexShrink: 0
                   },
-                  children: [Object(r.jsx)(mi, {
+                  children: [Object(it.jsx)(yi, {
                     currency: e,
                     size: "1.5rem"
-                  }), Object(r.jsx)(s.y, {
+                  }), Object(it.jsx)(l.y, {
                     fontSize: "14px",
                     color: "text",
                     ml: "0.5rem",
                     children: e.symbol
                   })]
-                }), i ? null : Object(r.jsx)(dl.a, {
+                }), r ? null : Object(it.jsx)(gu.a, {
                   color: "textSubtle"
                 })]
-              }, n)
+              }, t)
             }))
           })
         }));
 
-      function fl(e) {
-        var n, t, a, i, c = e.trade,
-          o = e.allowedSlippage,
-          u = fs(c),
-          l = u.priceImpactWithoutFee,
-          d = u.realizedLPFee,
-          b = c.tradeType === Z.m.EXACT_INPUT,
-          f = ps(c, o),
-          p = $t();
-        return Object(r.jsx)(s.f, {
-          children: Object(r.jsxs)(s.g, {
-            children: [Object(r.jsxs)(en, {
-              children: [Object(r.jsxs)(rn, {
-                children: [Object(r.jsx)(s.y, {
+      function wu(e) {
+        var t, n, r, a, i = e.trade,
+          c = e.allowedSlippage,
+          o = js(i),
+          s = o.priceImpactWithoutFee,
+          u = o.realizedLPFee,
+          d = i.tradeType === J.m.EXACT_INPUT,
+          b = fs(i, c),
+          p = tr();
+        return Object(it.jsx)(l.f, {
+          children: Object(it.jsxs)(l.g, {
+            children: [Object(it.jsxs)(et, {
+              children: [Object(it.jsxs)(rt, {
+                children: [Object(it.jsx)(l.y, {
                   fontSize: "14px",
-                  children: b ? p(1210, "Minimum received") : p(220, "Maximum sold")
-                }), Object(r.jsx)(si, {
+                  children: d ? p(1210, "Minimum received") : p(220, "Maximum sold")
+                }), Object(it.jsx)(ui, {
                   text: p(202, "Your transaction will revert if there is a large, unfavorable price movement before it is confirmed.")
                 })]
-              }), Object(r.jsx)(rn, {
-                children: Object(r.jsx)(s.y, {
+              }), Object(it.jsx)(rt, {
+                children: Object(it.jsx)(l.y, {
                   fontSize: "14px",
-                  children: b ? null !== (n = "".concat(null === (t = f[Qo.OUTPUT]) || void 0 === t ? void 0 : t.toSignificant(4), " ").concat(c.outputAmount.currency.symbol)) && void 0 !== n ? n : "-" : null !== (a = "".concat(null === (i = f[Qo.INPUT]) || void 0 === i ? void 0 : i.toSignificant(4), " ").concat(c.inputAmount.currency.symbol)) && void 0 !== a ? a : "-"
+                  children: d ? null !== (t = "".concat(null === (n = b[Xo.OUTPUT]) || void 0 === n ? void 0 : n.toSignificant(4), " ").concat(i.outputAmount.currency.symbol)) && void 0 !== t ? t : "-" : null !== (r = "".concat(null === (a = b[Xo.INPUT]) || void 0 === a ? void 0 : a.toSignificant(4), " ").concat(i.inputAmount.currency.symbol)) && void 0 !== r ? r : "-"
                 })
               })]
-            }), Object(r.jsxs)(en, {
-              children: [Object(r.jsxs)(rn, {
-                children: [Object(r.jsx)(s.y, {
+            }), Object(it.jsxs)(et, {
+              children: [Object(it.jsxs)(rt, {
+                children: [Object(it.jsx)(l.y, {
                   fontSize: "14px",
-                  children: "Price Impact"
-                }), Object(r.jsx)(si, {
+                  children: p(226, "Price Impact")
+                }), Object(it.jsx)(ui, {
                   text: p(224, "The difference between the market price and estimated price due to trade size.")
                 })]
-              }), Object(r.jsx)(il, {
-                priceImpact: l
+              }), Object(it.jsx)(hu, {
+                priceImpact: s
               })]
-            }), Object(r.jsxs)(en, {
-              children: [Object(r.jsxs)(rn, {
-                children: [Object(r.jsx)(s.y, {
+            }), Object(it.jsxs)(et, {
+              children: [Object(it.jsxs)(rt, {
+                children: [Object(it.jsx)(l.y, {
                   fontSize: "14px",
-                  children: "Liquidity Provider Fee"
-                }), Object(r.jsx)(si, {
+                  children: p(228, "Liquidity Provider Fee")
+                }), Object(it.jsx)(ui, {
                   text: p(230, "For each trade a 0.2% fee is paid. 0.17% goes to liquidity providers and 0.03% goes to the PancakeSwap treasury.")
                 })]
-              }), Object(r.jsx)(s.y, {
+              }), Object(it.jsx)(l.y, {
                 fontSize: "14px",
-                children: d ? "".concat(d.toSignificant(4), " ").concat(c.inputAmount.currency.symbol) : "-"
+                children: u ? "".concat(u.toSignificant(4), " ").concat(i.inputAmount.currency.symbol) : "-"
               })]
             })]
           })
         })
       }
 
-      function pl(e) {
-        var n = e.trade,
-          t = Jr(),
-          a = Object(h.a)(t, 1)[0],
-          i = $t(),
-          c = Boolean(n && n.route.path.length > 2);
-        return Object(r.jsx)(De, {
+      function ku(e) {
+        var t = e.trade,
+          n = $r(),
+          r = Object(h.a)(n, 1)[0],
+          a = tr(),
+          i = Boolean(t && t.route.path.length > 2);
+        return Object(it.jsx)(Me, {
           gap: "md",
-          children: n && Object(r.jsxs)(r.Fragment, {
-            children: [Object(r.jsx)(fl, {
-              trade: n,
-              allowedSlippage: a
-            }), c && Object(r.jsxs)(r.Fragment, {
-              children: [Object(r.jsx)(Eo, {}), Object(r.jsxs)(De, {
+          children: t && Object(it.jsxs)(it.Fragment, {
+            children: [Object(it.jsx)(wu, {
+              trade: t,
+              allowedSlippage: r
+            }), i && Object(it.jsxs)(it.Fragment, {
+              children: [Object(it.jsx)(No, {}), Object(it.jsxs)(Me, {
                 style: {
                   padding: "0 24px"
                 },
-                children: [Object(r.jsxs)(rn, {
-                  children: [Object(r.jsx)(s.y, {
+                children: [Object(it.jsxs)(rt, {
+                  children: [Object(it.jsx)(l.y, {
                     fontSize: "14px",
                     children: "Route"
-                  }), Object(r.jsx)(si, {
-                    text: i(999, "Routing through these tokens resulted in the best price for your trade.")
+                  }), Object(it.jsx)(ui, {
+                    text: a(999, "Routing through these tokens resulted in the best price for your trade.")
                   })]
-                }), Object(r.jsx)(bl, {
-                  trade: n
+                }), Object(it.jsx)(Cu, {
+                  trade: t
                 })]
               })]
             })]
           })
         })
       }
-
-      function jl() {
-        var e = Object(u.a)(["\n  padding-top: calc(16px + 2rem);\n  padding-bottom: 20px;\n  margin-top: -2rem;\n  width: 100%;\n  max-width: 400px;\n  border-bottom-left-radius: 20px;\n  border-bottom-right-radius: 20px;\n  color: ", ";\n  z-index: 1;\n\n  transform: ", ";\n  transition: transform 300ms ease-in-out;\n"]);
-        return jl = function() {
-          return e
-        }, e
-      }
-      var ml = l.default.div(jl(), (function(e) {
+      var Tu, Iu, Eu, Nu = d.default.div(xu || (xu = Object(u.a)(["\n  padding-top: calc(16px + 2rem);\n  padding-bottom: 20px;\n  margin-top: -2rem;\n  width: 100%;\n  max-width: 400px;\n  border-bottom-left-radius: 20px;\n  border-bottom-right-radius: 20px;\n  color: ", ";\n  z-index: 1;\n\n  transform: ", ";\n  transition: transform 300ms ease-in-out;\n"])), (function(e) {
         return e.theme.colors.textSubtle
       }), (function(e) {
         return e.show ? "translateY(0%)" : "translateY(-100%)"
       }));
 
-      function hl(e) {
-        var n, t = e.trade,
-          a = Object(gn.a)(e, ["trade"]),
-          i = Ta(t, ka);
-        return Object(r.jsx)(ml, {
-          show: Boolean(t),
-          children: Object(r.jsx)(pl, Object(J.a)(Object(J.a)({}, a), {}, {
-            trade: null !== (n = null !== t && void 0 !== t ? t : i) && void 0 !== n ? n : void 0
+      function Ru(e) {
+        var t, n = e.trade,
+          r = Object(It.a)(e, ["trade"]),
+          a = Ta(n, Ia);
+        return Object(it.jsx)(Nu, {
+          show: Boolean(n),
+          children: Object(it.jsx)(ku, Object(X.a)(Object(X.a)({}, r), {}, {
+            trade: null !== (t = null !== n && void 0 !== n ? n : a) && void 0 !== t ? t : void 0
           }))
         })
       }
 
-      function yl(e) {
-        var n, t, a, i, c, o = e.price,
-          u = e.showInverted,
-          l = e.setShowInverted,
-          d = u ? null === o || void 0 === o ? void 0 : o.toSignificant(6) : null === o || void 0 === o || null === (n = o.invert()) || void 0 === n ? void 0 : n.toSignificant(6),
-          b = Boolean((null === o || void 0 === o ? void 0 : o.baseCurrency) && (null === o || void 0 === o ? void 0 : o.quoteCurrency)),
-          f = u ? "".concat(null === o || void 0 === o || null === (t = o.quoteCurrency) || void 0 === t ? void 0 : t.symbol, " per ").concat(null === o || void 0 === o || null === (a = o.baseCurrency) || void 0 === a ? void 0 : a.symbol) : "".concat(null === o || void 0 === o || null === (i = o.baseCurrency) || void 0 === i ? void 0 : i.symbol, " per ").concat(null === o || void 0 === o || null === (c = o.quoteCurrency) || void 0 === c ? void 0 : c.symbol);
-        return Object(r.jsx)(s.y, {
+      function Su(e) {
+        var t, n, r, a, i, c = e.price,
+          o = e.showInverted,
+          s = e.setShowInverted,
+          u = o ? null === c || void 0 === c ? void 0 : c.toSignificant(6) : null === c || void 0 === c || null === (t = c.invert()) || void 0 === t ? void 0 : t.toSignificant(6),
+          d = Boolean((null === c || void 0 === c ? void 0 : c.baseCurrency) && (null === c || void 0 === c ? void 0 : c.quoteCurrency)),
+          b = o ? "".concat(null === c || void 0 === c || null === (n = c.quoteCurrency) || void 0 === n ? void 0 : n.symbol, " per ").concat(null === c || void 0 === c || null === (r = c.baseCurrency) || void 0 === r ? void 0 : r.symbol) : "".concat(null === c || void 0 === c || null === (a = c.baseCurrency) || void 0 === a ? void 0 : a.symbol, " per ").concat(null === c || void 0 === c || null === (i = c.quoteCurrency) || void 0 === i ? void 0 : i.symbol);
+        return Object(it.jsx)(l.y, {
           fontSize: "14px",
           style: {
             justifyContent: "center",
             alignItems: "center",
             display: "flex"
           },
-          children: b ? Object(r.jsxs)(r.Fragment, {
-            children: [null !== d && void 0 !== d ? d : "-", " ", f, Object(r.jsx)(So, {
+          children: d ? Object(it.jsxs)(it.Fragment, {
+            children: [null !== u && void 0 !== u ? u : "-", " ", b, Object(it.jsx)(Uo, {
               onClick: function() {
-                return l(!u)
+                return s(!o)
               },
-              children: Object(r.jsx)(s.x, {
+              children: Object(it.jsx)(l.x, {
                 width: "20px",
                 color: "primary"
               })
@@ -7671,74 +6850,53 @@
           }) : "-"
         })
       }
-
-      function vl() {
-        var e = Object(u.a)(["\n  stroke: ", ";\n"]);
-        return vl = function() {
-          return e
-        }, e
-      }
-
-      function Ol() {
-        var e = Object(u.a)(["\n  max-width: 420px;\n  width: 100%;\n  padding: 1rem;\n  background: rgba(242, 150, 2, 0.05);\n  border: 1px solid #f3841e;\n  border-radius: 20px;\n  overflow: auto;\n"]);
-        return Ol = function() {
-          return e
-        }, e
-      }
-
-      function xl() {
-        var e = Object(u.a)(["\n  background: ", ";\n  padding: 0.75rem;\n  border-radius: 20px;\n"]);
-        return xl = function() {
-          return e
-        }, e
-      }
-      var gl = l.default.div(xl(), (function(e) {
-          var n = e.theme;
-          return Object(ht.b)(.6, n.colors.tertiary)
+      var Uu, Au, Pu = d.default.div(Tu || (Tu = Object(u.a)(["\n  background: ", ";\n  padding: 0.75rem;\n  border-radius: 20px;\n"])), (function(e) {
+          var t = e.theme;
+          return Object(In.b)(.6, t.colors.tertiary)
         })),
-        Cl = l.default.div(Ol()),
-        wl = Object(l.default)(Wt.a)(vl(), (function(e) {
+        Bu = d.default.div(Iu || (Iu = Object(u.a)(["\n  max-width: 420px;\n  width: 100%;\n  padding: 1rem;\n  background: rgba(242, 150, 2, 0.05);\n  border: 1px solid #f3841e;\n  border-radius: 20px;\n  overflow: auto;\n"]))),
+        Mu = Object(d.default)(Qn.a)(Eu || (Eu = Object(u.a)(["\n  stroke: ", ";\n"])), (function(e) {
           return e.theme.colors.failure
         }));
 
-      function Tl(e) {
-        var n, t, i, c, o = e.token,
-          u = ge().chainId,
-          l = $t(),
-          d = null !== (n = null === o || void 0 === o || null === (t = o.symbol) || void 0 === t ? void 0 : t.toLowerCase()) && void 0 !== n ? n : "",
-          b = null !== (i = null === o || void 0 === o || null === (c = o.name) || void 0 === c ? void 0 : c.toLowerCase()) && void 0 !== i ? i : "",
-          f = pa(),
-          p = Object(a.useMemo)((function() {
-            return !(!o || !u) && Object.keys(f).some((function(e) {
-              var n, t, r = f[e];
-              return !r.equals(o) && ((null === (n = r.symbol) || void 0 === n ? void 0 : n.toLowerCase()) === d || (null === (t = r.name) || void 0 === t ? void 0 : t.toLowerCase()) === b)
+      function Lu(e) {
+        var t, n, r, a, c = e.token,
+          o = ge().chainId,
+          s = tr(),
+          u = null !== (t = null === c || void 0 === c || null === (n = c.symbol) || void 0 === n ? void 0 : n.toLowerCase()) && void 0 !== t ? t : "",
+          d = null !== (r = null === c || void 0 === c || null === (a = c.name) || void 0 === a ? void 0 : a.toLowerCase()) && void 0 !== r ? r : "",
+          b = fa(),
+          p = Object(i.useMemo)((function() {
+            return !(!c || !o) && Object.keys(b).some((function(e) {
+              var t, n, r = b[e];
+              return !r.equals(c) && ((null === (t = r.symbol) || void 0 === t ? void 0 : t.toLowerCase()) === u || (null === (n = r.name) || void 0 === n ? void 0 : n.toLowerCase()) === d)
             }))
-          }), [o, u, f, d, b]);
-        return o ? Object(r.jsx)(gl, {
+          }), [c, o, b, u, d]);
+        return c ? Object(it.jsx)(Pu, {
           error: p,
-          children: Object(r.jsxs)(tn, {
+          children: Object(it.jsxs)(nt, {
             gap: "6px",
-            children: [Object(r.jsxs)(De, {
+            children: [Object(it.jsxs)(Me, {
               gap: "24px",
-              children: [Object(r.jsx)(mi, {
-                currency: o,
+              children: [Object(it.jsx)(yi, {
+                currency: c,
                 size: "16px"
-              }), Object(r.jsx)("div", {
+              }), Object(it.jsx)("div", {
                 children: " "
               })]
-            }), Object(r.jsxs)(De, {
+            }), Object(it.jsxs)(Me, {
               gap: "10px",
               justify: "flex-start",
-              children: [Object(r.jsxs)(s.y, {
-                children: [o && o.name && o.symbol && o.name !== o.symbol ? "".concat(o.name, " (").concat(o.symbol, ")") : o.name || o.symbol, " "]
-              }), u && Object(r.jsx)(Sn, {
+              children: [Object(it.jsxs)(l.y, {
+                children: [c && c.name && c.symbol && c.name !== c.symbol ? "".concat(c.name, " (").concat(c.symbol, ")") : c.name || c.symbol, " "]
+              }), o && Object(it.jsx)(St, {
                 style: {
                   fontWeight: 400
                 },
-                href: mn(u, o.address, "token"),
-                children: Object(r.jsxs)(s.y, {
-                  title: o.address,
-                  children: [hn(o.address), " ", l(116, "(View on BscScan)")]
+                href: ht(o, c.address, "token"),
+                children: Object(it.jsxs)(l.y, {
+                  title: c.address,
+                  children: [mt(c.address), " ", s(116, "(View on BscScan)")]
                 })
               })]
             })]
@@ -7746,170 +6904,156 @@
         }) : null
       }
 
-      function kl(e) {
-        var n = e.isOpen,
-          t = e.tokens,
-          i = e.onConfirm,
-          c = Object(a.useState)(!1),
-          o = Object(h.a)(c, 2),
-          u = o[0],
-          l = o[1],
-          d = Object(a.useCallback)((function() {
-            return l((function(e) {
+      function Du(e) {
+        var t = e.isOpen,
+          n = e.tokens,
+          r = e.onConfirm,
+          a = Object(i.useState)(!1),
+          c = Object(h.a)(a, 2),
+          o = c[0],
+          s = c[1],
+          u = Object(i.useCallback)((function() {
+            return s((function(e) {
               return !e
             }))
           }), []),
-          b = $t(),
-          f = Object(a.useCallback)((function() {
+          d = tr(),
+          b = Object(i.useCallback)((function() {
             return null
           }), []);
-        return Object(r.jsx)(kt, {
-          isOpen: n,
-          onDismiss: f,
+        return Object(it.jsx)(Un, {
+          isOpen: t,
+          onDismiss: b,
           maxHeight: 90,
-          children: Object(r.jsx)(Cl, {
+          children: Object(it.jsx)(Bu, {
             className: "token-warning-container",
-            children: Object(r.jsxs)(De, {
+            children: Object(it.jsxs)(Me, {
               gap: "lg",
-              children: [Object(r.jsxs)(tn, {
+              children: [Object(it.jsxs)(nt, {
                 gap: "6px",
-                children: [Object(r.jsx)(wl, {}), Object(r.jsx)(s.y, {
+                children: [Object(it.jsx)(Mu, {}), Object(it.jsx)(l.y, {
                   color: "failure",
-                  children: b(1128, "Token imported")
+                  children: d(1128, "Token imported")
                 })]
-              }), Object(r.jsx)(s.y, {
-                children: b(1130, "Anyone can create a BEP20 token on BSC with any name, including creating fake versions of existing tokens and tokens that claim to represent projects that do not have a token.")
-              }), Object(r.jsx)(s.y, {
-                children: b(1132, "This interface can load arbitrary tokens by token addresses. Please take extra caution and do your research when interacting with arbitrary BEP20 tokens.")
-              }), Object(r.jsx)(s.y, {
-                children: b(1134, "If you purchase an arbitrary token, you may be unable to sell it back.")
-              }), t.map((function(e) {
-                return Object(r.jsx)(Tl, {
+              }), Object(it.jsx)(l.y, {
+                children: d(1130, "Anyone can create a BEP20 token on BSC with any name, including creating fake versions of existing tokens and tokens that claim to represent projects that do not have a token.")
+              }), Object(it.jsx)(l.y, {
+                children: d(1132, "This interface can load arbitrary tokens by token addresses. Please take extra caution and do your research when interacting with arbitrary BEP20 tokens.")
+              }), Object(it.jsx)(l.y, {
+                children: d(1134, "If you purchase an arbitrary token, you may be unable to sell it back.")
+              }), n.map((function(e) {
+                return Object(it.jsx)(Lu, {
                   token: e
                 }, e.address)
-              })), Object(r.jsxs)(en, {
-                children: [Object(r.jsx)("div", {
-                  children: Object(r.jsxs)("label", {
+              })), Object(it.jsxs)(et, {
+                children: [Object(it.jsx)("div", {
+                  children: Object(it.jsxs)("label", {
                     htmlFor: "understand-checkbox",
                     style: {
                       cursor: "pointer",
                       userSelect: "none"
                     },
-                    children: [Object(r.jsx)("input", {
+                    children: [Object(it.jsx)("input", {
                       id: "understand-checkbox",
                       type: "checkbox",
                       className: "understand-checkbox",
-                      checked: u,
-                      onChange: d
-                    }), " ", Object(r.jsx)(s.y, {
+                      checked: o,
+                      onChange: u
+                    }), " ", Object(it.jsx)(l.y, {
                       as: "span",
                       ml: "4px",
-                      children: b(148, "I understand")
+                      children: d(148, "I understand")
                     })]
                   })
-                }), Object(r.jsx)(s.c, {
-                  disabled: !u,
+                }), Object(it.jsx)(l.c, {
+                  disabled: !o,
                   variant: "danger",
                   style: {
                     width: "140px"
                   },
                   className: "token-dismiss-button",
                   onClick: function() {
-                    i()
+                    r()
                   },
-                  children: b(150, "Continue")
+                  children: d(150, "Continue")
                 })]
               })]
             })
           })
         })
       }
-
-      function Il() {
-        var e = Object(u.a)(["\n  stroke: ", ";\n"]);
-        return Il = function() {
-          return e
-        }, e
-      }
-
-      function El() {
-        var e = Object(u.a)(["\n  max-width: 420px;\n  width: 100%;\n  padding: 1rem;\n  background: rgba(242, 150, 2, 0.05);\n  border: 1px solid #f3841e;\n  border-radius: 20px;\n  overflow: auto;\n"]);
-        return El = function() {
-          return e
-        }, e
-      }
-      var Nl = l.default.div(El()),
-        Rl = Object(l.default)(Wt.a)(Il(), (function(e) {
+      var _u, Yu, zu, Fu, qu, Vu = d.default.div(Uu || (Uu = Object(u.a)(["\n  max-width: 420px;\n  width: 100%;\n  padding: 1rem;\n  background: rgba(242, 150, 2, 0.05);\n  border: 1px solid #f3841e;\n  border-radius: 20px;\n  overflow: auto;\n"]))),
+        Wu = Object(d.default)(Qn.a)(Au || (Au = Object(u.a)(["\n  stroke: ", ";\n"])), (function(e) {
           return e.theme.colors.failure
         }));
 
-      function Sl(e) {
-        var n = e.isOpen,
-          t = e.transactionType,
-          i = e.onConfirm,
-          c = Object(a.useState)(!1),
-          o = Object(h.a)(c, 2),
-          u = o[0],
-          l = o[1],
-          d = Object(a.useCallback)((function() {
-            return l((function(e) {
+      function Hu(e) {
+        var t = e.isOpen,
+          n = e.transactionType,
+          r = e.onConfirm,
+          a = Object(i.useState)(!1),
+          c = Object(h.a)(a, 2),
+          o = c[0],
+          s = c[1],
+          u = Object(i.useCallback)((function() {
+            return s((function(e) {
               return !e
             }))
           }), []),
-          b = Object(a.useCallback)((function() {
+          d = Object(i.useCallback)((function() {
             return null
           }), []);
-        return Object(r.jsx)(kt, {
-          isOpen: n,
-          onDismiss: b,
+        return Object(it.jsx)(Un, {
+          isOpen: t,
+          onDismiss: d,
           maxHeight: 90,
-          children: Object(r.jsx)(Nl, {
+          children: Object(it.jsx)(Vu, {
             className: "token-warning-container",
-            children: Object(r.jsxs)(De, {
+            children: Object(it.jsxs)(Me, {
               gap: "lg",
-              children: [Object(r.jsxs)(tn, {
+              children: [Object(it.jsxs)(nt, {
                 gap: "6px",
-                children: [Object(r.jsx)(Rl, {}), Object(r.jsx)(s.y, {
+                children: [Object(it.jsx)(Wu, {}), Object(it.jsx)(l.y, {
                   color: "failure",
                   children: "Syrup Warning"
                 })]
-              }), "" !== t && Object(r.jsxs)(r.Fragment, {
-                children: [Object(r.jsxs)(s.y, {
+              }), "" !== n && Object(it.jsxs)(it.Fragment, {
+                children: [Object(it.jsxs)(l.y, {
                   color: "failure",
-                  children: ["Please be careful when ", Object(r.jsx)("strong", {
-                    children: t
+                  children: ["Please be careful when ", Object(it.jsx)("strong", {
+                    children: n
                   }), " SYRUP."]
-                }), Object(r.jsx)(s.y, {
+                }), Object(it.jsx)(l.y, {
                   color: "failure",
-                  children: "Buying" === t ? "You will not receive CAKE rewards for holding purchased SYRUP." : "You will need to buy back the same amount of SYRUP to be able to convert back to CAKE."
+                  children: "Buying" === n ? "You will not receive CAKE rewards for holding purchased SYRUP." : "You will need to buy back the same amount of SYRUP to be able to convert back to CAKE."
                 })]
-              }), Object(r.jsxs)(en, {
-                children: [Object(r.jsx)("div", {
-                  children: Object(r.jsxs)("label", {
+              }), Object(it.jsxs)(et, {
+                children: [Object(it.jsx)("div", {
+                  children: Object(it.jsxs)("label", {
                     htmlFor: "understand-checkbox",
                     style: {
                       cursor: "pointer",
                       userSelect: "none"
                     },
-                    children: [Object(r.jsx)("input", {
+                    children: [Object(it.jsx)("input", {
                       id: "understand-checkbox",
                       type: "checkbox",
                       className: "understand-checkbox",
-                      checked: u,
-                      onChange: d
-                    }), " ", Object(r.jsx)(s.y, {
+                      checked: o,
+                      onChange: u
+                    }), " ", Object(it.jsx)(l.y, {
                       as: "span",
                       children: "I understand"
                     })]
                   })
-                }), Object(r.jsx)(s.c, {
-                  disabled: !u,
+                }), Object(it.jsx)(l.c, {
+                  disabled: !o,
                   variant: "danger",
                   style: {
                     width: "140px"
                   },
                   onClick: function() {
-                    l(!1), i()
+                    s(!1), r()
                   },
                   children: "Continue"
                 })]
@@ -7918,282 +7062,247 @@
           })
         })
       }
-
-      function Ul() {
-        var e = Object(u.a)(["\n  width: 100%;\n  height: 2px;\n  background-color: ;\n  background: linear-gradient(\n    90deg,\n    ", " 0%,\n    ", " 80%\n  );\n  opacity: 0.6;\n"]);
-        return Ul = function() {
-          return e
-        }, e
-      }
-
-      function Al() {
-        var e = Object(u.a)(["\n  width: calc(100% - 20px);\n  display: flex;\n  align-items: center;\n"]);
-        return Al = function() {
-          return e
-        }, e
-      }
-
-      function Bl() {
-        var e = Object(u.a)(["\n  min-width: 20px;\n  min-height: 20px;\n  background-color: ", ";\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  line-height: 8px;\n  font-size: 12px;\n  color: ", ";\n"]);
-        return Bl = function() {
-          return e
-        }, e
-      }
-
-      function Pl() {
-        var e = Object(u.a)(["\n  width: 50%;\n"]);
-        return Pl = function() {
-          return e
-        }, e
-      }
-
-      function Dl() {
-        var e = Object(u.a)(["\n  margin-top: 1.25rem;\n"]);
-        return Dl = function() {
-          return e
-        }, e
-      }
-      var Ml, Ll = Object(l.default)(De)(Dl()),
-        _l = Object(l.default)(en)(Pl()),
-        Fl = l.default.div(Bl(), (function(e) {
-          var n = e.theme,
-            t = e.confirmed;
-          return e.disabled ? n.colors.backgroundDisabled : t ? n.colors.success : n.colors.primary
+      var Qu, Ku = Object(d.default)(Me)(_u || (_u = Object(u.a)(["\n  margin-top: 1.25rem;\n"]))),
+        Gu = Object(d.default)(et)(Yu || (Yu = Object(u.a)(["\n  width: 50%;\n"]))),
+        Xu = d.default.div(zu || (zu = Object(u.a)(["\n  min-width: 20px;\n  min-height: 20px;\n  background-color: ", ";\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  line-height: 8px;\n  font-size: 12px;\n  color: ", ";\n"])), (function(e) {
+          var t = e.theme,
+            n = e.confirmed;
+          return e.disabled ? t.colors.backgroundDisabled : n ? t.colors.success : t.colors.primary
         }), (function(e) {
-          var n = e.theme,
-            t = e.confirmed;
-          return e.disabled ? n.colors.text : t ? n.colors.success : "#FFFFFF"
+          var t = e.theme,
+            n = e.confirmed;
+          return e.disabled ? t.colors.text : n ? t.colors.success : "#FFFFFF"
         })),
-        Yl = l.default.div(Al()),
-        zl = l.default.div(Ul(), (function(e) {
-          var n = e.theme,
-            t = e.prevConfirmed;
-          return Object(ht.b)(.5, t ? n.colors.success : n.colors.primary)
+        Ju = d.default.div(Fu || (Fu = Object(u.a)(["\n  width: calc(100% - 20px);\n  display: flex;\n  align-items: center;\n"]))),
+        $u = d.default.div(qu || (qu = Object(u.a)(["\n  width: 100%;\n  height: 2px;\n  background-color: ;\n  background: linear-gradient(\n    90deg,\n    ", " 0%,\n    ", " 80%\n  );\n  opacity: 0.6;\n"])), (function(e) {
+          var t = e.theme,
+            n = e.prevConfirmed;
+          return Object(In.b)(.5, n ? t.colors.success : t.colors.primary)
         }), (function(e) {
-          var n = e.theme;
-          return e.prevConfirmed ? n.colors.primary : n.colors.backgroundDisabled
+          var t = e.theme;
+          return e.prevConfirmed ? t.colors.primary : t.colors.backgroundDisabled
         }));
 
-      function ql(e) {
-        var n = e.steps;
-        return Object(r.jsx)(Ll, {
+      function Zu(e) {
+        var t = e.steps;
+        return Object(it.jsx)(Ku, {
           justify: "center",
-          children: Object(r.jsxs)(_l, {
-            children: [n.map((function(e, t) {
-              return Object(r.jsxs)(Yl, {
-                children: [Object(r.jsx)(Fl, {
+          children: Object(it.jsxs)(Gu, {
+            children: [t.map((function(e, n) {
+              return Object(it.jsxs)(Ju, {
+                children: [Object(it.jsx)(Xu, {
                   confirmed: e,
-                  disabled: !n[t - 1] && 0 !== t,
-                  children: e ? "\u2713" : t + 1
-                }), Object(r.jsx)(zl, {
+                  disabled: !t[n - 1] && 0 !== n,
+                  children: e ? "\u2713" : n + 1
+                }), Object(it.jsx)($u, {
                   prevConfirmed: e
                 })]
-              }, t)
-            })), Object(r.jsx)(Fl, {
-              disabled: !n[n.length - 1],
-              children: n.length + 1
+              }, n)
+            })), Object(it.jsx)(Xu, {
+              disabled: !t[t.length - 1],
+              children: t.length + 1
             })]
           })
         })
       }
 
-      function Vl(e) {
-        var n = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : be,
-          t = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : fe,
+      function ed(e) {
+        var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : be,
+          n = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : pe,
           r = arguments.length > 3 ? arguments[3] : void 0,
-          i = ge(),
-          c = i.account,
-          o = i.chainId,
-          s = i.library,
-          u = gs(r),
-          l = u.address,
-          d = null === r ? c : l;
-        return Object(a.useMemo)((function() {
+          a = ge(),
+          c = a.account,
+          o = a.chainId,
+          s = a.library,
+          l = Cs(r),
+          u = l.address,
+          d = null === r ? c : u;
+        return Object(i.useMemo)((function() {
           if (!e || !d || !s || !c || !o) return [];
-          var r = xn(0, s, c);
+          var r = xt(0, s, c);
           if (!r) return [];
           var a = [];
-          return a.push(Z.i.swapCallParameters(e, {
+          return a.push(J.i.swapCallParameters(e, {
             feeOnTransfer: !1,
-            allowedSlippage: new Z.g(Z.e.BigInt(Math.floor(n)), je),
+            allowedSlippage: new J.g(J.e.BigInt(Math.floor(t)), fe),
             recipient: d,
-            ttl: t
-          })), e.tradeType === Z.m.EXACT_INPUT && a.push(Z.i.swapCallParameters(e, {
+            ttl: n
+          })), e.tradeType === J.m.EXACT_INPUT && a.push(J.i.swapCallParameters(e, {
             feeOnTransfer: !0,
-            allowedSlippage: new Z.g(Z.e.BigInt(Math.floor(n)), je),
+            allowedSlippage: new J.g(J.e.BigInt(Math.floor(t)), fe),
             recipient: d,
-            ttl: t
+            ttl: n
           })), a.map((function(e) {
             return {
               parameters: e,
               contract: r
             }
           }))
-        }), [c, n, o, t, s, d, e])
+        }), [c, t, o, n, s, d, e])
       }
 
-      function Wl(e) {
-        var n = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : be,
-          t = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : fe,
+      function td(e) {
+        var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : be,
+          n = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : pe,
           r = arguments.length > 3 ? arguments[3] : void 0,
-          i = ge(),
-          c = i.account,
-          o = i.chainId,
-          s = i.library,
-          u = Vl(e, n, t, r),
-          l = is(),
-          d = gs(r),
+          a = ge(),
+          c = a.account,
+          o = a.chainId,
+          s = a.library,
+          l = ed(e, t, n, r),
+          u = cs(),
+          d = Cs(r),
           b = d.address,
-          f = null === r ? c : b;
-        return Object(a.useMemo)((function() {
-          return e && s && c && o ? f ? {
-            state: Ml.VALID,
+          p = null === r ? c : b;
+        return Object(i.useMemo)((function() {
+          return e && s && c && o ? p ? {
+            state: Qu.VALID,
             callback: function() {
-              var n = Object(m.a)(j.a.mark((function n() {
-                var t, a, i, o, s, d, b, p, m, h;
-                return j.a.wrap((function(n) {
-                  for (;;) switch (n.prev = n.next) {
+              var t = Object(f.a)(j.a.mark((function t() {
+                var n, a, i, o, s, d, b, f, h, m;
+                return j.a.wrap((function(t) {
+                  for (;;) switch (t.prev = t.next) {
                     case 0:
-                      return n.next = 2, Promise.all(u.map((function(e) {
-                        var n, t = e.parameters,
-                          r = t.methodName,
-                          a = t.args,
-                          i = t.value,
+                      return t.next = 2, Promise.all(l.map((function(e) {
+                        var t, n = e.parameters,
+                          r = n.methodName,
+                          a = n.args,
+                          i = n.value,
                           c = e.contract,
-                          o = !i || La(i) ? {} : {
+                          o = !i || _a(i) ? {} : {
                             value: i
                           };
-                        return (n = c.estimateGas)[r].apply(n, Object(X.a)(a).concat([o])).then((function(n) {
+                        return (t = c.estimateGas)[r].apply(t, Object(G.a)(a).concat([o])).then((function(t) {
                           return {
                             call: e,
-                            gasEstimate: n
+                            gasEstimate: t
                           }
-                        })).catch((function(n) {
-                          var t;
-                          return console.info("Gas estimate failed, trying eth_call to extract error", e), (t = c.callStatic)[r].apply(t, Object(X.a)(a).concat([o])).then((function(t) {
-                            return console.info("Unexpected successful call after failed estimate gas", e, n, t), {
+                        })).catch((function(t) {
+                          var n;
+                          return console.info("Gas estimate failed, trying eth_call to extract error", e), (n = c.callStatic)[r].apply(n, Object(G.a)(a).concat([o])).then((function(n) {
+                            return console.info("Unexpected successful call after failed estimate gas", e, t, n), {
                               call: e,
                               error: new Error("Unexpected issue with estimating the gas. Please try again.")
                             }
-                          })).catch((function(n) {
-                            var t;
-                            switch (console.info("Call threw error", e, n), n.reason) {
+                          })).catch((function(t) {
+                            var n;
+                            switch (console.info("Call threw error", e, t), t.reason) {
                               case "UniswapV2Router: INSUFFICIENT_OUTPUT_AMOUNT":
                               case "UniswapV2Router: EXCESSIVE_INPUT_AMOUNT":
-                                t = "This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance.";
+                                n = "This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance.";
                                 break;
                               default:
-                                t = "The transaction cannot succeed due to error: ".concat(n.reason, ". This is probably an issue with one of the tokens you are swapping.")
+                                n = "The transaction cannot succeed due to error: ".concat(t.reason, ". This is probably an issue with one of the tokens you are swapping.")
                             }
                             return {
                               call: e,
-                              error: new Error(t)
+                              error: new Error(n)
                             }
                           }))
                         }))
                       })));
                     case 2:
-                      if (t = n.sent, a = t.find((function(e, n, t) {
-                          return "gasEstimate" in e && (n === t.length - 1 || "gasEstimate" in t[n + 1])
+                      if (n = t.sent, a = n.find((function(e, t, n) {
+                          return "gasEstimate" in e && (t === n.length - 1 || "gasEstimate" in n[t + 1])
                         }))) {
-                        n.next = 9;
+                        t.next = 9;
                         break
                       }
-                      if (!((i = t.filter((function(e) {
+                      if (!((i = n.filter((function(e) {
                           return "error" in e
                         }))).length > 0)) {
-                        n.next = 8;
+                        t.next = 8;
                         break
                       }
                       throw i[i.length - 1].error;
                     case 8:
                       throw new Error("Unexpected error. Please contact support: none of the calls threw an error");
                     case 9:
-                      return o = a.call, s = o.contract, d = o.parameters, b = d.methodName, p = d.args, m = d.value, h = a.gasEstimate, n.abrupt("return", s[b].apply(s, Object(X.a)(p).concat([Object(J.a)({
-                        gasLimit: yn(h)
-                      }, m && !La(m) ? {
-                        value: m,
+                      return o = a.call, s = o.contract, d = o.parameters, b = d.methodName, f = d.args, h = d.value, m = a.gasEstimate, t.abrupt("return", s[b].apply(s, Object(G.a)(f).concat([Object(X.a)({
+                        gasLimit: yt(m)
+                      }, h && !_a(h) ? {
+                        value: h,
                         from: c
                       } : {
                         from: c
-                      })])).then((function(n) {
-                        var t = e.inputAmount.currency.symbol,
+                      })])).then((function(t) {
+                        var n = e.inputAmount.currency.symbol,
                           a = e.outputAmount.currency.symbol,
                           i = e.inputAmount.toSignificant(3),
                           o = e.outputAmount.toSignificant(3),
-                          s = "Swap ".concat(i, " ").concat(t, " for ").concat(o, " ").concat(a),
-                          u = f === c ? s : "".concat(s, " to ").concat(r && pn(r) ? hn(r) : r);
-                        return l(n, {
-                          summary: u
-                        }), n.hash
+                          s = "Swap ".concat(i, " ").concat(n, " for ").concat(o, " ").concat(a),
+                          l = p === c ? s : "".concat(s, " to ").concat(r && jt(r) ? mt(r) : r);
+                        return u(t, {
+                          summary: l
+                        }), t.hash
                       })).catch((function(e) {
-                        throw 4001 === (null === e || void 0 === e ? void 0 : e.code) ? new Error("Transaction rejected.") : (console.error("Swap failed", e, b, p, m), new Error("Swap failed: ".concat(e.message)))
+                        throw 4001 === (null === e || void 0 === e ? void 0 : e.code) ? new Error("Transaction rejected.") : (console.error("Swap failed", e, b, f, h), new Error("Swap failed: ".concat(e.message)))
                       })));
                     case 11:
                     case "end":
-                      return n.stop()
+                      return t.stop()
                   }
-                }), n)
+                }), t)
               })));
               return function() {
-                return n.apply(this, arguments)
+                return t.apply(this, arguments)
               }
             }(),
             error: null
           } : null !== r ? {
-            state: Ml.INVALID,
+            state: Qu.INVALID,
             callback: null,
             error: "Invalid recipient"
           } : {
-            state: Ml.LOADING,
+            state: Qu.LOADING,
             callback: null,
             error: null
           } : {
-            state: Ml.INVALID,
+            state: Qu.INVALID,
             callback: null,
             error: "Missing dependencies"
           }
-        }), [e, s, c, o, f, r, u, l])
+        }), [e, s, c, o, p, r, l, u])
       }! function(e) {
         e[e.INVALID = 0] = "INVALID", e[e.LOADING = 1] = "LOADING", e[e.VALID = 2] = "VALID"
-      }(Ml || (Ml = {}));
-      var Hl;
+      }(Qu || (Qu = {}));
+      var nd;
       ! function(e) {
         e[e.NOT_APPLICABLE = 0] = "NOT_APPLICABLE", e[e.WRAP = 1] = "WRAP", e[e.UNWRAP = 2] = "UNWRAP"
-      }(Hl || (Hl = {}));
-      var Gl = {
-        wrapType: Hl.NOT_APPLICABLE
+      }(nd || (nd = {}));
+      var rd = {
+        wrapType: nd.NOT_APPLICABLE
       };
 
-      function Kl(e, n, t) {
+      function ad(e, t, n) {
         var r = ge(),
-          i = r.chainId,
+          a = r.chainId,
           c = r.account,
           o = function(e) {
-            var n = ge().chainId;
-            return ua(n ? Z.n[n].address : void 0, ca, e)
+            var t = ge().chainId;
+            return ua(t ? J.n[t].address : void 0, oa, e)
           }(),
-          s = wa(null !== c && void 0 !== c ? c : void 0, e),
-          u = Object(a.useMemo)((function() {
-            return ks(t, e)
-          }), [e, t]),
-          l = is();
-        return Object(a.useMemo)((function() {
-          if (!o || !i || !e || !n) return Gl;
-          var t = u && s && !s.lessThan(u);
-          return e === Z.d && Object(Z.o)(Z.n[i], n) ? {
-            wrapType: Hl.WRAP,
-            execute: t && u ? Object(m.a)(j.a.mark((function e() {
-              var n;
+          s = ka(null !== c && void 0 !== c ? c : void 0, e),
+          l = Object(i.useMemo)((function() {
+            return Is(n, e)
+          }), [e, n]),
+          u = cs();
+        return Object(i.useMemo)((function() {
+          if (!o || !a || !e || !t) return rd;
+          var n = l && s && !s.lessThan(l);
+          return e === J.d && Object(J.o)(J.n[a], t) ? {
+            wrapType: nd.WRAP,
+            execute: n && l ? Object(f.a)(j.a.mark((function e() {
+              var t;
               return j.a.wrap((function(e) {
                 for (;;) switch (e.prev = e.next) {
                   case 0:
                     return e.prev = 0, e.next = 3, o.deposit({
-                      value: "0x".concat(u.raw.toString(16))
+                      value: "0x".concat(l.raw.toString(16))
                     });
                   case 3:
-                    n = e.sent, l(n, {
-                      summary: "Wrap ".concat(u.toSignificant(6), " BNB to WBNB")
+                    t = e.sent, u(t, {
+                      summary: "Wrap ".concat(l.toSignificant(6), " BNB to WBNB")
                     }), e.next = 10;
                     break;
                   case 7:
@@ -8206,18 +7315,18 @@
                 [0, 7]
               ])
             }))) : void 0,
-            inputError: t ? void 0 : "Insufficient ETH balance"
-          } : Object(Z.o)(Z.n[i], e) && n === Z.d ? {
-            wrapType: Hl.UNWRAP,
-            execute: t && u ? Object(m.a)(j.a.mark((function e() {
-              var n;
+            inputError: n ? void 0 : "Insufficient BNB balance"
+          } : Object(J.o)(J.n[a], e) && t === J.d ? {
+            wrapType: nd.UNWRAP,
+            execute: n && l ? Object(f.a)(j.a.mark((function e() {
+              var t;
               return j.a.wrap((function(e) {
                 for (;;) switch (e.prev = e.next) {
                   case 0:
-                    return e.prev = 0, e.next = 3, o.withdraw("0x".concat(u.raw.toString(16)));
+                    return e.prev = 0, e.next = 3, o.withdraw("0x".concat(l.raw.toString(16)));
                   case 3:
-                    n = e.sent, l(n, {
-                      summary: "Unwrap ".concat(u.toSignificant(6), " WBNB to BNB")
+                    t = e.sent, u(t, {
+                      summary: "Unwrap ".concat(l.toSignificant(6), " WBNB to BNB")
                     }), e.next = 10;
                     break;
                   case 7:
@@ -8230,376 +7339,376 @@
                 [0, 7]
               ])
             }))) : void 0,
-            inputError: t ? void 0 : "Insufficient WBNB balance"
-          } : Gl
-        }), [o, i, e, n, u, s, l])
+            inputError: n ? void 0 : "Insufficient WBNB balance"
+          } : rd
+        }), [o, a, e, t, l, s, u])
       }
-      var Ql = function() {
-        var e, n, t, i, c, o, u, d, b, f, p = Bs(),
-          j = $t(),
-          m = [ya(null === p || void 0 === p ? void 0 : p.inputCurrencyId), ya(null === p || void 0 === p ? void 0 : p.outputCurrencyId)],
-          y = m[0],
-          v = m[1],
-          O = Object(a.useState)(!1),
-          g = Object(h.a)(O, 2),
-          C = g[0],
-          T = g[1],
-          k = Object(a.useState)(!1),
-          I = Object(h.a)(k, 2),
-          E = I[0],
-          N = I[1],
-          R = Object(a.useState)(""),
-          S = Object(h.a)(R, 2),
-          U = S[0],
-          A = S[1],
-          B = Object(a.useMemo)((function() {
-            var e, n;
-            return null !== (e = null === (n = [y, v]) || void 0 === n ? void 0 : n.filter((function(e) {
-              return e instanceof Z.j
+      var id = function() {
+        var e, t, n, r, a, c, o, s, u, b, p = Bs(),
+          j = tr(),
+          f = [Oa(null === p || void 0 === p ? void 0 : p.inputCurrencyId), Oa(null === p || void 0 === p ? void 0 : p.outputCurrencyId)],
+          m = f[0],
+          y = f[1],
+          O = Object(i.useState)(!1),
+          x = Object(h.a)(O, 2),
+          g = x[0],
+          w = x[1],
+          k = Object(i.useState)(!1),
+          T = Object(h.a)(k, 2),
+          I = T[0],
+          E = T[1],
+          N = Object(i.useState)(""),
+          R = Object(h.a)(N, 2),
+          S = R[0],
+          U = R[1],
+          A = Object(i.useMemo)((function() {
+            var e, t;
+            return null !== (e = null === (t = [m, y]) || void 0 === t ? void 0 : t.filter((function(e) {
+              return e instanceof J.j
             }))) && void 0 !== e ? e : []
-          }), [y, v]),
-          P = Object(a.useCallback)((function() {
-            T(!0)
+          }), [m, y]),
+          P = Object(i.useCallback)((function() {
+            w(!0)
           }), []),
-          D = Object(a.useCallback)((function() {
-            N(!1), A("")
+          B = Object(i.useCallback)((function() {
+            E(!1), U("")
           }), []),
           M = ge().account,
-          L = Object(a.useContext)(l.ThemeContext),
-          _ = function() {
-            var e = Object(x.c)(),
-              n = Xr(),
-              t = Object(a.useCallback)((function() {
-                e(Lr({
-                  userExpertMode: !n
+          L = Object(i.useContext)(d.ThemeContext),
+          D = function() {
+            var e = Object(v.c)(),
+              t = Jr(),
+              n = Object(i.useCallback)((function() {
+                e(_r({
+                  userExpertMode: !t
                 }))
-              }), [n, e]);
-            return [n, t]
+              }), [t, e]);
+            return [t, n]
           }(),
-          F = Object(h.a)(_, 1)[0],
+          _ = Object(h.a)(D, 1)[0],
           Y = Zr(),
           z = Object(h.a)(Y, 1)[0],
-          q = Jr(),
-          V = Object(h.a)(q, 1)[0],
-          W = Ts(),
-          H = W.independentField,
-          G = W.typedValue,
-          K = W.recipient,
-          Q = Ns(),
-          X = Q.v2Trade,
-          ee = Q.currencyBalances,
-          ne = Q.parsedAmount,
-          te = Q.currencies,
-          re = Q.inputError,
-          ae = Kl(te[Qo.INPUT], te[Qo.OUTPUT], G),
-          ie = ae.wrapType,
-          ce = ae.execute,
-          oe = ae.inputError,
-          se = ie !== Hl.NOT_APPLICABLE,
-          ue = se ? void 0 : X,
-          le = se ? (e = {}, Object(w.a)(e, Qo.INPUT, ne), Object(w.a)(e, Qo.OUTPUT, ne), e) : (n = {}, Object(w.a)(n, Qo.INPUT, H === Qo.INPUT ? ne : null === ue || void 0 === ue ? void 0 : ue.inputAmount), Object(w.a)(n, Qo.OUTPUT, H === Qo.OUTPUT ? ne : null === ue || void 0 === ue ? void 0 : ue.outputAmount), n),
-          de = function() {
-            var e = Object(x.c)(),
-              n = Object(a.useCallback)((function(n, t) {
-                e(Xo({
-                  field: n,
-                  currencyId: t instanceof Z.j ? t.address : t === Z.d ? "ETH" : ""
+          F = $r(),
+          q = Object(h.a)(F, 1)[0],
+          V = Ts(),
+          W = V.independentField,
+          H = V.typedValue,
+          Q = V.recipient,
+          K = Rs(),
+          G = K.v2Trade,
+          Z = K.currencyBalances,
+          ee = K.parsedAmount,
+          te = K.currencies,
+          ne = K.inputError,
+          re = ad(te[Xo.INPUT], te[Xo.OUTPUT], H),
+          ae = re.wrapType,
+          ie = re.execute,
+          ce = re.inputError,
+          oe = ae !== nd.NOT_APPLICABLE,
+          se = oe ? void 0 : G,
+          le = oe ? (e = {}, Object(C.a)(e, Xo.INPUT, ee), Object(C.a)(e, Xo.OUTPUT, ee), e) : (t = {}, Object(C.a)(t, Xo.INPUT, W === Xo.INPUT ? ee : null === se || void 0 === se ? void 0 : se.inputAmount), Object(C.a)(t, Xo.OUTPUT, W === Xo.OUTPUT ? ee : null === se || void 0 === se ? void 0 : se.outputAmount), t),
+          ue = function() {
+            var e = Object(v.c)(),
+              t = Object(i.useCallback)((function(t, n) {
+                e(Jo({
+                  field: t,
+                  currencyId: n instanceof J.j ? n.address : n === J.d ? "BNB" : ""
                 }))
               }), [e]);
             return {
-              onSwitchTokens: Object(a.useCallback)((function() {
-                e(Jo())
+              onSwitchTokens: Object(i.useCallback)((function() {
+                e($o())
               }), [e]),
-              onCurrencySelection: n,
-              onUserInput: Object(a.useCallback)((function(n, t) {
+              onCurrencySelection: t,
+              onUserInput: Object(i.useCallback)((function(t, n) {
                 e(Zo({
-                  field: n,
-                  typedValue: t
+                  field: t,
+                  typedValue: n
                 }))
               }), [e]),
-              onChangeRecipient: Object(a.useCallback)((function(n) {
-                e(es({
-                  recipient: n
+              onChangeRecipient: Object(i.useCallback)((function(t) {
+                e(ts({
+                  recipient: t
                 }))
               }), [e])
             }
           }(),
-          fe = de.onSwitchTokens,
-          pe = de.onCurrencySelection,
-          je = de.onUserInput,
-          me = de.onChangeRecipient,
-          he = !re,
-          Oe = H === Qo.INPUT ? Qo.OUTPUT : Qo.INPUT,
-          xe = Object(a.useCallback)((function(e) {
-            je(Qo.INPUT, e)
+          de = ue.onSwitchTokens,
+          pe = ue.onCurrencySelection,
+          je = ue.onUserInput,
+          fe = ue.onChangeRecipient,
+          he = !ne,
+          me = W === Xo.INPUT ? Xo.OUTPUT : Xo.INPUT,
+          ve = Object(i.useCallback)((function(e) {
+            je(Xo.INPUT, e)
           }), [je]),
-          Ce = Object(a.useCallback)((function(e) {
-            je(Qo.OUTPUT, e)
+          xe = Object(i.useCallback)((function(e) {
+            je(Xo.OUTPUT, e)
           }), [je]),
-          we = Object(a.useState)({
+          Ce = Object(i.useState)({
             showConfirm: !1,
             tradeToConfirm: void 0,
             attemptingTxn: !1,
             swapErrorMessage: void 0,
             txHash: void 0
           }),
-          Te = Object(h.a)(we, 2),
-          ke = Te[0],
-          Ie = ke.showConfirm,
-          Ee = ke.tradeToConfirm,
-          Ne = ke.swapErrorMessage,
-          Re = ke.attemptingTxn,
-          Se = ke.txHash,
-          Ue = Te[1],
-          Ae = (u = {}, Object(w.a)(u, H, G), Object(w.a)(u, Oe, se ? null !== (t = null === (i = le[H]) || void 0 === i ? void 0 : i.toExact()) && void 0 !== t ? t : "" : null !== (c = null === (o = le[Oe]) || void 0 === o ? void 0 : o.toSignificant(6)) && void 0 !== c ? c : ""), u),
-          Be = null === ue || void 0 === ue ? void 0 : ue.route,
-          Pe = Boolean(te[Qo.INPUT] && te[Qo.OUTPUT] && (null === (d = le[H]) || void 0 === d ? void 0 : d.greaterThan(Z.e.BigInt(0)))),
-          Me = !Be,
+          we = Object(h.a)(Ce, 2),
+          ke = we[0],
+          Te = ke.showConfirm,
+          Ie = ke.tradeToConfirm,
+          Ee = ke.swapErrorMessage,
+          Ne = ke.attemptingTxn,
+          Re = ke.txHash,
+          Se = we[1],
+          Ue = (o = {}, Object(C.a)(o, W, H), Object(C.a)(o, me, oe ? null !== (n = null === (r = le[W]) || void 0 === r ? void 0 : r.toExact()) && void 0 !== n ? n : "" : null !== (a = null === (c = le[me]) || void 0 === c ? void 0 : c.toSignificant(6)) && void 0 !== a ? a : ""), o),
+          Ae = null === se || void 0 === se ? void 0 : se.route,
+          Pe = Boolean(te[Xo.INPUT] && te[Xo.OUTPUT] && (null === (s = le[W]) || void 0 === s ? void 0 : s.greaterThan(J.e.BigInt(0)))),
+          Be = !Ae,
           Le = function(e) {
-            var n = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : 0;
-            return hs(Object(a.useMemo)((function() {
-              return e ? ps(e, n)[Qo.INPUT] : void 0
-            }), [e, n]), $)
-          }(ue, V),
-          _e = Object(h.a)(Le, 2),
-          Fe = _e[0],
-          Ye = _e[1],
-          ze = Object(a.useState)(!1),
-          qe = Object(h.a)(ze, 2),
-          Ve = qe[0],
-          We = qe[1];
-        Object(a.useEffect)((function() {
-          Fe === ss.PENDING && We(!0)
-        }), [Fe, Ve]);
-        var He = Ms(ee[Qo.INPUT]),
-          Ge = Boolean(He && (null === (b = le[Qo.INPUT]) || void 0 === b ? void 0 : b.equalTo(He))),
-          Ke = Wl(ue, V, z, K),
-          Qe = Ke.callback,
-          Xe = Ke.error,
-          Je = fs(ue).priceImpactWithoutFee,
-          Ze = Object(a.useCallback)((function() {
-            Je && ! function(e) {
-              return e.lessThan(ve) ? !!e.lessThan(ye) || window.confirm("This swap has a price impact of at least ".concat(ye.toFixed(0), "%. Please confirm that you would like to continue with this swap.")) : "confirm" === window.prompt("This swap has a price impact of at least ".concat(ve.toFixed(0), '%. Please type the word "confirm" to continue with this swap.'))
-            }(Je) || Qe && (Ue((function(e) {
-              return Object(J.a)(Object(J.a)({}, e), {}, {
+            var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : 0;
+            return ys(Object(i.useMemo)((function() {
+              return e ? fs(e, t)[Xo.INPUT] : void 0
+            }), [e, t]), $)
+          }(se, q),
+          De = Object(h.a)(Le, 2),
+          _e = De[0],
+          Ye = De[1],
+          ze = Object(i.useState)(!1),
+          Fe = Object(h.a)(ze, 2),
+          qe = Fe[0],
+          Ve = Fe[1];
+        Object(i.useEffect)((function() {
+          _e === ls.PENDING && Ve(!0)
+        }), [_e, qe]);
+        var We = Ds(Z[Xo.INPUT]),
+          He = Boolean(We && (null === (u = le[Xo.INPUT]) || void 0 === u ? void 0 : u.equalTo(We))),
+          Qe = td(se, q, z, Q),
+          Ke = Qe.callback,
+          Ge = Qe.error,
+          Xe = js(se).priceImpactWithoutFee,
+          Je = Object(i.useCallback)((function() {
+            Xe && ! function(e) {
+              return e.lessThan(Oe) ? !!e.lessThan(ye) || window.confirm("This swap has a price impact of at least ".concat(ye.toFixed(0), "%. Please confirm that you would like to continue with this swap.")) : "confirm" === window.prompt("This swap has a price impact of at least ".concat(Oe.toFixed(0), '%. Please type the word "confirm" to continue with this swap.'))
+            }(Xe) || Ke && (Se((function(e) {
+              return Object(X.a)(Object(X.a)({}, e), {}, {
                 attemptingTxn: !0,
                 swapErrorMessage: void 0,
                 txHash: void 0
               })
-            })), Qe().then((function(e) {
-              Ue((function(n) {
-                return Object(J.a)(Object(J.a)({}, n), {}, {
+            })), Ke().then((function(e) {
+              Se((function(t) {
+                return Object(X.a)(Object(X.a)({}, t), {}, {
                   attemptingTxn: !1,
                   swapErrorMessage: void 0,
                   txHash: e
                 })
               }))
             })).catch((function(e) {
-              Ue((function(n) {
-                return Object(J.a)(Object(J.a)({}, n), {}, {
+              Se((function(t) {
+                return Object(X.a)(Object(X.a)({}, t), {}, {
                   attemptingTxn: !1,
                   swapErrorMessage: e.message,
                   txHash: void 0
                 })
               }))
             })))
-          }), [Je, Qe, Ue]),
-          $e = Object(a.useState)(!1),
-          nn = Object(h.a)($e, 2),
-          rn = nn[0],
-          an = nn[1],
-          cn = js(Je),
-          on = !re && (Fe === ss.NOT_APPROVED || Fe === ss.PENDING || Ve && Fe === ss.APPROVED) && !(cn > 3 && !F),
-          sn = Object(a.useCallback)((function() {
-            Ue((function(e) {
-              return Object(J.a)(Object(J.a)({}, e), {}, {
+          }), [Xe, Ke, Se]),
+          $e = Object(i.useState)(!1),
+          Ze = Object(h.a)($e, 2),
+          tt = Ze[0],
+          rt = Ze[1],
+          at = hs(Xe),
+          ct = !ne && (_e === ls.NOT_APPROVED || _e === ls.PENDING || qe && _e === ls.APPROVED) && !(at > 3 && !_),
+          ot = Object(i.useCallback)((function() {
+            Se((function(e) {
+              return Object(X.a)(Object(X.a)({}, e), {}, {
                 showConfirm: !1
               })
-            })), Se && je(Qo.INPUT, "")
-          }), [je, Se, Ue]),
-          un = Object(a.useCallback)((function() {
-            Ue((function(e) {
-              return Object(J.a)(Object(J.a)({}, e), {}, {
-                tradeToConfirm: ue
+            })), Re && je(Xo.INPUT, "")
+          }), [je, Re, Se]),
+          st = Object(i.useCallback)((function() {
+            Se((function(e) {
+              return Object(X.a)(Object(X.a)({}, e), {}, {
+                tradeToConfirm: se
               })
             }))
-          }), [ue]),
-          ln = Object(a.useCallback)((function(e, n) {
-            "syrup" === e && (N(!0), A(n))
-          }), [N, A]),
-          dn = Object(a.useCallback)((function(e) {
-            We(!1), pe(Qo.INPUT, e), "syrup" === e.symbol.toLowerCase() && ln(e.symbol.toLowerCase(), "Selling")
-          }), [pe, We, ln]),
-          bn = Object(a.useCallback)((function() {
-            He && je(Qo.INPUT, He.toExact())
-          }), [He, je]),
-          fn = Object(a.useCallback)((function(e) {
-            pe(Qo.OUTPUT, e), "syrup" === e.symbol.toLowerCase() && ln(e.symbol.toLowerCase(), "Buying")
-          }), [pe, ln]);
-        return Object(r.jsxs)(r.Fragment, {
-          children: [Object(r.jsx)(kl, {
-            isOpen: B.length > 0 && !C,
-            tokens: B,
+          }), [se]),
+          lt = Object(i.useCallback)((function(e, t) {
+            "syrup" === e && (E(!0), U(t))
+          }), [E, U]),
+          ut = Object(i.useCallback)((function(e) {
+            Ve(!1), pe(Xo.INPUT, e), "syrup" === e.symbol.toLowerCase() && lt(e.symbol.toLowerCase(), "Selling")
+          }), [pe, Ve, lt]),
+          dt = Object(i.useCallback)((function() {
+            We && je(Xo.INPUT, We.toExact())
+          }), [We, je]),
+          bt = Object(i.useCallback)((function(e) {
+            pe(Xo.OUTPUT, e), "syrup" === e.symbol.toLowerCase() && lt(e.symbol.toLowerCase(), "Buying")
+          }), [pe, lt]);
+        return Object(it.jsxs)(it.Fragment, {
+          children: [Object(it.jsx)(Du, {
+            isOpen: A.length > 0 && !g,
+            tokens: A,
             onConfirm: P
-          }), Object(r.jsx)(Sl, {
-            isOpen: E,
-            transactionType: U,
-            onConfirm: D
-          }), Object(r.jsx)(rr, {}), Object(r.jsx)(qs, {
-            children: Object(r.jsxs)(ko, {
+          }), Object(it.jsx)(Hu, {
+            isOpen: I,
+            transactionType: S,
+            onConfirm: B
+          }), Object(it.jsx)(ar, {}), Object(it.jsx)(nl, {
+            children: Object(it.jsxs)(Io, {
               id: "swap-page",
-              children: [Object(r.jsx)(ll, {
-                isOpen: Ie,
-                trade: ue,
-                originalTrade: Ee,
-                onAcceptChanges: un,
-                attemptingTxn: Re,
-                txHash: Se,
-                recipient: K,
-                allowedSlippage: V,
-                onConfirm: Ze,
-                swapErrorMessage: Ne,
-                onDismiss: sn
-              }), Object(r.jsx)(Uu, {
+              children: [Object(it.jsx)(vu, {
+                isOpen: Te,
+                trade: se,
+                originalTrade: Ie,
+                onAcceptChanges: st,
+                attemptingTxn: Ne,
+                txHash: Re,
+                recipient: Q,
+                allowedSlippage: q,
+                onConfirm: Je,
+                swapErrorMessage: Ee,
+                onDismiss: ot
+              }), Object(it.jsx)(Fl, {
                 title: j(8, "Exchange"),
                 description: j(1192, "Trade tokens in an instant")
-              }), Object(r.jsxs)(s.g, {
-                children: [Object(r.jsxs)(De, {
+              }), Object(it.jsxs)(l.g, {
+                children: [Object(it.jsxs)(Me, {
                   gap: "md",
-                  children: [Object(r.jsx)(Zc, {
-                    label: H === Qo.OUTPUT && !se && ue ? j(194, "From (estimated)") : j(76, "From"),
-                    value: Ae[Qo.INPUT],
-                    showMaxButton: !Ge,
-                    currency: te[Qo.INPUT],
-                    onUserInput: xe,
-                    onMax: bn,
-                    onCurrencySelect: dn,
-                    otherCurrency: te[Qo.OUTPUT],
+                  children: [Object(it.jsx)(no, {
+                    label: W === Xo.OUTPUT && !oe && se ? j(194, "From (estimated)") : j(76, "From"),
+                    value: Ue[Xo.INPUT],
+                    showMaxButton: !He,
+                    currency: te[Xo.INPUT],
+                    onUserInput: ve,
+                    onMax: dt,
+                    onCurrencySelect: ut,
+                    otherCurrency: te[Xo.OUTPUT],
                     id: "swap-currency-input"
-                  }), Object(r.jsx)(De, {
+                  }), Object(it.jsx)(Me, {
                     justify: "space-between",
-                    children: Object(r.jsxs)(tn, {
-                      justify: F ? "space-between" : "center",
+                    children: Object(it.jsxs)(nt, {
+                      justify: _ ? "space-between" : "center",
                       style: {
                         padding: "0 1rem"
                       },
-                      children: [Object(r.jsx)(Io, {
+                      children: [Object(it.jsx)(Eo, {
                         clickable: !0,
-                        children: Object(r.jsx)(s.p, {
+                        children: Object(it.jsx)(l.p, {
                           variant: "tertiary",
                           onClick: function() {
-                            We(!1), fe()
+                            Ve(!1), de()
                           },
                           style: {
                             borderRadius: "50%"
                           },
                           scale: "sm",
-                          children: Object(r.jsx)(s.b, {
+                          children: Object(it.jsx)(l.b, {
                             color: "primary",
                             width: "24px"
                           })
                         })
-                      }), null === K && !se && F ? Object(r.jsx)(En, {
+                      }), null === Q && !oe && _ ? Object(it.jsx)(Et, {
                         id: "add-recipient-button",
                         onClick: function() {
-                          return me("")
+                          return fe("")
                         },
                         children: "+ Add a send (optional)"
                       }) : null]
                     })
-                  }), Object(r.jsx)(Zc, {
-                    value: Ae[Qo.OUTPUT],
-                    onUserInput: Ce,
-                    label: H === Qo.INPUT && !se && ue ? j(196, "To (estimated)") : j(80, "To"),
+                  }), Object(it.jsx)(no, {
+                    value: Ue[Xo.OUTPUT],
+                    onUserInput: xe,
+                    label: W === Xo.INPUT && !oe && se ? j(196, "To (estimated)") : j(80, "To"),
                     showMaxButton: !1,
-                    currency: te[Qo.OUTPUT],
-                    onCurrencySelect: fn,
-                    otherCurrency: te[Qo.INPUT],
+                    currency: te[Xo.OUTPUT],
+                    onCurrencySelect: bt,
+                    otherCurrency: te[Xo.INPUT],
                     id: "swap-currency-output"
-                  }), null === K || se ? null : Object(r.jsxs)(r.Fragment, {
-                    children: [Object(r.jsxs)(tn, {
+                  }), null === Q || oe ? null : Object(it.jsxs)(it.Fragment, {
+                    children: [Object(it.jsxs)(nt, {
                       justify: "space-between",
                       style: {
                         padding: "0 1rem"
                       },
-                      children: [Object(r.jsx)(Io, {
+                      children: [Object(it.jsx)(Eo, {
                         clickable: !1,
-                        children: Object(r.jsx)(Mu.a, {
+                        children: Object(it.jsx)(Gl.a, {
                           size: "16",
                           color: L.colors.textSubtle
                         })
-                      }), Object(r.jsx)(En, {
+                      }), Object(it.jsx)(Et, {
                         id: "remove-recipient-button",
                         onClick: function() {
-                          return me(null)
+                          return fe(null)
                         },
                         children: "- Remove send"
                       })]
-                    }), Object(r.jsx)(rl, {
+                    }), Object(it.jsx)(pu, {
                       id: "recipient",
-                      value: K,
-                      onChange: me
+                      value: Q,
+                      onChange: fe
                     })]
-                  }), se ? null : Object(r.jsx)(ft, {
+                  }), oe ? null : Object(it.jsx)(Cn, {
                     padding: ".25rem .75rem 0 .75rem",
                     borderRadius: "20px",
-                    children: Object(r.jsxs)(De, {
+                    children: Object(it.jsxs)(Me, {
                       gap: "4px",
-                      children: [Boolean(ue) && Object(r.jsxs)(en, {
+                      children: [Boolean(se) && Object(it.jsxs)(et, {
                         align: "center",
-                        children: [Object(r.jsx)(s.y, {
+                        children: [Object(it.jsx)(l.y, {
                           fontSize: "14px",
                           children: j(1182, "Price")
-                        }), Object(r.jsx)(yl, {
-                          price: null === ue || void 0 === ue ? void 0 : ue.executionPrice,
-                          showInverted: rn,
-                          setShowInverted: an
+                        }), Object(it.jsx)(Su, {
+                          price: null === se || void 0 === se ? void 0 : se.executionPrice,
+                          showInverted: tt,
+                          setShowInverted: rt
                         })]
-                      }), V !== be && Object(r.jsxs)(en, {
+                      }), q !== be && Object(it.jsxs)(et, {
                         align: "center",
-                        children: [Object(r.jsx)(s.y, {
+                        children: [Object(it.jsx)(l.y, {
                           fontSize: "14px",
                           children: j(88, "Slippage Tolerance")
-                        }), Object(r.jsxs)(s.y, {
+                        }), Object(it.jsxs)(l.y, {
                           fontSize: "14px",
-                          children: [V / 100, "%"]
+                          children: [q / 100, "%"]
                         })]
                       })]
                     })
                   })]
-                }), Object(r.jsxs)(No, {
-                  children: [M ? se ? Object(r.jsx)(s.c, {
-                    disabled: Boolean(oe),
-                    onClick: ce,
+                }), Object(it.jsxs)(Ro, {
+                  children: [M ? oe ? Object(it.jsx)(l.c, {
+                    disabled: Boolean(ce),
+                    onClick: ie,
                     width: "100%",
-                    children: null !== oe && void 0 !== oe ? oe : ie === Hl.WRAP ? "Wrap" : ie === Hl.UNWRAP ? "Unwrap" : null
-                  }) : Me && Pe ? Object(r.jsx)(jt, {
+                    children: null !== ce && void 0 !== ce ? ce : ae === nd.WRAP ? "Wrap" : ae === nd.UNWRAP ? "Unwrap" : null
+                  }) : Be && Pe ? Object(it.jsx)(kn, {
                     style: {
                       textAlign: "center"
                     },
-                    children: Object(r.jsx)(s.y, {
+                    children: Object(it.jsx)(l.y, {
                       mb: "4px",
                       children: j(1194, "Insufficient liquidity for this trade.")
                     })
-                  }) : on ? Object(r.jsxs)(en, {
-                    children: [Object(r.jsx)(s.c, {
+                  }) : ct ? Object(it.jsxs)(et, {
+                    children: [Object(it.jsx)(l.c, {
                       onClick: Ye,
-                      disabled: Fe !== ss.NOT_APPROVED || Ve,
+                      disabled: _e !== ls.NOT_APPROVED || qe,
                       style: {
                         width: "48%"
                       },
-                      variant: Fe === ss.APPROVED ? "success" : "primary",
-                      children: Fe === ss.PENDING ? Object(r.jsxs)(tn, {
+                      variant: _e === ls.APPROVED ? "success" : "primary",
+                      children: _e === ls.PENDING ? Object(it.jsxs)(nt, {
                         gap: "6px",
                         justify: "center",
-                        children: ["Approving ", Object(r.jsx)(rt, {
+                        children: ["Approving ", Object(it.jsx)(cn, {
                           stroke: "white"
                         })]
-                      }) : Ve && Fe === ss.APPROVED ? "Approved" : "Approve ".concat(null === (f = te[Qo.INPUT]) || void 0 === f ? void 0 : f.symbol)
-                    }), Object(r.jsx)(s.c, {
+                      }) : qe && _e === ls.APPROVED ? "Approved" : "Approve ".concat(null === (b = te[Xo.INPUT]) || void 0 === b ? void 0 : b.symbol)
+                    }), Object(it.jsx)(l.c, {
                       onClick: function() {
-                        F ? Ze() : Ue({
-                          tradeToConfirm: ue,
+                        _ ? Je() : Se({
+                          tradeToConfirm: se,
                           attemptingTxn: !1,
                           swapErrorMessage: void 0,
                           showConfirm: !0,
@@ -8610,14 +7719,14 @@
                         width: "48%"
                       },
                       id: "swap-button",
-                      disabled: !he || Fe !== ss.APPROVED || cn > 3 && !F,
-                      variant: he && cn > 2 ? "danger" : "primary",
-                      children: cn > 3 && !F ? "Price Impact High" : "Swap".concat(cn > 2 ? " Anyway" : "")
+                      disabled: !he || _e !== ls.APPROVED || at > 3 && !_,
+                      variant: he && at > 2 ? "danger" : "primary",
+                      children: at > 3 && !_ ? "Price Impact High" : "Swap".concat(at > 2 ? " Anyway" : "")
                     })]
-                  }) : Object(r.jsx)(s.c, {
+                  }) : Object(it.jsx)(l.c, {
                     onClick: function() {
-                      F ? Ze() : Ue({
-                        tradeToConfirm: ue,
+                      _ ? Je() : Se({
+                        tradeToConfirm: se,
                         attemptingTxn: !1,
                         swapErrorMessage: void 0,
                         showConfirm: !0,
@@ -8625,39 +7734,39 @@
                       })
                     },
                     id: "swap-button",
-                    disabled: !he || cn > 3 && !F || !!Xe,
-                    variant: he && cn > 2 && !Xe ? "danger" : "primary",
+                    disabled: !he || at > 3 && !_ || !!Ge,
+                    variant: he && at > 2 && !Ge ? "danger" : "primary",
                     width: "100%",
-                    children: re || (cn > 3 && !F ? "Price Impact Too High" : "Swap".concat(cn > 2 ? " Anyway" : ""))
-                  }) : Object(r.jsx)(Fs, {
+                    children: ne || (at > 3 && !_ ? "Price Impact Too High" : "Swap".concat(at > 2 ? " Anyway" : ""))
+                  }) : Object(it.jsx)(el, {
                     width: "100%"
-                  }), on && Object(r.jsx)(ql, {
-                    steps: [Fe === ss.APPROVED]
-                  }), F && Ne ? Object(r.jsx)(Po, {
-                    error: Ne
+                  }), ct && Object(it.jsx)(Zu, {
+                    steps: [_e === ls.APPROVED]
+                  }), _ && Ee ? Object(it.jsx)(Mo, {
+                    error: Ee
                   }) : null]
                 })]
               })]
             })
-          }), Object(r.jsx)(hl, {
-            trade: ue
+          }), Object(it.jsx)(Ru, {
+            trade: se
           })]
         })
       };
 
-      function Xl(e) {
-        var n = e.location;
-        return Object(r.jsx)(v.a, {
-          to: Object(J.a)(Object(J.a)({}, n), {}, {
+      function cd(e) {
+        var t = e.location;
+        return Object(it.jsx)(y.a, {
+          to: Object(X.a)(Object(X.a)({}, t), {}, {
             pathname: "/swap"
           })
         })
       }
-      var Jl = {
+      var od, sd, ld, ud = {
           code: "en",
           language: "English"
         },
-        Zl = [Jl, {
+        dd = [ud, {
           code: "ar",
           language: "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
         }, {
@@ -8739,7 +7848,7 @@
           code: "vi",
           language: "Ti\u1ebfng Vi\u1ec7t"
         }],
-        $l = {
+        bd = {
           selectedLanguage: {
             code: "",
             language: ""
@@ -8751,63 +7860,63 @@
           },
           setTranslatedLanguage: function() {}
         },
-        ed = Object(a.createContext)($l),
-        nd = "IS_DARK",
-        td = i.a.createContext({
+        pd = Object(i.createContext)(bd),
+        jd = "IS_DARK",
+        fd = c.a.createContext({
           isDark: !1,
           toggleTheme: function() {
             return null
           }
         }),
-        rd = function(e) {
-          var n = e.children,
-            t = Object(a.useState)((function() {
-              var e = localStorage.getItem(nd);
+        hd = function(e) {
+          var t = e.children,
+            n = Object(i.useState)((function() {
+              var e = localStorage.getItem(jd);
               return !!e && JSON.parse(e)
             })),
-            i = Object(h.a)(t, 2),
-            c = i[0],
-            o = i[1];
-          return Object(r.jsx)(td.Provider, {
+            r = Object(h.a)(n, 2),
+            a = r[0],
+            c = r[1];
+          return Object(it.jsx)(fd.Provider, {
             value: {
-              isDark: c,
+              isDark: a,
               toggleTheme: function() {
-                o((function(e) {
-                  return localStorage.setItem(nd, JSON.stringify(!e)), !e
+                c((function(e) {
+                  return localStorage.setItem(jd, JSON.stringify(!e)), !e
                 }))
               }
             },
-            children: Object(r.jsx)(l.ThemeProvider, {
-              theme: c ? s.A : s.B,
-              children: n
+            children: Object(it.jsx)(d.ThemeProvider, {
+              theme: a ? l.B : l.C,
+              children: t
             })
           })
         },
-        ad = function() {
-          var e = Object(a.useContext)(td);
+        md = function() {
+          var e = Object(i.useContext)(fd);
           return {
             isDark: e.isDark,
             toggleTheme: e.toggleTheme,
-            theme: Object(a.useContext)(l.ThemeContext)
+            theme: Object(i.useContext)(d.ThemeContext)
           }
         },
-        id = function() {
-          var e = Object(a.useState)(null),
-            n = Object(h.a)(e, 2),
-            t = n[0],
-            r = n[1];
-          return Object(a.useEffect)((function() {
+        yd = function() {
+          var e = Object(i.useState)(null),
+            t = Object(h.a)(e, 2),
+            n = t[0],
+            r = t[1];
+          return Object(i.useEffect)((function() {
             (function() {
-              var e = Object(m.a)(j.a.mark((function e() {
-                var n, t;
+              var e = Object(f.a)(j.a.mark((function e() {
+                var t, n;
                 return j.a.wrap((function(e) {
                   for (;;) switch (e.prev = e.next) {
                     case 0:
                       return e.prev = 0, e.next = 3, fetch("https://api.pancakeswap.com/api/v1/price");
                     case 3:
-                      return n = e.sent, e.next = 6, n.json();
+                      return t = e.sent, e.next = 6, t.json();
                     case 6:
-                      t = e.sent, r(t), e.next = 13;
+                      n = e.sent, r(n), e.next = 13;
                       break;
                     case 10:
                       e.prev = 10, e.t0 = e.catch(0), console.error("Unable to fetch price data:", e.t0);
@@ -8823,41 +7932,41 @@
                 return e.apply(this, arguments)
               }
             })()()
-          }), [r]), t
+          }), [r]), n
         },
-        cd = t(274),
-        od = t.n(cd),
-        sd = {
+        Od = n(288),
+        vd = n.n(Od),
+        xd = {
           profileLink: "https://pancakeswap.finance/profile",
           noProfileLink: "https://pancakeswap.finance/profile"
         },
-        ud = function() {
-          var e = Object(a.useState)(sd),
-            n = Object(h.a)(e, 2),
-            t = n[0],
-            r = n[1],
-            i = ge().account;
-          return Object(a.useEffect)((function() {
-            if (i) try {
-              var e = od.a.get("profile_".concat(i));
+        gd = function() {
+          var e = Object(i.useState)(xd),
+            t = Object(h.a)(e, 2),
+            n = t[0],
+            r = t[1],
+            a = ge().account;
+          return Object(i.useEffect)((function() {
+            if (a) try {
+              var e = vd.a.get("profile_".concat(a));
               if (e) {
-                var n = JSON.parse(e);
+                var t = JSON.parse(e);
                 r((function(e) {
-                  return Object(J.a)(Object(J.a)({}, e), {}, {
-                    username: n.username,
-                    image: n.avatar
+                  return Object(X.a)(Object(X.a)({}, e), {}, {
+                    username: t.username,
+                    image: t.avatar
                   })
                 }))
               }
-            } catch (t) {
-              r(sd)
-            } else r(sd)
-          }), [i, r]), t
+            } catch (n) {
+              r(xd)
+            } else r(xd)
+          }), [a, r]), n
         },
-        ld = [{
-          label: "Home",
+        Cd = [{
+          label: "MartianSwap BSC Testnet",
           icon: "HomeIcon",
-          href: "https://martianswap.io"
+          href: "https://classy-muffin-3c480c.netlify.app/#/swap"
         }, {
           label: "Trade",
           icon: "TradeIcon",
@@ -8868,139 +7977,111 @@
           }, {
             label: "Liquidity",
             href: "/pool"
-          },{
-            label: "Rewards Portal",
-            href: "https://martianswap.io/rewards"
-          }]}],
-       /* }, {
-          label: "Farms",
-          icon: "FarmIcon",
-          href: "https://hopswap.fi/farms"
+          }]
         }, {
-          label: "Pools",
-          icon: "PoolIcon",
-          href: "https://hopswap.fi/syrup"
-        }],*/
-        dd = function(e) {
-          var n = Object(g.c)(),
-            t = n.account,
-            i = n.activate,
-            c = n.deactivate,
-            o = Object(a.useContext)(ed),
-            u = o.selectedLanguage,
-            l = o.setSelectedLanguage,
-            d = ad(),
-            b = d.isDark,
-            f = d.toggleTheme,
-            p = id();
-          p && Number(p.prices.Cake), ud();
-          return Object(r.jsx)(s.s, Object(J.a)({
-            links: ld,
+          label: "Change this to Something",
+          icon: "InfoIcon",
+          href: "https://espn.com"
+        }],
+        wd = function(e) {
+          var t = Object(x.d)().account,
+            n = Zs(),
+            r = n.login,
+            a = n.logout,
+            c = Object(i.useContext)(pd),
+            o = c.selectedLanguage,
+            s = c.setSelectedLanguage,
+            u = md(),
+            d = u.isDark,
+            b = u.toggleTheme,
+            p = yd(),
+            j = p ? Number(p.prices.Cake) : void 0,
+            f = gd();
+          return Object(it.jsx)(l.s, Object(X.a)({
+            links: Cd,
             account: t,
-            login: function(e) {
-              var n = Q[e];
-              n && i(n)
-            },
-            logout: c,
-            isDark: b,
-            toggleTheme: f,
-            currentLang: (null === u || void 0 === u ? void 0 : u.code) || "",
-            langs: Zl,
-            setLang: l
+            login: r,
+            logout: a,
+            isDark: d,
+            toggleTheme: b,
+            currentLang: (null === o || void 0 === o ? void 0 : o.code) || "",
+            langs: dd,
+            setLang: s,
+            cakePriceUsd: j,
+            profile: f
           }, e))
-        };
-
-      function bd() {
-        var e = Object(u.a)(["\n  margin-top: 5rem;\n"]);
-        return bd = function() {
-          return e
-        }, e
-      }
-
-      function fd() {
-        var e = Object(u.a)(["\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  padding: 32px 16px;\n  align-items: center;\n  flex: 1;\n  overflow-y: auto;\n  overflow-x: hidden;\n  z-index: 1;\n  justify-content: center;\n  // background-image: url('/images/group-pancake.svg');\n  background-repeat: no-repeat;\n  background-position: bottom 24px center;\n  background-size: 90%;\n\n  ", " {\n    background-size: auto;\n  }\n\n  ", " {\n    // background-image: url('/images/arch-", ".svg'),\n    //   url('/images/left-pancake.svg'), url('/images/right-pancake.svg');\n    background-repeat: no-repeat;\n    background-position: center 420px, 10% 230px, 90% 230px;\n    background-size: contain, 266px, 266px;\n    min-height: 90vh;\n  }\n"]);
-        return fd = function() {
-          return e
-        }, e
-      }
-
-      function pd() {
-        var e = Object(u.a)(["\n  display: flex;\n  flex-flow: column;\n  align-items: flex-start;\n  overflow-x: hidden;\n"]);
-        return pd = function() {
-          return e
-        }, e
-      }
-      var jd = l.default.div(pd()),
-        md = l.default.div(fd(), (function(e) {
+        },
+        kd = d.default.div(od || (od = Object(u.a)(["\n  display: flex;\n  flex-flow: column;\n  align-items: flex-start;\n  overflow-x: hidden;\n"]))),
+        Td = d.default.div(sd || (sd = Object(u.a)(["\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  padding: 32px 16px;\n  align-items: center;\n  flex: 1;\n  overflow-y: auto;\n  overflow-x: hidden;\n  z-index: 1;\n  justify-content: center;\n  background-image: url('/images/group-pagfdgfdcake.svg');\n  background-repeat: no-repeat;\n  background-position: bottom 24px center;\n  background-size: 90%;\n\n  ", " {\n    background-size: auto;\n  }\n\n  ", " {\n    background-image: url('/images/arch-", ".svg'),\n      url('/images/left-pafdncake.svg'), url('/images/right-pancake.svg');\n    background-repeat: no-repeat;\n    background-position: center 420px, 10% 230px, 90% 230px;\n    background-size: contain, 266px, 266px;\n    min-height: 90vh;\n  }\n"])), (function(e) {
           return e.theme.mediaQueries.xs
         }), (function(e) {
           return e.theme.mediaQueries.lg
         }), (function(e) {
           return e.theme.isDark ? "dark" : "light"
         })),
-        hd = l.default.div(bd());
+        Id = d.default.div(ld || (ld = Object(u.a)(["\n  margin-top: 5rem;\n"])));
 
-      function yd() {
-        var e = Object(a.useState)(void 0),
-          n = Object(h.a)(e, 2),
-          t = n[0],
-          i = n[1],
-          c = Object(a.useState)(void 0),
-          o = Object(h.a)(c, 2),
-          s = o[0],
-          u = o[1],
-          l = Object(a.useState)([]),
-          d = Object(h.a)(l, 2),
-          b = d[0],
-          f = d[1],
+      function Ed() {
+        var e = Object(i.useState)(void 0),
+          t = Object(h.a)(e, 2),
+          n = t[0],
+          r = t[1],
+          a = Object(i.useState)(void 0),
+          c = Object(h.a)(a, 2),
+          o = c[0],
+          s = c[1],
+          l = Object(i.useState)([]),
+          u = Object(h.a)(l, 2),
+          d = u[0],
+          b = u[1],
           p = "".concat(Object({
             NODE_ENV: "production",
-            PUBLIC_URL: ".",
+            PUBLIC_URL: "https://pancake.kiemtienonline360.com",
             WDS_SOCKET_HOST: void 0,
             WDS_SOCKET_PATH: void 0,
             WDS_SOCKET_PORT: void 0,
             FAST_REFRESH: !0,
-            REACT_APP_NETWORK_URL: "https://bsc-dataseed1.defibit.io",
-            REACT_APP_CHAIN_ID: "56",
-            REACT_APP_GTAG: "GTM-TLF66T4"
+            REACT_APP_CHAIN_ID: "97",
+            REACT_APP_GTAG: "GTM-PXLD3XW",
+            REACT_APP_NETWORK_URL: "https://data-seed-prebsc-1-s1.binance.org:8545"
           }).REACT_APP_CROWDIN_APIKEY),
-          x = parseInt("".concat(Object({
+          v = parseInt("".concat(Object({
             NODE_ENV: "production",
-            PUBLIC_URL: ".",
+            PUBLIC_URL: "https://pancake.kiemtienonline360.com",
             WDS_SOCKET_HOST: void 0,
             WDS_SOCKET_PATH: void 0,
             WDS_SOCKET_PORT: void 0,
             FAST_REFRESH: !0,
-            REACT_APP_NETWORK_URL: "https://bsc-dataseed1.defibit.io",
-            REACT_APP_CHAIN_ID: "56",
-            REACT_APP_GTAG: "GTM-TLF66T4"
+            REACT_APP_CHAIN_ID: "97",
+            REACT_APP_GTAG: "GTM-PXLD3XW",
+            REACT_APP_NETWORK_URL: "https://data-seed-prebsc-1-s1.binance.org:8545"
           }).REACT_APP_CROWDIN_PROJECTID)),
-          g = {
+          x = {
             token: p
           },
-          C = new O.StringTranslations(g);
-        Object(a.useEffect)((function() {
+          g = new O.StringTranslations(x);
+        Object(i.useEffect)((function() {
           var e = localStorage.getItem("pancakeSwapLanguage");
           if (e) {
-            var n = function(e) {
-              return Zl.filter((function(n) {
-                return n.code === e
+            var t = function(e) {
+              return dd.filter((function(t) {
+                return t.code === e
               }))[0]
             }(e);
-            i(n)
-          } else i(Jl)
+            r(t)
+          } else r(ud)
         }), []);
-        var w = function() {
-          var e = Object(m.a)(j.a.mark((function e() {
+        var C = function() {
+          var e = Object(f.a)(j.a.mark((function e() {
             return j.a.wrap((function(e) {
               for (;;) switch (e.prev = e.next) {
                 case 0:
-                  C.listLanguageTranslations(x, t.code, void 0, 6, 200).then((function(e) {
-                    e.data.length < 1 ? f(["error"]) : f(e.data)
+                  g.listLanguageTranslations(v, n.code, void 0, 6, 200).then((function(e) {
+                    e.data.length < 1 ? b(["error"]) : b(e.data)
                   })).then((function() {
-                    return u(t)
+                    return s(n)
                   })).catch((function(e) {
-                    f(["error"]), console.error(e)
+                    b(["error"]), console.error(e)
                   }));
                 case 1:
                 case "end":
@@ -9012,70 +8093,70 @@
             return e.apply(this, arguments)
           }
         }();
-        return Object(a.useEffect)((function() {
-          t && w()
-        }), [t]), Object(r.jsx)(a.Suspense, {
+        return Object(i.useEffect)((function() {
+          n && C()
+        }), [n]), Object(it.jsx)(i.Suspense, {
           fallback: null,
-          children: Object(r.jsx)(y.a, {
-            children: Object(r.jsx)(jd, {
-              children: Object(r.jsx)(ed.Provider, {
+          children: Object(it.jsx)(m.a, {
+            children: Object(it.jsx)(kd, {
+              children: Object(it.jsx)(pd.Provider, {
                 value: {
-                  selectedLanguage: t,
-                  setSelectedLanguage: i,
-                  translatedLanguage: s,
-                  setTranslatedLanguage: u
+                  selectedLanguage: n,
+                  setSelectedLanguage: r,
+                  translatedLanguage: o,
+                  setTranslatedLanguage: s
                 },
-                children: Object(r.jsx)(Qt.Provider, {
+                children: Object(it.jsx)(Jn.Provider, {
                   value: {
-                    translations: b,
-                    setTranslations: f
+                    translations: d,
+                    setTranslations: b
                   },
-                  children: Object(r.jsx)(dd, {
-                    children: Object(r.jsxs)(md, {
-                      children: [Object(r.jsx)(Jn, {}), Object(r.jsx)(st, {
-                        children: Object(r.jsxs)(v.d, {
-                          children: [Object(r.jsx)(v.b, {
+                  children: Object(it.jsx)(wd, {
+                    children: Object(it.jsxs)(Td, {
+                      children: [Object(it.jsx)(Jt, {}), Object(it.jsx)(bn, {
+                        children: Object(it.jsxs)(y.d, {
+                          children: [Object(it.jsx)(y.b, {
                             exact: !0,
                             strict: !0,
                             path: "/swap",
-                            component: Ql
-                          }), Object(r.jsx)(v.b, {
+                            component: id
+                          }), Object(it.jsx)(y.b, {
                             exact: !0,
                             strict: !0,
                             path: "/find",
-                            component: Bu
-                          }), Object(r.jsx)(v.b, {
+                            component: Vl
+                          }), Object(it.jsx)(y.b, {
                             exact: !0,
                             strict: !0,
                             path: "/pool",
-                            component: Au
-                          }), Object(r.jsx)(v.b, {
+                            component: ql
+                          }), Object(it.jsx)(y.b, {
                             exact: !0,
                             path: "/add",
-                            component: Zs
-                          }), Object(r.jsx)(v.b, {
+                            component: sl
+                          }), Object(it.jsx)(y.b, {
                             exact: !0,
                             strict: !0,
                             path: "/remove/:currencyIdA/:currencyIdB",
-                            component: Ku
-                          }), Object(r.jsx)(v.b, {
+                            component: su
+                          }), Object(it.jsx)(y.b, {
                             exact: !0,
                             path: "/add/:currencyIdA",
-                            component: eu
-                          }), Object(r.jsx)(v.b, {
+                            component: ul
+                          }), Object(it.jsx)(y.b, {
                             exact: !0,
                             path: "/add/:currencyIdA/:currencyIdB",
-                            component: nu
-                          }), Object(r.jsx)(v.b, {
+                            component: dl
+                          }), Object(it.jsx)(y.b, {
                             exact: !0,
                             strict: !0,
                             path: "/remove/:tokens",
-                            component: ru
-                          }), Object(r.jsx)(v.b, {
-                            component: Xl
+                            component: pl
+                          }), Object(it.jsx)(y.b, {
+                            component: cd
                           })]
                         })
-                      }), Object(r.jsx)(hd, {})]
+                      }), Object(it.jsx)(Id, {})]
                     })
                   })
                 })
@@ -9084,104 +8165,104 @@
           })
         })
       }
-      var vd = "visibilityState" in document;
+      var Nd = "visibilityState" in document;
 
-      function Od() {
-        return !vd || "hidden" !== document.visibilityState
+      function Rd() {
+        return !Nd || "hidden" !== document.visibilityState
       }
 
-      function xd() {
-        var e = Object(a.useState)(Od()),
-          n = Object(h.a)(e, 2),
-          t = n[0],
-          r = n[1],
-          i = Object(a.useCallback)((function() {
-            r(Od())
+      function Sd() {
+        var e = Object(i.useState)(Rd()),
+          t = Object(h.a)(e, 2),
+          n = t[0],
+          r = t[1],
+          a = Object(i.useCallback)((function() {
+            r(Rd())
           }), [r]);
-        return Object(a.useEffect)((function() {
-          if (vd) return document.addEventListener("visibilitychange", i),
+        return Object(i.useEffect)((function() {
+          if (Nd) return document.addEventListener("visibilitychange", a),
             function() {
-              document.removeEventListener("visibilitychange", i)
+              document.removeEventListener("visibilitychange", a)
             }
-        }), [i]), t
+        }), [a]), n
       }
 
-      function gd() {
+      function Ud() {
         var e = ge(),
-          n = e.library,
-          t = e.chainId,
-          r = Object(x.c)(),
-          i = xd(),
-          c = Object(a.useState)({
-            chainId: t,
+          t = e.library,
+          n = e.chainId,
+          r = Object(v.c)(),
+          a = Sd(),
+          c = Object(i.useState)({
+            chainId: n,
             blockNumber: null
           }),
           o = Object(h.a)(c, 2),
           s = o[0],
-          u = o[1],
-          l = Object(a.useCallback)((function(e) {
-            u((function(n) {
-              return t === n.chainId ? "number" !== typeof n.blockNumber ? {
-                chainId: t,
+          l = o[1],
+          u = Object(i.useCallback)((function(e) {
+            l((function(t) {
+              return n === t.chainId ? "number" !== typeof t.blockNumber ? {
+                chainId: n,
                 blockNumber: e
               } : {
-                chainId: t,
-                blockNumber: Math.max(e, n.blockNumber)
-              } : n
+                chainId: n,
+                blockNumber: Math.max(e, t.blockNumber)
+              } : t
             }))
-          }), [t, u]);
-        Object(a.useEffect)((function() {
-          if (n && t && i) return u({
-              chainId: t,
+          }), [n, l]);
+        Object(i.useEffect)((function() {
+          if (t && n && a) return l({
+              chainId: n,
               blockNumber: null
-            }), n.getBlockNumber().then(l).catch((function(e) {
-              return console.error("Failed to get block number for chainId: ".concat(t), e)
-            })), n.on("block", l),
+            }), t.getBlockNumber().then(u).catch((function(e) {
+              return console.error("Failed to get block number for chainId: ".concat(n), e)
+            })), t.on("block", u),
             function() {
-              n.removeListener("block", l)
+              t.removeListener("block", u)
             }
-        }), [r, t, n, l, i]);
-        var d = xs(s, 100);
-        return Object(a.useEffect)((function() {
-          d.chainId && d.blockNumber && i && r(we({
+        }), [r, n, t, u, a]);
+        var d = gs(s, 100);
+        return Object(i.useEffect)((function() {
+          d.chainId && d.blockNumber && a && r(Ie({
             chainId: d.chainId,
             blockNumber: d.blockNumber
           }))
-        }), [i, r, d.blockNumber, d.chainId]), null
+        }), [a, r, d.blockNumber, d.chainId]), null
       }
 
-      function Cd() {
+      function Ad() {
         var e = ge().library,
-          n = Object(x.c)(),
-          t = Object(x.d)((function(e) {
+          t = Object(v.c)(),
+          n = Object(v.d)((function(e) {
             return e.lists.byUrl
           })),
-          r = xd(),
-          i = bc();
-        return Ka(Object(a.useCallback)((function() {
-          r && Object.keys(t).forEach((function(e) {
-            return i(e).catch((function(e) {
+          r = Sd(),
+          a = pc();
+        return $a(Object(i.useCallback)((function() {
+          r && Object.keys(n).forEach((function(e) {
+            return a(e).catch((function(e) {
               return console.error("interval list fetching error", e)
             }))
           }))
-        }), [i, r, t]), e ? 6e5 : null), Object(a.useEffect)((function() {
-          Object.keys(t).forEach((function(e) {
-            var n = t[e];
-            n.current || n.loadingRequestId || n.error || i(e).catch((function(e) {
+        }), [a, r, n]), e ? 6e5 : null), Object(i.useEffect)((function() {
+          Object.keys(n).forEach((function(e) {
+            var t = n[e];
+            t.current || t.loadingRequestId || t.error || a(e).catch((function(e) {
               return console.error("list added fetching error", e)
             }))
           }))
-        }), [n, i, e, t]), Object(a.useEffect)((function() {
-          Object.keys(t).forEach((function(e) {
-            var r = t[e];
+        }), [t, a, e, n]), Object(i.useEffect)((function() {
+          Object.keys(n).forEach((function(e) {
+            var r = n[e];
             if (r.current && r.pendingUpdate) {
-              var a = Object(Fe.c)(r.current.version, r.pendingUpdate.version);
+              var a = Object(Ye.c)(r.current.version, r.pendingUpdate.version);
               switch (a) {
-                case Fe.a.NONE:
+                case Ye.a.NONE:
                   throw new Error("unexpected no version bump");
-                case Fe.a.PATCH:
-                case Fe.a.MINOR:
-                  a >= Object(Fe.d)(r.current.tokens, r.pendingUpdate.tokens) ? (n(ze(e)), n(Ie({
+                case Ye.a.PATCH:
+                case Ye.a.MINOR:
+                  a >= Object(Ye.d)(r.current.tokens, r.pendingUpdate.tokens) ? (t(Fe(e)), t(Re({
                     key: e,
                     content: {
                       listUpdate: {
@@ -9193,8 +8274,8 @@
                     }
                   }))) : console.error("List at url ".concat(e, " could not automatically update because the version bump was only PATCH/MINOR while the update had breaking changes and should have been MAJOR"));
                   break;
-                case Fe.a.MAJOR:
-                  n(Ie({
+                case Ye.a.MAJOR:
+                  t(Re({
                     key: e,
                     content: {
                       listUpdate: {
@@ -9209,41 +8290,41 @@
               }
             }
           }))
-        }), [n, t]), null
+        }), [t, n]), null
       }
 
-      function wd(e, n) {
-        return t = e + Math.round(Math.random() * Math.max(0, n - e)), new Promise((function(e) {
-          return setTimeout(e, t)
+      function Pd(e, t) {
+        return n = e + Math.round(Math.random() * Math.max(0, t - e)), new Promise((function(e) {
+          return setTimeout(e, n)
         }));
-        var t
+        var n
       }
-      var Td = function(e) {
-          Object(A.a)(t, e);
-          var n = Object(B.a)(t);
+      var Bd = function(e) {
+          Object(U.a)(n, e);
+          var t = Object(A.a)(n);
 
-          function t() {
-            return Object(U.a)(this, t), n.call(this, "Cancelled")
+          function n() {
+            return Object(S.a)(this, n), t.call(this, "Cancelled")
           }
-          return t
+          return n
         }(Object(P.a)(Error)),
-        kd = function(e) {
-          Object(A.a)(t, e);
-          var n = Object(B.a)(t);
+        Md = function(e) {
+          Object(U.a)(n, e);
+          var t = Object(A.a)(n);
 
-          function t() {
-            return Object(U.a)(this, t), n.apply(this, arguments)
+          function n() {
+            return Object(S.a)(this, n), t.apply(this, arguments)
           }
-          return t
+          return n
         }(Object(P.a)(Error));
 
-      function Id() {
-        return (Id = Object(m.a)(j.a.mark((function e(n, t, r) {
+      function Ld() {
+        return (Ld = Object(f.a)(j.a.mark((function e(t, n, r) {
           var a, i, c, o;
           return j.a.wrap((function(e) {
             for (;;) switch (e.prev = e.next) {
               case 0:
-                return e.prev = 0, e.next = 3, n.aggregate(t.map((function(e) {
+                return e.prev = 0, e.next = 3, t.aggregate(n.map((function(e) {
                   return [e.address, e.callData]
                 })));
               case 3:
@@ -9256,7 +8337,7 @@
                   e.next = 15;
                   break
                 }
-                throw new kd("Fetched for old block number");
+                throw new Md("Fetched for old block number");
               case 15:
                 return e.abrupt("return", {
                   results: i,
@@ -9272,689 +8353,702 @@
         })))).apply(this, arguments)
       }
 
-      function Ed() {
-        var e = Object(x.c)(),
-          n = Object(x.d)((function(e) {
+      function Dd() {
+        var e = Object(v.c)(),
+          t = Object(v.d)((function(e) {
             return e.multicall
           })),
-          t = xs(n.callListeners, 100),
-          r = Ne(),
-          i = ge().chainId,
-          c = fa(),
-          o = Object(a.useRef)(),
-          s = Object(a.useMemo)((function() {
-            return function(e, n) {
-              if (!e || !n) return {};
-              var t = e[n];
-              return t ? Object.keys(t).reduce((function(e, n) {
-                var r = t[n];
-                return e[n] = Object.keys(r).filter((function(e) {
-                  var n = parseInt(e);
-                  return !(n <= 0) && r[n] > 0
-                })).reduce((function(e, n) {
-                  return Math.min(e, parseInt(n))
+          n = gs(t.callListeners, 100),
+          r = Ue(),
+          a = ge().chainId,
+          c = ja(),
+          o = Object(i.useRef)(),
+          s = Object(i.useMemo)((function() {
+            return function(e, t) {
+              if (!e || !t) return {};
+              var n = e[t];
+              return n ? Object.keys(n).reduce((function(e, t) {
+                var r = n[t];
+                return e[t] = Object.keys(r).filter((function(e) {
+                  var t = parseInt(e);
+                  return !(t <= 0) && r[t] > 0
+                })).reduce((function(e, t) {
+                  return Math.min(e, parseInt(t))
                 }), 1 / 0), e
               }), {}) : {}
-            }(t, i)
-          }), [t, i]),
-          u = Object(a.useMemo)((function() {
-            return function(e, n, t, r) {
-              return t && r ? e[t] ? Object.keys(n).filter((function(a) {
-                var i = n[a],
-                  c = e[t][a];
+            }(n, a)
+          }), [n, a]),
+          l = Object(i.useMemo)((function() {
+            return function(e, t, n, r) {
+              return n && r ? e[n] ? Object.keys(t).filter((function(a) {
+                var i = t[a],
+                  c = e[n][a];
                 if (!c) return !0;
                 var o = r - (i - 1);
                 return !(c.fetchingBlockNumber && c.fetchingBlockNumber >= o) && (!c.blockNumber || c.blockNumber < o)
-              })) : Object.keys(n) : []
-            }(n.callResults, s, i, r)
-          }), [i, n.callResults, s, r]),
-          l = Object(a.useMemo)((function() {
-            return JSON.stringify(u.sort())
-          }), [u]);
-        return Object(a.useEffect)((function() {
-          var n;
-          if (r && i && c) {
-            var t = JSON.parse(l);
-            if (0 !== t.length) {
-              var a, s, u = t.map((function(e) {
-                  return yr(e)
+              })) : Object.keys(t) : []
+            }(t.callResults, s, a, r)
+          }), [a, t.callResults, s, r]),
+          u = Object(i.useMemo)((function() {
+            return JSON.stringify(l.sort())
+          }), [l]);
+        return Object(i.useEffect)((function() {
+          var t;
+          if (r && a && c) {
+            var n = JSON.parse(u);
+            if (0 !== n.length) {
+              var i, s, l = n.map((function(e) {
+                  return Or(e)
                 })),
-                d = function(e, n) {
-                  if (n < 1) throw new Error("maxChunkSize must be gte 1");
-                  if (e.length <= n) return [e];
-                  var t = Math.ceil(e.length / n),
-                    r = Math.ceil(e.length / t);
-                  return Object(X.a)(Array(t).keys()).map((function(n) {
-                    return e.slice(n * r, n * r + r)
+                d = function(e, t) {
+                  if (t < 1) throw new Error("maxChunkSize must be gte 1");
+                  if (e.length <= t) return [e];
+                  var n = Math.ceil(e.length / t),
+                    r = Math.ceil(e.length / n);
+                  return Object(G.a)(Array(n).keys()).map((function(t) {
+                    return e.slice(t * r, t * r + r)
                   }))
-                }(u, 500);
-              if ((null === (n = o.current) || void 0 === n ? void 0 : n.blockNumber) !== r) null === (a = o.current) || void 0 === a || null === (s = a.cancellations) || void 0 === s || s.forEach((function(e) {
+                }(l, 500);
+              if ((null === (t = o.current) || void 0 === t ? void 0 : t.blockNumber) !== r) null === (i = o.current) || void 0 === i || null === (s = i.cancellations) || void 0 === s || s.forEach((function(e) {
                 return e()
               }));
-              e(xr({
-                calls: u,
-                chainId: i,
+              e(gr({
+                calls: l,
+                chainId: a,
                 fetchingBlockNumber: r
               })), o.current = {
                 blockNumber: r,
-                cancellations: d.map((function(n, a) {
-                  var s = function(e, n) {
-                      var t, r = n.n,
-                        a = n.minWait,
-                        i = n.maxWait,
+                cancellations: d.map((function(t, i) {
+                  var s = function(e, t) {
+                      var n, r = t.n,
+                        a = t.minWait,
+                        i = t.maxWait,
                         c = !1;
                       return {
                         promise: new Promise(function() {
-                          var n = Object(m.a)(j.a.mark((function n(o, s) {
-                            var u;
-                            return j.a.wrap((function(n) {
-                              for (;;) switch (n.prev = n.next) {
+                          var t = Object(f.a)(j.a.mark((function t(o, s) {
+                            var l;
+                            return j.a.wrap((function(t) {
+                              for (;;) switch (t.prev = t.next) {
                                 case 0:
-                                  t = s;
+                                  n = s;
                                 case 1:
-                                  return u = void 0, n.prev = 3, n.next = 6, e();
+                                  return l = void 0, t.prev = 3, t.next = 6, e();
                                 case 6:
-                                  return u = n.sent, c || (o(u), c = !0), n.abrupt("break", 24);
+                                  return l = t.sent, c || (o(l), c = !0), t.abrupt("break", 24);
                                 case 11:
-                                  if (n.prev = 11, n.t0 = n.catch(3), !c) {
-                                    n.next = 15;
+                                  if (t.prev = 11, t.t0 = t.catch(3), !c) {
+                                    t.next = 15;
                                     break
                                   }
-                                  return n.abrupt("break", 24);
+                                  return t.abrupt("break", 24);
                                 case 15:
-                                  if (!(r <= 0) && n.t0 instanceof kd) {
-                                    n.next = 19;
+                                  if (!(r <= 0) && t.t0 instanceof Md) {
+                                    t.next = 19;
                                     break
                                   }
-                                  return s(n.t0), c = !0, n.abrupt("break", 24);
+                                  return s(t.t0), c = !0, t.abrupt("break", 24);
                                 case 19:
                                   r--;
                                 case 20:
-                                  return n.next = 22, wd(a, i);
+                                  return t.next = 22, Pd(a, i);
                                 case 22:
-                                  n.next = 1;
+                                  t.next = 1;
                                   break;
                                 case 24:
                                 case "end":
-                                  return n.stop()
+                                  return t.stop()
                               }
-                            }), n, null, [
+                            }), t, null, [
                               [3, 11]
                             ])
                           })));
-                          return function(e, t) {
-                            return n.apply(this, arguments)
+                          return function(e, n) {
+                            return t.apply(this, arguments)
                           }
                         }()),
                         cancel: function() {
-                          c || (c = !0, t(new Td))
+                          c || (c = !0, n(new Bd))
                         }
                       }
                     }((function() {
-                      return function(e, n, t) {
-                        return Id.apply(this, arguments)
-                      }(c, n, r)
+                      return function(e, t, n) {
+                        return Ld.apply(this, arguments)
+                      }(c, t, r)
                     }), {
                       n: 1 / 0,
                       minWait: 2500,
                       maxWait: 3500
                     }),
-                    u = s.cancel;
-                  return s.promise.then((function(n) {
-                    var c = n.results,
-                      s = n.blockNumber;
+                    l = s.cancel;
+                  return s.promise.then((function(t) {
+                    var c = t.results,
+                      s = t.blockNumber;
                     o.current = {
                       cancellations: [],
                       blockNumber: r
                     };
-                    var u = d.slice(0, a).reduce((function(e, n) {
-                        return e + n.length
+                    var l = d.slice(0, i).reduce((function(e, t) {
+                        return e + t.length
                       }), 0),
-                      l = u + c.length;
-                    e(Cr({
-                      chainId: i,
-                      results: t.slice(u, l).reduce((function(e, n, t) {
+                      u = l + c.length;
+                    e(wr({
+                      chainId: a,
+                      results: n.slice(l, u).reduce((function(e, t, n) {
                         var r;
-                        return e[n] = null !== (r = c[t]) && void 0 !== r ? r : null, e
+                        return e[t] = null !== (r = c[n]) && void 0 !== r ? r : null, e
                       }), {}),
                       blockNumber: s
                     }))
-                  })).catch((function(t) {
-                    t instanceof Td ? console.error("Cancelled fetch for blockNumber", r) : (console.error("Failed to fetch multicall chunk", n, i, t), e(gr({
-                      calls: n,
-                      chainId: i,
+                  })).catch((function(n) {
+                    n instanceof Bd ? console.error("Cancelled fetch for blockNumber", r) : (console.error("Failed to fetch multicall chunk", t, a, n), e(Cr({
+                      calls: t,
+                      chainId: a,
                       fetchingBlockNumber: r
                     })))
-                  })), u
+                  })), l
                 }))
               }
             }
           }
-        }), [i, c, e, l, r]), null
+        }), [a, c, e, u, r]), null
       }
 
-      function Nd() {
-        var e, n = ge(),
-          t = n.chainId,
-          r = n.library,
-          i = Ne(),
-          c = Object(x.c)(),
-          o = Object(x.d)((function(e) {
+      function _d() {
+        var e, t = ge(),
+          n = t.chainId,
+          r = t.library,
+          a = Ue(),
+          c = Object(v.c)(),
+          o = Object(v.d)((function(e) {
             return e.transactions
           })),
-          s = t && null !== (e = o[t]) && void 0 !== e ? e : {},
-          u = function() {
-            var e = Object(x.c)();
-            return Object(a.useCallback)((function(n, t) {
-              e(Ie({
-                content: n,
-                key: t
+          s = n && null !== (e = o[n]) && void 0 !== e ? e : {},
+          l = function() {
+            var e = Object(v.c)();
+            return Object(i.useCallback)((function(t, n) {
+              e(Re({
+                content: t,
+                key: n
               }))
             }), [e])
           }();
-        return Object(a.useEffect)((function() {
-          t && r && i && Object.keys(s).filter((function(e) {
-            return function(e, n) {
-              if (n.receipt) return !1;
-              if (!n.lastCheckedBlockNumber) return !0;
-              var t = e - n.lastCheckedBlockNumber;
-              if (t < 1) return !1;
-              var r = ((new Date).getTime() - n.addedTime) / 1e3 / 60;
-              return r > 60 ? t > 9 : !(r > 5) || t > 2
-            }(i, s[e])
+        return Object(i.useEffect)((function() {
+          n && r && a && Object.keys(s).filter((function(e) {
+            return function(e, t) {
+              if (t.receipt) return !1;
+              if (!t.lastCheckedBlockNumber) return !0;
+              var n = e - t.lastCheckedBlockNumber;
+              if (n < 1) return !1;
+              var r = ((new Date).getTime() - t.addedTime) / 1e3 / 60;
+              return r > 60 ? n > 9 : !(r > 5) || n > 2
+            }(a, s[e])
           })).forEach((function(e) {
-            r.getTransactionReceipt(e).then((function(n) {
+            r.getTransactionReceipt(e).then((function(t) {
               var r;
-              n ? (c(rs({
-                chainId: t,
+              t ? (c(as({
+                chainId: n,
                 hash: e,
                 receipt: {
-                  blockHash: n.blockHash,
-                  blockNumber: n.blockNumber,
-                  contractAddress: n.contractAddress,
-                  from: n.from,
-                  status: n.status,
-                  to: n.to,
-                  transactionHash: n.transactionHash,
-                  transactionIndex: n.transactionIndex
+                  blockHash: t.blockHash,
+                  blockNumber: t.blockNumber,
+                  contractAddress: t.contractAddress,
+                  from: t.from,
+                  status: t.status,
+                  to: t.to,
+                  transactionHash: t.transactionHash,
+                  transactionIndex: t.transactionIndex
                 }
-              })), u({
+              })), l({
                 txn: {
                   hash: e,
-                  success: 1 === n.status,
+                  success: 1 === t.status,
                   summary: null === (r = s[e]) || void 0 === r ? void 0 : r.summary
                 }
-              }, e)) : c(as({
-                chainId: t,
+              }, e)) : c(is({
+                chainId: n,
                 hash: e,
-                blockNumber: i
+                blockNumber: a
               }))
-            })).catch((function(n) {
-              console.error("failed to check transaction hash: ".concat(e), n)
+            })).catch((function(t) {
+              console.error("failed to check transaction hash: ".concat(e), t)
             }))
           }))
-        }), [t, r, s, i, c, u]), null
+        }), [n, r, s, a, c, l]), null
       }
-      var Rd = t(176),
-        Sd = Object(Ce.c)({
+      var Yd = function() {
+          var e = Object(v.d)((function(e) {
+              return e.toasts.data
+            })),
+            t = $s().remove;
+          return Object(it.jsx)(l.z, {
+            toasts: e,
+            onRemove: function(e) {
+              return t(e)
+            }
+          })
+        },
+        zd = n(193),
+        Fd = Object(Te.c)({
           blockNumber: {},
           popupList: [],
           walletModalOpen: !1,
           settingsMenuOpen: !1
         }, (function(e) {
-          return e.addCase(we, (function(e, n) {
-            var t = n.payload,
-              r = t.chainId,
-              a = t.blockNumber;
+          return e.addCase(Ie, (function(e, t) {
+            var n = t.payload,
+              r = n.chainId,
+              a = n.blockNumber;
             "number" !== typeof e.blockNumber[r] ? e.blockNumber[r] = a : e.blockNumber[r] = Math.max(a, e.blockNumber[r])
-          })).addCase(Te, (function(e) {
+          })).addCase(Ee, (function(e) {
             e.walletModalOpen = !e.walletModalOpen
-          })).addCase(ke, (function(e) {
+          })).addCase(Ne, (function(e) {
             e.settingsMenuOpen = !e.settingsMenuOpen
-          })).addCase(Ie, (function(e, n) {
-            var t = n.payload,
-              r = t.content,
-              a = t.key,
-              i = t.removeAfterMs,
+          })).addCase(Re, (function(e, t) {
+            var n = t.payload,
+              r = n.content,
+              a = n.key,
+              i = n.removeAfterMs,
               c = void 0 === i ? 15e3 : i;
             e.popupList = (a ? e.popupList.filter((function(e) {
               return e.key !== a
             })) : e.popupList).concat([{
-              key: a || Object(Ce.e)(),
+              key: a || Object(Te.f)(),
               show: !0,
               content: r,
               removeAfterMs: c
             }])
-          })).addCase(Ee, (function(e, n) {
-            var t = n.payload.key;
+          })).addCase(Se, (function(e, t) {
+            var n = t.payload.key;
             e.popupList.forEach((function(e) {
-              e.key === t && (e.show = !1)
+              e.key === n && (e.show = !1)
             }))
           }))
         })),
-        Ud = Object(Ce.b)("global/updateVersion"),
-        Ad = (Ce.b, function() {
+        qd = Object(Te.b)("global/updateVersion"),
+        Vd = (Te.b, function() {
           return (new Date).getTime()
         });
 
-      function Bd(e, n) {
-        return "".concat(e, ";").concat(n)
+      function Wd(e, t) {
+        return "".concat(e, ";").concat(t)
       }
-      var Pd, Dd = {
+      var Hd, Qd = {
           userDarkMode: null,
           matchesDarkMode: !1,
           userExpertMode: !1,
           userSlippageTolerance: be,
-          userDeadline: fe,
+          userDeadline: pe,
           tokens: {},
           pairs: {},
-          timestamp: Ad(),
+          timestamp: Vd(),
           audioPlay: !0
         },
-        Md = Object(Ce.c)(Dd, (function(e) {
-          return e.addCase(Ud, (function(e) {
-            "number" !== typeof e.userSlippageTolerance && (e.userSlippageTolerance = be), "number" !== typeof e.userDeadline && (e.userDeadline = fe), e.lastUpdateVersionTimestamp = Ad()
-          })).addCase(Mr, (function(e, n) {
-            e.userDarkMode = n.payload.userDarkMode, e.timestamp = Ad()
-          })).addCase(Dr, (function(e, n) {
-            e.matchesDarkMode = n.payload.matchesDarkMode, e.timestamp = Ad()
-          })).addCase(Lr, (function(e, n) {
-            e.userExpertMode = n.payload.userExpertMode, e.timestamp = Ad()
-          })).addCase(_r, (function(e, n) {
-            e.userSlippageTolerance = n.payload.userSlippageTolerance, e.timestamp = Ad()
-          })).addCase(Fr, (function(e, n) {
-            e.userDeadline = n.payload.userDeadline, e.timestamp = Ad()
-          })).addCase(Yr, (function(e, n) {
-            var t = n.payload.serializedToken;
-            e.tokens[t.chainId] = e.tokens[t.chainId] || {}, e.tokens[t.chainId][t.address] = t, e.timestamp = Ad()
-          })).addCase(zr, (function(e, n) {
-            var t = n.payload,
-              r = t.address,
-              a = t.chainId;
-            e.tokens[a] = e.tokens[a] || {}, delete e.tokens[a][r], e.timestamp = Ad()
-          })).addCase(qr, (function(e, n) {
-            var t = n.payload.serializedPair;
-            if (t.token0.chainId === t.token1.chainId && t.token0.address !== t.token1.address) {
-              var r = t.token0.chainId;
-              e.pairs[r] = e.pairs[r] || {}, e.pairs[r][Bd(t.token0.address, t.token1.address)] = t
+        Kd = Object(Te.c)(Qd, (function(e) {
+          return e.addCase(qd, (function(e) {
+            "number" !== typeof e.userSlippageTolerance && (e.userSlippageTolerance = be), "number" !== typeof e.userDeadline && (e.userDeadline = pe), e.lastUpdateVersionTimestamp = Vd()
+          })).addCase(Dr, (function(e, t) {
+            e.userDarkMode = t.payload.userDarkMode, e.timestamp = Vd()
+          })).addCase(Lr, (function(e, t) {
+            e.matchesDarkMode = t.payload.matchesDarkMode, e.timestamp = Vd()
+          })).addCase(_r, (function(e, t) {
+            e.userExpertMode = t.payload.userExpertMode, e.timestamp = Vd()
+          })).addCase(Yr, (function(e, t) {
+            e.userSlippageTolerance = t.payload.userSlippageTolerance, e.timestamp = Vd()
+          })).addCase(zr, (function(e, t) {
+            e.userDeadline = t.payload.userDeadline, e.timestamp = Vd()
+          })).addCase(Fr, (function(e, t) {
+            var n = t.payload.serializedToken;
+            e.tokens[n.chainId] = e.tokens[n.chainId] || {}, e.tokens[n.chainId][n.address] = n, e.timestamp = Vd()
+          })).addCase(qr, (function(e, t) {
+            var n = t.payload,
+              r = n.address,
+              a = n.chainId;
+            e.tokens[a] = e.tokens[a] || {}, delete e.tokens[a][r], e.timestamp = Vd()
+          })).addCase(Vr, (function(e, t) {
+            var n = t.payload.serializedPair;
+            if (n.token0.chainId === n.token1.chainId && n.token0.address !== n.token1.address) {
+              var r = n.token0.chainId;
+              e.pairs[r] = e.pairs[r] || {}, e.pairs[r][Wd(n.token0.address, n.token1.address)] = n
             }
-            e.timestamp = Ad()
-          })).addCase(Vr, (function(e, n) {
-            var t = n.payload,
-              r = t.chainId,
-              a = t.tokenAAddress,
-              i = t.tokenBAddress;
-            e.pairs[r] && (delete e.pairs[r][Bd(a, i)], delete e.pairs[r][Bd(i, a)]), e.timestamp = Ad()
-          })).addCase(Wr, (function(e) {
-            e.audioPlay = !1
+            e.timestamp = Vd()
+          })).addCase(Wr, (function(e, t) {
+            var n = t.payload,
+              r = n.chainId,
+              a = n.tokenAAddress,
+              i = n.tokenBAddress;
+            e.pairs[r] && (delete e.pairs[r][Wd(a, i)], delete e.pairs[r][Wd(i, a)]), e.timestamp = Vd()
           })).addCase(Hr, (function(e) {
+            e.audioPlay = !1
+          })).addCase(Qr, (function(e) {
             e.audioPlay = !0
           }))
         })),
-        Ld = function() {
+        Gd = function() {
           return (new Date).getTime()
         },
-        _d = Object(Ce.c)({}, (function(e) {
-          return e.addCase(ns, (function(e, n) {
-            var t, r, a = n.payload,
+        Xd = Object(Te.c)({}, (function(e) {
+          return e.addCase(ns, (function(e, t) {
+            var n, r, a = t.payload,
               i = a.chainId,
               c = a.from,
               o = a.hash,
               s = a.approval,
-              u = a.summary;
-            if (null === (t = e[i]) || void 0 === t ? void 0 : t[o]) throw Error("Attempted to add existing transaction.");
-            var l = null !== (r = e[i]) && void 0 !== r ? r : {};
-            l[o] = {
+              l = a.summary;
+            if (null === (n = e[i]) || void 0 === n ? void 0 : n[o]) throw Error("Attempted to add existing transaction.");
+            var u = null !== (r = e[i]) && void 0 !== r ? r : {};
+            u[o] = {
               hash: o,
               approval: s,
-              summary: u,
+              summary: l,
               from: c,
-              addedTime: Ld()
-            }, e[i] = l
-          })).addCase(ts, (function(e, n) {
-            var t = n.payload.chainId;
-            e[t] && (e[t] = {})
-          })).addCase(as, (function(e, n) {
-            var t, r = n.payload,
+              addedTime: Gd()
+            }, e[i] = u
+          })).addCase(rs, (function(e, t) {
+            var n = t.payload.chainId;
+            e[n] && (e[n] = {})
+          })).addCase(is, (function(e, t) {
+            var n, r = t.payload,
               a = r.chainId,
               i = r.hash,
               c = r.blockNumber,
-              o = null === (t = e[a]) || void 0 === t ? void 0 : t[i];
+              o = null === (n = e[a]) || void 0 === n ? void 0 : n[i];
             o && (o.lastCheckedBlockNumber ? o.lastCheckedBlockNumber = Math.max(c, o.lastCheckedBlockNumber) : o.lastCheckedBlockNumber = c)
-          })).addCase(rs, (function(e, n) {
-            var t, r = n.payload,
+          })).addCase(as, (function(e, t) {
+            var n, r = t.payload,
               a = r.hash,
               i = r.chainId,
               c = r.receipt,
-              o = null === (t = e[i]) || void 0 === t ? void 0 : t[a];
-            o && (o.receipt = c, o.confirmedTime = Ld())
+              o = null === (n = e[i]) || void 0 === n ? void 0 : n[a];
+            o && (o.receipt = c, o.confirmedTime = Gd())
           }))
         })),
-        Fd = (Pd = {
-          independentField: Qo.INPUT,
+        Jd = (Hd = {
+          independentField: Xo.INPUT,
           typedValue: ""
-        }, Object(w.a)(Pd, Qo.INPUT, {
+        }, Object(C.a)(Hd, Xo.INPUT, {
           currencyId: ""
-        }), Object(w.a)(Pd, Qo.OUTPUT, {
+        }), Object(C.a)(Hd, Xo.OUTPUT, {
           currencyId: ""
-        }), Object(w.a)(Pd, "recipient", null), Pd),
-        Yd = Object(Ce.c)(Fd, (function(e) {
-          return e.addCase($o, (function(e, n) {
-            var t, r = n.payload,
+        }), Object(C.a)(Hd, "recipient", null), Hd),
+        $d = Object(Te.c)(Jd, (function(e) {
+          return e.addCase(es, (function(e, t) {
+            var n, r = t.payload,
               a = r.typedValue,
               i = r.recipient,
               c = r.field,
               o = r.inputCurrencyId,
               s = r.outputCurrencyId;
-            return t = {}, Object(w.a)(t, Qo.INPUT, {
+            return n = {}, Object(C.a)(n, Xo.INPUT, {
               currencyId: o
-            }), Object(w.a)(t, Qo.OUTPUT, {
+            }), Object(C.a)(n, Xo.OUTPUT, {
               currencyId: s
-            }), Object(w.a)(t, "independentField", c), Object(w.a)(t, "typedValue", a), Object(w.a)(t, "recipient", i), t
-          })).addCase(Xo, (function(e, n) {
-            var t, r = n.payload,
+            }), Object(C.a)(n, "independentField", c), Object(C.a)(n, "typedValue", a), Object(C.a)(n, "recipient", i), n
+          })).addCase(Jo, (function(e, t) {
+            var n, r = t.payload,
               a = r.currencyId,
               i = r.field,
-              c = i === Qo.INPUT ? Qo.OUTPUT : Qo.INPUT;
-            return a === e[c].currencyId ? Object(J.a)(Object(J.a)({}, e), {}, (t = {
-              independentField: e.independentField === Qo.INPUT ? Qo.OUTPUT : Qo.INPUT
-            }, Object(w.a)(t, i, {
+              c = i === Xo.INPUT ? Xo.OUTPUT : Xo.INPUT;
+            return a === e[c].currencyId ? Object(X.a)(Object(X.a)({}, e), {}, (n = {
+              independentField: e.independentField === Xo.INPUT ? Xo.OUTPUT : Xo.INPUT
+            }, Object(C.a)(n, i, {
               currencyId: a
-            }), Object(w.a)(t, c, {
+            }), Object(C.a)(n, c, {
               currencyId: e[i].currencyId
-            }), t)) : Object(J.a)(Object(J.a)({}, e), {}, Object(w.a)({}, i, {
+            }), n)) : Object(X.a)(Object(X.a)({}, e), {}, Object(C.a)({}, i, {
               currencyId: a
             }))
-          })).addCase(Jo, (function(e) {
-            var n;
-            return Object(J.a)(Object(J.a)({}, e), {}, (n = {
-              independentField: e.independentField === Qo.INPUT ? Qo.OUTPUT : Qo.INPUT
-            }, Object(w.a)(n, Qo.INPUT, {
-              currencyId: e[Qo.OUTPUT].currencyId
-            }), Object(w.a)(n, Qo.OUTPUT, {
-              currencyId: e[Qo.INPUT].currencyId
-            }), n))
-          })).addCase(Zo, (function(e, n) {
-            var t = n.payload,
-              r = t.field,
-              a = t.typedValue;
-            return Object(J.a)(Object(J.a)({}, e), {}, {
+          })).addCase($o, (function(e) {
+            var t;
+            return Object(X.a)(Object(X.a)({}, e), {}, (t = {
+              independentField: e.independentField === Xo.INPUT ? Xo.OUTPUT : Xo.INPUT
+            }, Object(C.a)(t, Xo.INPUT, {
+              currencyId: e[Xo.OUTPUT].currencyId
+            }), Object(C.a)(t, Xo.OUTPUT, {
+              currencyId: e[Xo.INPUT].currencyId
+            }), t))
+          })).addCase(Zo, (function(e, t) {
+            var n = t.payload,
+              r = n.field,
+              a = n.typedValue;
+            return Object(X.a)(Object(X.a)({}, e), {}, {
               independentField: r,
               typedValue: a
             })
-          })).addCase(es, (function(e, n) {
-            var t = n.payload.recipient;
-            e.recipient = t
+          })).addCase(ts, (function(e, t) {
+            var n = t.payload.recipient;
+            e.recipient = n
           }))
         })),
-        zd = {
+        Zd = {
           independentField: us.CURRENCY_A,
           typedValue: "",
           otherTypedValue: ""
         },
-        qd = Object(Ce.c)(zd, (function(e) {
+        eb = Object(Te.c)(Zd, (function(e) {
           return e.addCase(vs, (function() {
-            return zd
-          })).addCase(ys, (function(e, n) {
-            var t = n.payload,
-              r = t.field,
-              a = t.typedValue;
-            return t.noLiquidity ? r === e.independentField ? Object(J.a)(Object(J.a)({}, e), {}, {
+            return Zd
+          })).addCase(Os, (function(e, t) {
+            var n = t.payload,
+              r = n.field,
+              a = n.typedValue;
+            return n.noLiquidity ? r === e.independentField ? Object(X.a)(Object(X.a)({}, e), {}, {
               independentField: r,
               typedValue: a
-            }) : Object(J.a)(Object(J.a)({}, e), {}, {
+            }) : Object(X.a)(Object(X.a)({}, e), {}, {
               independentField: r,
               typedValue: a,
               otherTypedValue: e.typedValue
-            }) : Object(J.a)(Object(J.a)({}, e), {}, {
+            }) : Object(X.a)(Object(X.a)({}, e), {}, {
               independentField: r,
               typedValue: a,
               otherTypedValue: ""
             })
           }))
         })),
-        Vd = {
+        tb = {
           error: null,
           current: null,
           loadingRequestId: null,
           pendingUpdate: null
         },
-        Wd = {
+        nb = {
           lastInitializedDefaultListOfLists: nc,
-          byUrl: Object(J.a)(Object(J.a)({}, nc.reduce((function(e, n) {
-            return e[n] = Vd, e
-          }), {})), {}, Object(w.a)({}, ec, {
+          byUrl: Object(X.a)(Object(X.a)({}, nc.reduce((function(e, t) {
+            return e[t] = tb, e
+          }), {})), {}, Object(C.a)({}, tc, {
             error: null,
-            current: tc,
+            current: rc,
             loadingRequestId: null,
             pendingUpdate: null
           })),
-          selectedListUrl: ec
+          selectedListUrl: tc
         },
-        Hd = Object(Ce.c)(Wd, (function(e) {
-          return e.addCase(Ye.pending, (function(e, n) {
-            var t = n.payload,
-              r = t.requestId,
-              a = t.url;
-            e.byUrl[a] = Object(J.a)(Object(J.a)({
+        rb = Object(Te.c)(nb, (function(e) {
+          return e.addCase(ze.pending, (function(e, t) {
+            var n = t.payload,
+              r = n.requestId,
+              a = n.url;
+            e.byUrl[a] = Object(X.a)(Object(X.a)({
               current: null,
               pendingUpdate: null
             }, e.byUrl[a]), {}, {
               loadingRequestId: r,
               error: null
             })
-          })).addCase(Ye.fulfilled, (function(e, n) {
-            var t, r, a = n.payload,
+          })).addCase(ze.fulfilled, (function(e, t) {
+            var n, r, a = t.payload,
               i = a.requestId,
               c = a.tokenList,
               o = a.url,
-              s = null === (t = e.byUrl[o]) || void 0 === t ? void 0 : t.current,
-              u = null === (r = e.byUrl[o]) || void 0 === r ? void 0 : r.loadingRequestId;
+              s = null === (n = e.byUrl[o]) || void 0 === n ? void 0 : n.current,
+              l = null === (r = e.byUrl[o]) || void 0 === r ? void 0 : r.loadingRequestId;
             if (s) {
-              if (Object(Fe.c)(s.version, c.version) === Fe.a.NONE) return;
-              null !== u && u !== i || (e.byUrl[o] = Object(J.a)(Object(J.a)({}, e.byUrl[o]), {}, {
+              if (Object(Ye.c)(s.version, c.version) === Ye.a.NONE) return;
+              null !== l && l !== i || (e.byUrl[o] = Object(X.a)(Object(X.a)({}, e.byUrl[o]), {}, {
                 loadingRequestId: null,
                 error: null,
                 current: s,
                 pendingUpdate: c
               }))
-            } else e.byUrl[o] = Object(J.a)(Object(J.a)({}, e.byUrl[o]), {}, {
+            } else e.byUrl[o] = Object(X.a)(Object(X.a)({}, e.byUrl[o]), {}, {
               loadingRequestId: null,
               error: null,
               current: c,
               pendingUpdate: null
             })
-          })).addCase(Ye.rejected, (function(e, n) {
-            var t, r = n.payload,
+          })).addCase(ze.rejected, (function(e, t) {
+            var n, r = t.payload,
               a = r.url,
               i = r.requestId,
               c = r.errorMessage;
-            (null === (t = e.byUrl[a]) || void 0 === t ? void 0 : t.loadingRequestId) === i && (e.byUrl[a] = Object(J.a)(Object(J.a)({}, e.byUrl[a]), {}, {
+            (null === (n = e.byUrl[a]) || void 0 === n ? void 0 : n.loadingRequestId) === i && (e.byUrl[a] = Object(X.a)(Object(X.a)({}, e.byUrl[a]), {}, {
               loadingRequestId: null,
               error: c,
               current: null,
               pendingUpdate: null
             }))
-          })).addCase(We, (function(e, n) {
-            var t = n.payload;
-            e.selectedListUrl = t, e.byUrl[t] || (e.byUrl[t] = Vd)
-          })).addCase(qe, (function(e, n) {
-            var t = n.payload;
-            e.byUrl[t] || (e.byUrl[t] = Vd)
-          })).addCase(Ve, (function(e, n) {
-            var t = n.payload;
-            e.byUrl[t] && delete e.byUrl[t], e.selectedListUrl === t && (e.selectedListUrl = Object.keys(e.byUrl)[0])
-          })).addCase(ze, (function(e, n) {
-            var t, r = n.payload;
-            if (!(null === (t = e.byUrl[r]) || void 0 === t ? void 0 : t.pendingUpdate)) throw new Error("accept list update called without pending update");
-            e.byUrl[r] = Object(J.a)(Object(J.a)({}, e.byUrl[r]), {}, {
+          })).addCase(We, (function(e, t) {
+            var n = t.payload;
+            e.selectedListUrl = n, e.byUrl[n] || (e.byUrl[n] = tb)
+          })).addCase(qe, (function(e, t) {
+            var n = t.payload;
+            e.byUrl[n] || (e.byUrl[n] = tb)
+          })).addCase(Ve, (function(e, t) {
+            var n = t.payload;
+            e.byUrl[n] && delete e.byUrl[n], e.selectedListUrl === n && (e.selectedListUrl = Object.keys(e.byUrl)[0])
+          })).addCase(Fe, (function(e, t) {
+            var n, r = t.payload;
+            if (!(null === (n = e.byUrl[r]) || void 0 === n ? void 0 : n.pendingUpdate)) throw new Error("accept list update called without pending update");
+            e.byUrl[r] = Object(X.a)(Object(X.a)({}, e.byUrl[r]), {}, {
               pendingUpdate: null,
               current: e.byUrl[r].pendingUpdate
             })
-          })).addCase(Ud, (function(e) {
+          })).addCase(qd, (function(e) {
             if (e.lastInitializedDefaultListOfLists) {
               if (e.lastInitializedDefaultListOfLists) {
-                var n = e.lastInitializedDefaultListOfLists.reduce((function(e, n) {
-                    return e.add(n)
+                var t = e.lastInitializedDefaultListOfLists.reduce((function(e, t) {
+                    return e.add(t)
                   }), new Set),
-                  t = nc.reduce((function(e, n) {
-                    return e.add(n)
+                  n = nc.reduce((function(e, t) {
+                    return e.add(t)
                   }), new Set);
-                nc.forEach((function(t) {
-                  n.has(t) || (e.byUrl[t] = Vd)
-                })), e.lastInitializedDefaultListOfLists.forEach((function(n) {
-                  t.has(n) || delete e.byUrl[n]
+                nc.forEach((function(n) {
+                  t.has(n) || (e.byUrl[n] = tb)
+                })), e.lastInitializedDefaultListOfLists.forEach((function(t) {
+                  n.has(t) || delete e.byUrl[t]
                 }))
               }
-            } else e.byUrl = Wd.byUrl, e.selectedListUrl = void 0;
+            } else e.byUrl = nb.byUrl, e.selectedListUrl = void 0;
             e.lastInitializedDefaultListOfLists = nc
           }))
         })),
-        Gd = {
-          independentField: _u.LIQUIDITY_PERCENT,
+        ab = {
+          independentField: Hl.LIQUIDITY_PERCENT,
           typedValue: "0"
         },
-        Kd = Object(Ce.c)(Gd, (function(e) {
-          return e.addCase(zu, (function(e, n) {
-            var t = n.payload,
-              r = t.field,
-              a = t.typedValue;
-            return Object(J.a)(Object(J.a)({}, e), {}, {
+        ib = Object(Te.c)(ab, (function(e) {
+          return e.addCase(eu, (function(e, t) {
+            var n = t.payload,
+              r = n.field,
+              a = n.typedValue;
+            return Object(X.a)(Object(X.a)({}, e), {}, {
               independentField: r,
               typedValue: a
             })
           }))
         })),
-        Qd = Object(Ce.c)({
+        cb = Object(Te.c)({
           callResults: {}
         }, (function(e) {
-          return e.addCase(vr, (function(e, n) {
-            var t, r = n.payload,
+          return e.addCase(vr, (function(e, t) {
+            var n, r = t.payload,
               a = r.calls,
               i = r.chainId,
               c = r.options,
               o = (c = void 0 === c ? {} : c).blocksPerFetch,
               s = void 0 === o ? 1 : o,
-              u = e.callListeners ? e.callListeners : e.callListeners = {};
-            u[i] = null !== (t = u[i]) && void 0 !== t ? t : {}, a.forEach((function(e) {
-              var n, t, r = hr(e);
-              u[i][r] = null !== (n = u[i][r]) && void 0 !== n ? n : {}, u[i][r][s] = (null !== (t = u[i][r][s]) && void 0 !== t ? t : 0) + 1
+              l = e.callListeners ? e.callListeners : e.callListeners = {};
+            l[i] = null !== (n = l[i]) && void 0 !== n ? n : {}, a.forEach((function(e) {
+              var t, n, r = yr(e);
+              l[i][r] = null !== (t = l[i][r]) && void 0 !== t ? t : {}, l[i][r][s] = (null !== (n = l[i][r][s]) && void 0 !== n ? n : 0) + 1
             }))
-          })).addCase(Or, (function(e, n) {
-            var t = n.payload,
-              r = t.chainId,
-              a = t.calls,
-              i = t.options,
+          })).addCase(xr, (function(e, t) {
+            var n = t.payload,
+              r = n.chainId,
+              a = n.calls,
+              i = n.options,
               c = (i = void 0 === i ? {} : i).blocksPerFetch,
               o = void 0 === c ? 1 : c,
               s = e.callListeners ? e.callListeners : e.callListeners = {};
             s[r] && a.forEach((function(e) {
-              var n = hr(e);
-              s[r][n] && s[r][n][o] && (1 === s[r][n][o] ? delete s[r][n][o] : s[r][n][o]--)
+              var t = yr(e);
+              s[r][t] && s[r][t][o] && (1 === s[r][t][o] ? delete s[r][t][o] : s[r][t][o]--)
             }))
-          })).addCase(xr, (function(e, n) {
-            var t, r = n.payload,
+          })).addCase(gr, (function(e, t) {
+            var n, r = t.payload,
               a = r.chainId,
               i = r.fetchingBlockNumber,
               c = r.calls;
-            e.callResults[a] = null !== (t = e.callResults[a]) && void 0 !== t ? t : {}, c.forEach((function(n) {
-              var t = hr(n),
-                r = e.callResults[a][t];
+            e.callResults[a] = null !== (n = e.callResults[a]) && void 0 !== n ? n : {}, c.forEach((function(t) {
+              var n = yr(t),
+                r = e.callResults[a][n];
               if (r) {
                 var c;
                 if ((null !== (c = r.fetchingBlockNumber) && void 0 !== c ? c : 0) >= i) return;
-                e.callResults[a][t].fetchingBlockNumber = i
-              } else e.callResults[a][t] = {
+                e.callResults[a][n].fetchingBlockNumber = i
+              } else e.callResults[a][n] = {
                 fetchingBlockNumber: i
               }
             }))
-          })).addCase(gr, (function(e, n) {
-            var t, r = n.payload,
+          })).addCase(Cr, (function(e, t) {
+            var n, r = t.payload,
               a = r.fetchingBlockNumber,
               i = r.chainId,
               c = r.calls;
-            e.callResults[i] = null !== (t = e.callResults[i]) && void 0 !== t ? t : {}, c.forEach((function(n) {
-              var t = hr(n),
-                r = e.callResults[i][t];
+            e.callResults[i] = null !== (n = e.callResults[i]) && void 0 !== n ? n : {}, c.forEach((function(t) {
+              var n = yr(t),
+                r = e.callResults[i][n];
               r && r.fetchingBlockNumber === a && (delete r.fetchingBlockNumber, r.data = null, r.blockNumber = a)
             }))
-          })).addCase(Cr, (function(e, n) {
-            var t, r = n.payload,
+          })).addCase(wr, (function(e, t) {
+            var n, r = t.payload,
               a = r.chainId,
               i = r.results,
               c = r.blockNumber;
-            e.callResults[a] = null !== (t = e.callResults[a]) && void 0 !== t ? t : {}, Object.keys(i).forEach((function(n) {
-              var t, r = e.callResults[a][n];
-              (null !== (t = null === r || void 0 === r ? void 0 : r.blockNumber) && void 0 !== t ? t : 0) > c || (e.callResults[a][n] = {
-                data: i[n],
+            e.callResults[a] = null !== (n = e.callResults[a]) && void 0 !== n ? n : {}, Object.keys(i).forEach((function(t) {
+              var n, r = e.callResults[a][t];
+              (null !== (n = null === r || void 0 === r ? void 0 : r.blockNumber) && void 0 !== n ? n : 0) > c || (e.callResults[a][t] = {
+                data: i[t],
                 blockNumber: c
               })
             }))
           }))
         })),
-        Xd = ["user", "transactions"],
-        Jd = Object(Rd.load)({
-          states: Xd
+        ob = ["user", "transactions"],
+        sb = Object(zd.load)({
+          states: ob
         });
-      Jd.user && (Jd.user.userDarkMode = function() {
+      sb.user && (sb.user.userDarkMode = function() {
         var e = null;
         try {
-          var n = localStorage.getItem(Gr);
-          n && (e = JSON.parse(n))
-        } catch (t) {
-          console.error(t)
+          var t = localStorage.getItem(Kr);
+          t && (e = JSON.parse(t))
+        } catch (n) {
+          console.error(n)
         }
         return e
       }());
-      var Zd = Object(Ce.a)({
+      var lb = Object(Te.a)({
         reducer: {
-          application: Sd,
-          user: Md,
-          transactions: _d,
-          swap: Yd,
-          mint: qd,
-          burn: Kd,
-          multicall: Qd,
-          lists: Hd
+          application: Fd,
+          user: Kd,
+          transactions: Xd,
+          swap: $d,
+          mint: eb,
+          burn: ib,
+          multicall: cb,
+          lists: rb,
+          toasts: Js
         },
-        middleware: [].concat(Object(X.a)(Object(Ce.d)({
+        middleware: [].concat(Object(G.a)(Object(Te.e)({
           thunk: !1
-        })), [Object(Rd.save)({
-          states: Xd
+        })), [Object(zd.save)({
+          states: ob
         })]),
-        preloadedState: Jd
+        preloadedState: sb
       });
-      Zd.dispatch(Ud());
-      var $d = Zd;
+      lb.dispatch(qd());
+      var ub = lb;
 
-      function eb(e) {
-        var n = new T.a(e);
-        return n.pollingInterval = 15e3, n
+      function db(e) {
+        var t = new w.a(e);
+        return t.pollingInterval = 15e3, t
       }
-      var nb = Object(g.b)(de),
-        tb = function(e) {
-          var n = e.children;
-          return Object(r.jsx)(g.a, {
-            getLibrary: eb,
-            children: Object(r.jsx)(nb, {
-              getLibrary: eb,
-              children: Object(r.jsx)(x.a, {
-                store: $d,
-                children: Object(r.jsx)(rd, {
-                  children: Object(r.jsx)(s.u, {
-                    children: n
+      var bb = Object(x.c)(de),
+        pb = function(e) {
+          var t = e.children;
+          return Object(it.jsx)(x.b, {
+            getLibrary: db,
+            children: Object(it.jsx)(bb, {
+              getLibrary: db,
+              children: Object(it.jsx)(v.a, {
+                store: ub,
+                children: Object(it.jsx)(hd, {
+                  children: Object(it.jsx)(l.u, {
+                    children: t
                   })
                 })
               })
             })
           })
         },
-        rb = (t(460), t(178)),
-        ab = t(276),
-        ib = t.n(ab),
-        cb = t(277),
-        ob = t.n(cb);
-      rb.a.use(ib.a).use(ob.a).use(Zn.a).init({
+        jb = (n(495), n(195)),
+        fb = n(290),
+        hb = n.n(fb),
+        mb = n(291),
+        yb = n.n(mb);
+      jb.a.use(hb.a).use(yb.a).use(nn.a).init({
         backend: {
           loadPath: "./locales/{{lng}}.json"
         },
@@ -9968,21 +9062,21 @@
           escapeValue: !1
         }
       });
-      rb.a;
+      jb.a;
       "ethereum" in window && (window.ethereum.autoRefreshOnNetworkChange = !1), window.addEventListener("error", (function() {
         var e;
         null === (e = localStorage) || void 0 === e || e.removeItem("redux_localstorage_simple_lists")
-      })), o.a.render(Object(r.jsx)(a.StrictMode, {
-        children: Object(r.jsxs)(tb, {
-          children: [Object(r.jsxs)(r.Fragment, {
-            children: [Object(r.jsx)(Cd, {}), Object(r.jsx)(gd, {}), Object(r.jsx)(Nd, {}), Object(r.jsx)(Ed, {})]
-          }), Object(r.jsx)(s.v, {}), Object(r.jsx)(f, {}), Object(r.jsx)(yd, {})]
+      })), s.a.render(Object(it.jsx)(i.StrictMode, {
+        children: Object(it.jsxs)(pb, {
+          children: [Object(it.jsxs)(it.Fragment, {
+            children: [Object(it.jsx)(Ad, {}), Object(it.jsx)(Ud, {}), Object(it.jsx)(_d, {}), Object(it.jsx)(Dd, {}), Object(it.jsx)(Yd, {})]
+          }), Object(it.jsx)(l.v, {}), Object(it.jsx)(b, {}), Object(it.jsx)(Ed, {})]
         })
       }), document.getElementById("root"))
     }
   },
   [
-    [477, 2, 3]
+    [512, 2, 3]
   ]
 ]);
-//# sourceMappingURL=main.5aa420c4.chunk.js.map
+//# sourceMappingURL=main.262e911e.chunk.js.map
