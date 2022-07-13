@@ -4652,7 +4652,7 @@
           console.info('Failed to parse input amount: "'.concat(e, '"'), r)
         }
       }
-      var Is = ["0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73", "0x86ad49A1d665087C6Cce9D5874b8Bc2a23e0F8A0", "0x86ad49A1d665087C6Cce9D5874b8Bc2a23e0F8A0"];
+      var Is = ["0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73", "0xf164fC0Ec4E93095b804a4795bBe1e041497b92a", "0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F"];
 
       function Es(e, n) {
         return e.route.path.some((function(e) {
