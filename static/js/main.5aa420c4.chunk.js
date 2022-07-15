@@ -318,7 +318,7 @@
         X = t(27),
         J = t(13),
         Z = t(5),
-        $ = "0x62EA9ce351520fdF4ff7F8BB70104EDaa8189cA1",
+        $ = "0x7137313A4665CBd61fF48F375b991f0f59efE897",
         ee = new Z.j(Z.a.MAINNET, "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3", 18, "DAI", "Dai Stablecoin"),
         ne = new Z.j(Z.a.MAINNET, "0xe9e7cea3dedca5984780bafc599bd69add087d56", 18, "BUSD", "Binance USD"),
         te = new Z.j(Z.a.MAINNET, "0x55d398326f99059ff775485246999027b3197955", 18, "USDT", "Tether USD"),
