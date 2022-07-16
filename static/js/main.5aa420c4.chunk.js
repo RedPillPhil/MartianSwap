@@ -8462,7 +8462,7 @@
                 onDismiss: sn
               }), Object(r.jsx)(Uu, {
                 title: j(8, "Exchange"),
-                description: j(1192, "Trade tokens in an instant")
+                description: j(1192, "Trade tokens in an instant & earn MARS on every swap using BNB!")
               }), Object(r.jsxs)(s.g, {
                 children: [Object(r.jsxs)(De, {
                   gap: "md",
