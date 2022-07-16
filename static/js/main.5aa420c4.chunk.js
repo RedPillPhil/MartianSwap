@@ -2896,14 +2896,6 @@
               }), Object(r.jsx)(s.j, {
                 onClick: o
               })]
-            }), Object(r.jsx)(Ri, {
-              type: "text",
-              id: "token-search-input",
-              placeholder: d("tokenSearchPlaceholder"),
-              value: m,
-              ref: A,
-              onChange: B,
-              onKeyDown: P
             }), c && Object(r.jsx)(vi, {
               chainId: b,
               onSelect: U,
