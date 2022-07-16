@@ -2891,11 +2891,19 @@
             children: [Object(r.jsxs)(en, {
               children: [Object(r.jsxs)(s.y, {
                 children: [D(82, "Select a token"), Object(r.jsx)(si, {
-                  text: D(128, "Find a token by searching for its name or symbol or by pasting its address below.")
+                  text: D(128, "Only Compatible tokens can be swapped on Martian Swap, to apply for listing contact dev")
                 })]
               }), Object(r.jsx)(s.j, {
                 onClick: o
               })]
+            }), Object(r.jsx)(Ri, {
+              type: "text",
+              id: "token-search-input",
+              placeholder: d("tokenSearchPlaceholder"),
+              value: m,
+              ref: A,
+              onChange: B,
+              onKeyDown: P
             }), c && Object(r.jsx)(vi, {
               chainId: b,
               onSelect: U,
