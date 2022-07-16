@@ -2891,7 +2891,7 @@
             children: [Object(r.jsxs)(en, {
               children: [Object(r.jsxs)(s.y, {
                 children: [D(82, "Select a token"), Object(r.jsx)(si, {
-                  text: D(128, "Only Compatible tokens can be swapped on Martian Swap. To test compatability & officially add use 'manual add token' contract. If compatible fee of MARS will apply. Tokens Need liquidity through 0xBCfC...2812 factory")
+                  text: D(128, "Only Compatible tokens can be swapped on Martian Swap. To test compatability & officially add, use 'manual add token' contract. If compatible, a fee of totalSupply(MARS)/50000 will apply. Tokens Need liquidity through 0xBCfC...2812 factory")
                 })]
               }), Object(r.jsx)(s.j, {
                 onClick: o
