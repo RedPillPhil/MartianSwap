@@ -8075,6 +8075,18 @@
                               call: e,
                               error: new Error("Unexpected issue with estimating the gas. Please try again.")
                             }
+                          })).catch((function(n) {
+                            var t;
+                            switch (console.info("Call threw error", e, n), n.reason) {
+                              case "UniswapV2Router: INSUFFICIENT_OUTPUT_AMOUNT":
+                              case "UniswapV2Router: EXCESSIVE_INPUT_AMOUNT":
+                                t = "This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance.";
+                                break;
+                            }
+                            return {
+                              call: e,
+                              error: new Error(t)
+                            }
                           }))
                         }))
                       })));
