@@ -2442,7 +2442,7 @@
                   marginRight: 8
                 }
               }), Object(r.jsx)(s.y, {
-                children: "MARS"
+                children: "BNB"
               })]
             }), (n ? se[n] : []).map((function(e) {
               var n = a instanceof Z.j && a.address === e.address;
