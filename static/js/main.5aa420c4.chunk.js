@@ -8032,7 +8032,138 @@
         }), [c, n, o, t, s, d, e])
       }
 
-
+      function Wl(e) {
+        var n = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : be,
+          t = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : fe,
+          r = arguments.length > 3 ? arguments[3] : void 0,
+          i = ge(),
+          c = i.account,
+          o = i.chainId,
+          s = i.library,
+          u = Vl(e, n, t, r),
+          l = is(),
+          d = gs(r),
+          b = d.address,
+          f = null === r ? c : b;
+        return Object(a.useMemo)((function() {
+          return e && s && c && o ? f ? {
+            state: Ml.VALID,
+            callback: function() {
+              var n = Object(m.a)(j.a.mark((function n() {
+                var t, a, i, o, s, d, b, p, m, h;
+                return j.a.wrap((function(n) {
+                  for (;;) switch (n.prev = n.next) {
+                    case 0:
+                      return n.next = 2, Promise.all(u.map((function(e) {
+                        var n, t = e.parameters,
+                          r = t.methodName,
+                          a = t.args,
+                          i = t.value,
+                          c = e.contract,
+                          o = !i || La(i) ? {} : {
+                            value: i
+                          };
+                        return (n = c.estimateGas)[r].apply(n, Object(X.a)(a).concat([o])).then((function(n) {
+                          return {
+                            call: e,
+                            gasEstimate: n
+                          }
+                        })).catch((function(n) {
+                          var t;
+                          return console.info("Gas estimate failed, trying eth_call to extract error", e), (t = c.callStatic)[r].apply(t, Object(X.a)(a).concat([o])).then((function(t) {
+                            return console.info("Unexpected successful call after failed estimate gas", e, n, t), {
+                              call: e,
+                              error: new Error("Unexpected issue with estimating the gas. Please try again.")
+                            }
+                          })).catch((function(n) {
+                            var t;
+                            switch (console.info("Call threw error", e, n), n.reason) {
+                              case "UniswapV2Router: INSUFFICIENT_OUTPUT_AMOUNT":
+                              case "UniswapV2Router: EXCESSIVE_INPUT_AMOUNT":
+                                t = "This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance.";
+                                break;
+                              default:
+                                t = "The transaction cannot succeed due to error: ".concat(n.reason, ". This is probably an issue with one of the tokens you are swapping.")
+                            }
+                            return {
+                              call: e,
+                              error: new Error(t)
+                            }
+                          }))
+                        }))
+                      })));
+                    case 2:
+                      if (t = n.sent, a = t.find((function(e, n, t) {
+                          return "gasEstimate" in e && (n === t.length - 1 || "gasEstimate" in t[n + 1])
+                        }))) {
+                        n.next = 9;
+                        break
+                      }
+                      if (!((i = t.filter((function(e) {
+                          return "error" in e
+                        }))).length > 0)) {
+                        n.next = 8;
+                        break
+                      }
+                      throw i[i.length - 1].error;
+                    case 8:
+                      throw new Error("Unexpected error. Please contact support: none of the calls threw an error");
+                    case 9:
+                      return o = a.call, s = o.contract, d = o.parameters, b = d.methodName, p = d.args, m = d.value, h = a.gasEstimate, n.abrupt("return", s[b].apply(s, Object(X.a)(p).concat([Object(J.a)({
+                        gasLimit: yn(h)
+                      }, m && !La(m) ? {
+                        value: m,
+                        from: c
+                      } : {
+                        from: c
+                      })])).then((function(n) {
+                        var t = e.inputAmount.currency.symbol,
+                          a = e.outputAmount.currency.symbol,
+                          i = e.inputAmount.toSignificant(3),
+                          o = e.outputAmount.toSignificant(3),
+                          s = "Swap ".concat(i, " ").concat(t, " for ").concat(o, " ").concat(a),
+                          u = f === c ? s : "".concat(s, " to ").concat(r && pn(r) ? hn(r) : r);
+                        return l(n, {
+                          summary: u
+                        }), n.hash
+                      })).catch((function(e) {
+                        throw 4001 === (null === e || void 0 === e ? void 0 : e.code) ? new Error("Transaction rejected.") : (console.error("Swap failed", e, b, p, m), new Error("Swap failed: ".concat(e.message)))
+                      })));
+                    case 11:
+                    case "end":
+                      return n.stop()
+                  }
+                }), n)
+              })));
+              return function() {
+                return n.apply(this, arguments)
+              }
+            }(),
+            error: null
+          } : null !== r ? {
+            state: Ml.INVALID,
+            callback: null,
+            error: "Invalid recipient"
+          } : {
+            state: Ml.LOADING,
+            callback: null,
+            error: null
+          } : {
+            state: Ml.INVALID,
+            callback: null,
+            error: "Missing dependencies"
+          }
+        }), [e, s, c, o, f, r, u, l])
+      }! function(e) {
+        e[e.INVALID = 0] = "INVALID", e[e.LOADING = 1] = "LOADING", e[e.VALID = 2] = "VALID"
+      }(Ml || (Ml = {}));
+      var Hl;
+      ! function(e) {
+        e[e.NOT_APPLICABLE = 0] = "NOT_APPLICABLE", e[e.WRAP = 1] = "WRAP", e[e.UNWRAP = 2] = "UNWRAP"
+      }(Hl || (Hl = {}));
+      var Gl = {
+        wrapType: Hl.NOT_APPLICABLE
+      };
 
       function Kl(e, n, t) {
         var r = ge(),
