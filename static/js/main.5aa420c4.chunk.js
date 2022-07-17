@@ -1462,9 +1462,9 @@
                 children: a(262, "Liquidity")
               }), Object(r.jsx)(s.e, {
                 id: "pool-nav-link",
-                as: "a",
                 to: "/pool",
-                children: "Rewards Portal"
+                as: y.b,
+                children: a(262, "Rewards Portal")
               })]
             })
           })
