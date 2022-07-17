@@ -1460,12 +1460,14 @@
                 to: "/pool",
                 as: y.b,
                 children: a(262, "Liquidity")
-              }), Object(r.jsx)(s.e, {
+              })/*, Object(r.jsx)(s.e, {
                 id: "pool-nav-link",
-                to: "/pool",
-                as: y.b,
-                children: a(262, "Rewards Portal")
-              })]
+                as: "a",
+                href: "https://www.binance.org/en/bridge?utm_source=PancakeSwap",
+                target: "_blank",
+                rel: "noreferrer noopener",
+                children: "Bridge"
+              })*/]
             })
           })
         },
