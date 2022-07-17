@@ -8462,7 +8462,7 @@
                 onDismiss: sn
               }), Object(r.jsx)(Uu, {
                 title: j(8, "Exchange"),
-                description: j(1192, "Every BNB swap takes a 0.5% fee in BNB & rewards you with MARS equal to the amount of BNB used in the swap! Half of the BNB fee is used to SwapNliquify/SwapNBurn for MARS, the other half is instantly transferred to MARS slot holders! ")
+                description: j(1192, "Every swap involving BNB takes a 0.5% fee in BNB & rewards you with MARS equal to the amount of BNB used in the swap! Half of the BNB fee is used to SwapNliquify/SwapNBurn for MARS, the other half is instantly transferred to MARS slot holders! ")
               }), Object(r.jsxs)(s.g, {
                 children: [Object(r.jsxs)(De, {
                   gap: "md",
