@@ -144,7 +144,7 @@
 								}), Object(u.jsxs)("div", {
 									children: [" Circulating Supply: ", l.a.utils.fromWei(X + ""), " Mars"]
 								}), Object(u.jsxs)("div", {
-									children: [" AutoLP Balance: ", l.a.utils.fromWei(J + ""), " ETH "]
+									children: [" AutoLP Balance: ", l.a.utils.fromWei(J + ""), " BNB "]
 								}), Object(u.jsxs)("div", {
 									children: [Object(u.jsx)("button", {
 										onClick: function(e) {
