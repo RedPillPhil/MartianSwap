@@ -8869,7 +8869,7 @@
             label: "Liquidity",
             href: "/pool"
           },{
-            label: "Rewards Portal(Temporarily Deactivated)",
+            label: "Rewards Portal",
             href: "https://martianswap.io/rewardsnull"
           }]}],
        /* }, {
