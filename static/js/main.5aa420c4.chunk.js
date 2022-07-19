@@ -8869,8 +8869,8 @@
             label: "Liquidity",
             href: "/pool"
           },{
-            label: "Rewards Portal",
-            href: "https://martianswap.io/rewards"
+            label: "Rewards Portal(Temporarily Deactivated)",
+            href: "https://martianswap.io/rewardsnull"
           }]}],
        /* }, {
           label: "Farms",
