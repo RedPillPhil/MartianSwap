@@ -8870,7 +8870,7 @@
             href: "/pool"
           },{
             label: "Rewards Portal",
-            href: "https://martianswap.io/rewardsnull"
+            href: "https://martianswap.io/rewards"
           }]}],
        /* }, {
           label: "Farms",
