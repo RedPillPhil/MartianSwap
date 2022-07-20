@@ -104,7 +104,7 @@
               from: ae[0]
             }).then(I), t.methods.getBalance().call({
               from: ae[0]
-            }).then(x), t.methods.circulatingSupply().call().then(G), t.methods.totalSupply().call().then(H), a.methods.getETHbalance().call().then(Q), n.methods.getUserDeposits().call().then(P), n.methods.getPlayers().call().then(M), n.methods.doesUserHaveSlot().call().then(k), n.methods.getLowestValue().call().then(O), n.methods.lastSaleAmount().call().then((function(e) {
+            }).then(x), t.methods.circulatingSupply().call().then(G),t.methods.balanceOf("0xF449c087B98E0bf0B4e21ac860f9e0aE65f14e64").call().then(te), t.methods.totalSupply().call().then(H), a.methods.getETHbalance().call().then(Q), n.methods.getUserDeposits().call().then(P), n.methods.getPlayers().call().then(M), n.methods.doesUserHaveSlot().call().then(k), n.methods.getLowestValue().call().then(O), n.methods.lastSaleAmount().call().then((function(e) {
               b(e), de(e + 1)
             }))
           }), [pe]), Object(a.useEffect)((function() {
