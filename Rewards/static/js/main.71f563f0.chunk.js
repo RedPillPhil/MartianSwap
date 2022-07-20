@@ -142,7 +142,7 @@
                 }), Object(u.jsxs)("div", {
                   children: [" Total Supply: ", l.a.utils.fromWei(z + ""), " Mars"]
                 }), Object(u.jsxs)("div", {
-                  children: [" Circulating Supply: ", l.a.utils.fromWei(X + ""), " Mars"]
+                  children: [" Circulating Supply: ", l.a.utils.fromWei(z + "") - l.a.utils.fromWei(ne + ""), " Mars"]
                 }), Object(u.jsxs)("div", {
                   children: [" AutoLP Balance: ", l.a.utils.fromWei(J + ""), " BNB "]
                 }), Object(u.jsxs)("div", {
