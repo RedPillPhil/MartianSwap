@@ -8873,13 +8873,13 @@
             href: "https://martianswap.io/rewards"
           }]},
         {
-          label: "Farms",
-          icon: "FarmIcon",
-          href: "https://hopswap.fi/farms"
-        }, {
+          label: "martianswap@gmail.com",
+          icon: "TelegramIcon",
+          href: "mailto:martianswap@gmail.com"
+       /* }, {
           label: "Pools",
           icon: "PoolIcon",
-          href: "https://hopswap.fi/syrup"
+          href: "https://hopswap.fi/syrup" */
         }],
         dd = function(e) {
           var n = Object(g.c)(),
