@@ -8875,7 +8875,7 @@
         {
           label: "martianswap@gmail.com",
           icon: "TelegramIcon",
-          href: "mailto:martianswap@gmail.com"
+          href: "martianswap@gmail.com"
        /* }, {
           label: "Pools",
           icon: "PoolIcon",
