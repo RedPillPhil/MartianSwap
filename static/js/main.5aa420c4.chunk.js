@@ -8860,6 +8860,7 @@
           href: "https://martianswap.io"
         },{
           label: "Email Us",
+          icon: "TelegramIcon",
           href: "mailto:martianswap@gmail.com"
         }, {
           label: "Trade",
