@@ -8859,10 +8859,6 @@
           icon: "HomeIcon",
           href: "https://martianswap.io"
         },{
-          label: "Email Us",
-          icon: "TelegramIcon",
-          href: "mailto:martianswap@gmail.com"
-        }, {
           label: "Trade",
           icon: "TradeIcon",
           initialOpenState: !0,
@@ -8876,11 +8872,11 @@
             label: "Rewards Portal",
             href: "https://martianswap.io/rewards"
           }]}],
-       /* }, {
-          label: "Farms",
-          icon: "FarmIcon",
-          href: "https://hopswap.fi/farms"
         }, {
+          label: "martianswap@gmail.com",
+          icon: "TelegramIcon",
+          href: "mailto:martianswap@gmail.com"
+        },/* {
           label: "Pools",
           icon: "PoolIcon",
           href: "https://hopswap.fi/syrup"
